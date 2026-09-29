@@ -1033,9 +1033,9 @@ Format Layout  : Tabel Rapi 2 Kolom dengan Penjelasan Pedagogis Ringkas
 • **Misi 4 (Makna Sa-Ijaan)**: Bermakna seiring sejalan, seia sekata, saling membantu, rakat mufakat, dan bahu-membahu (Nilai Sosial & Moral).
 • **Misi 5 (Urutan Alur)**: Urutan kronologis benar: (2) Raja Todak mengerahkan penghuni laut $\rightarrow$ (3) Jutaan ikan mendorong daratan sambil berseru Sa-Ijaan $\rightarrow$ (1) Daratan muncul perlahan ke permukaan $\rightarrow$ (4) Terbentuk Pulau Halimun nan subur makmur.
 
-(Kunci Ringkas Evaluasi 20 Soal Post-Test):
-1. B | 2. C | 3. C | 4. B | 5. B | 6. C | 7. A | 8. A | 9. C | 10. D
-11. B | 12. C | 13. A | 14. C | 15. B | 16. C | 17. A | 18. B | 19. B | 20. B
+(Kunci Ringkas Evaluasi 20 Soal Post-Test - Sebaran Seimbang 5A, 5B, 5C, 5D):
+1. A | 2. B | 3. C | 4. D | 5. A | 6. C | 7. B | 8. D | 9. A | 10. C
+11. B | 12. D | 13. A | 14. C | 15. B | 16. D | 17. C | 18. A | 19. B | 20. D
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
@@ -1114,149 +1114,183 @@ Didukung oleh Platform Flipbook Heyzine
 
 ---
 
-## 4. MASTER BANK SOAL LENGKAP & SISTEM FEEDBACK OTOMATIS
+## 4. MASTER BANK SOAL LENGKAP (REKONSTRUKSI HOTS BERBASIS KUTIPAN TEKS) & SISTEM FEEDBACK OTOMATIS
 
-### 4.1 Bank Soal Evaluasi Akhir (20 Soal Pilihan Ganda Post-Test Lengkap)
+### 4.1 Bank Soal Evaluasi Akhir (20 Butir Soal Analisis Sastra Fase E SMA/SMK)
 
-1. **Kata hikayat diturunkan dari kata bahasa Arab *haka* yang memiliki salah satu arti, yaitu...**
-   * A. membaca
-   * B. menceritakan [KUNCI]
-   * C. menulis
-   * D. menghafalkan
-   * *Pembahasan:* Menurut Baried dkk. (1985: 9), kata *hikayat* secara etimologis berakar dari kata bahasa Arab *haka* yang bermakna menceritakan, menirukan, mewartakan, berkata, atau melukiskan.
+1. **[C3 - Pemahaman Konteks Formula Cerita]**  
+   Bacalah kutipan pembuka hikayat berikut:  
+   *“Menurut sahibul hikayat, sebermula ada seorang Datu yang sakti mandraguna sedang bertapa di tengah laut. Namanya Datu Mabrur...”*  
+   Fungsi penggunaan frasa *“Menurut sahibul hikayat”* dan *“sebermula”* pada penggalan teks tersebut adalah...  
+   * A. Menandai formula pembuka tradisi penuturan sastra Melayu klasik kuno [KUNCI]  
+   * B. Menunjukkan bahwa cerita tersebut ditulis oleh sejarawan modern  
+   * C. Menjelaskan silsilah keluarga Datu Mabrur secara ilmiah  
+   * D. Menegaskan bahwa peristiwa pertapaan tersebut disaksikan oleh banyak orang  
+   * *Pembahasan:* Dalam tradisi sastra Melayu klasik, formula leksikal arkais seperti *sahibul hikayat* (pemilik cerita) dan *sebermula* berfungsi sebagai penanda konvensi pembuka kisah yang membedakannya dari prosa modern.
 
-2. **Berdasarkan bentuk karya sastra, hikayat termasuk ke dalam karya sastra Melayu klasik yang berwujud...**
-   * A. puisi
-   * B. drama
-   * C. prosa [KUNCI]
-   * D. pantun
-   * *Pembahasan:* Hikayat merupakan karya sastra Melayu klasik berbentuk prosa (kisah narasi panjang) yang memuat cerita, silsilah, atau peristiwa rekaan dan sejarah.
+2. **[C4 - Analisis Latar dan Suasana]**  
+   Perhatikan kutipan berikut:  
+   *“Siang-malam ia bersemadi di batu karang, di antara percikan buih, debur ombak, angin, gelombang, dan badai topan...”*  
+   Penggambaran latar tempat dan suasana dalam kutipan tersebut berfungsi untuk mempertegas...  
+   * A. Bahaya binatang buas yang mengancam keselamatan sang tokoh  
+   * B. Ketabahan luar biasa dan kekhusyukan tekad Datu Mabrur dalam bermunajat [KUNCI]  
+   * C. Kesombongan tokoh dalam menaklukkan kekuatan alam samudra  
+   * D. Keputusasaan tokoh yang ingin mengasingkan diri dari dunia ramai  
+   * *Pembahasan:* Latar badai dan deburan ombak ganas mengkontraskan keheningan batin Datu Mabrur, melukiskan keteguhan iman dan ketabahan spiritual sang petapa.
 
-3. **Salah satu karakteristik khas teks hikayat yang paling menonjol dibandingkan cerpen modern adalah...**
-   * A. nama pengarang selalu dicantumkan di halaman judul
-   * B. menggunakan bahasa Indonesia gaul terkini
-   * C. ceritanya cenderung berlatar kehidupan kerajaan atau istana (istana-sentris) [KUNCI]
-   * D. seluruh rangkaian peristiwanya selalu didasarkan pada data faktual
-   * *Pembahasan:* Hikayat memiliki ciri khas istana-sentris (berlatar kerajaan/lingkungan penguasa) dan bersifat anonim (nama pengarang tidak dikenal).
+3. **[C4 - Analisis Karakter & Nilai Moral]**  
+   Ketika Raja Ikan Todak menawarkan istana emas di dasar samudra dan pelayan putri duyung, Datu Mabrur menjawab:  
+   *“Tidak. Aku tak punya keinginan pribadi, tapi untuk masa depan anak-cucuku nanti...”*  
+   Nilai moral utama yang tercermin dari sikap Datu Mabrur tersebut adalah...  
+   * A. Bersikap pasrah dan tidak memiliki cita-cita yang tinggi  
+   * B. Ketakutan akan bahaya godaan harta kekayaan bawah laut  
+   * C. Menolak kemewahan materi demi memperjuangkan kemaslahatan generasi penerus [KUNCI]  
+   * D. Menghindari tanggung jawab sebagai pemimpin masyarakat  
+   * *Pembahasan:* Nilai moral Datu Mabrur tampak nyata pada ketiadaan motif keserakahan pribadi (*altruisme*), di mana ia mengorbankan kenyamanan diri demi masa depan keturunannya.
 
-4. **Peristiwa dalam teks hikayat yang tidak masuk akal atau tidak mungkin terjadi dalam kehidupan nyata disebut dengan karakteristik...**
-   * A. konflik
-   * B. kemustahilan [KUNCI]
-   * C. orientasi
-   * D. amanat
-   * *Pembahasan:* Kemustahilan adalah unsur dalam hikayat yang menggambarkan kejadian atau kemampuan ajaib yang melampaui logika dunia nyata.
+4. **[C4 - Identifikasi Ciri Kemustahilan Teks]**  
+   Perhatikan kutipan peristiwa berikut:  
+   *“Tanpa beringsut dari tempat duduk maupun membuka mata, Datu Mabrur menepis serangan mendadak itu. Ikan itu terpelanting dan jatuh di karang...”*  
+   Bukti karakteristik kemustahilan dan kesaktian yang terdapat dalam kutipan tersebut adalah...  
+   * A. Adanya batu karang yang kokoh di tengah samudra  
+   * B. Ombak laut yang menerbangkan ikan ke permukaan karang  
+   * C. Ikan laut yang memiliki sisik licin dan berkilau  
+   * D. Kemampuan manusia menangkis serangan fisik tanpa melihat dan tanpa bergerak [KUNCI]  
+   * *Pembahasan:* Kemustahilan adalah peristiwa di luar nalar sains dunia nyata; menangkis musuh yang meluncur cepat tanpa membuka mata menunjukkan kesaktian adimanusiawi khas hikayat.
 
-5. **Bahasa pengantar yang menjadi ciri utama dan mendasari penulisan teks hikayat di Nusantara adalah...**
-   * A. bahasa Indonesia modern
-   * B. bahasa Melayu klasik [KUNCI]
-   * C. bahasa daerah kontemporer
-   * D. bahasa ilmiah populer
-   * *Pembahasan:* Sastra hikayat ditulis dan dituturkan menggunakan bahasa Melayu klasik yang kaya akan kosakata arkais dan formula pembuka khusus.
+5. **[C4 - Analisis Bahasa Arkais Kontekstual]**  
+   Cermati kalimat berikut:  
+   *“Hatta, ketika laut tenang, seekor ikan besar tiba-tiba muncul dari permukaan laut dan terbang menyerangnya.”*  
+   Kata *“Hatta”* dalam kalimat tersebut berfungsi sebagai...  
+   * A. Konjungsi temporal transisi Melayu klasik yang menandai pergantian adegan peristiwa [KUNCI]  
+   * B. Kata penghubung intrakalimat yang menyatakan hubungan sebab-akibat  
+   * C. Kata seru untuk mengekspresikan kekaguman tokoh terhadap keindahan laut  
+   * D. Kata sifat yang melukiskan ketenangan air samudra  
+   * *Pembahasan:* Kata *hatta* dalam naskah Melayu klasik berfungsi sebagai konjungsi antarkalimat atau penanda wacana transisi pergantian adegan (*maka terjadilah sesudah itu*).
 
-6. **Sikap seorang tokoh yang selalu berdoa dan memohon pertolongan kepada Tuhan sebelum mengambil keputusan mencerminkan adanya nilai...**
-   * A. sosial
-   * B. budaya
-   * C. religi [KUNCI]
-   * D. pendidikan
-   * *Pembahasan:* Tindakan yang berkaitan dengan keimanan, ibadah, doa, dan kepasrahan kepada Tuhan merupakan manifestasi nilai religi/keagamaan.
+6. **[C4 - Analisis Struktur Komplikasi]**  
+   Peristiwa yang secara tepat menandai dimulainya babak komplikasi (munculnya konflik yang mengancam tokoh utama) adalah...  
+   * A. Datu Mabrur memilih bertapa di antara Selat Laut dan Selat Makassar  
+   * B. Doa Datu Mabrur yang memohon sebuah pulau kepada Sang Pencipta  
+   * C. Serangan bertubi-tubi ribuan prajurit ikan todak yang mengganggu semadi Datu Mabrur [KUNCI]  
+   * D. Timbulnya daratan subur yang dipenuhi oleh perbukitan hijau  
+   * *Pembahasan:* Komplikasi dimulai saat keheningan pertapaan Datu Mabrur diusik oleh serangan fisik ribuan ikan todak yang memicu pertentangan fisik dan batin.
 
-7. **Seorang tokoh dengan sukarela membantu pihak lain yang sedang celaka tanpa mengharapkan imbalan materi. Tindakan tersebut mencerminkan nilai...**
-   * A. moral [KUNCI]
-   * B. budaya
-   * C. religi
-   * D. pendidikan
-   * *Pembahasan:* Nilai moral menyangkut budi pekerti, kebaikan nurani, dan etika sikap seseorang dalam menolong sesama makhluk tanpa pamrih.
+7. **[C4 - Analisis Karakter Tokoh Lawan]**  
+   Bacalah dialog Raja Ikan Todak berikut:  
+   *“Semadimu membuat lautan bergelora. Kami terusik dan aku memutuskan untuk menyerangmu. Tapi, engkau memang sakti, Datu Mabrur. Aku takluk... Kalau aku kalah, kami akan menyerah dan mematuhi apa pun perintahmu.”*  
+   Karakter Raja Ikan Todak yang tecermin dari kutipan tersebut adalah...  
+   * A. Pengecut yang melarikan diri saat melihat kekuatan musuh  
+   * B. Pemimpin yang berani bertindak, namun berjiwa ksatria dan berani mengakui kekalahan [KUNCI]  
+   * C. Makhluk licik yang menyusun siasat untuk menjebak lawannya  
+   * D. Penguasa sombong yang meremehkan nasihat para prajuritnya  
+   * *Pembahasan:* Meskipun menjadi pihak penyerang, Raja Todak menunjukkan jiwa ksatria (*fair play*); ia berani mengakui keunggulan lawan dan memegang teguh janji menyerah tanpa tipu muslihat.
 
-8. **Sikap saling menolong, bahu-membahu, dan menjaga keharmonisan hubungan antarsesama anggota masyarakat mencerminkan nilai...**
-   * A. sosial [KUNCI]
-   * B. moral
-   * C. religi
-   * D. budaya
-   * *Pembahasan:* Hubungan timbal balik, gotong royong, dan kerja sama dalam kehidupan kelompok masyarakat merupakan wujud nilai sosial.
+8. **[C4 - Evaluasi Nilai Religi]**  
+   Tindakan Datu Mabrur yang tidak mendendam kepada ikan yang telah melukainya, melainkan mengusap lukanya sambil berucap: *“Sebagai sesama makhluk ciptaan-Nya, aku akan menolongmu,”* mencerminkan perwujudan nilai religi berupa...  
+   * A. Kewajiban menjalankan ritual semadi di tempat terpencil  
+   * B. Keharusan menaklukkan binatang liar demi keselamatan manusia  
+   * C. Keyakinan bahwa menolong binatang akan mendatangkan kekayaan berlimpah  
+   * D. Kesadaran bahwa seluruh makhluk berhak mendapatkan kasih sayang karena berasal dari Pencipta yang sama [KUNCI]  
+   * *Pembahasan:* Sikap Datu Mabrur berlandaskan pandangan tauhid/religius bahwa hewan laut dan manusia sama-sama makhluk ciptaan Tuhan yang wajib dirahmati.
 
-9. **Tata cara penghormatan adat terhadap tetua dan upacara adat yang dijalankan secara turun-temurun mencerminkan nilai...**
-   * A. pendidikan
-   * B. sosial
-   * C. budaya [KUNCI]
-   * D. moral
-   * *Pembahasan:* Kebiasaan, tradisi, adat istiadat, dan pandangan hidup masyarakat lampau merefleksikan nilai budaya.
+9. **[C5 - Evaluasi Filosofi Semboyan Budaya]**  
+   Ungkapan sumpah suci *“Sa-ijaan, seiring sejalan. Seia sekata... rakat mufakat, bantu membantu, bahu membahu”* dalam konteks kehidupan bermasyarakat saat ini paling relevan diterapkan dalam bentuk...  
+   * A. Musyawarah warga untuk menyelesaikan masalah lingkungan dan bergotong royong secara tulus [KUNCI]  
+   * B. Membangun koalisi politik untuk menguasai sumber daya ekonomi daerah  
+   * C. Mengutamakan kepentingan kelompok sendiri di atas kepentingan bersama  
+   * D. Memberikan bantuan kepada orang lain hanya apabila mereka telah berjanji membalasnya  
+   * *Pembahasan:* Nilai *Sa-ijaan* menekankan kerukunan mufakat (*rakat*) dan gotong royong tanpa sekat kepentingan sempit dalam memajukan kesejahteraan bersama.
 
-10. **Bagian struktur hikayat yang berfungsi mengenalkan para tokoh, latar waktu, latar tempat, dan suasana awal cerita disebut...**
-    * A. komplikasi
-    * B. resolusi
-    * C. koda
-    * D. orientasi [KUNCI]
-    * *Pembahasan:* Orientasi adalah tahapan perkenalan awal cerita mengenai tokoh, tempat, dan kondisi sebelum masalah muncul.
+10. **[C4 - Analisis Hubungan Sebab-Akibat Alur]**  
+    Sebab utama yang mendorong Raja Ikan Todak mengerahkan jutaan penghuni samudra untuk mendorong daratan dari dasar laut adalah...  
+    * A. Perintah dari dewa laut yang mengutuk rakyatnya  
+    * B. Ketakutan akan kesaktian Datu Mabrur yang mengancam kehidupannya  
+    * C. Tekad mulia untuk menepati sumpah janji setelah Datu Mabrur menyelamatkan nyawanya [KUNCI]  
+    * D. Keinginan ikan-ikan samudra untuk bermigrasi ke daratan baru  
+    * *Pembahasan:* Pendorong utama adegan pengangkatan pulau adalah komitmen moral Raja Todak untuk menepati sumpah balas budi atas kemurahan hati Datu Mabrur.
 
-11. **Bagian struktur cerita yang mulai memperlihatkan pertentangan, benturan kepentingan, atau ancaman masalah yang dihadapi tokoh disebut...**
-    * A. orientasi
-    * B. komplikasi [KUNCI]
-    * C. resolusi
-    * D. koda
-    * *Pembahasan:* Komplikasi adalah babak kemunculan permasalahan atau konflik yang berkembang menjadi klimaks ketegangan cerita.
+11. **[C4 - Analisis Kaidah Kebahasaan (Verba Tindakan)]**  
+    Cermati kalimat berikut:  
+    *“Jutaan ikan dari berbagai jenis bergotong-royong mendorong daratan baru itu dari dasar laut. Sambil mendorong, mereka serempak berteriak membahana...”*  
+    Kata *“mendorong”* dan *“berteriak”* dalam kaidah kebahasaan hikayat tergolong ke dalam...  
+    * A. Verba tingkah laku yang menggambarkan perasaan batin tokoh  
+    * B. Verba material (kata kerja tindakan konkret) yang mempertegas kedinamisan aksi fisik [KUNCI]  
+    * C. Nomina abstrak yang menunjukkan gagasan pokok cerita  
+    * D. Adjektiva emosional yang melukiskan rasa takut prajurit laut  
+    * *Pembahasan:* Verba material adalah kata kerja yang menunjukkan perbuatan fisik konkret yang dapat diamati oleh indra, menegaskan suasana kerja keras yang dinamis.
 
-12. **Bagian struktur yang berisi jalan keluar atau pemecahan atas konflik dan masalah yang terjadi antartokoh disebut...**
-    * A. orientasi
-    * B. komplikasi
-    * C. resolusi [KUNCI]
-    * D. abstraksi
-    * *Pembahasan:* Resolusi merupakan bagian peleraian dan penyelesaian masalah yang menuntun cerita menuju akhir yang tuntas.
+12. **[C4 - Analisis Karakteristik Anonimitas]**  
+    Sebagian besar teks hikayat di Nusantara, termasuk kisah lisan Datu Mabrur, tidak mencantumkan nama individu pengarang aslinya. Hal ini membuktikan bahwa karya sastra klasik tersebut...  
+    * A. Diciptakan secara tergesa-gesa tanpa memperhatikan dokumentasi  
+    * B. Sengaja disembunyikan identitas penulisnya agar terhindar dari hukuman raja  
+    * C. Merupakan cerita saduran dari naskah asing yang diterjemahkan tanpa izin  
+    * D. Merupakan warisan tradisi lisan kolektif milik bersama masyarakat penuturnya [KUNCI]  
+    * *Pembahasan:* Sifat anonim timbul karena sastra lama dianggap milik komunal masyarakat yang dituturkan dari mulut ke mulut sebagai pembawa amanat moral bersama.
 
-13. **Gagasan pokok atau persoalan utama yang mendasari dan menjiwai seluruh jalan cerita sebuah hikayat disebut...**
-    * A. tema [KUNCI]
-    * B. alur
-    * C. latar
-    * D. amanat
-    * *Pembahasan:* Tema adalah fondasi ide utama yang menjadi dasar pengembangan seluruh alur cerita sastra.
+13. **[C4 - Analisis Struktur Resolusi]**  
+    Babak resolusi dalam teks Hikayat Sa-Ijaan dan Ikan Todak ditandai oleh peristiwa...  
+    * A. Munculnya daratan pulau yang subur berkat bantuan jutaan ikan dan rasa syukur Datu Mabrur [KUNCI]  
+    * B. Datu Mabrur duduk terdiam menahan amukan badai topan  
+    * C. Perdebatan sengit antara Datu Mabrur dan Raja Todak mengenai batas wilayah laut  
+    * D. Keputusan para prajurit ikan untuk kembali menyerang pertapaan manusia  
+    * *Pembahasan:* Resolusi adalah penyelesaian masalah; konflik berakhir bahagia dengan terwujudnya daratan pulau dan terjalinnya ikatan persaudaraan abadi.
 
-14. **Unsur intrinsik yang memberikan keterangan mengenai tempat, suasana lingkungan, dan rentang waktu terjadinya peristiwa adalah...**
-    * A. penokohan
-    * B. sudut pandang
-    * C. latar [KUNCI]
-    * D. tema
-    * *Pembahasan:* Latar (setting) melingkupi keterangan ruang/tempat, waktu, dan suasana emosional terjadinya peristiwa.
+14. **[C4 - Analisis Peran Tokoh Pendukung]**  
+    Kehadiran jutaan rakyat ikan yang serempak berseru *“Sa-ijaan! Sa-ijaan!”* saat mendorong daratan memiliki fungsi simbolis dalam cerita untuk menegaskan...  
+    * A. Bahwa rakyat biasa selalu tunduk dalam ketakutan terhadap titah rajanya  
+    * B. Bahwa makhluk laut memiliki kebisingan yang mengganggu ketenangan pulau  
+    * C. Bahwa kekuatan persatuan kolektif mampu mewujudkan hal-hal besar yang mustahil dikerjakan sendiri [KUNCI]  
+    * D. Bahwa kemenangan fisik hanya dapat diraih melalui kekuatan militer samudra  
+    * *Pembahasan:* Seruan serempak jutaan ikan adalah metafora kekuatan gotong royong dan kesatuan tekad masyarakat dalam mengatasi tantangan mahaberat.
 
-15. **Pesan moral, kebajikan, atau pelajaran hidup yang ingin disampaikan pengarang kepada pembaca melalui kisah disebut...**
-    * A. tema
-    * B. amanat [KUNCI]
-    * C. alur
-    * D. konflik
-    * *Pembahasan:* Amanat adalah ajaran moral atau hikmah hidup yang dipetik pembaca setelah menyelesaikan cerita.
+15. **[C4 - Analisis Kosakata Khas Banjar-Melayu]**  
+    Kata *“Datu”* yang disematkan kepada tokoh Datu Mabrur mengandung makna kultural berupa...  
+    * A. Sebutan bagi pedagang kaya yang menguasai armada perkapalan  
+    * B. Gelar kehormatan bagi tetua sakti berilmu tinggi yang alim dan dihormati masyarakat Banjar [KUNCI]  
+    * C. Nama jabatan bendahara kerajaan yang mengurus keuangan istana  
+    * D. Panggilan santai untuk sahabat sebaya dalam pergaulan masyarakat Melayu  
+    * *Pembahasan:* Dalam khazanah budaya Banjar dan Kalimantan, *Datu* adalah gelar kehormatan sakral bagi ulama, tetua adat, atau tokoh suci yang memiliki karamah dan jasa besar.
 
-16. **Kata *baginda, titah, hulubalang, syahdan,* dan *hatta* dalam teks hikayat digolongkan ke dalam...**
-    * A. konjungsi penjelas
-    * B. kata kerja tindakan
-    * C. kosakata arkais [KUNCI]
-    * D. kata sifat perbandingan
-    * *Pembahasan:* Kata arkais adalah kata-kata kuno peninggalan zaman lampau yang saat ini sudah jarang dipakai dalam percakapan sehari-hari.
+16. **[C4 - Analisis Nilai Sosial (Simbiosis Mutualisme)]**  
+    Hubungan yang terjalin antara Datu Mabrur dan Raja Ikan Todak pada akhir cerita mengajarkan prinsip interaksi sosial berupa...  
+    * A. Menundukkan pihak yang lemah demi memperluas wilayah kekuasaan  
+    * B. Bersikap waspada dan tidak boleh mempercayai janji musuh yang telah kalah  
+    * C. Memanfaatkan kelemahan pihak lawan untuk meraih keuntungan pribadi sebanyak-banyaknya  
+    * D. Mengubah potensi permusuhan menjadi kemitraan yang saling menghormati dan menguntungkan kedua belah pihak [KUNCI]  
+    * *Pembahasan:* Interaksi kedua tokoh mencerminkan resolusi konflik ideal: berdamai, saling menolong tanpa pamrih dendam, dan bersama-sama menciptakan harmoni ekologis.
 
-17. **Kata *kemudian, lalu, setelah itu, maka,* dan *ketika* di dalam teks hikayat berfungsi sebagai...**
-    * A. konjungsi urutan waktu (temporal) [KUNCI]
-    * B. kata sandang istana
-    * C. majas personifikasi
-    * D. kata keterangan tempat
-    * *Pembahasan:* Konjungsi urutan waktu menghubungkan peristiwa satu dengan peristiwa berikutnya agar tercipta alur kronologis yang runtut.
+17. **[C4 - Analisis Struktur Koda dan Toponimi]**  
+    Penggalan akhir kisah yang menceritakan bahwa Pulau Halimun kelak disebut Pulau Laut dan semboyan Sa-Ijaan dijadikan lambang Kotabaru merupakan fungsi struktur...  
+    * A. Orientasi untuk mengenalkan tokoh baru  
+    * B. Evaluasi untuk memperdebatkan kebenaran cerita  
+    * C. Koda yang mengaitkan hikmah cerita fiktif dengan asal-usul toponimi serta identitas budaya nyata daerah [KUNCI]  
+    * D. Komplikasi lanjutan yang membuka konflik babak kedua  
+    * *Pembahasan:* Koda memuat kesimpulan dan pelajaran akhir, yang dalam hikayat legenda toponimi sering kali menghubungkan mitos cerita dengan nama wilayah geografis nyata.
 
-18. **Sebagian besar naskah hikayat tidak diketahui secara pasti siapa nama penulis atau pengarang pertamanya. Hal ini menunjukkan bahwa hikayat bersifat...**
-    * A. objektif
-    * B. anonim [KUNCI]
-    * C. faktual
-    * D. ilmiah
-    * *Pembahasan:* Anonim bermakna tanpa nama pengarang; naskah dipandang sebagai milik bersama masyarakat penuturnya.
+18. **[C5 - Evaluasi Kritis Karakteristik Sastra Hikayat]**  
+    Jika dibandingkan dengan cerita pendek (cerpen) modern bertema lingkungan saat ini, perbedaan karakteristik paling mendasar yang tampak dalam teks hikayat ini adalah...  
+    * A. Hikayat memuat unsur kemustahilan dan kesaktian yang diterima wajar dalam ceritanya, sedangkan cerpen modern berpijak pada logika realitas [KUNCI]  
+    * B. Cerpen modern selalu mengabaikan pesan moral, sedangkan hikayat sarat akan nilai  
+    * C. Hikayat menggunakan konjungsi waktu, sedangkan cerpen modern tidak menggunakannya  
+    * D. Hikayat hanya dapat dibaca oleh kalangan bangsawan istana kerajaan  
+    * *Pembahasan:* Cerpen modern mengutamakan verisimilitude (kemiripan dengan kenyataan rasional), sedangkan hikayat secara konvensional memadukan realitas dan kemustahilan magis.
 
-19. **Dalam perkembangannya, cerita hikayat Melayu klasik umumnya menceritakan kehidupan para tokoh yang berada di lingkungan...**
-    * A. masyarakat perkotaan modern
-    * B. kerajaan atau istana bangsawan [KUNCI]
-    * C. perkantoran niaga
-    * D. pasar tradisional modern
-    * *Pembahasan:* Sebagian besar hikayat berfokus pada dinamika keluarga raja, pangeran, kesatria, atau orang sakti di seputar kekuasaan kerajaan.
+19. **[C4 - Analisis Nilai Pendidikan Karakter]**  
+    Sikap Datu Mabrur yang tetap bersemadi selama bertahun-tahun di atas batu karang tanpa menyerah sebelum permohonannya dikabulkan memberikan pelajaran karakter berupa...  
+    * A. Sikap keras kepala yang tidak mempedulikan nasihat orang lain  
+    * B. Kegigihan, disiplin batin, dan ketangguhan pantang menyerah dalam menggapai cita-cita luhur [KUNCI]  
+    * C. Keinginan untuk mencari ketenaran di mata masyarakat luas  
+    * D. Ketidakmampuan untuk hidup bergaul bersama orang lain di daratan  
+    * *Pembahasan:* Nilai pendidikan yang tampak adalah pembentukan integritas pribadi: ketekunan, pengendalian hawa nafsu, dan keuletan dalam memperjuangkan masa depan generasi muda.
 
-20. **Perhatikan pernyataan berikut: *“Datu Mabrur mampu bertapa siang-malam di atas karang di tengah badai samudra, serta menangkis serangan ikan terbang bermoncong pedang tanpa membuka matanya.”* Pernyataan tersebut memperlihatkan karakteristik hikayat berupa...**
-    * A. anonim
-    * B. kesaktian dan kemustahilan [KUNCI]
-    * C. bahasa ilmiah
-    * D. istana-sentris mutlak
-    * *Pembahasan:* Kemampuan bertahan dalam badai ganas dan menepis serangan tanpa melihat merupakan representasi kesaktian luar biasa dan unsur kemustahilan sastra lama.
+20. **[C5 - Sintesis Amanat Menyeluruh]**  
+    Pesan universal paling mendalam yang dapat dipetik dari keseluruhan Hikayat Sa-Ijaan dan Ikan Todak bagi kehidupan berbangsa saat ini adalah...  
+    * A. Kekayaan alam laut harus dieksploitasi semaksimal mungkin demi kemakmuran manusia  
+    * B. Setiap perselisihan antarkelompok hanya bisa diselesaikan dengan adu kekuatan senjata  
+    * C. Manusia sakti harus memimpin dan memerintah seluruh makhluk hidup di dunia  
+    * D. Kedamaian dan keberhasilan peradaban lahir dari ketulusan hati, penghormatan antarmakhluk, dan komitmen memegang teguh janji kerja sama [KUNCI]  
+    * *Pembahasan:* Amanat puncak hikayat adalah bahwa keberlanjutan peradaban bergantung pada harmoni relasi manusia dengan alam, serta keteguhan memegang sumpah persaudaraan bersama.
 
 ---
 
