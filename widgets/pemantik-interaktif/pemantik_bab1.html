@@ -20,24 +20,30 @@
       font-family: 'Plus Jakarta Sans', sans-serif;
       background: transparent !important;
       color: #2A2421;
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
       display: flex;
       justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 4px;
+      align-items: flex-start;
       overflow: hidden;
+      box-sizing: border-box;
     }
 
     .duo-container {
       background: transparent !important;
       border: none !important;
       box-shadow: none !important;
-      border-radius: 16px;
-      padding: 4px 6px;
-      max-width: 520px;
-      width: 100%;
+      border-radius: 14px;
+      padding: 4px;
+      width: 420px;
+      max-width: 420px;
       position: relative;
       overflow: hidden;
+      box-sizing: border-box;
+      transform-origin: top center;
+      will-change: transform;
     }
 
     /* Top Progress Track removed for compact design */
@@ -47,7 +53,7 @@
       display: flex;
       align-items: flex-start;
       gap: 10px;
-      margin-bottom: 12px;
+      margin-bottom: 7px;
     }
 
     .avatar-wrapper {
@@ -74,7 +80,7 @@
       border: 2px solid #E5DFD5;
       border-bottom: 4px solid #D0C8B8;
       border-radius: 14px;
-      padding: 9px 13px;
+      padding: 7px 11px;
       position: relative;
       flex: 1;
     }
@@ -114,7 +120,7 @@
     }
 
     .speech-text {
-      font-size: 12.5px;
+      font-size: 11.5px;
       font-weight: 700;
       color: #2A2421;
       line-height: 1.4;
@@ -124,8 +130,8 @@
     .options-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 10px;
-      margin-bottom: 12px;
+      gap: 8px;
+      margin-bottom: 7px;
     }
 
     .duo-card {
@@ -133,7 +139,7 @@
       border: 2px solid #E5DFD5;
       border-bottom: 4px solid #D0C8B8;
       border-radius: 14px;
-      padding: 10px 11px;
+      padding: 7px 9px;
       display: flex;
       flex-direction: column;
       gap: 6px;
@@ -211,7 +217,7 @@
 
     .btn-duo-check {
       width: 100%;
-      padding: 10px 16px;
+      padding: 8px 14px;
       border-radius: 12px;
       font-size: 12.5px;
       font-weight: 800;
@@ -509,37 +515,65 @@
       }, 1500);
     }
   
-  // --- Scale / Size Query Parameter Handler ---
-  (function() {
+    // --- Intelligent Auto-Fit Engine for Mobile & Desktop Heyzine Embed ---
+  function applyAutoFit() {
     try {
+      const container = document.querySelector('.duo-container');
+      if (!container) return;
+
       const urlParams = new URLSearchParams(window.location.search);
+      const manualScale = parseFloat(urlParams.get('scale'));
       const size = urlParams.get('size');
-      const scaleParam = parseFloat(urlParams.get('scale'));
-      let scale = 1.0;
 
-      if (!isNaN(scaleParam) && scaleParam >= 0.5 && scaleParam <= 1.5) {
-        scale = scaleParam;
-      } else if (size === 'compact' || size === 'small') {
-        scale = 0.85;
+      // Manual URL Parameter Overrides (if user explicitly requests)
+      if (!isNaN(manualScale) && manualScale >= 0.35 && manualScale <= 1.6) {
+        container.style.transform = `scale(${manualScale})`;
+        container.style.transformOrigin = 'top center';
+        return;
+      }
+      if (size === 'compact' || size === 'small') {
+        container.style.transform = 'scale(0.85)';
+        container.style.transformOrigin = 'top center';
+        return;
       } else if (size === 'mini') {
-        scale = 0.75;
+        container.style.transform = 'scale(0.72)';
+        container.style.transformOrigin = 'top center';
+        return;
       } else if (size === 'large') {
-        scale = 1.15;
+        container.style.transform = 'scale(1.15)';
+        container.style.transformOrigin = 'top center';
+        return;
       }
 
-      if (scale !== 1.0) {
-        const container = document.querySelector('.duo-container');
-        if (container) {
-          container.style.transform = `scale(${scale})`;
-          container.style.transformOrigin = 'top center';
-          container.style.width = `${(100 / scale).toFixed(2)}%`;
-          container.style.maxWidth = `${(520 / scale).toFixed(2)}px`;
-        }
-      }
-    } catch (e) {
-      console.warn('Scaling init error:', e);
+      // DEFAULT BEHAVIOR: Automatic Fit-to-Viewport
+      // Measure actual available iframe viewport dimensions
+      const availW = window.innerWidth || document.documentElement.clientWidth;
+      const availH = window.innerHeight || document.documentElement.clientHeight;
+
+      // Base design dimensions (optimized compact base)
+      const designW = 420;
+      const designH = 252;
+
+      // Calculate scale to guarantee ZERO overflow both horizontally and vertically
+      const scaleW = (availW - 6) / designW;
+      const scaleH = (availH - 6) / designH;
+      const fitScale = Math.min(scaleW, scaleH);
+
+      // Clamp scale between 0.45 (extreme small mobile iframe) and 1.05 (desktop crispness)
+      const finalScale = Math.max(0.45, Math.min(fitScale, 1.05));
+
+      container.style.transform = `scale(${finalScale.toFixed(3)})`;
+      container.style.transformOrigin = 'top center';
+    } catch (err) {
+      console.warn('Auto-fit calculation error:', err);
     }
-  })();
+  }
+
+  window.addEventListener('load', applyAutoFit);
+  window.addEventListener('resize', applyAutoFit);
+  if (document.readyState !== 'loading') {
+    applyAutoFit();
+  }
 
 </script>
 
