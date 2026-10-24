@@ -14,20 +14,31 @@
 *Elemen Membaca dan Memirsa:*
 > Peserta didik mampu mengevaluasi informasi berupa gagasan, pikiran, pandangan, arahan atau pesan dari teks sastra (hikayat) untuk menemukan makna yang tersurat dan tersirat. Peserta didik mampu menginterpretasi informasi untuk mengungkapkan gagasan terhadap nilai-nilai yang terkandung dalam teks hikayat secara kritis dan kreatif, serta membandingkannya dengan nilai kehidupan masa kini.
 
-### 1.2 Tujuan Pembelajaran (TP)
-1. Peserta didik mampu mengidentifikasi karakteristik khas teks hikayat (anonim, istana-sentris, kemustahilan, kesaktian tokoh, dan bahasa Melayu klasik arkais).
-2. Peserta didik mampu menganalisis struktur teks hikayat (orientasi, komplikasi, resolusi, dan koda).
-3. Peserta didik mampu menganalisis unsur intrinsik (tema, tokoh/penokohan, alur, latar, sudut pandang, dan amanat).
-4. Peserta didik mampu mengevaluasi nilai-nilai kehidupan (nilai religi, moral, sosial, budaya, dan pendidikan) yang terkandung dalam teks hikayat serta merefleksikan relevansinya dalam konteks kehidupan saat ini.
-5. Peserta didik mampu mengidentifikasi kaidah kebahasaan teks hikayat, mencakup kosakata arkais, konjungsi urutan waktu, dan kata kerja aksi/tindakan.
+### 1.2 Tujuan Pembelajaran (TP) Berbasis Formula ABCD
+> **Panduan Formula ABCD**:
+> * **A (Audience)**: Peserta didik Fase E (Kelas X SMA).
+> * **B (Behavior)**: Perilaku/kompetensi terukur menggunakan KKO Taksonomi Bloom (mengidentifikasi, menganalisis, membedah, mengevaluasi).
+> * **C (Condition)**: Kondisi dan media pembelajaran interaktif (e-modul Heyzine, audio narasi, video animasi, glosarium, asesmen gamifikasi).
+> * **D (Degree)**: Tingkat keberhasilan dan kualitas penguasaan (dengan tepat dan kritis, secara runtut dan sistematis, secara cermat dan mendalam, secara mandiri, secara komprehensif dan bertanggung jawab).
 
-### 1.3 Alur Kronik Kontekstual (5 Chapter Misi)
-* **Bab 1**: Awal Perjalanan Datu Mabrur $\rightarrow$ *Materi:* Pengertian Hikayat, Ciri Sastra Melayu, Tokoh & Latar $\rightarrow$ *Aktivitas:* **Misi 1 (Kenali Tokoh & Latar)**.
-* **Bab 2**: Serangan Ikan Todak $\rightarrow$ *Materi:* Struktur Konflik (Orientasi-Komplikasi), Kemustahilan & Kesaktian Tokoh $\rightarrow$ *Aktivitas:* **Misi 2 (Analisis Konflik)** & **Misi 3 (Bedah Kemustahilan)**.
-* **Bab 3**: Sa-Ijaan: Seia Sekata $\rightarrow$ *Materi:* Karakter Tokoh, Nilai Moral & Sosial, Kosakata Adat/Arkais $\rightarrow$ *Aktivitas:* **Misi 4 (Makna Filosofis Sa-Ijaan)**.
-* **Bab 4**: Janji yang Menjadi Kenyataan $\rightarrow$ *Materi:* Alur/Plot Kronologis, Kaidah Konjungsi Waktu, Nilai Kerja Sama $\rightarrow$ *Aktivitas:* **Misi 5 (Drag-and-Drop Bongkar Peristiwa)**.
-* **Bab 5**: Pulau Halimun dan Pesan Hikayat $\rightarrow$ *Materi:* Resolusi, Koda, Nilai Religi & Budaya, Relevansi Sastra Klasik $\rightarrow$ *Aktivitas:* **Final Mission (Post-Test Komprehensif)** & **Refleksi Sastra**.
+1. **TP 1 (Karakteristik Teks Hikayat)**:  
+   Melalui kegiatan membaca teks dan menyimak narasi audio pada e-modul interaktif Heyzine **[C]**, peserta didik Fase E **[A]** mampu mengidentifikasi karakteristik khas teks hikayat (kemustahilan, kesaktian tokoh, anonim, istana-sentris, dan bahasa Melayu klasik) **[B]** dengan tepat dan kritis **[D]**.
+2. **TP 2 (Struktur Narasi & Konflik)**:  
+   Melalui eksplorasi alur cerita dan pengamatan video animasi pada e-modul **[C]**, peserta didik Fase E **[A]** mampu menganalisis struktur alur narasi teks hikayat (orientasi, komplikasi, resolusi, dan koda) **[B]** secara runtut dan sistematis **[D]**.
+3. **TP 3 (Unsur Intrinsik Cerita)**:  
+   Setelah menuntaskan petualangan membaca dan misi interaktif dalam e-modul **[C]**, peserta didik Fase E **[A]** mampu membedah unsur intrinsik (tema, penokohan, latar, sudut pandang, dan amanat) dalam teks *Hikayat Sa-Ijaan dan Ikan Todak* **[B]** secara mendalam dan cermat **[D]**.
+4. **TP 4 (Kaidah Kebahasaan & Kosakata Arkais)**:  
+   Dengan memanfaatkan fitur glosarium interaktif dan sorotan teks (*highlight*) pada e-modul **[C]**, peserta didik Fase E **[A]** mampu menganalisis kaidah kebahasaan teks hikayat (kosakata arkais Melayu klasik, konjungsi urutan waktu, dan kata kerja material) **[B]** secara tepat dan mandiri **[D]**.
+5. **TP 5 (Evaluasi & Kontekstualisasi Nilai Kehidupan)**:  
+   Melalui aktivitas refleksi diri dan pengerjaan asesmen gamifikasi pada e-modul **[C]**, peserta didik Fase E **[A]** mampu mengevaluasi 5 nilai kehidupan luhur (religi, moral, sosial, budaya, dan edukasi) serta mengaitkannya dengan fenomena kehidupan masa kini **[B]** secara kritis, komprehensif, dan bertanggung jawab **[D]**.
 
+### 1.3 Alur Kronik Kontekstual Berbasis Materi Teks Hikayat (5 Bab Pembelajaran & Evaluasi Akhir)
+* **Bab 1: Pengertian & Karakteristik Teks Hikayat** $ightarrow$ *Fokus Cerita:* Mengenal Hakikat Sastra Klasik & Pertapaan Datu Mabrur $ightarrow$ *Materi:* Pengertian Hikayat, Ciri Sastra Melayu (Kemustahilan, Kesaktian, Anonim, Istana-sentris, Melayu Klasik) $ightarrow$ *Aktivitas:* **Misi 1 (Kenali Tokoh & Latar)** + Widget Pemantik Bab 1.
+* **Bab 2: Struktur Narasi & Kemustahilan Cerita** $ightarrow$ *Fokus Cerita:* Membedah Orientasi-Komplikasi & Serangan Ikan Todak $ightarrow$ *Materi:* Struktur Konflik (Orientasi & Komplikasi), Unsur Kemustahilan & Kesaktian Tokoh $ightarrow$ *Aktivitas:* **Misi 2 (Analisis Konflik)** & **Misi 3 (Bedah Kemustahilan)** + Video Animasi.
+* **Bab 3: Unsur Intrinsik & Karakter Tokoh** $ightarrow$ *Fokus Cerita:* Menelaah Perwatakan, Latar, & Perjanjian Sa-Ijaan $ightarrow$ *Materi:* Karakter Tokoh & Resolusi Damai, Nilai Moral & Sosial, Kosakata Adat/Arkais $ightarrow$ *Aktivitas:* **Misi 4 (Makna Filosofis Sa-Ijaan)**.
+* **Bab 4: Kaidah Kebahasaan & Kosakata Arkais** $ightarrow$ *Fokus Cerita:* Menganalisis Konjungsi Waktu, Kata Arkais, & Terbitnya Pulau Halimun $ightarrow$ *Materi:* Alur/Plot Kronologis Sebab-Akibat, Kaidah Konjungsi Waktu (Hatta, Maka, Sebermula), Verba Material $ightarrow$ *Aktivitas:* **Misi 5 (Drag-and-Drop Bongkar Urutan Peristiwa)**.
+* **Bab 5: Nilai-Nilai Kehidupan dalam Hikayat** $ightarrow$ *Fokus Cerita:* Menggali 5 Nilai Luhur Nusantara & Asal-Usul Pulau Laut $ightarrow$ *Materi:* Struktur Resolusi & Koda, Eksplorasi 5 Nilai Hikayat (Religi, Moral, Sosial, Budaya, Edukasi), Asal-Usul Toponimi & Makna Sa-Ijaan $ightarrow$ *Aktivitas:* **Aktivitas Detektif Hikayat & Kearifan Nusantara**.
+* **Bagian Evaluasi & Penutup: Refleksi Diri, Glosarium & Evaluasi** $ightarrow$ *Fokus Evaluasi:* Asesmen Metakognitif & Suplemen Kebahasaan $ightarrow$ *Materi:* Sintesis Pemahaman Siswa & Relevansi Moral Generasi Z $ightarrow$ *Kelengkapan:* **Lembar Refleksi Diri (H.31), Kunci Jawaban Misi 1–5 (H.32), Glosarium Arkais (H.33), Daftar Pustaka (H.34)**.
 ---
 
 ## 2. DESIGN SYSTEM & PANDUAN VISUAL CANVA / FIGMA
@@ -61,7 +72,7 @@
 
 ---
 
-## 3. MASTER STORYBOARD HALAMAN-PER-HALAMAN (HALAMAN 1 – 30)
+## 3. MASTER STORYBOARD HALAMAN-PER-HALAMAN (HALAMAN 1 – 29)
 
 Berikut adalah naskah lengkap, copywriting, tata letak visual, titik interaktivitas Heyzine, dan aset media untuk setiap halaman modul:
 
@@ -100,13 +111,13 @@ Program Studi Pendidikan Bahasa dan Sastra Indonesia
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
 - Efek Heyzine: Auto-flip audio (suara gemericik debur ombak laut lembut saat cover dibuka).
-- Tombol Hotspot Berkedip (Pojok Kanan Bawah): "Buka Pintu Manuskrip" -> Tautan navigasi internal otomatis loncat ke Halaman 3 (Daftar Isi).
+- Tombol Hotspot Berkedip (Pojok Kanan Bawah): "Buka Pintu Manuskrip" -> Tautan navigasi internal otomatis loncat ke Halaman 4 (Daftar Isi).
 
 [KEBUTUHAN ASET & PROMPT GENERATOR]
 --------------------------------------------------------------------------------
 * Nama Aset   : IMG_Cover_DatuMabrur.png
-* Deskripsi   : Lukisan digital epik Datu Mabrur di atas batu karang di laut bergelora.
-* Prompt AI   : "A grand epic digital painting of an ancient Nusantara mystic elder Datu Mabrur with long flowing white beard and ascetic traditional clothes meditating in peaceful crossed-leg posture on a sharp rugged reef rock in the middle of vast stormy ocean, giant crashing waves, magical golden and turquoise misty rays breaking through dark clouds, dramatic atmospheric Indonesian folklore cinematic, intricate detail, ancient maritime legend, 8k resolution, oil painting on parchment texture --ar 3:4"
+* Deskripsi   : Lukisan digital Datu Mabrur di atas batu karang di laut bergelora (Gaya Fun 2D Animated Storybook Cartoon khas Banjar).
+* Prompt AI   : "A heartwarming, vibrant 2D animated storybook cover illustration of lovable Indonesian sage Datu Mabrur from South Kalimantan folklore, kind Southeast Asian grandfatherly face, warm golden-tan skin tone, wearing a traditional Banjar headdress (Laung Banjar / destar) with golden Sasirangan motifs, neat white mustache and beard, wearing a modest traditional indigo-blue Banjar tunic shirt (baju kurung teluk belanga) and vibrant honey-amber Sasirangan sarung wrap around his waist, sitting peacefully cross-legged in meditation atop a rounded sea rock in swirling turquoise ocean, glorious golden sunbeam shining upon a promised island, Klaus and Cartoon Saloon 2D fairy tale style, zero greek toga, zero bare chest, zero caucasian features --ar 3:4"
 ================================================================================
 ```
 
@@ -134,144 +145,301 @@ Tim Validator Ahli:
 2. Validator Ahli Media & IT    : [Nama Gelar Dosen Validator Media]
 3. Praktisi Guru Bahasa Indonesia: [Nama Gelar Guru Pengampu SMA/SMK]
 
-Hak Cipta Dilindungi Undang-Undang. Modul ini dikembangkan sebagai produk penelitian pengembangan (Research and Development) untuk menunjang ketercapaian Capaian Pembelajaran Sastra Indonesia Fase E di SMA/SMK.
+KLAUSUL HAK CIPTA & KETENTUAN HUKUM:
+--------------------------------------------------------------------------------
+HAK CIPTA DILINDUNGI UNDANG-UNDANG
+© 2026 [Nama Peneliti/Pengembang]. All Rights Reserved.
+
+Dilarang memperbanyak atau memindahkan sebagian atau seluruh isi modul ini dalam bentuk apa pun, baik secara elektronik maupun mekanik, termasuk fotokopi, merekam, atau dengan sistem penyimpanan lainnya, tanpa izin tertulis dari Penulis/Pengembang. Modul ini dikembangkan sebagai produk penelitian pengembangan (Research and Development) untuk menunjang ketercapaian Capaian Pembelajaran Sastra Indonesia Fase E di SMA/SMK.
+
+UNDANG-UNDANG REPUBLIK INDONESIA
+NOMOR 19 TAHUN 2002
+TENTANG HAK CIPTA
+
+PASAL 72
+KETENTUAN PIDANA
+SANKSI PELANGGARAN
+
+1. Barang siapa dengan sengaja melanggar dan tanpa hak mengumumkan atau memperbanyak suatu ciptaan atau memberikan izin untuk itu, dipidana dengan penjara paling singkat 1 (satu) bulan dan/atau denda paling sedikit Rp1.000.000,00 (satu juta rupiah). Atau pidana penjara paling lama 7 (tujuh) tahun dan/atau denda paling banyak Rp5.000.000.000,00 (lima miliar rupiah).
+2. Barang siapa dengan sengaja menyerahkan, menyiarkan, memamerkan, mengedarkan atau menjual kepada umum suatu ciptaan atau barang hasil pelanggaran Hak Cipta atau Hak Terkait sebagaimana dimaksud pada ayat (1), dipidana penjara paling lama 7 (tujuh) tahun dan/atau denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
-- Latar kertas perkamen krem bersih dengan garis watermark tipis logo universitas.
-- Kartu profil persegi bersudut melengkung di kanan tengah dengan bingkai foto pengembang, ikon kontak/email, dan barcode ISBN/Verifikasi R&D.
+- Latar halaman hijau tua elegan (#006B3E / emerald green) dengan kartu klausul sanksi berbingkai garis tepi kuning keemasan (#D4AF37).
+- Bagian atas kartu memuat judul: "UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 19 TAHUN 2002 TENTANG HAK CIPTA, PASAL 72 KETENTUAN PIDANA SANKSI PELANGGARAN" (rata tengah, huruf kapital tebal berwarna putih).
+- Kotak isi ketentuan pidana bergaris batas kuning/oranye keemasan dengan tipografi isi pasal 1 dan 2 berwarna putih, jelas dan terbaca rapi.
+- Aksen ilustrasi karakter/maskot di sudut kiri bawah kartu (sesuai tata letak visual referensi).
+- Kartu profil persegi bersudut melengkung untuk foto pengembang, ikon kontak/email, dan barcode ISBN/Verifikasi R&D.
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
 - Hotspot Tautan Luar: Ikon email & LinkedIn pengembang dapat diklik.
-- Link internal ke Halaman 3 (Daftar Isi) dan Halaman 4 (Petunjuk Modul).
+- Link internal ke Halaman 3 (Kata Pengantar), Halaman 4 (Daftar Isi), dan Halaman 5 (Petunjuk Modul).
 ================================================================================
 ```
 
 ```
 ================================================================================
-HALAMAN 3: KATA PENGANTAR & DAFTAR ISI INTERAKTIF
+HALAMAN 3: KATA PENGANTAR
 ================================================================================
-Bagian         : Navigasi Awal
-Judul Layar    : Kata Pengantar & Peta Penjelajahan Manuskrip
-Format Layout  : Kolom Ganda (Kiri: Kata Pengantar Ringkas; Kanan: Menu Navigasi Berlogo)
+Bagian         : Pembuka Modul / Sambutan Pengembang
+Judul Layar    : Kata Pengantar
+Format Layout  : Kolom Tunggal Formal-Estetis, Bingkai Ornamen Sulur Banjar Emas, Dilengkapi Kotak Mutiara Hikmah Nusantara di Bagian Bawah
 
 [KONTEN TEKS & COPYWRITING]
 --------------------------------------------------------------------------------
-(Kata Pengantar):
-Puji dan syukur kita panjatkan ke hadirat Tuhan Yang Maha Esa atas tersusunnya E-Modul Interaktif "Hikayat Sa-Ijaan dan Ikan Todak". Modul ini dirancang khusus bagi sahabat pembelajar Kelas X untuk menjelajahi keindahan sastra lama Melayu Nusantara dengan cara yang interaktif, visual, dan menyenangkan. Melalui 5 Misi petualangan yang terpadu dengan audio narasi dan game interaktif, kalian akan diajak menyingkap rahasia ketabahan, nilai kerja sama, dan nilai luhur yang abadi. Selamat berpetualang!
+KATA PENGANTAR
 
-(Peta Penjelajahan Modul / Daftar Isi):
-• Pintu Awal: Capaian & Petunjuk Modul ............ Halaman 4
-• Uji Penjajakan: Pre-Test Diagnostik ............ Halaman 5
-• Bab 1: Awal Perjalanan Datu Mabrur ............ Halaman 6
-  - Misi 1: Kenali Tokoh & Latar ................ Halaman 9
-• Bab 2: Serangan Ikan Todak .................... Halaman 10
-  - Misi 2 & 3: Konflik & Kemustahilan .......... Halaman 13
-• Bab 3: Sa-Ijaan: Seia Sekata .................. Halaman 14
-  - Misi 4: Nilai Kehidupan & Karakter .......... Halaman 17
-• Bab 4: Janji yang Menjadi Kenyataan ........... Halaman 18
-  - Misi 5: Urutkan Peristiwa (Drag-and-Drop) ... Halaman 21
-• Bab 5: Pulau Halimun & Pesan Hikayat .......... Halaman 22
-• Uji Kemampuan Akhir: Final Mission (Kuis) ..... Halaman 26
-• Lembar Refleksi Sastra & Rubrik ............... Halaman 27
-• Kunci Jawaban & Pembahasan .................... Halaman 28
-• Glosarium Kata Arkais Melayu .................. Halaman 29
-• Daftar Pustaka & Profil Penulis ............... Halaman 30
+Alhamdulillah segala puji dan syukur penulis ucapkan ke hadirat Allah Swt. karena hanya atas pertolongan dan hidayah-Nya, penulis dapat menyusun E-Modul Interaktif Bahasa Indonesia Materi Teks Hikayat Sa-Ijaan dan Ikan Todak Kelas X/Ganjil Berbasis Heyzine.
+
+E-modul ini dapat dijadikan sumber referensi pembelajaran bahasa Indonesia bagi siswa kelas X SMA/SMK (Fase E - Kurikulum Merdeka) yang terdiri dari 5 (lima) babak petualangan dengan dilengkapi oleh teks cerita, rekaman audio narasi tokoh, video animasi adegan, kotak bedah materi sastra, misi gamifikasi interaktif, lembar refleksi diri, glosarium kosakata arkais, dan uji kemampuan evaluasi. E-modul ini dikembangkan berdasarkan pendekatan kronik kontekstual (*embedded chronicle*) yang memadukan keindahan karya sastra Melayu klasik dengan eksplorasi nilai-nilai kehidupan luhur (*Sa-Ijaan: seia sekata*), sehingga memudahkan siswa dalam memahami materi secara kritis, mendalam, dan menyenangkan.
+
+Tujuan e-modul ini untuk membantu siswa belajar secara mandiri ataupun berkelompok, di mana pun dan kapan pun melalui perangkat digital, serta dapat membantu guru sebagai media inovatif dan alternatif pembelajaran sastra klasik di era Kurikulum Merdeka.
+
+Penulis menyadari masih terdapat kekurangan dalam e-modul ini. Oleh karena itu, kritik dan saran yang membangun dari semua pihak sangat diharapkan untuk menyempurnakannya. Penulis mengucapkan selamat membaca, berpetualang, dan mempelajari e-modul ini. Semoga bermanfaat sebagai media pembelajaran di era digital saat ini. Atas perhatian Bapak/Ibu/Saudara, penulis mengucapkan terima kasih.
+
+                                                Kota Pengembang, 2026
+                                                
+                                                Penulis
+
+[KOTAK MUTIARA HIKMAH NUSANTARA]
+--------------------------------------------------------------------------------
+"Rakat Mufakat, Seia Sekata. Berat sama dipikul, ringan sama dijinjing. Di mana tanah dipijak, di sanalah kearifan dan budi pekerti luhur dijunjung tinggi."
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
-- Latar perkamen dengan ilustrasi peta kuno kepulauan Nusantara di balik teks daftar isi (opacity 15%).
-- Setiap nomor bab memiliki tombol ikon stempel lilin segel kerajaan berwarna merah emas.
+- Latar perkamen vintage gading halus (#F8F4EB) dengan ornamen border sulur Banjar emas (*Tali Bapintal & Pucuk Rebung*) di 4 sudut kanvas.
+- Tipografi judul menggunakan font serif klasik berwibawa (*Cinzel Decorative* / *Playfair Display*), warna tinta cokelat legam naskah kuno (*Sepia Ink Dark* #2A2421).
+- Paragraf pertama dibuka dengan huruf *Drop Cap* "A" berornamen ukiran emas klasik setinggi 3 baris paragraf.
+- Tanda tangan digital pengembang dengan watermark stempel cap segel kerajaan *Sa-Ijaan* keemasan transparan di sebelah titimangsa.
+- Di bagian bawah kanvas: Kotak Mutiara Hikmah Nusantara berlatar pasir lembut (#EFE6D5) dengan lis tepi tipis 1px emas (#C89B3C).
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
-- Fitur Interaktif Heyzine Table of Contents: Setiap item bab di Daftar Isi berfungsi sebagai **Hyperlink Internal Langsung**. Ketika siswa mengklik "Bab 2: Serangan Ikan Todak", flipbook secara mulus melompat membuka Halaman 10.
+- Hotspot Audio Sambutan Pengembang (Pojok Kiri Bawah): Ikon mikrofon/audio untuk mendengarkan pesan pembacaan kata pengantar (durasi 25 detik) dengan latar petikan instrumen musik tradisional panting yang syahdu.
+- Tombol Navigasi Lanjut (Pojok Kanan Bawah): Tombol interaktif berbentuk kompas bahari keemasan bertuliskan "Buka Peta Petualangan (Daftar Isi) →" (Tautan navigasi internal langsung membuka Halaman 4).
 ================================================================================
 ```
 
 ```
 ================================================================================
-HALAMAN 4: CAPAIAN PEMBELAJARAN, TUJUAN & PETUNJUK SIMBOL INTERAKTIF
+HALAMAN 4: DAFTAR ISI INTERAKTIF (PETA PENJELAJAHAN MANUSKRIP)
 ================================================================================
-Bagian         : Orientasi Belajar Siswa
+Bagian         : Navigasi Utama Modul
+Judul Layar    : Peta Penjelajahan Manuskrip (Daftar Isi Interaktif)
+Format Layout  : Interactive Roadmap Layout (Peta Petualangan Bahari Visual), Daftar Isi Berhierarki Rapi Dilengkapi Ikon Segel Lilin Kerajaan & Indikator Interaktivitas
+
+[KONTEN TEKS & COPYWRITING]
+--------------------------------------------------------------------------------
+DAFTAR ISI: PETA PENJELAJAHAN MODUL (34 HALAMAN)
+
+• BAGIAN PEMBUKA: ORIENTASI BELAJAR
+  - Sampul Depan (Cover Utama) ......................................... Halaman 1
+  - Hak Cipta, Profil Pengembang & Tim Pembimbing ...................... Halaman 2
+  - Kata Pengantar ..................................................... Halaman 3
+  - Peta Penjelajahan Manuskrip (Daftar Isi Interaktif) ................ Halaman 4
+  - Capaian Pembelajaran, Petunjuk Penggunaan & Kamus Simbol .......... Halaman 5
+
+• BAB 1: PENGERTIAN & KARAKTERISTIK TEKS HIKAYAT
+  - [COVER BAB 1] Pengertian & Karakteristik Teks Hikayat (Poster & Kutipan Sastra) ...... Halaman 6
+  - Pembuka Bab 1 & Pemantik Nalar Interaktif (Widget Duolingo) ........................ Halaman 7
+  - Teks Cerita Bab 1 (Fitur Highlight Kosakata Arkais) ................................ Halaman 8
+  - Kotak Bedah Materi Sastra: Ciri Hikayat & Karakter Tokoh ........................... Halaman 9
+  - Aktivitas Interaktif: Misi 1 (Kenali Tokoh & Latar) ................................ Halaman 10
+
+• BAB 2: STRUKTUR NARASI & KEMUSTAHILAN CERITA
+  - [COVER BAB 2] Struktur Narasi & Kemustahilan Cerita (Poster & Kutipan Sastra) ....... Halaman 11
+  - Pembuka Bab 2 & Pemantik Nalar Interaktif (Widget Duolingo & Video) ................ Halaman 12
+  - Teks Cerita Bab 2 (Pertempuran Laut & Dialog Sakti) ................................ Halaman 13
+  - Kotak Bedah Materi Sastra: Struktur Narasi & Kemustahilan .......................... Halaman 14
+  - Aktivitas Interaktif: Misi 2 & 3 (Konflik & Kemustahilan) .......................... Halaman 15
+
+• BAB 3: UNSUR INTRINSIK & KARAKTER TOKOH
+  - [COVER BAB 3] Unsur Intrinsik & Karakter Tokoh (Poster & Kutipan Sastra) ........... Halaman 16
+  - Pembuka Bab 3 & Pemantik Nalar Interaktif (Widget Duolingo) ........................ Halaman 17
+  - Teks Cerita Bab 3 (Perjanjian Damai & Mukjizat Kesembuhan) ......................... Halaman 18
+  - Kotak Bedah Materi Sastra: Karakter Tokoh & Nilai Kehidupan ........................ Halaman 19
+  - Aktivitas Interaktif: Misi 4 (Makna Filosofis Sa-Ijaan) ............................ Halaman 20
+
+• BAB 4: KAIDAH KEBAHASAAN & KOSAKATA ARKAIS
+  - [COVER BAB 4] Kaidah Kebahasaan & Kosakata Arkais (Poster & Kutipan Sastra) ........ Halaman 21
+  - Pembuka Bab 4 & Pemantik Nalar Interaktif (Widget Duolingo & Video) ................ Halaman 22
+  - Teks Cerita Bab 4 (Kronologi Terbentuknya Daratan Baru) ............................ Halaman 23
+  - Kotak Bedah Materi Sastra: Alur Plot & Kaidah Kebahasaan ........................... Halaman 24
+  - Aktivitas Interaktif: Misi 5 (Drag-and-Drop Kronologi Peristiwa) .................. Halaman 25
+
+• BAB 5: NILAI-NILAI KEHIDUPAN DALAM HIKAYAT
+  - [COVER BAB 5] Nilai-Nilai Kehidupan dalam Hikayat (Poster & Kutipan Sastra) ........ Halaman 26
+  - Pembuka Bab 5 & Pemantik Nalar Interaktif (Widget Duolingo) ........................ Halaman 27
+  - Teks Cerita Bab 5 (Resolusi, Koda & Asal-Usul Pulau Laut) .......................... Halaman 28
+  - Kotak Bedah Materi Sastra: Resolusi, Koda & 5 Nilai Luhur Hikayat .................. Halaman 29
+  - Aktivitas Literasi: Detektif Hikayat & Kearifan Nusantara .......................... Halaman 30
+
+• EVALUASI, REFLEKSI & PENUTUP MODUL
+  - Lembar Refleksi Diri Siswa & Rubrik Penilaian Diri ................................. Halaman 31
+  - Kunci Jawaban Misi Gamifikasi 1 – 5 & Pembahasan Pedagogis ......................... Halaman 32
+  - Glosarium Kosakata Arkais Melayu Klasik & Banjar ................................... Halaman 33
+  - Daftar Pustaka, Profil Tim Pengembang & Sampul Belakang ............................ Halaman 34
+
+[TATA LETAK VISUAL CANVA/FIGMA]
+--------------------------------------------------------------------------------
+- Latar perkamen naskah bahari kuno (#F8F4EB) dengan watermark peta kepulauan Nusantara abad ke-17 di balik daftar isi (opacity 15%).
+- Garis putus-putus keemasan (*golden adventure route*) menghubungkan antar-bab secara dinamis membentuk alur perjalanan penjelajah samudra.
+- Setiap nomor bab memiliki tombol ikon stempel lilin segel kerajaan (*wax seal medallion*) berwarna merah-emas dengan angka bab kontras.
+- Di sisi kanan setiap bab terdapat label indikator interaktif mini: [Cover Bab], [Audio/Pemantik], [Video], atau [Game Misi].
+
+[FITUR INTERAKTIF HEYZINE]
+--------------------------------------------------------------------------------
+- Fitur Interaktif Heyzine Table of Contents: Setiap item baris pada Daftar Isi berfungsi sebagai **Hyperlink Internal Langsung** (Navigasi *Go to Page*). Ketika siswa mengklik bab yang diinginkan (misal: "Bab 2: Struktur Narasi & Kemustahilan Cerita"), flipbook seketika membuka Cover Bab 2 di Halaman 11 secara halus (*smooth page transition*).
+- Tombol Navigasi Pintas (Pojok Kanan Bawah): Tombol interaktif "Mulai Petualangan Belajar →" yang langsung mengarahkan pembaca ke Halaman 5 (Capaian & Petunjuk Modul).
+================================================================================
+```
+
+```
+===============================================================================
+HALAMAN 5: CAPAIAN PEMBELAJARAN, PETUNJUK PENGGUNAAN & KAMUS SIMBOL INTERAKTIF
+================================================================================
+Bagian         : Orientasi Pembelajaran E-Modul
 Judul Layar    : Panduan Petualangan & Kode Simbol Interaktif
-Format Layout  : Kotak Infografis 3 Kolom: (1) Capaian & Tujuan, (2) Petunjuk Belajar, (3) Kamus Ikon Heyzine
+Format Layout  : Infografis Terpadu A4 Portrait:
+                 - Bagian Atas: Banner Capaian Pembelajaran (CP) & Tujuan Pembelajaran (TP) Fase E
+                 - Bagian Tengah Kolom Kiri: Kartu Petunjuk Penggunaan Bagi Siswa / Peserta Didik
+                 - Bagian Tengah Kolom Kanan: Kartu Petunjuk Penggunaan Bagi Guru / Fasilitator
+                 - Bagian Bawah: Kamus Simbol Navigasi & Tombol Interaktif Heyzine
 
 [KONTEN TEKS & COPYWRITING]
 --------------------------------------------------------------------------------
-(Kotak 1: Sasaran Petualanganmu):
-1. Menemukan ciri khas teks hikayat (anonim, istana-sentris, kemustahilan, kesaktian).
-2. Membedah alur orientasi, komplikasi, hingga resolusi cerita rakyat Kotabaru.
-3. Menggali 5 nilai kehidupan (religi, moral, sosial, budaya, pendidikan).
-4. Memahami kosakata arkais Melayu klasik dan kata kerja aksi.
+(Banner Atas: Sasaran Petualangan & Capaian Pembelajaran Fase E):
+"Melalui E-Modul Interaktif Hikayat Sa-Ijaan dan Ikan Todak ini, pembaca diajak mengevaluasi informasi tersurat dan tersirat, menganalisis struktur alur narasi (orientasi, komplikasi, resolusi, koda), mengidentifikasi karakteristik kemustahilan serta kesaktian tokoh, memaknai kosakata arkais Melayu klasik dalam konteks cerita, dan merekonstruksi 5 nilai kehidupan luhur (religi, moral, sosial, budaya, edukasi) ke dalam realitas kehidupan sehari-hari."
 
-(Kotak 2: Langkah Sukses Belajar):
-1. Bacalah penggalan naskah hikayat dengan seksama di setiap chapter.
-2. Dengarkan audio narasi tokoh untuk merasakan suasana batin dan intonasi cerita.
-3. Cermati Kotak Bedah Materi untuk memahami kaidah sastra di balik cerita.
-4. Tuntaskan Misi Interaktif di akhir setiap bab untuk menguji ketajaman analisismu!
+(Tujuan Pembelajaran - Rumusan Baku ABCD):
+1. Melalui e-modul interaktif Heyzine [C], peserta didik Fase E [A] mampu mengidentifikasi karakteristik khas teks hikayat [B] dengan tepat dan kritis [D].
+2. Melalui eksplorasi alur & video animasi [C], peserta didik Fase E [A] mampu menganalisis struktur alur narasi teks hikayat [B] secara runtut dan sistematis [D].
+3. Melalui misi membaca & gamifikasi [C], peserta didik Fase E [A] mampu membedah unsur intrinsik cerita rakyat Kotabaru [B] secara mendalam dan cermat [D].
+4. Melalui glosarium & penanda teks [C], peserta didik Fase E [A] mampu menganalisis kosakata arkais & kaidah kebahasaan [B] secara tepat dan mandiri [D].
+5. Melalui refleksi & asesmen interaktif [C], peserta didik Fase E [A] mampu mengevaluasi nilai-nilai Sa-Ijaan & relevansinya [B] secara komprehensif [D].
 
-(Kotak 3: Pahami Simbol Tombol di Layar):
-[Ikon Speaker / Audio]    : Klik untuk memutar suara narator & dialog sakti tokoh.
-[Ikon Play / Video]      : Klik untuk menyaksikan animasi adegan pertempuran laut.
-[Ikon Stik Game / Game]  : Klik untuk memainkan misi interaktif di dalam layar.
-[Ikon Buku Terbuka]      : Klik untuk melihat arti kosakata arkais di glosarium.
-[Ikon Tanda Tanya / Kuis]: Klik untuk mengerjakan kuis evaluasi otomatis.
+--------------------------------------------------------------------------------
+(Kartu Kiri: 🧭 Petunjuk Penggunaan Bagi Siswa / Peserta Didik):
+1. Persiapan Perangkat & Audio:
+   - Akses e-modul melalui gawai (smartphone), tablet, atau laptop yang terhubung ke jaringan internet stabil.
+   - Sangat disarankan mengenakan earphone/headphone agar narasi penutur, efek debur ombak samudra, dan petikan gambus Melayu terdengar jernih dan imersif.
+
+2. Navigasi Membaca Flipbook:
+   - Geser/usap layar di ponsel atau klik panah navigasi kanan/kiri di laptop untuk membalik lembar halaman.
+   - Manfaatkan menu "Daftar Isi Interaktif" pada Halaman 4 untuk melompat langsung ke bab atau misi yang kamu tuju.
+   - Gunakan fitur Zoom (cubit layar di ponsel atau klik ikon kaca pembesar) untuk memperbesar teks naskah dan ilustrasi manuskrip.
+
+3. Alur Petualangan Belajar Mandiri:
+   - Langkah 1 (Apersepsi & Poster Bab): Buka Cover Bab untuk meresapi suasana dan kutipan hikmah, lalu buka Halaman Pembuka Bab untuk berinteraksi dengan Widget Pertanyaan Pemantik Interaktif bergaya Duolingo sebelum membaca naskah.
+   - Langkah 2 (Menyelami Kisah): Baca teks cerita bab demi bab (Babak 1 s.d. 5). Klik ikon Audio untuk mendengarkan ekspresi dialog sakti Datu Mabrur dan desah parau Raja Ikan Todak.
+   - Langkah 3 (Membedah Kaidah Sastra): Cermati Kotak Bedah Materi Sastra di setiap bab untuk memahami teori sastra, struktur plot, dan makna kosakata arkais bergaris bawah.
+   - Langkah 4 (Menuntaskan Misi Interaktif): Mainkan game interaktif (Wordwall/teka-teki) di akhir bab. Jika menggunakan layar HP yang kecil, klik tombol "📲 Buka Game Layar Penuh" atau pindai QR Code yang tersedia.
+   - Langkah 5 (Refleksi Diri & Metakognisi): Isi Lembar Refleksi Diri di Halaman 31 untuk mengendapkan nilai-nilai kearifan lokal yang kamu dapatkan.
+
+--------------------------------------------------------------------------------
+(Kartu Kanan: 🎓 Petunjuk Penggunaan Bagi Guru / Pendidik):
+1. Peran Sebagai Fasilitator Belajar:
+   - E-modul ini mengusung pendekatan *Student-Centered Learning* (Kurikulum Merdeka). Guru berperan sebagai fasilitator, pemantik nalar kritis, dan pemandu diskusi nilai kearifan lokal Banjar.
+
+2. Pemanfaatan Pertanyaan Pemantik Interaktif:
+   - Arahkan peserta didik merespons pertanyaan pemantik interaktif (HTML embed) di setiap awal bab (Halaman 7, 12, 17, 22, 27) setelah mengamati Cover Bab masing-masing untuk memantik rasa ingin tahu (*curiosity-driven learning*) sebelum memasuki teks cerita.
+
+3. Skenario & Integrasi Pembelajaran di Kelas:
+   - Model *Flipped Classroom*: Peserta didik menyimak audio narasi dan membaca teks mandiri di rumah, kemudian jam kelas difokuskan untuk mendiskusikan nilai kehidupan dan membedah kearifan lokal Sa-Ijaan.
+   - Model *Blended Learning / Kolaboratif*: Pembelajaran dilakukan di laboratorium komputer atau kelas berbasis gawai (BYOD) secara berpasangan/kelompok saat menyelesaikan misi interaktif Wordwall.
+
+4. Bimbingan Aktivitas Interaktif & Diferensiasi:
+   - Dampingi siswa saat membedah unsur kemustahilan dan nilai budaya lokal pada Kotak Bedah Materi.
+   - Bagi peserta didik yang mengalami kesulitan memahami kosakata Melayu klasik, arahkan untuk memanfaatkan fitur Glosarium Terpadu pada Halaman 33.
+   - Pastikan peserta didik yang menggunakan smartphone mengakses tautan layar penuh (*fullscreen*) agar aktivitas game interaktif berjalan maksimal.
+
+5. Evaluasi & Tindak Lanjut:
+   - Pantau ketuntasan misi gamifikasi bab 1 s.d. 5 dan isian Lembar Refleksi Diri (Halaman 31).
+   - Instrumen evaluasi sumatif komprehensif (Pre-Test dan Post-Test 20 Soal HOTS) tersedia pada Lampiran Instrumen Penelitian Skripsi terpisah.
+
+--------------------------------------------------------------------------------
+(Bagian Bawah: 🔍 Kamus Simbol & Tombol Heyzine):
+- [🔊 Ikon Speaker / Audio Waveform] : Klik untuk mendengarkan lantunan suara narator dan dialog sakti para tokoh.
+- [🎬 Ikon Pemutar Video / Play]     : Klik untuk menyaksikan animasi cuplikan adegan pertempuran laut.
+- [🎮 Ikon Stik Game / Misi]         : Klik untuk memainkan misi interaktif dan kuis gamifikasi di dalam lembar flipbook.
+- [📲 Ikon Layar Penuh / QR Code]    : Akses cepat membuka game Wordwall di tab peramban penuh (optimal untuk gawai seluler).
+- [📖 Ikon Naskah Glosarium]         : Klik untuk langsung melompat ke daftar arti kosakata arkais Melayu klasik.
+- [💡 Ikon Pemantik Nalar]          : Berinteraksi dengan kartu dilema moral dan pemantik kritis di setiap awal bab.
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
-- Desain bergaya lembar instruksi penjelajah laut dengan kartu-kartu terpisah berbingkai ornamen emas. Ikon tombol dibuat mencolok dan ramah sentuhan.
+- Format Kanvas: A4 Portrait (2480 x 3508 piksel).
+- Latar Belakang: Tekstur perkamen gading bahari klasik (#F8F4EB) dengan ornamen garis batas ganda keemasan (*antique gold border*) di sekeliling halaman.
+- Komposisi 4 Zona Infografis:
+  1. Header/Banner Atas (Tinggi 18%): Kotak berlatar Deep Ocean Teal transparan dengan tipografi judul serif megah dan sasaran pembelajaran.
+  2. Kartu Petunjuk Siswa (Kiri, Lebar 48%, Tinggi 52%): Berbingkai pita emas bahari dengan ikon kompas penjelajah di pojok kiri atas kartu. Teks butir tersusun rapi dengan hierarki tipografi sans-serif modern yang mudah dibaca.
+  3. Kartu Petunjuk Guru (Kanan, Lebar 48%, Tinggi 52%): Berbingkai ornamen khas naskah nakhoda dengan ikon topi wisuda/buku panduan di pojok kanan atas kartu.
+  4. Footer Kamus Simbol (Bawah, Lebar 100%, Tinggi 20%): Grid 2 kolom berisi 6 tombol ikon interaktif Heyzine dengan kontras warna tegas dan label deskripsi ringkas.
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
-- Tombol audio pengucapan salam sambutan singkat (durasi 15 detik): "Halo sahabat pembelajar, selamat datang di E-Modul Hikayat Sa-ijaan..."
+- Tombol Audio Sambutan Panduan (Pojok Kanan Atas Header): Tombol interaktif dengan ikon pemandu bersuara (durasi 20 detik): "Selamat datang di lembar panduan E-Modul Hikayat Sa-ijaan dan Ikan Todak. Silakan cermati langkah belajar dan kenali fungsi tombol interaktif sebelum memulai petualangan..."
+- Hyperlink Pintas di Bawah Halaman: Tombol beranimasi lembut "Mulai Bab 1: Pengertian & Karakteristik Teks Hikayat →" yang langsung melompat ke Halaman 6 (*Go to Page 6*).
 ================================================================================
 ```
 
 ```
 ================================================================================
-HALAMAN 5: PRE-TEST INTERAKTIF (UJI PENJAJAKAN DIAGNOSTIK)
+HALAMAN 6: COVER BAB 1 (PENGERTIAN & KARAKTERISTIK TEKS HIKAYAT)
 ================================================================================
-Bagian         : Evaluasi Awal (Asesmen Diagnostik)
-Judul Layar    : Uji Penjajakan Awal: Berlayar Menuju Samudra Hikayat
-Format Layout  : Teks Pengantar di Atas, Frame Widget Iframe Interaktif di Tengah (60% Layar), Petunjuk Fallback di Bawah
+Bagian         : Bab 1 - Chapter Divider & Cover Pembuka
+Judul Layar    : BAB 1: PENGERTIAN & KARAKTERISTIK TEKS HIKAYAT
+Sub-Tema       : Mengenal Hakikat Sastra Klasik Nusantara & Keteguhan Pertapaan Datu Mabrur
+Tokoh Utama    : Datu Mabrur (Ulama & Pertapa Arif Nusantara Asal Banjar)
+Format Layout  : Poster Vertikal Penuh (Rasio 3:4), Tipografi Judul Bab Emas Mewah (Royal Gold #C89B3C) di Bagian Atas, Ilustrasi Oil Painting Megah Datu Mabrur Bertapa di Tengah Fajar Kencana, Ornamen Bingkai Sasirangan Halus di Tepi Kanvas, dan Plakat Kutipan Mutiara Sastra Melayu Klasik di Bagian Bawah.
 
 [KONTEN TEKS & COPYWRITING]
 --------------------------------------------------------------------------------
-(Teks Pengantar):
-Sebelum memulai penjelajahan membaca Hikayat Sa-Ijaan dan Ikan Todak, mari ukur sejauh mana pemahaman awalanmu mengenai sastra hikayat Melayu klasik! Kerjakan 10 butir pertanyaan diagnostik berikut ini secara mandiri.
+(Nomor & Judul Bab):
+BAB 1
+PENGERTIAN & KARAKTERISTIK TEKS HIKAYAT
 
-Petunjuk Teknis:
-1. Klik tombol "Mulai / Start" pada kotak permainan di bawah ini.
-2. Pilih satu jawaban yang menurutmu paling tepat.
-3. Skor dan pembahasan akan langsung muncul begitu kamu menuntaskan soal ke-10.
+(Sub-Judul Tematik / Fokus Cerita):
+"Mengenal Hakikat Sastra Klasik Nusantara & Keteguhan Pertapaan Datu Mabrur"
 
-(Kotak Catatan Fallback):
-"Mengalami kendala memuat game di dalam modul? Klik tautan langsung berikut atau pindai QR Code di samping untuk membuka kuis di peramban (browser) barumu."
+(Kutipan Mutiara Hikayat / Prolog Puitis):
+> "Bukanlah intan permata yang dipinta sang pertapa dalam sepi samudra, melainkan sejengkal tanah berkah tempat anak cucu menyemai kehidupan dan menjaga budi pekerti luhur."
+
+(Identitas Tokoh & Latar):
+• Tokoh Kunci : Datu Mabrur
+• Latar Tempat: Di atas batu karang, antara Selat Laut dan Selat Makassar
+• Nilai Luhur : Altruisme (kepedulian antargenerasi), keikhlasan, dan keteguhan ikhtiar batin
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
-- Di tengah halaman terdapat kotak kosong bergaris tepi putus-putus emas bertuliskan placeholder: "[AREA SEMATAN IFRAME WORDWALL / QUIZIZZ PRE-TEST]".
-- Di pojok kanan bawah: Kode QR cetak menuju link game.
-- Di sebelah kiri QR: Tombol berbayang (Call-to-Action): "Buka Kuis di Tab Baru".
+- Kanvas: A4 Portrait (2480 x 3508 piksel).
+- Background: Latar poster penuh `CVR_Bab1_Pertapaan_Datu.png` (Rasio 3:4) dengan perpaduan warna biru samudra, toska fajar, dan kilau keemasan.
+- Area Atas (Negative Space): Nomor bab "BAB 1" beraksen font serif megah (*Cinzel Decorative* / *Cinzel* Bold) berwarna emas kencana (#C89B3C) dengan drop-shadow lembut. Judul bab "PENGERTIAN & KARAKTERISTIK TEKS HIKAYAT" kapital tegas berjarak huruf proporsional.
+- Area Tengah: Ilustrasi visual Datu Mabrur duduk bersila khusyuk dan ramah berbalut busana otentik Banjar (Laung destar motif Sasirangan, baju kurung nila, dan sarung Sasirangan jingga-kuning) memancarkan pendaran aura keemasan lembut.
+- Area Bawah: Kotak plakat kutipan mutiara berlatar krem semi-transparan dengan garis batas ornamen sulur Banjar emas. Di pojok kanan bawah terdapat tombol CTA elegan: "Buka Babak 1: Pemantik & Kisah →".
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
-- **Fitur Iframe Embed Heyzine**: Menyematkan embed code Wordwall / Quizizz berisi 10 Soal Pre-Test (Soal 1 s.d. 10 dari Bank Soal Materi).
-- Tautan Hotspot Eksternal pada tombol cadangan.
-- Link internal ke Halaman 6: Tombol "Lanjut ke Bab 1: Awal Perjalanan Datu Mabrur".
+- Mode Tampilan: *Clean Flipbook Style* (halaman pembatas visual estetik yang memberi jeda kontemplatif sebelum membaca).
+- Navigasi Pintas: Tombol "Buka Babak 1: Pemantik & Kisah →" di pojok kanan bawah memiliki hyperlink internal langsung ke Halaman 7 (*Go to Page 7*).
+
+[KEBUTUHAN ASET & PROMPT GENERATOR]
+--------------------------------------------------------------------------------
+* Nama Aset   : CVR_Bab1_Pertapaan_Datu.png
+* Format & Rasio: PNG High-Res, Rasio 3:4 Portrait
+* Panduan Prompt: Merujuk pada file `Panduan_Prompt_Google_Flow_Aset_Hikayat.md` (Bagian 2 - CVR 01).
 ================================================================================
 ```
 
 ```
 ================================================================================
-HALAMAN 6: PEMBUKA BAB 1 (AWAL PERJALANAN DATU MABRUR)
+HALAMAN 7: PEMBUKA BAB 1 (AWAL PERJALANAN DATU MABRUR) & WIDGET PEMANTIK
 ================================================================================
-Bagian         : Bab 1 - Halaman Pembuka
+Bagian         : Bab 1 - Halaman Pembuka & Pemantik Nalar
 Judul Layar    : CHAPTER 1: AWAL PERJALANAN DATU MABRUR
 Fokus Cerita   : Pengenalan Tokoh Datu Mabrur, Keteguhan Bertapa, & Permohonan Pulau
-Format Layout  : Ilustrasi Besar 60% Layar Atas, Kotak Audio Narasi & Prolog di Bawah
+Format Layout  : Ilustrasi Besar 50% Layar Atas, Kotak Audio Narasi & Prolog (Tengah), Frame Widget HTML Pemantik Nalar Interaktif Duolingo-Style di Bawah (35% Layar)
 
 [KONTEN TEKS & COPYWRITING]
 --------------------------------------------------------------------------------
@@ -281,30 +449,38 @@ Di antara dua selat yang bergolak, seorang tokoh sakti duduk bersila dalam kehen
 (Kutipan Mutiara Bab):
 "Sebermula ada seorang Datu yang sakti mandraguna sedang bertapa di tengah laut. Tiada ia bergeming diempas gelombang..."
 
-(Petunjuk Interaktif):
-Dengarkan narasi pembuka suara debur ombak dan lantunan syair hikayat dengan menekan tombol Audio di samping!
+(Petunjuk Interaktif Audio & Pemantik):
+1. Tekan tombol Audio di samping untuk mendengarkan narasi pembuka suara debur ombak dan petikan gambus Melayu!
+2. Jawablah Pertanyaan Pemantik Interaktif di bawah ini sebelum kamu mulai membaca naskah cerita!
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
-- Visual atas: Ilustrasi digital Datu Mabrur bertapa di atas karang di tengah deburan ombak Selat Makassar.
-- Bar audio kustom di bawah ilustrasi dengan ikon pemutar kaset klasik bergaya vintage.
+- Area atas: Ilustrasi digital Datu Mabrur bertapa di atas karang di tengah deburan ombak Selat Makassar (ASET 02).
+- Di tengah: Kotak teks prolog berlatar warna kertas kuno dengan bingkai sulur emas.
+- Di bawah: Kotak bingkai kosong bergaris emas elegan berlabel "[AREA SEMATAN WIDGET HTML PEMANTIK INTERAKTIF BAB 1]".
+- Di pojok kanan bawah: Tombol navigasi (CTA): "Mulai Membaca Kisah Bab 1 →".
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
 - **Fitur Audio Player Heyzine**: Sematkan file `AUD_Narasi_Bab1.mp3` (Narasi suara bernuansa hikayat klasik diiringi efek suara debur ombak dan petikan instrumen gambus lembut, durasi 45 detik).
-- Efek putar otomatis atau tombol Play yang elegan.
+- **Fitur Iframe Embed Heyzine (Pertanyaan Pemantik Interaktif Bab 1)**:
+  * File Sematan: `widgets/pemantik-interaktif/pemantik_bab1.html`
+  * Format Embed: `<iframe src="widgets/pemantik-interaktif/pemantik_bab1.html" width="100%" height="280" frameborder="0" style="border-radius:12px; border:1.5px solid #C89B3C;"></iframe>`
+  * Fungsi: Menguji nalar kritis siswa melalui simulasi dilema moral Duolingo-style (memilih kenyamanan pribadi vs berkorban demi masa depan) dengan umpan balik reflektif instan dan efek suara Web Audio API sintetis.
+- Link internal ke Halaman 8: Tombol "Mulai Membaca Kisah Bab 1 →" (Go to Page 8).
 
 [KEBUTUHAN ASET & PROMPT GENERATOR]
 --------------------------------------------------------------------------------
 * Nama Aset   : IMG_Bab1_DatuMabrur_Bertapa.png
-* Prompt AI   : "A majestic wise Nusantara sage meditating peacefully on an isolated coral reef rock amidst foaming turbulent sea, between Strait of Laut and Makassar Strait, sunset skies, glowing aura around the ascetic figure, dramatic ocean splash, digital concept art, hyper-detailed, warm nostalgic color tones --ar 4:3"
+* Prompt AI   : "A heartwarming 2D animated storybook scene of wise Indonesian sage Datu Mabrur wearing traditional Banjar Laung headdress and modest indigo tunic with Sasirangan wrap, meditating peacefully on a flat sea stone between Strait of Laut and Makassar Strait at golden sunset, friendly tropical fish swimming around, soft golden aura, Klaus and Disney 2D cartoon style, zero greek toga, zero bare chest, zero caucasian features --ar 4:3"
 * Aset Audio  : AUD_Narasi_Bab1.mp3 (Narasi pembuka membacakan penggalan awal cerita dengan suara berat berwibawa).
+* Aset Widget : `widgets/pemantik-interaktif/pemantik_bab1.html`
 ================================================================================
 ```
 
 ```
 ================================================================================
-HALAMAN 7: TEKS CERITA BAB 1 DENGAN FITUR HIGHLIGHT
+HALAMAN 8: TEKS CERITA BAB 1 DENGAN FITUR HIGHLIGHT
 ================================================================================
 Bagian         : Bab 1 - Naskah Cerita
 Judul Layar    : Teks Kisah: Pertapaan di Antara Dua Selat
@@ -337,7 +513,7 @@ Tiada sebersit pun niat di dalam hatinya untuk meminta kemewahan duniawi, emas i
 
 ```
 ================================================================================
-HALAMAN 8: KOTAK BEDAH MATERI SASTRA BAB 1
+HALAMAN 9: KOTAK BEDAH MATERI SASTRA BAB 1
 ================================================================================
 Bagian         : Bab 1 - Materi Inti Kurikulum
 Judul Layar    : Ruang Sastra: Memahami Hakikat & Karakteristik Hikayat
@@ -354,12 +530,21 @@ Kata *hikayat* berasal dari bahasa Arab *haka* yang berarti menceritakan, mewart
 3. **Penggunaan Ungkapan Arkais**: Pembukaan kisah menggunakan formula bahasa Melayu klasik seperti *“Menurut sahibul hikayat...”* dan *“sebermula...”*.
 4. **Latar Cerita Nyata Berpadu Mitologi**: Menyebutkan Selat Laut dan Selat Makassar (Kalimantan Selatan) yang dikaitkan dengan peristiwa mitos terciptanya daratan.
 
+(Kartu 3: Sudut Pandang Narator Hikayat):
+Hikayat Sa-Ijaan dan Ikan Todak dituturkan menggunakan **sudut pandang orang ketiga serba tahu** (*omniscient third-person narrator*). Artinya, narator mengetahui seluruh peristiwa, pikiran, dan perasaan batin setiap tokoh tanpa batasan ruang dan waktu. Narator bebas berpindah dari satu tokoh ke tokoh lainnya.
+
+Bukti dalam teks:
+• *"Tiada sebersit pun niat di dalam hatinya untuk meminta kemewahan duniawi..."* → Kalimat ini menunjukkan narator mampu **membaca isi hati** Datu Mabrur yang tidak tampak dari luar.
+• *"...insangnya membuka dan menutup lemah"* → Narator juga mengetahui kondisi fisik detail Raja Ikan Todak di sisi lain.
+
+Ciri sudut pandang orang ketiga serba tahu: menggunakan kata ganti "ia", "mereka", dan nama tokoh (bukan "aku" atau "saya"); narator mendeskripsikan pikiran batin yang tidak terucapkan oleh tokoh.
+
 (Refleksi Pemantik Kritis):
 "Ketika kamu membaca pertapaan Datu Mabrur di tengah ganasnya samudra, apa yang terlintas dalam benakmu mengenai tekad dan ketabahannya?"
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
-- 2 Kartu konsep dengan sudut melengkung berlatar gradasi lembut. Ikon kaca pembesar (*magnifying glass*) di sudut kartu. Di bawah terdapat kotak refleksi dengan warna latar kuning gading.
+- 3 Kartu konsep dengan sudut melengkung berlatar gradasi lembut. Ikon kaca pembesar (*magnifying glass*) di sudut kartu. Di bawah terdapat kotak refleksi dengan warna latar kuning gading.
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
@@ -369,7 +554,7 @@ Kata *hikayat* berasal dari bahasa Arab *haka* yang berarti menceritakan, mewart
 
 ```
 ================================================================================
-HALAMAN 9: AKTIVITAS INTERAKTIF: MISI 1 (KENALI DUNIA HIKAYAT)
+HALAMAN 10: AKTIVITAS INTERAKTIF: MISI 1 (KENALI DUNIA HIKAYAT)
 ================================================================================
 Bagian         : Bab 1 - Evaluasi Gamifikasi Interaktif
 Judul Layar    : MISI 1: KENALI TOKOH & LATAR CERITA
@@ -388,12 +573,12 @@ Sahabat pembelajar, selamat datang di Misi Pertamamu! Buktikan ketajaman membaca
 
 (Umpan Balik / Feedback Game):
 • Jika Benar: "Luar biasa! Datu Mabrur adalah tokoh utama yang luhur budi dan memikirkan masa depan keturunannya."
-• Jika Kurang Tepat: "Coba cermati kembali Halaman 7, perhatikan tujuan sejati pertapaan Datu Mabrur!"
+• Jika Kurang Tepat: "Coba cermati kembali Halaman 8, perhatikan tujuan sejati pertapaan Datu Mabrur!"
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
 - Kotak bingkai emas interaktif bertuliskan: "[IFRAME WORDWALL MISI 1: MATCH UP TOKOH & LATAR]".
-- Tombol navigasi di kanan bawah: "Selesai Misi 1 $\rightarrow$ Menuju Bab 2: Serangan Ikan Todak".
+- Tombol navigasi di kanan bawah: "Selesai Misi 1 $\rightarrow$ Menuju Cover Bab 2: Struktur Narasi & Kemustahilan Cerita (Halaman 11)".
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
@@ -404,41 +589,98 @@ Sahabat pembelajar, selamat datang di Misi Pertamamu! Buktikan ketajaman membaca
 
 ```
 ================================================================================
-HALAMAN 10: PEMBUKA BAB 2 (SERANGAN IKAN TODAK)
+HALAMAN 11: COVER BAB 2 (STRUKTUR NARASI & KEMUSTAHILAN CERITA)
 ================================================================================
-Bagian         : Bab 2 - Halaman Pembuka
+Bagian         : Bab 2 - Chapter Divider & Cover Pembuka
+Judul Layar    : BAB 2: STRUKTUR NARASI & KEMUSTAHILAN CERITA
+Sub-Tema       : Membedah Orientasi-Komplikasi & Menepis Amukan Ikan Todak Tanpa Dendam
+Tokoh Utama    : Datu Mabrur & Raja Ikan Todak
+Format Layout  : Poster Vertikal Penuh (Rasio 3:4), Tipografi Judul Bab Emas Mewah (Royal Gold #C89B3C) di Bagian Atas, Ilustrasi Dinamis Raja Ikan Todak Melompat Menyerang Karang dan Ditepis Perisai Lembut Datu Mabrur, Ornamen Bingkai Sasirangan Halus di Tepi Kanvas, dan Plakat Kutipan Mutiara Sastra Melayu Klasik di Bagian Bawah.
+
+[KONTEN TEKS & COPYWRITING]
+--------------------------------------------------------------------------------
+(Nomor & Judul Bab):
+BAB 2
+STRUKTUR NARASI & KEMUSTAHILAN CERITA
+
+(Sub-Judul Tematik / Fokus Cerita):
+"Membedah Orientasi-Komplikasi & Menepis Serangan Ikan Todak dengan Ketenangan Batin"
+
+(Kutipan Mutiara Hikayat / Prolog Puitis):
+> "Ombak garang tak dibalas dengan gelombang tandingan. Keteguhan hati laksana karang tegak, menepis amukan tanpa niat melukai, menundukkan amarah dengan welas asih."
+
+(Identitas Tokoh & Latar):
+• Tokoh Kunci : Datu Mabrur & Raja Ikan Todak (beserta kawanan prajurit todak)
+• Latar Tempat: Karang pertapaan di tengah laut yang bergolak
+• Nilai Luhur : Pengendalian diri, ketabahan menghadapi permusuhan, dan ksatria pantang membalas kejahatan
+
+[TATA LETAK VISUAL CANVA/FIGMA]
+--------------------------------------------------------------------------------
+- Kanvas: A4 Portrait (2480 x 3508 piksel).
+- Background: Latar poster penuh `CVR_Bab2_Serangan_Todak.png` (Rasio 3:4) dengan perpaduan warna royal indigo, toska elektrik, dan percikan busa ombak putih.
+- Area Atas (Negative Space): Nomor bab "BAB 2" beraksen font serif megah (*Cinzel Decorative* / *Cinzel* Bold) berwarna emas kencana (#C89B3C). Judul bab "AMUKAN PRAJURIT SAMUDRA" kapital tegas berjarak huruf proporsional.
+- Area Tengah: Ilustrasi visual aksi akrobatik megah Raja Ikan Todak melesat dari ombak toska, moncong gergaji permata menyala keemasan beradu lembut dengan busur perisai pelindung Datu Mabrur yang tenang tersenyum.
+- Area Bawah: Kotak plakat kutipan mutiara berlatar krem semi-transparan dengan garis batas ornamen sulur Banjar emas. Di pojok kanan bawah terdapat tombol CTA elegan: "Buka Babak 2: Pemantik & Kisah →".
+
+[FITUR INTERAKTIF HEYZINE]
+--------------------------------------------------------------------------------
+- Mode Tampilan: *Clean Flipbook Style* (halaman pembatas visual estetik yang memberi jeda kontemplatif sebelum membaca).
+- Navigasi Pintas: Tombol "Buka Babak 2: Pemantik & Kisah →" di pojok kanan bawah memiliki hyperlink internal langsung ke Halaman 12 (*Go to Page 12*).
+
+[KEBUTUHAN ASET & PROMPT GENERATOR]
+--------------------------------------------------------------------------------
+* Nama Aset   : CVR_Bab2_Serangan_Todak.png
+* Format & Rasio: PNG High-Res, Rasio 3:4 Portrait
+* Panduan Prompt: Merujuk pada file `Panduan_Prompt_Google_Flow_Aset_Hikayat.md` (Bagian 2 - CVR 02).
+================================================================================
+```
+
+```
+================================================================================
+HALAMAN 12: PEMBUKA BAB 2 (SERANGAN IKAN TODAK) & WIDGET PEMANTIK
+================================================================================
+Bagian         : Bab 2 - Halaman Pembuka & Pemantik Nalar
 Judul Layar    : CHAPTER 2: SERANGAN IKAN TODAK
 Fokus Cerita   : Serangan Mendadak Pasukan Todak, Pertarungan Laut, & Takluknya Raja Todak
-Format Layout  : Frame Video Animasi Interaktif di Tengah Atas, Prolog & Kutipan di Bawah
+Format Layout  : Frame Video Animasi Interaktif di Atas, Prolog Cerita di Tengah, Frame Sematan Pertanyaan Pemantik Duolingo-Style di Bawah
 
 [KONTEN TEKS & COPYWRITING]
 --------------------------------------------------------------------------------
 (Prolog Bab):
 Laut yang tadinya tenang tiba-tiba bergolak dahsyat! Dari kegelapan samudra, melesat ribuan moncong tajam bergerigi. Ikan Todak raksasa melompat ke udara, membelah ombak untuk menyerang sang petapa. Namun, apakah kesaktian Datu Mabrur dapat digoyahkan oleh prajurit samudra ini? Mari kita saksikan pertempurannya!
 
-(Petunjuk Tontonan Animasi):
-Klik tombol Play pada jendela video di bawah ini untuk menyaksikan visualisasi detik-detik serangan Ikan Todak!
+(Petunjuk Aktivitas Pembuka Bab 2):
+1. Klik tombol Play pada jendela video di bawah ini untuk menyaksikan visualisasi detik-detik serangan Ikan Todak!
+2. Jawablah Pertanyaan Pemantik Interaktif Bab 2 di bawah ini sebelum kamu membaca teks pertempuran!
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
-- Area pemutar video horizontal diapit ornamen tiang kuno kerajaan.
-- Teks prolog di bagian bawah dengan bingkai pita kertas tua.
+- Area pemutar video horizontal diapit ornamen tiang kuno kerajaan di bagian atas.
+- Teks prolog di bagian tengah dengan bingkai pita kertas tua.
+- Di bawah: Kotak bingkai kosong bergaris emas elegan berlabel "[AREA SEMATAN WIDGET HTML PEMANTIK INTERAKTIF BAB 2]".
+- Di sudut kanan bawah: Tombol navigasi (CTA): "Mulai Membaca Kisah Bab 2 → (Halaman 13)".
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
-- **Fitur Video Embed Heyzine**: Sematkan video loop / MP4 animasi serangan Ikan Todak (durasi 20 detik, menampilkan ikan todak melompat dari laut dan terpental oleh perisai gaib Datu Mabrur).
+- **Fitur Video Embed Heyzine**: Sematkan video loop / MP4 animasi serangan Ikan Todak (`VID_Animasi_Serangan_Todak.mp4`, durasi 20 detik, menampilkan ikan todak melompat dari laut dan terpental oleh perisai gaib Datu Mabrur).
 - Ikon audio pendamping: Efek cipratan air dan desisan ikan todak.
+- **Fitur Iframe Embed Heyzine (Pertanyaan Pemantik Interaktif Bab 2)**:
+  * File Sematan: `widgets/pemantik-interaktif/pemantik_bab2.html`
+  * Format Embed: `<iframe src="widgets/pemantik-interaktif/pemantik_bab2.html" width="100%" height="280" frameborder="0" style="border-radius:12px; border:1.5px solid #C89B3C;"></iframe>`
+  * Fungsi: Mengasah nalar reflektif siswa dalam membedah konflik ruang hidup (merespons serangan dengan ketenangan & kearifan vs balas dendam kekerasan) dengan umpan balik instan Duolingo-style.
+- Link internal ke Halaman 13: Tombol "Mulai Membaca Kisah Bab 2 →" (Go to Page 13).
 
 [KEBUTUHAN ASET & PROMPT GENERATOR]
 --------------------------------------------------------------------------------
 * Nama Aset   : VID_Animasi_Serangan_Todak.mp4 / GIF_Serangan_Todak.gif
-* Prompt AI Video / Visual : "Cinematic 3D animation, a giant ferocious swordfish sawfish flying out of raging sea waves, attacking an ascetic wise old mystic sitting calmly on sea rock, a magical shimmering golden energy shield repels the fish, dynamic water splash particles, dark stormy dramatic ocean, fantasy folklore art style --ar 16:9"
+* Prompt AI Video / Visual : "Delightful 2D animated cartoon sequence in Klaus and Disney style, a charismatic turquoise sawfish leaping acrobatically out of curling turquoise waves toward wise elderly Indonesian sage Datu Mabrur wearing traditional Banjar Laung headdress and indigo tunic, gentle golden bubble shield repelling the fish harmlessly with sparkling water droplets, friendly Indonesian folklore action, zero 3D CGI, zero greek toga, zero bare chest --ar 16:9"
+* Aset Widget : `widgets/pemantik-interaktif/pemantik_bab2.html`
 ================================================================================
 ```
 
 ```
 ================================================================================
-HALAMAN 11: TEKS CERITA BAB 2 (PERTEMPURAN & DIALOG DENGAN RAJA TODAK)
+HALAMAN 13: TEKS CERITA BAB 2 (PERTEMPURAN & DIALOG DENGAN RAJA TODAK)
 ================================================================================
 Bagian         : Bab 2 - Naskah Cerita
 Judul Layar    : Teks Kisah: Amukan Prajurit Samudra
@@ -471,7 +713,7 @@ Ikan itu terpelanting dan jatuh di karang. Setelah jatuh ke air, ikan itu menyer
 
 ```
 ================================================================================
-HALAMAN 12: KOTAK BEDAH MATERI SASTRA BAB 2
+HALAMAN 14: KOTAK BEDAH MATERI SASTRA BAB 2
 ================================================================================
 Bagian         : Bab 2 - Materi Inti Kurikulum
 Judul Layar    : Ruang Sastra: Membedah Struktur Konflik & Kemustahilan Hikayat
@@ -495,7 +737,7 @@ Format Layout  : Infografis Diagram Alur Cerita & Tabel Identifikasi Karakterist
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
-- Diagram garis panah evolusi struktur alur cerpen/hikayat: Orientasi $\rightarrow$ Komplikasi $\rightarrow$ Evaluasi $\rightarrow$ Resolusi $\rightarrow$ Koda.
+- Diagram garis panah evolusi struktur alur hikayat: Orientasi $\rightarrow$ Komplikasi $\rightarrow$ Resolusi $\rightarrow$ Koda.
 - Kotak perbandingan: "Fakta Dunia Nyata vs Kemustahilan Hikayat".
 
 [FITUR INTERAKTIF HEYZINE]
@@ -506,7 +748,7 @@ Format Layout  : Infografis Diagram Alur Cerita & Tabel Identifikasi Karakterist
 
 ```
 ================================================================================
-HALAMAN 13: AKTIVITAS INTERAKTIF: MISI 2 & 3 (KONFLIK & KEMUSTAHILAN)
+HALAMAN 15: AKTIVITAS INTERAKTIF: MISI 2 & 3 (KONFLIK & KEMUSTAHILAN)
 ================================================================================
 Bagian         : Bab 2 - Evaluasi Gamifikasi Interaktif
 Judul Layar    : MISI 2 & 3: DETEKTIF KONFLIK & KEMUSTAHILAN
@@ -538,7 +780,7 @@ Jadilah detektif sastra yang jeli! Uji pemahamanmu mengenai konflik dan bukti ke
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
 - Bingkai Iframe Game Wordwall / Educaplay "Quiz Show".
-- Tombol navigasi lanjut ke Halaman 14 (Bab 3).
+- Tombol navigasi lanjut ke Halaman 16 (Cover Bab 3).
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
@@ -549,40 +791,98 @@ Jadilah detektif sastra yang jeli! Uji pemahamanmu mengenai konflik dan bukti ke
 
 ```
 ================================================================================
-HALAMAN 14: PEMBUKA BAB 3 (SA-IJAAN: SEIA SEKATA)
 ================================================================================
-Bagian         : Bab 3 - Halaman Pembuka
+HALAMAN 16: COVER BAB 3 (UNSUR INTRINSIK & KARAKTER TOKOH)
+================================================================================
+Bagian         : Bab 3 - Chapter Divider & Cover Pembuka
+Judul Layar    : BAB 3: UNSUR INTRINSIK & KARAKTER TOKOH
+Sub-Tema       : Menelaah Perwatakan, Latar, & Makna Luhur Perjanjian Suci Sa-Ijaan
+Tokoh Utama    : Datu Mabrur & Raja Ikan Todak (Sahabat Ikrar)
+Format Layout  : Poster Vertikal Penuh (Rasio 3:4), Tipografi Judul Bab Emas Mewah (Royal Gold #C89B3C) di Bagian Atas, Ilustrasi Penuh Kehangatan Datu Mabrur Mengobati Raja Todak dengan Kilau Bintang Emas Kesembuhan di Atas Karang, Ornamen Bingkai Sasirangan Halus di Tepi Kanvas, dan Plakat Kutipan Mutiara Sastra Melayu Klasik di Bagian Bawah.
+
+[KONTEN TEKS & COPYWRITING]
+--------------------------------------------------------------------------------
+(Nomor & Judul Bab):
+BAB 3
+UNSUR INTRINSIK & KARAKTER TOKOH
+
+(Sub-Judul Tematik / Fokus Cerita):
+"Menelaah Perwatakan Tokoh, Latar Sastra, & Ikrar Suci Sa-Ijaan"
+
+(Kutipan Mutiara Hikayat / Prolog Puitis):
+> "Musuh yang tertunduk diangkat menjadi sahabat. Sebutir kata ikrar lebih kokoh dari baja, diikat sumpah suci penghuni daratan dan samudra: Sa-Ijaan, seiring sejalan, seia sekata."
+
+(Identitas Tokoh & Latar):
+• Tokoh Kunci : Datu Mabrur & Raja Ikan Todak
+• Latar Tempat: Karang pertapaan saat senja temaram bernuansa damai
+• Nilai Luhur : Integritas janji, welas asih tanpa pamrih harta, dan kesetaraan persaudaraan
+
+[TATA LETAK VISUAL CANVA/FIGMA]
+--------------------------------------------------------------------------------
+- Kanvas: A4 Portrait (2480 x 3508 piksel).
+- Background: Latar poster penuh `CVR_Bab3_Ikrar_Sahabat.png` (Rasio 3:4) dengan kehangatan warna peach, amber sunset, dan toska laut tenang.
+- Area Atas (Negative Space): Nomor bab "BAB 3" beraksen font serif megah (*Cinzel Decorative* / *Cinzel* Bold) berwarna emas kencana (#C89B3C). Judul bab "UNSUR INTRINSIK & KARAKTER TOKOH" kapital tegas berjarak huruf proporsional.
+- Area Tengah: Ilustrasi visual Datu Mabrur berlutut ramah mengusap sirip Raja Ikan Todak; pendaran magis bintang-bintang keemasan memancar lembut menyembuhkan luka, dikelilingi todak-todak cilik yang tersenyum lega.
+- Area Bawah: Kotak plakat kutipan mutiara berlatar krem semi-transparan dengan garis batas ornamen sulur Banjar emas. Di pojok kanan bawah terdapat tombol CTA elegan: "Buka Babak 3: Pemantik & Kisah →".
+
+[FITUR INTERAKTIF HEYZINE]
+--------------------------------------------------------------------------------
+- Mode Tampilan: *Clean Flipbook Style* (halaman pembatas visual estetik yang memberi jeda kontemplatif sebelum membaca).
+- Navigasi Pintas: Tombol "Buka Babak 3: Pemantik & Kisah →" di pojok kanan bawah memiliki hyperlink internal langsung ke Halaman 17 (*Go to Page 17*).
+
+[KEBUTUHAN ASET & PROMPT GENERATOR]
+--------------------------------------------------------------------------------
+* Nama Aset   : CVR_Bab3_Ikrar_Sahabat.png
+* Format & Rasio: PNG High-Res, Rasio 3:4 Portrait
+* Panduan Prompt: Merujuk pada file `Panduan_Prompt_Google_Flow_Aset_Hikayat.md` (Bagian 2 - CVR 03).
+================================================================================
+```
+
+```
+================================================================================
+HALAMAN 17: PEMBUKA BAB 3 (SA-IJAAN: SEIA SEKATA) & WIDGET PEMANTIK
+================================================================================
+Bagian         : Bab 3 - Halaman Pembuka & Pemantik Nalar
 Judul Layar    : CHAPTER 3: SA-IJAAN: SEIA SEKATA
 Fokus Cerita   : Belas Kasih Datu Mabrur, Pengobatan Raja Todak, & Sumpah Janji Suci
-Format Layout  : Ilustrasi Sentral Datu Mabrur Mengusap Ikan Todak, Audio Dialog Tersemat
+Format Layout  : Ilustrasi Sentral Datu Mabrur Mengusap Ikan Todak di Atas, Prolog Cerita di Tengah, Frame Sematan Pertanyaan Pemantik Duolingo-Style di Bawah
 
 [KONTEN TEKS & COPYWRITING]
 --------------------------------------------------------------------------------
 (Prolog Bab):
 Kekuatan sejati bukanlah tentang menindas yang kalah, melainkan kemampuan untuk memaafkan dan mengulurkan tangan pertolongan. Di atas karang berdarah, sebuah perjanjian luhur terukir antara manusia dan penguasa laut—sebuah ikrar yang kelak melahirkan semboyan abadi: *Sa-Ijaan, Seiring Sejalan, Seia Sekata!*
 
-(Audio Pengantar Tokoh):
-Dengarkan percakapan mengharukan saat Datu Mabrur menyembuhkan luka Raja Ikan Todak dan mengikat janji suci antar-makhluk ciptaan Tuhan.
+(Petunjuk Aktivitas Pembuka Bab 3):
+1. Dengarkan percakapan mengharukan saat Datu Mabrur menyembuhkan luka Raja Ikan Todak dengan menekan tombol Audio!
+2. Jawablah Pertanyaan Pemantik Interaktif Bab 3 di bawah ini sebelum menelusuri naskah ikrar damai!
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
 - Ilustrasi Datu Mabrur berlutut lembut melepaskan ikan todak dari jepitan karang, tangan kanannya memancarkan cahaya hangat penyembuhan.
 - Latar langit senja merona merah keemasan.
+- Di bawah: Kotak bingkai kosong bergaris emas elegan berlabel "[AREA SEMATAN WIDGET HTML PEMANTIK INTERAKTIF BAB 3]".
+- Di sudut kanan bawah: Tombol navigasi (CTA): "Mulai Membaca Kisah Bab 3 → (Halaman 18)".
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
 - **Fitur Audio Player Heyzine**: Sematkan file `AUD_Perjanjian_SaIjaan.mp3` (Petikan gambus syahdu mengiringi sumpah setia Raja Ikan Todak dan ikrar Sa-Ijaan Datu Mabrur, durasi 50 detik).
+- **Fitur Iframe Embed Heyzine (Pertanyaan Pemantik Interaktif Bab 3)**:
+  * File Sematan: `widgets/pemantik-interaktif/pemantik_bab3.html`
+  * Format Embed: `<iframe src="widgets/pemantik-interaktif/pemantik_bab3.html" width="100%" height="280" frameborder="0" style="border-radius:12px; border:1.5px solid #C89B3C;"></iframe>`
+  * Fungsi: Mengajak siswa merefleksikan kekuatan belas kasih (*compassion*) dan rekonsiliasi dibanding dendam kesumat, dengan umpan balik reflektif instan Duolingo-style.
+- Link internal ke Halaman 18: Tombol "Mulai Membaca Kisah Bab 3 →" (Go to Page 18).
 
 [KEBUTUHAN ASET & PROMPT GENERATOR]
 --------------------------------------------------------------------------------
 * Nama Aset   : IMG_Bab3_Penyembuhan_RajaTodak.png
-* Prompt AI   : "A touching historical fantasy painting, an ancient Indonesian venerable hermit Datu Mabrur gently releasing a wounded mythical swordfish with glowing scales from sharp jagged corals, soft warm healing light emanating from his hands, mutual respect, serene calm ocean sunset, fine oil painting masterpiece, classical folklore art style --ar 4:3"
+* Prompt AI   : "A touching and heartwarming 2D storybook cartoon scene, wise Indonesian sage Datu Mabrur in traditional Banjar headdress and modest indigo tunic gently healing the charismatic sawfish king with sparkling golden magical starlight, serene sea sunset, Klaus and Cartoon Saloon fairy tale style, zero greek toga, zero bare chest, zero caucasian features --ar 4:3"
+* Aset Widget : `widgets/pemantik-interaktif/pemantik_bab3.html`
 ================================================================================
 ```
 
 ```
 ================================================================================
-HALAMAN 15: TEKS CERITA BAB 3 (PERJANJIAN & KEAJAIBAN KESEMBUHAN)
+HALAMAN 18: TEKS CERITA BAB 3 (PERJANJIAN & KEAJAIBAN KESEMBUHAN)
 ================================================================================
 Bagian         : Bab 3 - Naskah Cerita
 Judul Layar    : Teks Kisah: Janji Suci di Ujung Karang
@@ -619,7 +919,7 @@ Datu Mabrur mengusap tubuh ikan itu dengan penuh kelembutan. Ajaib! Seketika itu
 
 ```
 ================================================================================
-HALAMAN 16: KOTAK BEDAH MATERI SASTRA BAB 3
+HALAMAN 19: KOTAK BEDAH MATERI SASTRA BAB 3
 ================================================================================
 Bagian         : Bab 3 - Materi Inti Kurikulum
 Judul Layar    : Ruang Sastra: Membedah Nilai Kehidupan (Moral & Sosial)
@@ -653,7 +953,7 @@ Nilai sosial berkaitan dengan interaksi antar-individu dalam menciptakan tatanan
 
 ```
 ================================================================================
-HALAMAN 17: AKTIVITAS INTERAKTIF: MISI 4 (MAKNA SA-IJAAN & NILAI HIDUP)
+HALAMAN 20: AKTIVITAS INTERAKTIF: MISI 4 (MAKNA SA-IJAAN & NILAI HIDUP)
 ================================================================================
 Bagian         : Bab 3 - Evaluasi Gamifikasi Interaktif
 Judul Layar    : MISI 4: TELAAH MAKNA SA-IJAAN & NILAI TOKOH
@@ -684,7 +984,7 @@ Buktikan kemampuan analisismu! Hubungkan tindakan para tokoh dengan nilai-nilai 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
 - Frame Widget Wordwall / Educaplay Game "Matching Pairs / Match-up".
-- Tombol navigasi lanjut ke Halaman 18 (Bab 4).
+- Tombol navigasi lanjut ke Halaman 21 (Cover Bab 4).
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
@@ -695,39 +995,97 @@ Buktikan kemampuan analisismu! Hubungkan tindakan para tokoh dengan nilai-nilai 
 
 ```
 ================================================================================
-HALAMAN 18: PEMBUKA BAB 4 (JANJI YANG MENJADI KENYATAAN)
 ================================================================================
-Bagian         : Bab 4 - Halaman Pembuka
+HALAMAN 21: COVER BAB 4 (KAIDAH KEBAHASAAN & KOSAKATA ARKAIS)
+================================================================================
+Bagian         : Bab 4 - Chapter Divider & Cover Pembuka
+Judul Layar    : BAB 4: KAIDAH KEBAHASAAN & KOSAKATA ARKAIS
+Sub-Tema       : Menganalisis Konjungsi Waktu, Kata Kerja Material, & Keajaiban Terbitnya Pulau Halimun
+Tokoh Utama    : Ribuan Rakyat Ikan Todak, Biota Laut Raksasa, & Samudra Raya
+Format Layout  : Poster Vertikal Penuh (Rasio 3:4), Tipografi Judul Bab Emas Mewah (Royal Gold #C89B3C) di Bagian Atas, Ilustrasi Kolosal Daratan Hijau Muncul dari Samudra Didorong Jutaan Makhluk Laut Ceria di Bawah Fajar Keemasan, Ornamen Bingkai Sasirangan Halus di Tepi Kanvas, dan Plakat Kutipan Mutiara Sastra Melayu Klasik di Bagian Bawah.
+
+[KONTEN TEKS & COPYWRITING]
+--------------------------------------------------------------------------------
+(Nomor & Judul Bab):
+BAB 4
+KAIDAH KEBAHASAAN & KOSAKATA ARKAIS
+
+(Sub-Judul Tematik / Fokus Cerita):
+"Menganalisis Konjungsi Waktu, Kosakata Arkais, & Keajaiban Gotong Royong Mengangkat Pulau"
+
+(Kutipan Mutiara Hikayat / Prolog Puitis):
+> "Beban seberat pulau terangkat ringan kala seisi samudra serentak berdayung. Kayuh baimbai, rakat mufakat, wujud nyata mukjizat persaudaraan dan kesetiaan janji suci."
+
+(Identitas Tokoh & Latar):
+• Tokoh Kunci : Raja Ikan Todak, Kawanan Biota Laut Raksasa (Paus, Penyu, Manta), & Datu Mabrur
+• Latar Tempat: Palung samudra dalam menuju permukaan laut berfajar emas
+• Nilai Luhur : Gotong royong (*kayuh baimbai*), kerja sama lintas keragaman, dan pengorbanan kolektif
+
+[TATA LETAK VISUAL CANVA/FIGMA]
+--------------------------------------------------------------------------------
+- Kanvas: A4 Portrait (2480 x 3508 piksel).
+- Background: Latar poster penuh `CVR_Bab4_Terbit_Halimun.png` (Rasio 3:4) dengan gradasi dramatis biru laut dalam, toska kristal, dan siraman cahaya matahari terbit.
+- Area Atas (Negative Space): Nomor bab "BAB 4" beraksen font serif megah (*Cinzel Decorative* / *Cinzel* Bold) berwarna emas kencana (#C89B3C). Judul bab "KAIDAH KEBAHASAAN & KOSAKATA ARKAIS" kapital tegas berjarak huruf proporsional.
+- Area Tengah: Ilustrasi visual kolosal pemandangan dasar laut hingga permukaan; daratan perbukitan hijau terangkat gagah dipikul jutaan punggung biota laut ceria sambil menyemburkan buih ombak kristal.
+- Area Bawah: Kotak plakat kutipan mutiara berlatar krem semi-transparan dengan garis batas ornamen sulur Banjar emas. Di pojok kanan bawah terdapat tombol CTA elegan: "Buka Babak 4: Pemantik & Kisah →".
+
+[FITUR INTERAKTIF HEYZINE]
+--------------------------------------------------------------------------------
+- Mode Tampilan: *Clean Flipbook Style* (halaman pembatas visual estetik yang memberi jeda kontemplatif sebelum membaca).
+- Navigasi Pintas: Tombol "Buka Babak 4: Pemantik & Kisah →" di pojok kanan bawah memiliki hyperlink internal langsung ke Halaman 22 (*Go to Page 22*).
+
+[KEBUTUHAN ASET & PROMPT GENERATOR]
+--------------------------------------------------------------------------------
+* Nama Aset   : CVR_Bab4_Terbit_Halimun.png
+* Format & Rasio: PNG High-Res, Rasio 3:4 Portrait
+* Panduan Prompt: Merujuk pada file `Panduan_Prompt_Google_Flow_Aset_Hikayat.md` (Bagian 2 - CVR 04).
+================================================================================
+```
+
+```
+================================================================================
+HALAMAN 22: PEMBUKA BAB 4 (JANJI YANG MENJADI KENYATAAN) & WIDGET PEMANTIK
+================================================================================
+Bagian         : Bab 4 - Halaman Pembuka & Pemantik Nalar
 Judul Layar    : CHAPTER 4: JANJI YANG MENJADI KENYATAAN
 Fokus Cerita   : Pengerahan Jutaan Penghuni Samudra, Pengangkatan Daratan, & Keajaiban Pulau
-Format Layout  : Ilustrasi Epik Jutaan Ikan Mendorong Daratan, Frame Animasi & Audio Gemuruh
+Format Layout  : Ilustrasi Epik Jutaan Ikan Mendorong Daratan di Atas, Prolog Cerita di Tengah, Frame Sematan Pertanyaan Pemantik Duolingo-Style di Bawah, Audio Gemuruh
 
 [KONTEN TEKS & COPYWRITING]
 --------------------------------------------------------------------------------
 (Prolog Bab):
 Janji ksatria bukanlah sekadar kata-kata manis di bibir. Menjelang tengah malam, dasar samudra bergetar hebat. Jutaan makhluk laut dari yang terkecil hingga raksasa bersatu padu, mengorbankan keringat dan tenaga demi menepati sumpah kepada sang petapa. Saksikanlah peristiwa ajaib terangkatnya daratan dari dasar samudra!
 
-(Petunjuk Tontonan & Suara):
-Putar audio gemuruh samudra untuk mendengar getaran dasar laut dan seruan serempak jutaan ikan laut!
+(Petunjuk Aktivitas Pembuka Bab 4):
+1. Putar audio gemuruh samudra untuk mendengar getaran dasar laut dan seruan serempak jutaan ikan laut!
+2. Jawablah Pertanyaan Pemantik Interaktif Bab 4 di bawah ini sebelum menyaksikan peristiwa ajaib terangkatnya daratan!
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
 - Ilustrasi pemandangan bawah laut megah: Ribuan paus, lumba-lumba, pari, penyu, dan ikan todak bersama-sama menyangga dan mendorong bongkahan daratan raksasa ke atas permukaan air laut.
+- Di bawah: Kotak bingkai kosong bergaris emas elegan berlabel "[AREA SEMATAN WIDGET HTML PEMANTIK INTERAKTIF BAB 4]".
+- Di sudut kanan bawah: Tombol navigasi (CTA): "Mulai Membaca Kisah Bab 4 → (Halaman 23)".
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
 - **Fitur Audio Player Heyzine**: Sematkan file `AUD_Gemuruh_Laut_Bab4.mp3` (Efek suara gemuruh getaran gempa bawah laut (*low bass rumble*) diiringi koor lantang seruan jutaan ikan: *"Sa-ijaan! Sa-ijaan! Saijaaan...!"*).
+- **Fitur Iframe Embed Heyzine (Pertanyaan Pemantik Interaktif Bab 4)**:
+  * File Sematan: `widgets/pemantik-interaktif/pemantik_bab4.html`
+  * Format Embed: `<iframe src="widgets/pemantik-interaktif/pemantik_bab4.html" width="100%" height="280" frameborder="0" style="border-radius:12px; border:1.5px solid #C89B3C;"></iframe>`
+  * Fungsi: Mengasah daya nalar kritis siswa mengenai nilai sinergi gotong royong dan kesetiaan menepati janji pengorbanan kolektif, dengan umpan balik reflektif instan Duolingo-style.
+- Link internal ke Halaman 23: Tombol "Mulai Membaca Kisah Bab 4 →" (Go to Page 23).
 
 [KEBUTUHAN ASET & PROMPT GENERATOR]
 --------------------------------------------------------------------------------
 * Nama Aset   : IMG_Bab4_Jutaan_Ikan_Mengangkat_Pulau.png
 * Prompt AI   : "An awe-inspiring epic underwater fantasy illustration, millions of bioluminescent fishes, giant whales, sawfishes, manta rays working together pushing an entire ancient landmass island upward from the dark sea bottom to the ocean surface, underwater majestic rays of divine light, grand collective effort, mythical Nusantara legend, cinematic dynamic composition --ar 4:3"
+* Aset Widget : `widgets/pemantik-interaktif/pemantik_bab4.html`
 ================================================================================
 ```
 
 ```
 ================================================================================
-HALAMAN 19: TEKS CERITA BAB 4 (GEMURUH SAMUDRA & KRONOLOGI TERBENTUKNYA DARATAN)
+HALAMAN 23: TEKS CERITA BAB 4 (GEMURUH SAMUDRA & KRONOLOGI TERBENTUKNYA DARATAN)
 ================================================================================
 Bagian         : Bab 4 - Naskah Cerita
 Judul Layar    : Teks Kisah: Bangkitnya Daratan dari Palung Samudra
@@ -760,7 +1118,7 @@ Bersamaan dengan terbitnya matahari pagi, daratan itu telah timbul sepenuhnya. B
 
 ```
 ================================================================================
-HALAMAN 20: KOTAK BEDAH MATERI SASTRA BAB 4
+HALAMAN 24: KOTAK BEDAH MATERI SASTRA BAB 4
 ================================================================================
 Bagian         : Bab 4 - Materi Inti Kurikulum
 Judul Layar    : Ruang Sastra: Menganalisis Kaidah Alur & Kebahasaan Hikayat
@@ -777,7 +1135,7 @@ Teks hikayat memiliki kepaduan alur yang diikat oleh penanda urutan kronologis p
 Peristiwa terangkatnya pulau mengajarkan bahwa tugas yang mustahil dikerjakan oleh satu individu akan menjadi nyata apabila dikerjakan secara kolektif dengan semangat persatuan (*solidaritas sosial*). Jutaan ikan tidak memandang perbedaan jenis dan ukuran; semuanya bersatu dalam komando yang sama demi menunaikan janji.
 
 (Pertanyaan Pengayaan Kritis):
-"Identifikasilah 3 kata kerja tindakan (verba material) yang terdapat pada paragraf kedua Halaman 19, lalu jelaskan fungsi kata tersebut dalam menggambarkan suasana cerita!"
+"Identifikasilah 3 kata kerja tindakan (verba material) yang terdapat pada paragraf kedua Halaman 23, lalu jelaskan fungsi kata tersebut dalam menggambarkan suasana cerita!"
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
@@ -788,7 +1146,7 @@ Peristiwa terangkatnya pulau mengajarkan bahwa tugas yang mustahil dikerjakan ol
 
 ```
 ================================================================================
-HALAMAN 21: AKTIVITAS INTERAKTIF: MISI 5 (BONGKAR URUTAN PERISTIWA)
+HALAMAN 25: AKTIVITAS INTERAKTIF: MISI 5 (BONGKAR URUTAN PERISTIWA)
 ================================================================================
 Bagian         : Bab 4 - Evaluasi Gamifikasi Interaktif
 Judul Layar    : MISI 5: TATA URUTAN LOGIKA PERISTIWA (DRAG-AND-DROP)
@@ -810,12 +1168,12 @@ Urutan Logis Kronologis: **Kartu A $\rightarrow$ Kartu B $\rightarrow$ Kartu C $
 
 (Umpan Balik Game):
 • Jika Urutan Tepat: "Sempurna! Kamu memahami alur kronologis pembentukan pulau berdasarkan hubungan sebab-akibat yang runtut!"
-• Jika Masih Keliru: "Perhatikan kembali penanda waktu pada Halaman 19, cari peristiwa mana yang menjadi penyebab awal pengerahan penghuni laut."
+• Jika Masih Keliru: "Perhatikan kembali penanda waktu pada Halaman 23, cari peristiwa mana yang menjadi penyebab awal pengerahan penghuni laut."
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
 - Area sematan game drag-and-drop Wordwall "Reorder / Unjumble".
-- Tombol navigasi lanjut ke Halaman 22 (Bab 5).
+- Tombol navigasi lanjut ke Halaman 26 (Cover Bab 5).
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
@@ -826,39 +1184,98 @@ Urutan Logis Kronologis: **Kartu A $\rightarrow$ Kartu B $\rightarrow$ Kartu C $
 
 ```
 ================================================================================
-HALAMAN 22: PEMBUKA BAB 5 (PULAU HALIMUN DAN PESAN HIKAYAT)
 ================================================================================
-Bagian         : Bab 5 - Halaman Pembuka
+HALAMAN 26: COVER BAB 5 (NILAI-NILAI KEHIDUPAN DALAM HIKAYAT)
+================================================================================
+Bagian         : Bab 5 - Chapter Divider & Cover Pembuka
+Judul Layar    : BAB 5: NILAI-NILAI KEHIDUPAN DALAM HIKAYAT
+Sub-Tema       : Menggali 5 Nilai Luhur Nusantara: Dari Legenda Bahari Menjadi Kompas Moral Kehidupan Nyata
+Tokoh Utama    : Generasi Penerus & Bayangan Luhur Datu Mabrur
+Format Layout  : Poster Vertikal Penuh (Rasio 3:4), Tipografi Judul Bab Emas Mewah (Royal Gold #C89B3C) di Bagian Atas, Ilustrasi Datu Mabrur Memandang Keindahan Bentang Alam Kotabaru Masa Depan Berlatar Mentari Pagi Keemasan, Ornamen Bingkai Sasirangan Halus di Tepi Kanvas, dan Plakat Kutipan Mutiara Sastra Melayu Klasik di Bagian Bawah.
+
+[KONTEN TEKS & COPYWRITING]
+--------------------------------------------------------------------------------
+(Nomor & Judul Bab):
+BAB 5
+NILAI-NILAI KEHIDUPAN DALAM HIKAYAT
+
+(Sub-Judul Tematik):
+"Menggali 5 Nilai Luhur Nusantara: Dari Legenda Bahari Menjadi Kompas Moral Kehidupan Nyata"
+
+(Kutipan Mutiara Hikayat / Prolog Puitis):
+> "Pulau Laut berdiri tegak bukan sekadar tanah tumpah darah, melainkan amanah suci agar daratan dan samudra senantiasa dijaga dalam harmoni keimanan, persaudaraan, dan damai lestari."
+
+(Identitas Tokoh & Latar):
+• Tokoh Kunci : Datu Mabrur (Penjaga Amanah) & Generasi Z Nusantara
+• Latar Tempat: Puncak perbukitan hijau Pulau Halimun menghadap Teluk Kotabaru
+• Nilai Luhur : Eksplorasi 5 Nilai Hikayat (Religi, Moral, Sosial, Budaya, Pendidikan) sebagai pedoman hidup bangsa
+
+[TATA LETAK VISUAL CANVA/FIGMA]
+--------------------------------------------------------------------------------
+- Kanvas: A4 Portrait (2480 x 3508 piksel).
+- Background: Latar poster penuh `CVR_Bab5_Nilai_Kehidupan.png` (Rasio 3:4) dengan perpaduan warna hijau zamrud perbukitan, toska laut berlayar kapal nelayan, dan siraman fajar emas cemerlang.
+- Area Atas (Negative Space): Nomor bab "BAB 5" beraksen font serif megah (*Cinzel Decorative* / *Cinzel* Bold) berwarna emas kencana (#C89B3C). Judul bab "NILAI-NILAI KEHIDUPAN DALAM HIKAYAT" kapital tegas berjarak huruf proporsional.
+- Area Tengah: Ilustrasi visual Datu Mabrur berdiri teduh di puncak bukit berbunga memandang panorama Pulau Laut/Kotabaru modern yang damai, dengan perahu nelayan tradisional dan lumba-lumba/todak yang melompat di kejauhan.
+- Area Bawah: Kotak plakat kutipan mutiara berlatar krem semi-transparan dengan garis batas ornamen sulur Banjar emas. Di pojok kanan bawah terdapat tombol CTA elegan: "Buka Babak 5: Pemantik & Kisah →".
+
+[FITUR INTERAKTIF HEYZINE]
+--------------------------------------------------------------------------------
+- Mode Tampilan: *Clean Flipbook Style* (halaman pembatas visual estetik yang memberi jeda kontemplatif sebelum membaca).
+- Navigasi Pintas: Tombol "Buka Babak 5: Pemantik & Kisah →" di pojok kanan bawah memiliki hyperlink internal langsung ke Halaman 27 (*Go to Page 27*).
+
+[KEBUTUHAN ASET & PROMPT GENERATOR]
+--------------------------------------------------------------------------------
+* Nama Aset   : CVR_Bab5_Nilai_Kehidupan.png
+* Format & Rasio: PNG High-Res, Rasio 3:4 Portrait
+* Panduan Prompt: Merujuk pada file `Panduan_Prompt_Google_Flow_Aset_Hikayat.md` (Bagian 2 - CVR 05).
+================================================================================
+```
+
+```
+================================================================================
+================================================================================
+HALAMAN 27: PEMBUKA BAB 5 (PULAU HALIMUN DAN PESAN HIKAYAT) & WIDGET PEMANTIK
+================================================================================
+Bagian         : Bab 5 - Halaman Pembuka & Pemantik Nalar
 Judul Layar    : CHAPTER 5: PULAU HALIMUN DAN PESAN ABADI
 Fokus Cerita   : Rasa Syukur Datu Mabrur, Penamaan Pulau Laut, & Simbol Abadi Sa-Ijaan Kotabaru
-Format Layout  : Ilustrasi Panorama Menakjubkan Pulau Halimun, Sumpah Selesai, Audio Penutup
+Format Layout  : Ilustrasi Panorama Menakjubkan Pulau Halimun di Atas, Prolog Cerita di Tengah, Frame Sematan Pertanyaan Pemantik Duolingo-Style di Bawah, Audio Penutup
 
 [KONTEN TEKS & COPYWRITING]
 --------------------------------------------------------------------------------
 (Prolog Bab):
 Kisah ini telah tiba di pelabuhan akhirnya. Di atas puncak bukit pulau yang baru terbit dari rahim laut, sang petapa memanjatkan doa syukur. Daratan yang diperjuangkan dengan ketabahan itu kini berdiri megah di bawah selimut kabut putih—dinamai Pulau Halimun atau Pulau Laut. Mari kita telusuri resolusi kisah serta warisan pesan luhurnya yang tetap hidup hingga hari ini!
 
-(Petunjuk Audio Penutup):
-Putar audio penutup untuk mendengarkan lantunan kidung hikmat penutup kisah dan refleksi keabadian sastra Nusantara!
+(Petunjuk Aktivitas Pembuka Bab 5):
+1. Putar audio penutup untuk mendengarkan lantunan kidung hikmat penutup kisah dan refleksi keabadian sastra Nusantara!
+2. Jawablah Pertanyaan Pemantik Interaktif Bab 5 di bawah ini sebelum merenungkan warisan nilai leluhur!
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
 - Lukisan pemandangan megah Pulau Halimun/Pulau Laut yang diselimuti kabut putih tipis (halimun), air laut zamrud jernih, dan ornamen lambang Kabupaten Kotabaru di sudut atas.
+- Di bawah: Kotak bingkai kosong bergaris emas elegan berlabel "[AREA SEMATAN WIDGET HTML PEMANTIK INTERAKTIF BAB 5]".
+- Di sudut kanan bawah: Tombol navigasi (CTA): "Mulai Membaca Kisah Bab 5 → (Halaman 28)".
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
 - **Fitur Audio Player Heyzine**: Sematkan file `AUD_Penutup_Bab5.mp3` (Petikan instrumen tradisional khas Banjar Panting diiringi vokal narasi penutup yang tenang dan berwibawa, durasi 50 detik).
+- **Fitur Iframe Embed Heyzine (Pertanyaan Pemantik Interaktif Bab 5)**:
+  * File Sematan: `widgets/pemantik-interaktif/pemantik_bab5.html`
+  * Format Embed: `<iframe src="widgets/pemantik-interaktif/pemantik_bab5.html" width="100%" height="280" frameborder="0" style="border-radius:12px; border:1.5px solid #C89B3C;"></iframe>`
+  * Fungsi: Mengontekstualisasikan kearifan lokal Sa-Ijaan ke dalam tantangan dunia nyata generasi Z yang individualis dengan umpan balik reflektif instan Duolingo-style.
+- Link internal ke Halaman 28: Tombol "Mulai Membaca Kisah Bab 5 →" (Go to Page 28).
 
 [KEBUTUHAN ASET & PROMPT GENERATOR]
 --------------------------------------------------------------------------------
 * Nama Aset   : IMG_Bab5_Pulau_Halimun_Megah.png
 * Prompt AI   : "A breathtaking aerial panorama painting of a lush green tropical mountainous island emerging from crystal clear turquoise ocean, wrapped in delicate white morning mist (halimun), fertile valleys and dramatic hills, sunrise rays, tranquil ocean waters, ancient Indonesian South Kalimantan landscape legend, majestic masterpiece --ar 4:3"
+* Aset Widget : `widgets/pemantik-interaktif/pemantik_bab5.html`
 ================================================================================
 ```
 
 ```
 ================================================================================
-HALAMAN 23: TEKS CERITA BAB 5 (RESOLUSI & ASAL-USUL PULAU LAUT)
+HALAMAN 28: TEKS CERITA BAB 5 (RESOLUSI & ASAL-USUL PULAU LAUT)
 ================================================================================
 Bagian         : Bab 5 - Naskah Cerita
 Judul Layar    : Teks Kisah: Berkah Ketabahan dan Lahirnya Pulau Laut
@@ -888,44 +1305,53 @@ Sebagai hikmah abadi dari kisah perjanjian suci tersebut, kata [Sa-Ijaan] dan la
 
 ```
 ================================================================================
-HALAMAN 24: KOTAK BEDAH MATERI SASTRA BAB 5
+HALAMAN 29: KOTAK BEDAH MATERI SASTRA BAB 5
 ================================================================================
 Bagian         : Bab 5 - Materi Inti Kurikulum
-Judul Layar    : Ruang Sastra: Membedah Resolusi, Koda, & Relevansi Masa Kini
-Format Layout  : Tatanan 3 Kartu Analisis: (1) Resolusi & Koda, (2) Nilai Religi & Budaya, (3) Relevansi Kekinian
+Judul Layar    : Ruang Sastra: Membedah Resolusi, Koda, & 5 Nilai Luhur Hikayat
+Format Layout  : Tatanan 3 Kartu Analisis: (1) Struktur Resolusi & Koda, (2) Bedah 5 Nilai Kehidupan Hikayat, (3) Relevansi Nilai Masa Kini
 
 [KONTEN TEKS & COPYWRITING]
 --------------------------------------------------------------------------------
 (1. Struktur Resolusi & Koda):
-• **Resolusi**: Tahap penyelesaian konflik saat Raja Todak menepati janji mengangkat pulau dan Datu Mabrur menerima pulau impiannya dengan selamat.
-• **Koda**: Bagian akhir cerita yang memuat pesan moral atau perubahan nasib tokoh. Dalam hikayat ini, kodanya adalah asal-usul penamaan Pulau Laut dan penetapan nilai Sa-Ijaan sebagai pedoman hidup masyarakat Kotabaru.
+• **Resolusi**: Tahap penyelesaian konflik saat Raja Ikan Todak menepati sumpah janjinya mengerahkan jutaan penghuni samudra untuk mendorong daratan dari dasar laut, dan Datu Mabrur menerima pulau impiannya dengan selamat.
+• **Koda**: Bagian akhir cerita yang memuat pesan moral atau perubahan keadaan tokoh. Dalam hikayat ini, kodanya adalah asal-usul toponimi Pulau Halimun/Pulau Laut dan penetapan nilai *Sa-Ijaan* serta lambang ikan todak sebagai pedoman hidup abadi masyarakat Kabupaten Kotabaru.
 
-(2. Nilai Religi & Nilai Budaya):
-• **Nilai Religi**: Datu Mabrur tidak menyombongkan kesaktiannya, melainkan langsung bersujud memanjatkan syukur kepada Sang Pencipta karena meyakini segala keajaiban terjadi semata-mata atas izin Tuhan.
-• **Nilai Budaya**: Pelestarian tradisi lisan sebagai sarana penjelas asal-usul toponimi (asal-usul nama geografis suatu daerah) dan lambang persatuan suku bangsa di Nusantara.
+(2. Eksplorasi 5 Nilai Kehidupan dalam Hikayat):
+• **a. Nilai Religi**: Datu Mabrur senantiasa bersemadi memanjatkan doa kepada Tuhan dan langsung bersujud syukur atas kemunculan pulau. Ia meyakini segala keajaiban terjadi semata-mata atas izin dan kekuasaan Sang Maha Pencipta.
+• **b. Nilai Moral**: Datu Mabrur menolak godaan kemewahan materi pribadi (istana emas bawah laut) demi memperjuangkan kemaslahatan generasi penerus; serta sikap ksatria Raja Todak yang menepati janji walau terluka.
+• **c. Nilai Sosial**: Semangat *Sa-Ijaan* (seia sekata, seiring sejalan, rakat mufakat, bantu membantu, bahu membahu) dan gotong royong jutaan ikan dari berbagai jenis yang bersatu padu tanpa pamrih.
+• **d. Nilai Budaya**: Pelestarian tradisi lisan sebagai sarana penjelas asal-usul nama geografis (toponimi Pulau Laut/Halimun) dan penetapan lambang kehormatan resmi daerah Kotabaru.
+• **e. Nilai Pendidikan**: Ketabahan dalam menghadapi ujian batin, sikap pantang menyerah, kesetiaan memegang teguh amanah janji, dan kepedulian terhadap masa depan anak cucu bangsa.
 
 (3. Relevansi Nilai dengan Kehidupan Generasi Z Saat Ini):
-Di era modern yang serba individualis dan kompetitif, nilai *Sa-Ijaan* (seia-sekata, rakat mufakat, saling bantu) menjadi pengingat berharga bahwa keberhasilan besar dalam masyarakat, organisasi sekolah, maupun bangsa hanya dapat diraih melalui kerja sama dan kepercayaan timbal balik (*trust and synergy*).
+Di era modern yang serba individualis dan digital, nilai luhur *Sa-Ijaan* menjadi kompas moral bahwa kesuksesan besar dalam masyarakat, lingkungan sekolah, maupun bangsa hanya dapat diwujudkan melalui kerja sama, kepercayaan timbal balik, dan gotong royong tulus (*mutual trust and synergy*).
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
 - Tatanan 3 kartu horizontal berlatar krem pastel dengan aksen pita emas di bagian atas.
 - Ikon cermin refleksi di bagian bawah.
+- Tombol navigasi lanjut ke Aktivitas Detektif Hikayat (Halaman 30).
+
+[FITUR INTERAKTIF HEYZINE]
+--------------------------------------------------------------------------------
+- Tombol CTA: "Lanjut ke Tantangan Detektif Hikayat →" dengan tautan internal ke Halaman 30.
 ================================================================================
 ```
 
 ```
 ================================================================================
-HALAMAN 25: AKTIVITAS LITERASI: DETEKTIF HIKAYAT & KEARIFAN LOKAL
 ================================================================================
-Bagian         : Bab 5 - Pengayaan Budaya & Literasi Sastra
+HALAMAN 30: AKTIVITAS LITERASI: DETEKTIF HIKAYAT & KEARIFAN NUSANTARA (BAB 5)
+================================================================================
+Bagian         : Bab 5 - Pengayaan Budaya, Literasi & Evaluasi Amanat
 Judul Layar    : AKTIVITAS: DETEKTIF HIKAYAT & KEARIFAN NUSANTARA
-Format Layout  : Lembar Studi Kasus Budaya Interaktif, Kotak Pertanyaan Terbuka, Tautan Artikel
+Format Layout  : Lembar Studi Kasus Budaya Interaktif, Kotak Pertanyaan Terbuka, Tautan Artikel & Video Dokumenter
 
 [KONTEN TEKS & COPYWRITING]
 --------------------------------------------------------------------------------
 (Pengantar Aktivitas):
-Hikayat bukan sekadar dongeng masa lalu yang usang, melainkan akar kebudayaan yang mengalir dalam darah masyarakatnya. Amatilah fakta budaya berikut dan temukan kaitannya dengan naskah hikayat yang telah kamu pelajari!
+Hikayat bukan sekadar dongeng masa lalu yang usang, melainkan akar kebudayaan luhur yang mengalir dalam nadi peradaban masyarakatnya. Amatilah fakta budaya berikut dan temukan kaitannya dengan naskah hikayat yang telah kamu pelajari!
 
 (Fakta Budaya Nyata Kotabaru):
 1. **Kabupaten Kotabaru** beribu kota di Pulau Laut, Kalimantan Selatan.
@@ -934,57 +1360,25 @@ Hikayat bukan sekadar dongeng masa lalu yang usang, melainkan akar kebudayaan ya
 
 (Tantangan Detektif Literasi):
 1. Mengapa masyarakat Kotabaru memilih mengabadikan sosok Ikan Todak dalam lambang daerahnya, padahal di awal cerita ikan tersebut menyerang tokoh utama?
-2. Bagaimana makna semboyan *Sa-Ijaan* dapat kamu terapkan dalam menyelesaikan konflik antarteman di kelasmu?
+2. Bagaimana makna semboyan *Sa-Ijaan* dapat kamu terapkan dalam menyelesaikan konflik antarteman di kelas atau lingkungan sekitarmu?
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
 - Infografis komparasi berdampingan: Foto asli tugu todak di Kotabaru vs Lukisan legenda di modul.
 - Tombol "Tulis Analisis Cepat" di bawah pertanyaan.
+- Tombol CTA di sudut kanan bawah: "Buka Lembar Refleksi Diri → (Halaman 31)".
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
-- Link Eksternal / Video Dokumenter: Hotspot tautan ke video singkat YouTube tentang pesona keindahan Pulau Laut Kotabaru Kalimantan Selatan.
+- **Link Eksternal / Video Dokumenter**: Hotspot tautan ke video singkat YouTube tentang pesona keindahan Pulau Laut Kotabaru Kalimantan Selatan.
+- **Navigasi Pintas**: Tombol "Buka Lembar Refleksi Diri →" langsung membuka Halaman 31 (*Go to Page 31*).
 ================================================================================
 ```
 
 ```
 ================================================================================
-HALAMAN 26: FINAL MISSION: BONGKAR RAHASIA HIKAYAT (POST-TEST INTERAKTIF)
 ================================================================================
-Bagian         : Evaluasi Hasil Belajar (Asesmen Sumatif Akhir)
-Judul Layar    : FINAL MISSION: BONGKAR RAHASIA HIKAYAT (POST-TEST)
-Format Layout  : Teks Pengantar di Atas, Frame Widget Iframe Quizizz / Wordwall 20 Soal (65% Layar), Petunjuk Skor di Bawah
-
-[KONTEN TEKS & COPYWRITING]
---------------------------------------------------------------------------------
-(Teks Pengantar Misi Akhir):
-Selamat! Kamu telah menyelesaikan seluruh perjalanan membaca dari Bab 1 hingga Bab 5. Sekarang saatnya menguji seluruh pemahamanmu mengenai karakteristik, struktur, unsur intrinsik, nilai-nilai, dan kaidah kebahasaan Hikayat Sa-Ijaan dan Ikan Todak!
-
-(Petunjuk Asesmen Akhir):
-1. Masukkan nama lengkap dan kelasmu pada jendela kuis di bawah ini.
-2. Jawablah 20 butir soal pilihan ganda dengan teliti dan jujur.
-3. Kuis ini memuat timer santai dan skor otomatis di akhir pengerjaan.
-
-(Kriteria Pencapaian Hasil Belajar):
-• **Skor 90 – 100**: *Luar Biasa! Kamu adalah Penjelajah Sastra Sejati yang menguasai nilai dan struktur hikayat dengan sempurna!*
-• **Skor 70 – 89**: *Bagus Sekali! Pemahamanmu sudah sangat mantap. Pelajari kembali 1-2 bagian materi untuk menyempurnakan ilmumu.*
-• **Skor < 70**: *Tetap Semangat! Jangan berkecil hati. Buka kembali bab cerita dan kotak materi yang belum kamu kuasai, lalu coba lagi!*
-
-[TATA LETAK VISUAL CANVA/FIGMA]
---------------------------------------------------------------------------------
-- Area kosong besar bergaris bingkai emas interaktif: "[AREA SEMATAN IFRAME GAME EVALUASI AKHIR QUIZIZZ / WORDWALL]".
-- Di sudut kanan bawah: QR Code dan Tombol Link Cadangan: "Akses Kuis via Browser".
-
-[FITUR INTERAKTIF HEYZINE]
---------------------------------------------------------------------------------
-- **Iframe Embed Heyzine**: Sematan widget game kuis evaluasi 20 butir soal (mengambil 20 butir soal lengkap pada Bank Soal Post-Test).
-- Sistem feedback instan per jawaban dan rekapitulasi nilai otomatis.
-================================================================================
-```
-
-```
-================================================================================
-HALAMAN 27: LEMBAR REFLEKSI DIRI SISWA & RUBRIK PENILAIAN DIRI
+HALAMAN 31: LEMBAR REFLEKSI DIRI SISWA & RUBRIK PENILAIAN DIRI
 ================================================================================
 Bagian         : Evaluasi Afektif & Reflektif Siswa
 Judul Layar    : Cermin Jiwa: Refleksi Pengalaman Belajar Sastra
@@ -1004,7 +1398,7 @@ Jawablah pertanyaan-pertanyaan berikut dengan jujur berdasarkan pengalaman batin
 • [ ] Saya mampu membedakan bagian orientasi, komplikasi, dan resolusi.
 • [ ] Saya mampu menemukan minimal 2 peristiwa mustahil dalam hikayat.
 • [ ] Saya memahami makna filosofis semboyan *Sa-Ijaan*.
-• [ ] Saya telah menuntaskan Misi 1 s.d. Misi 5 serta Kuis Evaluasi Akhir.
+• [ ] Saya telah menuntaskan Misi 1 s.d. Misi 5 serta Pertanyaan Pemantik Interaktif di setiap bab.
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
@@ -1018,11 +1412,11 @@ Jawablah pertanyaan-pertanyaan berikut dengan jujur berdasarkan pengalaman batin
 
 ```
 ================================================================================
-HALAMAN 28: KUNCI JAWABAN MISI & PEMBAHASAN SOAL EVALUASI
+HALAMAN 32: KUNCI JAWABAN MISI GAMIFIKASI 1 – 5
 ================================================================================
 Bagian         : Kunci & Umpan Balik Belajar
-Judul Layar    : Kunci Jawaban Misi & Pembahasan Asesmen
-Format Layout  : Tabel Rapi 2 Kolom dengan Penjelasan Pedagogis Ringkas
+Judul Layar    : Kunci Jawaban Misi Gamifikasi 1 – 5
+Format Layout  : Tabel Rapi Bergaris Emas dengan Penjelasan Pedagogis Ringkas
 
 [KONTEN TEKS & COPYWRITING]
 --------------------------------------------------------------------------------
@@ -1033,9 +1427,7 @@ Format Layout  : Tabel Rapi 2 Kolom dengan Penjelasan Pedagogis Ringkas
 • **Misi 4 (Makna Sa-Ijaan)**: Bermakna seiring sejalan, seia sekata, saling membantu, rakat mufakat, dan bahu-membahu (Nilai Sosial & Moral).
 • **Misi 5 (Urutan Alur)**: Urutan kronologis benar: (2) Raja Todak mengerahkan penghuni laut $\rightarrow$ (3) Jutaan ikan mendorong daratan sambil berseru Sa-Ijaan $\rightarrow$ (1) Daratan muncul perlahan ke permukaan $\rightarrow$ (4) Terbentuk Pulau Halimun nan subur makmur.
 
-(Kunci Ringkas Evaluasi 20 Soal Post-Test):
-1. B | 2. C | 3. C | 4. B | 5. B | 6. C | 7. A | 8. A | 9. C | 10. D
-11. B | 12. C | 13. A | 14. C | 15. B | 16. C | 17. A | 18. B | 19. B | 20. B
+*(Catatan Akademik & Riset R&D: Kunci Jawaban Lengkap & Pembahasan 20 Butir Soal Post-Test serta Instrumen Evaluasi Sumatif Skripsi diarsipkan secara khusus pada dokumen lampiran tersendiri: `docs/skripsi/LAMPIRAN_INSTRUMEN_EVALUASI_PRE_POST_TEST.md`)*
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
@@ -1049,10 +1441,10 @@ Format Layout  : Tabel Rapi 2 Kolom dengan Penjelasan Pedagogis Ringkas
 
 ```
 ================================================================================
-HALAMAN 29: GLOSARIUM KOSAKATA ARKAIS MELAYU KLASIK
+HALAMAN 33: GLOSARIUM KOSAKATA ARKAIS MELAYU KLASIK & BANJAR
 ================================================================================
 Bagian         : Suplemen Kosakata & Kaidah Bahasa
-Judul Layar    : Glosarium Bahasa Arkais Melayu Klasik
+Judul Layar    : Glosarium Bahasa Arkais Melayu Klasik & Banjar
 Format Layout  : Tatanan Alfabetis 2 Kolom, Dilengkapi Contoh Pemakaian dalam Kalimat
 
 [KONTEN TEKS & COPYWRITING]
@@ -1080,7 +1472,7 @@ Format Layout  : Tatanan Alfabetis 2 Kolom, Dilengkapi Contoh Pemakaian dalam Ka
 
 ```
 ================================================================================
-HALAMAN 30: DAFTAR PUSTAKA & COVER BELAKANG (SAMPUL BELAKANG)
+HALAMAN 34: DAFTAR PUSTAKA & COVER BELAKANG (SAMPUL BELAKANG)
 ================================================================================
 Bagian         : Penutup & Sampul Belakang
 Judul Layar    : Sumber Rujukan & Sampul Belakang Modul
@@ -1095,7 +1487,7 @@ Format Layout  : Bagian Atas: Daftar Pustaka Standar APA; Bagian Bawah: Blurb Si
 • Tim Penyusun Cerita Rakyat Kotabaru. (2018). *Kumpulan Cerita Rakyat Sa-ijaan dan Legenda Pulau Laut Kalimantan Selatan*. Kotabaru: Dinas Kebudayaan dan Pariwisata.
 
 (Sinopsis Sampul Belakang):
-"Di atas batu karang yang diempas badai, keteguhan seorang petapa diuji oleh amukan prajurit samudra. Melalui janji luhur dan belas kasih, permusuhan berubah menjadi keajaiban gotong royong terangkatnya daratan dari dasar laut. E-Modul Interaktif ini mengajakmu menjelajahi warisan sastra luhur Melayu klasik dengan kekayaan multimedia audio, animasi visual, dan misi gamifikasi yang memikat!"
+"Di atas batu karang yang diempas badai, keteguhan seorang petapa diuji oleh amukan prajurit samudra. Melalui janji luhur dan belas kasih, permusuhan berubah menjadi keajaiban gotong royong terangkatnya daratan dari dasar laut. E-Modul Interaktif ini mengajakmu menjelajahi warisan sastra luhur Melayu klasik dengan kekayaan multimedia audio, animasi visual, misi gamifikasi, dan pertanyaan pemantik interaktif yang memikat!"
 
 (Identitas Penutup):
 Diterbitkan untuk Tujuan Pembelajaran & Penelitian Inovasi Pendidikan Sastra
@@ -1108,13 +1500,18 @@ Didukung oleh Platform Flipbook Heyzine
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
-- Tautan interaktif penutup: "Bagikan Modul Ini (Share Flipbook Link)" dan "Kembali ke Cover Depan".
+- Tautan interaktif penutup: "Bagikan Modul Ini (Share Flipbook Link)" dan "Kembali ke Cover Depan (Halaman 1)".
 ================================================================================
 ```
 
 ---
 
-## 4. MASTER BANK SOAL LENGKAP (REKONSTRUKSI HOTS BERBASIS KUTIPAN TEKS) & SISTEM FEEDBACK OTOMATIS
+## 4. MASTER BANK SOAL LENGKAP (ARSIP INSTRUMEN PENELITIAN SKRIPSI & LAMPIRAN R&D)
+
+> [!NOTE]
+> Sesuai arahan revisi dosen pembimbing, instrumen evaluasi formal Pre-Test (10 butir) dan Post-Test (20 butir pilihan ganda + 2 butir esai analitis HOTS) tidak dicantumkan pada lembaran flipbook siswa agar pengalaman belajar lebih engaging, interaktif, dan tidak membebani mental siswa. Sebagai gantinya, modul siswa dilengkapi dengan 5 Pertanyaan Pemantik Interaktif (HTML Embed) pada setiap awal bab serta 5 Misi Gamifikasi Formatif Wordwall.
+>
+> Seluruh instrumen evaluasi sumatif skripsi, matriks taksonomi Bloom (C3–C5), rubrik penskoran esai analitis, dan kunci jawaban telah diarsipkan secara sistematis pada dokumen lampiran tersendiri: [LAMPIRAN_INSTRUMEN_EVALUASI_PRE_POST_TEST.md](file:///d:/DYTA%20JOKI/docs/skripsi/LAMPIRAN_INSTRUMEN_EVALUASI_PRE_POST_TEST.md). Bagian di bawah ini adalah salinan master bank soal HOTS 20 butir sebagai rujukan cepat pengembang dan dewan penguji.
 
 ### 4.1 Bank Soal Evaluasi Akhir (20 Butir Soal Analisis Sastra Fase E SMA/SMK)
 
@@ -1122,8 +1519,8 @@ Didukung oleh Platform Flipbook Heyzine
    Bacalah kutipan pembuka hikayat berikut:  
    *“Menurut sahibul hikayat, sebermula ada seorang Datu yang sakti mandraguna sedang bertapa di tengah laut. Namanya Datu Mabrur...”*  
    Fungsi penggunaan frasa *“Menurut sahibul hikayat”* dan *“sebermula”* pada penggalan teks tersebut adalah...  
-   * A. Menunjukkan bahwa cerita tersebut ditulis oleh sejarawan modern  
-   * B. Menandai formula pembuka tradisi penuturan sastra Melayu klasik kuno [KUNCI]  
+   * A. Menandai formula pembuka tradisi penuturan sastra Melayu klasik kuno [KUNCI]  
+   * B. Menunjukkan bahwa cerita tersebut ditulis oleh sejarawan modern  
    * C. Menjelaskan silsilah keluarga Datu Mabrur secara ilmiah  
    * D. Menegaskan bahwa peristiwa pertapaan tersebut disaksikan oleh banyak orang  
    * *Pembahasan:* Dalam tradisi sastra Melayu klasik, formula leksikal arkais seperti *sahibul hikayat* (pemilik cerita) dan *sebermula* berfungsi sebagai penanda konvensi pembuka kisah yang membedakannya dari prosa modern.
@@ -1143,8 +1540,8 @@ Didukung oleh Platform Flipbook Heyzine
    *“Tidak. Aku tak punya keinginan pribadi, tapi untuk masa depan anak-cucuku nanti...”*  
    Nilai moral utama yang tercermin dari sikap Datu Mabrur tersebut adalah...  
    * A. Bersikap pasrah dan tidak memiliki cita-cita yang tinggi  
-   * B. Menolak kemewahan materi demi memperjuangkan kemaslahatan generasi penerus [KUNCI]  
-   * C. Ketakutan akan bahaya godaan harta kekayaan bawah laut  
+   * B. Ketakutan akan bahaya godaan harta kekayaan bawah laut  
+   * C. Menolak kemewahan materi demi memperjuangkan kemaslahatan generasi penerus [KUNCI]  
    * D. Menghindari tanggung jawab sebagai pemimpin masyarakat  
    * *Pembahasan:* Nilai moral Datu Mabrur tampak nyata pada ketiadaan motif keserakahan pribadi (*altruisme*), di mana ia mengorbankan kenyamanan diri demi masa depan keturunannya.
 
@@ -1153,17 +1550,17 @@ Didukung oleh Platform Flipbook Heyzine
    *“Tanpa beringsut dari tempat duduk maupun membuka mata, Datu Mabrur menepis serangan mendadak itu. Ikan itu terpelanting dan jatuh di karang...”*  
    Bukti karakteristik kemustahilan dan kesaktian yang terdapat dalam kutipan tersebut adalah...  
    * A. Adanya batu karang yang kokoh di tengah samudra  
-   * B. Kemampuan manusia menangkis serangan fisik tanpa melihat dan tanpa bergerak [KUNCI]  
-   * C. Ombak laut yang menerbangkan ikan ke permukaan karang  
-   * D. Ikan laut yang memiliki sisik licin dan berkilau  
+   * B. Ombak laut yang menerbangkan ikan ke permukaan karang  
+   * C. Ikan laut yang memiliki sisik licin dan berkilau  
+   * D. Kemampuan manusia menangkis serangan fisik tanpa melihat dan tanpa bergerak [KUNCI]  
    * *Pembahasan:* Kemustahilan adalah peristiwa di luar nalar sains dunia nyata; menangkis musuh yang meluncur cepat tanpa membuka mata menunjukkan kesaktian adimanusiawi khas hikayat.
 
 5. **[C4 - Analisis Bahasa Arkais Kontekstual]**  
    Cermati kalimat berikut:  
    *“Hatta, ketika laut tenang, seekor ikan besar tiba-tiba muncul dari permukaan laut dan terbang menyerangnya.”*  
    Kata *“Hatta”* dalam kalimat tersebut berfungsi sebagai...  
-   * A. Kata penghubung intrakalimat yang menyatakan hubungan sebab-akibat  
-   * B. Konjungsi temporal transisi Melayu klasik yang menandai pergantian adegan peristiwa [KUNCI]  
+   * A. Konjungsi temporal transisi Melayu klasik yang menandai pergantian adegan peristiwa [KUNCI]  
+   * B. Kata penghubung intrakalimat yang menyatakan hubungan sebab-akibat  
    * C. Kata seru untuk mengekspresikan kekaguman tokoh terhadap keindahan laut  
    * D. Kata sifat yang melukiskan ketenangan air samudra  
    * *Pembahasan:* Kata *hatta* dalam naskah Melayu klasik berfungsi sebagai konjungsi antarkalimat atau penanda wacana transisi pergantian adegan (*maka terjadilah sesudah itu*).
@@ -1189,15 +1586,15 @@ Didukung oleh Platform Flipbook Heyzine
 8. **[C4 - Evaluasi Nilai Religi]**  
    Tindakan Datu Mabrur yang tidak mendendam kepada ikan yang telah melukainya, melainkan mengusap lukanya sambil berucap: *“Sebagai sesama makhluk ciptaan-Nya, aku akan menolongmu,”* mencerminkan perwujudan nilai religi berupa...  
    * A. Kewajiban menjalankan ritual semadi di tempat terpencil  
-   * B. Kesadaran bahwa seluruh makhluk berhak mendapatkan kasih sayang karena berasal dari Pencipta yang sama [KUNCI]  
-   * C. Keharusan menaklukkan binatang liar demi keselamatan manusia  
-   * D. Keyakinan bahwa menolong binatang akan mendatangkan kekayaan berlimpah  
+   * B. Keharusan menaklukkan binatang liar demi keselamatan manusia  
+   * C. Keyakinan bahwa menolong binatang akan mendatangkan kekayaan berlimpah  
+   * D. Kesadaran bahwa seluruh makhluk berhak mendapatkan kasih sayang karena berasal dari Pencipta yang sama [KUNCI]  
    * *Pembahasan:* Sikap Datu Mabrur berlandaskan pandangan tauhid/religius bahwa hewan laut dan manusia sama-sama makhluk ciptaan Tuhan yang wajib dirahmati.
 
 9. **[C5 - Evaluasi Filosofi Semboyan Budaya]**  
    Ungkapan sumpah suci *“Sa-ijaan, seiring sejalan. Seia sekata... rakat mufakat, bantu membantu, bahu membahu”* dalam konteks kehidupan bermasyarakat saat ini paling relevan diterapkan dalam bentuk...  
-   * A. Membangun koalisi politik untuk menguasai sumber daya ekonomi daerah  
-   * B. Musyawarah warga untuk menyelesaikan masalah lingkungan dan bergotong royong secara tulus [KUNCI]  
+   * A. Musyawarah warga untuk menyelesaikan masalah lingkungan dan bergotong royong secara tulus [KUNCI]  
+   * B. Membangun koalisi politik untuk menguasai sumber daya ekonomi daerah  
    * C. Mengutamakan kepentingan kelompok sendiri di atas kepentingan bersama  
    * D. Memberikan bantuan kepada orang lain hanya apabila mereka telah berjanji membalasnya  
    * *Pembahasan:* Nilai *Sa-ijaan* menekankan kerukunan mufakat (*rakat*) dan gotong royong tanpa sekat kepentingan sempit dalam memajukan kesejahteraan bersama.
@@ -1223,15 +1620,15 @@ Didukung oleh Platform Flipbook Heyzine
 12. **[C4 - Analisis Karakteristik Anonimitas]**  
     Sebagian besar teks hikayat di Nusantara, termasuk kisah lisan Datu Mabrur, tidak mencantumkan nama individu pengarang aslinya. Hal ini membuktikan bahwa karya sastra klasik tersebut...  
     * A. Diciptakan secara tergesa-gesa tanpa memperhatikan dokumentasi  
-    * B. Merupakan warisan tradisi lisan kolektif milik bersama masyarakat penuturnya [KUNCI]  
-    * C. Sengaja disembunyikan identitas penulisnya agar terhindar dari hukuman raja  
-    * D. Merupakan cerita saduran dari naskah asing yang diterjemahkan tanpa izin  
+    * B. Sengaja disembunyikan identitas penulisnya agar terhindar dari hukuman raja  
+    * C. Merupakan cerita saduran dari naskah asing yang diterjemahkan tanpa izin  
+    * D. Merupakan warisan tradisi lisan kolektif milik bersama masyarakat penuturnya [KUNCI]  
     * *Pembahasan:* Sifat anonim timbul karena sastra lama dianggap milik komunal masyarakat yang dituturkan dari mulut ke mulut sebagai pembawa amanat moral bersama.
 
 13. **[C4 - Analisis Struktur Resolusi]**  
     Babak resolusi dalam teks Hikayat Sa-Ijaan dan Ikan Todak ditandai oleh peristiwa...  
-    * A. Datu Mabrur duduk terdiam menahan amukan badai topan  
-    * B. Munculnya daratan pulau yang subur berkat bantuan jutaan ikan dan rasa syukur Datu Mabrur [KUNCI]  
+    * A. Munculnya daratan pulau yang subur berkat bantuan jutaan ikan dan rasa syukur Datu Mabrur [KUNCI]  
+    * B. Datu Mabrur duduk terdiam menahan amukan badai topan  
     * C. Perdebatan sengit antara Datu Mabrur dan Raja Todak mengenai batas wilayah laut  
     * D. Keputusan para prajurit ikan untuk kembali menyerang pertapaan manusia  
     * *Pembahasan:* Resolusi adalah penyelesaian masalah; konflik berakhir bahagia dengan terwujudnya daratan pulau dan terjalinnya ikatan persaudaraan abadi.
@@ -1239,8 +1636,8 @@ Didukung oleh Platform Flipbook Heyzine
 14. **[C4 - Analisis Peran Tokoh Pendukung]**  
     Kehadiran jutaan rakyat ikan yang serempak berseru *“Sa-ijaan! Sa-ijaan!”* saat mendorong daratan memiliki fungsi simbolis dalam cerita untuk menegaskan...  
     * A. Bahwa rakyat biasa selalu tunduk dalam ketakutan terhadap titah rajanya  
-    * B. Bahwa kekuatan persatuan kolektif mampu mewujudkan hal-hal besar yang mustahil dikerjakan sendiri [KUNCI]  
-    * C. Bahwa makhluk laut memiliki kebisingan yang mengganggu ketenangan pulau  
+    * B. Bahwa makhluk laut memiliki kebisingan yang mengganggu ketenangan pulau  
+    * C. Bahwa kekuatan persatuan kolektif mampu mewujudkan hal-hal besar yang mustahil dikerjakan sendiri [KUNCI]  
     * D. Bahwa kemenangan fisik hanya dapat diraih melalui kekuatan militer samudra  
     * *Pembahasan:* Seruan serempak jutaan ikan adalah metafora kekuatan gotong royong dan kesatuan tekad masyarakat dalam mengatasi tantangan mahaberat.
 
@@ -1255,9 +1652,9 @@ Didukung oleh Platform Flipbook Heyzine
 16. **[C4 - Analisis Nilai Sosial (Simbiosis Mutualisme)]**  
     Hubungan yang terjalin antara Datu Mabrur dan Raja Ikan Todak pada akhir cerita mengajarkan prinsip interaksi sosial berupa...  
     * A. Menundukkan pihak yang lemah demi memperluas wilayah kekuasaan  
-    * B. Mengubah potensi permusuhan menjadi kemitraan yang saling menghormati dan menguntungkan kedua belah pihak [KUNCI]  
-    * C. Bersikap waspada dan tidak boleh mempercayai janji musuh yang telah kalah  
-    * D. Memanfaatkan kelemahan pihak lawan untuk meraih keuntungan pribadi sebanyak-banyaknya  
+    * B. Bersikap waspada dan tidak boleh mempercayai janji musuh yang telah kalah  
+    * C. Memanfaatkan kelemahan pihak lawan untuk meraih keuntungan pribadi sebanyak-banyaknya  
+    * D. Mengubah potensi permusuhan menjadi kemitraan yang saling menghormati dan menguntungkan kedua belah pihak [KUNCI]  
     * *Pembahasan:* Interaksi kedua tokoh mencerminkan resolusi konflik ideal: berdamai, saling menolong tanpa pamrih dendam, dan bersama-sama menciptakan harmoni ekologis.
 
 17. **[C4 - Analisis Struktur Koda dan Toponimi]**  
@@ -1270,9 +1667,9 @@ Didukung oleh Platform Flipbook Heyzine
 
 18. **[C5 - Evaluasi Kritis Karakteristik Sastra Hikayat]**  
     Jika dibandingkan dengan cerita pendek (cerpen) modern bertema lingkungan saat ini, perbedaan karakteristik paling mendasar yang tampak dalam teks hikayat ini adalah...  
-    * A. Cerpen modern selalu mengabaikan pesan moral, sedangkan hikayat sarat akan nilai  
-    * B. Hikayat menggunakan konjungsi waktu, sedangkan cerpen modern tidak menggunakannya  
-    * C. Hikayat memuat unsur kemustahilan dan kesaktian yang diterima wajar dalam ceritanya, sedangkan cerpen modern berpijak pada logika realitas [KUNCI]  
+    * A. Hikayat memuat unsur kemustahilan dan kesaktian yang diterima wajar dalam ceritanya, sedangkan cerpen modern berpijak pada logika realitas [KUNCI]  
+    * B. Cerpen modern selalu mengabaikan pesan moral, sedangkan hikayat sarat akan nilai  
+    * C. Hikayat menggunakan konjungsi waktu, sedangkan cerpen modern tidak menggunakannya  
     * D. Hikayat hanya dapat dibaca oleh kalangan bangsawan istana kerajaan  
     * *Pembahasan:* Cerpen modern mengutamakan verisimilitude (kemiripan dengan kenyataan rasional), sedangkan hikayat secara konvensional memadukan realitas dan kemustahilan magis.
 
@@ -1287,10 +1684,33 @@ Didukung oleh Platform Flipbook Heyzine
 20. **[C5 - Sintesis Amanat Menyeluruh]**  
     Pesan universal paling mendalam yang dapat dipetik dari keseluruhan Hikayat Sa-Ijaan dan Ikan Todak bagi kehidupan berbangsa saat ini adalah...  
     * A. Kekayaan alam laut harus dieksploitasi semaksimal mungkin demi kemakmuran manusia  
-    * B. Kedamaian dan keberhasilan peradaban lahir dari ketulusan hati, penghormatan antarmakhluk, dan komitmen memegang teguh janji kerja sama [KUNCI]  
-    * C. Setiap perselisihan antarkelompok hanya bisa diselesaikan dengan adu kekuatan senjata  
-    * D. Manusia sakti harus memimpin dan memerintah seluruh makhluk hidup di dunia  
+    * B. Setiap perselisihan antarkelompok hanya bisa diselesaikan dengan adu kekuatan senjata  
+    * C. Manusia sakti harus memimpin dan memerintah seluruh makhluk hidup di dunia  
+    * D. Kedamaian dan keberhasilan peradaban lahir dari ketulusan hati, penghormatan antarmakhluk, dan komitmen memegang teguh janji kerja sama [KUNCI]  
     * *Pembahasan:* Amanat puncak hikayat adalah bahwa keberlanjutan peradaban bergantung pada harmoni relasi manusia dengan alam, serta keteguhan memegang sumpah persaudaraan bersama.
+
+### 4.2 Soal Esai Pendek (Asesmen Produktif — Constructed Response)
+
+21. **[C5 - Esai Argumentatif Nilai Moral]**  
+    Bacalah kembali kutipan dialog Datu Mabrur berikut:  
+    *"Tidak. Aku tak punya keinginan pribadi, tapi untuk masa depan anak-cucuku nanti..."*  
+    **Pertanyaan:** Analisislah nilai moral yang tercermin dari sikap Datu Mabrur tersebut, kemudian hubungkan dengan fenomena individualisme di kalangan remaja saat ini! Apakah sikap Datu Mabrur masih relevan untuk diterapkan oleh generasi Z? Berikan alasanmu secara kritis.  
+    *(Jawab dalam 3–5 kalimat)*  
+    * *Rubrik Penilaian:*  
+      - Skor 4 (Sangat Baik): Mengidentifikasi nilai moral dengan tepat (altruisme/kepedulian antargenerasi), menghubungkan dengan fenomena individualisme remaja secara kritis, dan memberikan argumen relevansi yang logis disertai contoh konkret.  
+      - Skor 3 (Baik): Mengidentifikasi nilai moral dengan tepat dan menghubungkan dengan kehidupan masa kini, tetapi argumen belum disertai contoh konkret.  
+      - Skor 2 (Cukup): Mengidentifikasi nilai moral tetapi tidak menghubungkan dengan fenomena individualisme atau relevansi masa kini.  
+      - Skor 1 (Kurang): Jawaban tidak menunjukkan pemahaman terhadap nilai moral dalam kutipan.
+
+22. **[C5 - Esai Komparatif Karakteristik Sastra]**  
+    Bandingkan karakteristik kemustahilan (*supernatural elements*) dalam Hikayat Sa-Ijaan dan Ikan Todak dengan sebuah karya fiksi modern (novel, film, atau komik) yang pernah kamu baca atau tonton!  
+    **Pertanyaan:** Apa kesamaan dan perbedaan cara penyajian unsur kemustahilan antara sastra hikayat klasik dan karya fiksi modern pilihanmu? Menurutmu, mengapa masyarakat di setiap zaman tetap menyukai cerita yang mengandung unsur mustahil?  
+    *(Jawab dalam 4–6 kalimat)*  
+    * *Rubrik Penilaian:*  
+      - Skor 4 (Sangat Baik): Menyebutkan karya fiksi modern yang spesifik, mengidentifikasi kesamaan dan perbedaan unsur kemustahilan secara analitis, dan memberikan refleksi kritis mengenai daya tarik universal cerita fantasi lintas zaman.  
+      - Skor 3 (Baik): Menyebutkan karya fiksi modern dan mengidentifikasi kesamaan/perbedaan, tetapi refleksi kritis masih bersifat umum.  
+      - Skor 2 (Cukup): Menyebutkan karya fiksi tetapi perbandingan belum analitis (hanya menyebut ada/tidak ada kemustahilan tanpa elaborasi).  
+      - Skor 1 (Kurang): Tidak menyebutkan karya pembanding atau jawaban tidak relevan dengan pertanyaan.
 
 ---
 
@@ -1298,20 +1718,22 @@ Didukung oleh Platform Flipbook Heyzine
 
 ### 5.1 Matriks File Aset & Prompt Generator
 
-| No | Kategori | Nama File Aset | Deskripsi Konten | Prompt AI Generator (Midjourney/Flux/Leonardo/ElevenLabs) |
+| No | Kategori | Nama File Aset | Deskripsi Konten | Prompt AI Google Flow (Whimsical Storybook Oil Painting) |
 |---|---|---|---|---|
-| 1 | Visual | `IMG_Cover_DatuMabrur.png` | Datu Mabrur bertapa di batu karang di tengah samudra luas berombak keemasan. | `A grand epic digital painting of an ancient Nusantara mystic elder Datu Mabrur with long flowing white beard and ascetic traditional clothes meditating in peaceful crossed-leg posture on a sharp rugged reef rock in the middle of vast stormy ocean, giant crashing waves, magical golden and turquoise misty rays breaking through dark clouds, dramatic atmospheric Indonesian folklore cinematic, intricate detail, ancient maritime legend, 8k resolution, oil painting on parchment texture --ar 3:4` |
-| 2 | Visual | `IMG_Bab1_DatuMabrur_Bertapa.png` | Datu Mabrur bersila khusyuk di Selat Makassar saat senja temaram. | `A majestic wise Nusantara sage meditating peacefully on an isolated coral reef rock amidst foaming turbulent sea, between Strait of Laut and Makassar Strait, sunset skies, glowing aura around the ascetic figure, dramatic ocean splash, digital concept art, hyper-detailed, warm nostalgic color tones --ar 4:3` |
-| 3 | Visual | `IMG_Bab2_Serangan_IkanTodak.png` | Raja Ikan Todak melompat dari laut menyerang Datu Mabrur. | `Dynamic dramatic scene of a giant mythical flying swordfish with saw-like snout leaping fiercely out of foaming ocean waves, attacking an Indonesian ascetic monk seated serenely on sea coral rock, magical glowing barrier deflecting water droplets, stormy skies, high octane action, folklore fantasy art --ar 4:3` |
-| 4 | Visual | `IMG_Bab3_Penyembuhan_RajaTodak.png` | Datu Mabrur mengobati luka Raja Ikan Todak di sela karang. | `A touching historical fantasy painting, an ancient Indonesian venerable hermit Datu Mabrur gently releasing a wounded mythical swordfish with glowing scales from sharp jagged corals, soft warm healing light emanating from his hands, mutual respect, serene calm ocean sunset, fine oil painting masterpiece, classical folklore art style --ar 4:3` |
-| 5 | Visual | `IMG_Bab4_Jutaan_Ikan_Mengangkat_Pulau.png` | Jutaan ikan laut mendorong daratan baru dari dasar laut. | `An awe-inspiring epic underwater fantasy illustration, millions of bioluminescent fishes, giant whales, sawfishes, manta rays working together pushing an entire ancient landmass island upward from the dark sea bottom to the ocean surface, underwater majestic rays of divine light, grand collective effort, mythical Nusantara legend, cinematic dynamic composition --ar 4:3` |
-| 6 | Visual | `IMG_Bab5_Pulau_Halimun_Megah.png` | Pemandangan perbukitan hijau Pulau Halimun dibalut kabut pagi. | `A breathtaking aerial panorama painting of a lush green tropical mountainous island emerging from crystal clear turquoise ocean, wrapped in delicate white morning mist (halimun), fertile valleys and dramatic hills, sunrise rays, tranquil ocean waters, ancient Indonesian South Kalimantan landscape legend, majestic masterpiece --ar 4:3` |
-| 7 | Audio | `AUD_Narasi_Bab1.mp3` | Narasi pembuka Bab 1 diiringi suara ombak tenang & petikan gambus. | *Voiceover Script (ElevenLabs - Deep Voice):* "Menurut sahibul hikayat, sebermula ada seorang Datu yang sakti mandraguna sedang bertapa di tengah laut. Namanya Datu Mabrur. Siang dan malam ia bersemadi di batu karang, memohon kepada Sang Pencipta agar dianugerahi sebuah pulau..." |
-| 8 | Audio | `AUD_Dialog_Bab2.mp3` | Suara tegang Datu Mabrur dan desah parau Raja Ikan Todak. | *Voiceover Script (2 Characters):* [Datu Mabrur]: "Hai ikan! Apa maksudmu mengganggu semadiku?" [Raja Todak (engah-engah)]: "Aku Raja Ikan Todak... semadimu membuat lautan bergelora. Tapi engkau sungguh sakti, Datu. Kami takluk..." |
-| 9 | Audio | `AUD_Perjanjian_SaIjaan.mp3` | Lantunan syahdu sumpah Sa-Ijaan berlatar petikan gambus & rebab Melayu. | *Voiceover Script:* "Baiklah, kita harus membuat perjanjian suci. Sejak sekarang kita harus sa-ijaan, seiring sejalan. Seia sekata, sampai ke anak-cucu kita. Rakat mufakat, bantu membantu, bahu membahu!" |
-| 10 | Audio | `AUD_Gemuruh_Laut_Bab4.mp3` | Suara gempa dasar laut & seruan jutaan ikan: "Sa-ijaan!" | *Sound FX Prompt:* Deep earthquake ocean sub-bass rumble, roaring water torrents, reverberating choral crowd shouting in rhythmic unison: "Sa-ijaan! Sa-ijaan! Saijaaan...!" |
-| 11 | Audio | `AUD_Penutup_Bab5.mp3` | Narasi penutup asal-usul Pulau Laut & slogan Kotabaru. | *Voiceover Script:* "Daratan itu dinamakan Pulau Halimun, yang kelak dikenal sebagai Pulau Laut. Kata Sa-ijaan dan ikan todak pun diabadikan menjadi lambang persatuan Kabupaten Kotabaru..." |
-| 12 | Video | `VID_Animasi_Serangan_Todak.mp4` | Video pendek loop 15-20 detik serangan ikan todak. | *Runway Gen-2 / Pika Prompt:* "Cinematic camera orbiting an ascetic Indonesian monk on a rock, suddenly a giant sawfish launches out of churning sea waves, deflected by a shimmering aura, ocean splashes in slow motion, hyper-realistic fantasy." |
+| 1 | Visual | `IMG_Cover_DatuMabrur.png` | Datu Mabrur bersila ramah di batu karang di tengah ombak melengkung indah & fajar keemasan. | `A breathtaking cover illustration in whimsical animated storybook style, featuring an endearing Indonesian wise elder hermit sage Datu Mabrur sitting peacefully cross-legged in deep serene meditation atop a mossy smooth ocean reef stone in the middle of a swirling enchanted sea, playful painterly ocean waves with creamy frothy foam curls, a glorious warm golden ray of divine sunlight breaking through dreamy soft-edged twilight clouds onto the horizon revealing the gentle green silhouette of a promised island, wide eye-level perspective, whimsical animated storybook oil painting style, rich visible oil brushstrokes and soft impasto textures on warm vintage cream paper, charming friendly character design, vibrant oceanic palette with deep cerulean blue, rich emerald turquoise, glowing warm amber and burnished gold highlights, cozy storybook fantasy art, 8k resolution, family-friendly, zero gore --ar 3:4` |
+| 2 | Visual | `IMG_Bab1_Pertapaan_Selat.png` | Datu Mabrur bersila tenang di Selat Makassar, ikan-ikan kecil berwarna-warni berenang ceria. | `A heartwarming peaceful scene of a wise kindly hermit sage Datu Mabrur meditating in tranquil stillness upon a flat sea stone, set between the calm shimmering turquoise waters of Strait of Laut and Strait of Makassar at golden sunset, warm pastel coral and amber skies reflecting on gentle ripples, schools of colorful friendly little tropical fishes swimming playfully in the crystal clear water around his rock, soft radiant golden aura glowing around the sage, serene atmosphere of patience and hope, whimsical animated storybook oil painting style, rich impasto brushstrokes, vibrant charming art --ar 3:4` |
+| 3 | Visual | `IMG_Bab2_Serangan_Todak.png` | Akrobatik laut ceria; Raja Ikan Todak melompat tertahan perisai gelembung emas Datu Mabrur. | `An enchanting dynamic action scene in fairy tale folklore style, a majestic turquoise mythical sawfish king Raja Ikan Todak leaping acrobatically high out of a dramatic swirling turquoise wave, its elegant glowing snout making contact with a translucent magical golden bubble shield conjured gently by a smiling wise elder sage who calmly sits with one open hand and a serene reassuring smile, glistening water droplets frozen mid-air like sparkling jewels, vibrant deep blue and emerald ocean colors, thrilling yet friendly family-friendly action, whimsical animated storybook oil painting style, rich impasto textures --ar 3:4` |
+| 4 | Visual | `IMG_Bab2_Todak_Takluk.png` | Raja Ikan Todak bersandar lelah di karang ditatap hangat penuh belas kasih (tanpa luka/gore). | `A touching emotional storybook scene, a magnificent stylized sawfish king Raja Ikan Todak resting wearily on a smooth tidal rock ledge, its shimmering scales temporarily dimmed and tired, looking up with large expressive pleading golden eyes, an endearing wise elderly hermit Datu Mabrur standing kindly over the fish with a comforting compassionate smile, in the background gentle turquoise sea waves where adorable small sawfish poke their heads above water watching anxiously, warm cozy lighting, zero gore, charming visual storytelling, whimsical storybook oil painting style --ar 4:3` |
+| 5 | Visual | `IMG_Bab3_Penyembuhan_Luka.png` | Datu Mabrur mengusap Raja Ikan Todak memancarkan pendaran cahaya keemasan magis. | `A heartwarming magical healing scene, an endearing wise elder Datu Mabrur kneeling gently beside the mythical sawfish king Raja Ikan Todak on the coral ledge, gently stroking the fish with warm open hands, dazzling sparkles of soft golden and teal magical healing light flowing from his fingers, instantly restoring the fish's brilliant turquoise shimmering scales and vitality, the sea king gazes up at the sage with profound gratitude and friendship, beautiful warm sunset glow over calm gentle waves, whimsical animated storybook oil painting style --ar 3:4` |
+| 6 | Visual | `IMG_Bab3_Ikrar_SaIjaan.png` | Perayaan persahabatan Sa-Ijaan; Raja Todak melompat riang diiringi ribuan ikan laut berwarna. | `A joyful celebratory maritime scene, wise elder Datu Mabrur standing at the water's edge on the coral rock cheerfully waving his hand, watching the magnificent turquoise sawfish king Raja Ikan Todak leap high in a joyful arch back into the sparkling sea, surrounded by thousands of colorful happy sea creatures and small fish leaping in unison creating artistic swirling ripples and glistening sea spray under bright cheerful morning sunlight, symbolizing the sacred pact of unity and mutual friendship, whimsical animated storybook oil painting style --ar 4:3` |
+| 7 | Visual | `IMG_Bab4_Angkat_Pulau.png` | Jutaan hewan laut lucu dan megah bergotong-royong mengangkat daratan hijau dari dasar samudra. | `An enchanting, wondrous underwater scene full of life and cooperation, millions of charming stylized sea creatures including a gigantic gentle blue whale with a warm smile, wise sea turtles, gliding manta rays, and thousands of joyful sawfish led by the sea king, all working together cheerfully hoisting a magnificent lush green landmass from the sandy seabed up toward the sunlit turquoise water surface, streams of magical underwater bubbles, radiant golden sunbeams piercing through the depths, vibrant teamwork, whimsical storybook oil painting style --ar 3:4` |
+| 8 | Visual | `IMG_Bab5_Pulau_Halimun.png` | Panorama mempesona Pulau Halimun nan hijau permai dibalut kabut putih lembut dan laut toska. | `A breathtaking aerial panoramic storybook painting of the newly emerged island of Pulau Halimun (Pulau Laut), a fertile tropical paradise with rounded emerald green hills, sparkling waterfalls, golden sandy shores, and gentle fluffy white morning mist (halimun) dancing around the lush valleys, surrounded by calm crystal turquoise sea waters under a radiant golden sunrise sky, an endearing wise elder Datu Mabrur seen on a high viewpoint raising his arms in joyous thanksgiving prayer, idyllic enchanted island, whimsical animated storybook oil painting style --ar 3:4` |
+| 9 | Audio | `AUD_Narasi_Bab1.mp3` | Narasi pembuka Bab 1 diiringi suara ombak tenang & petikan gambus. | *Voiceover Script (ElevenLabs - Deep Voice):* "Menurut sahibul hikayat, sebermula ada seorang Datu yang sakti mandraguna sedang bertapa di tengah laut. Namanya Datu Mabrur. Siang dan malam ia bersemadi di batu karang, memohon kepada Sang Pencipta agar dianugerahi sebuah pulau..." |
+| 10 | Audio | `AUD_Dialog_Bab2.mp3` | Suara tegang Datu Mabrur dan desah parau Raja Ikan Todak. | *Voiceover Script (2 Characters):* [Datu Mabrur]: "Hai ikan! Apa maksudmu mengganggu semadiku?" [Raja Todak (engah-engah)]: "Aku Raja Ikan Todak... semadimu membuat lautan bergelora. Tapi engkau sungguh sakti, Datu. Kami takluk..." |
+| 11 | Audio | `AUD_Perjanjian_SaIjaan.mp3` | Lantunan syahdu sumpah Sa-Ijaan berlatar petikan gambus & rebab Melayu. | *Voiceover Script:* "Baiklah, kita harus membuat perjanjian suci. Sejak sekarang kita harus sa-ijaan, seiring sejalan. Seia sekata, sampai ke anak-cucu kita. Rakat mufakat, bantu membantu, bahu membahu!" |
+| 12 | Audio | `AUD_Gemuruh_Laut_Bab4.mp3` | Suara gempa dasar laut & seruan jutaan ikan: "Sa-ijaan!" | *Sound FX Prompt:* Deep earthquake ocean sub-bass rumble, roaring water torrents, reverberating choral crowd shouting in rhythmic unison: "Sa-ijaan! Sa-ijaan! Saijaaan...!" |
+| 13 | Audio | `AUD_Penutup_Bab5.mp3` | Narasi penutup asal-usul Pulau Laut & slogan Kotabaru. | *Voiceover Script:* "Daratan itu dinamakan Pulau Halimun, yang kelak dikenal sebagai Pulau Laut. Kata Sa-ijaan dan ikan todak pun diabadikan menjadi lambang persatuan Kabupaten Kotabaru..." |
+| 14 | Video | `VID_Animasi_Serangan_Todak.mp4` | Video pendek loop 15-20 detik serangan ikan todak. | *Runway Gen-2 / Pika Prompt:* "Cinematic camera orbiting an ascetic Indonesian monk on a rock, suddenly a giant sawfish launches out of churning sea waves, deflected by a shimmering aura, ocean splashes in slow motion, hyper-realistic fantasy." |
 
 ---
 
@@ -1319,44 +1741,64 @@ Didukung oleh Platform Flipbook Heyzine
 
 1. **Pembuatan Desain di Canva/Figma**:
    * Buat dokumen dengan ukuran kustom **2480 x 3508 piksel** (A4 Portrait).
-   * Desain ke-30 halaman sesuai naskah dan layout pada Bagian 3 dokumen ini.
-   * Pastikan pada Halaman 5, 9, 10, 13, 17, 21, dan 26 disisakan kotak bingkai kosong untuk area widget Heyzine.
+   * Desain ke-34 halaman sesuai naskah dan layout pada Bagian 3 dokumen ini (termasuk 5 halaman Cover Bab eksklusif pada Halaman 6, 11, 16, 21, dan 26).
+   * Pastikan pada Halaman 7, 10, 12, 15, 17, 20, 22, 25, dan 27 disisakan kotak bingkai kosong untuk area widget Heyzine (5 Pertanyaan Pemantik Interaktif Duolingo-style, 2 Video Animasi, dan 4 Halaman Misi Wordwall).
    * Unduh desain dalam format **PDF Cetak Kualitas Tinggi (Standard/Print PDF)**.
 
 2. **Unggah ke Heyzine Flipbook**:
    * Buka [heyzine.com](https://heyzine.com) dan login ke akun pengembang.
-   * Klik tombol **"New Flipbook"** dan unggah file PDF yang telah diekspor dari Canva.
+   * Klik tombol **"New Flipbook"** dan unggah file PDF yang telah diekspor dari Canva (total 34 halaman).
    * Pada menu *Page Style*, pilih efek flip: **Magazine** atau **Book** (dengan efek bayangan halaman 3D dan suara lembaran kertas yang realistis).
 
 3. **Menyematkan Audio Narasi (Audio Player)**:
    * Klik menu **Interactions** di panel kiri editor Heyzine.
-   * Buka Halaman 6 (Bab 1), klik ikon **Audio**.
+   * Buka Halaman 7 (Bab 1), klik ikon **Audio**.
    * Tarik kotak audio di atas bar pemutar visual yang telah didesain di Canva.
    * Unggah file audio `AUD_Narasi_Bab1.mp3`.
    * Atur opsi: *Icon style: Custom / Hidden*, centang opsi *Pause other audios on play*.
-   * Ulangi langkah yang sama untuk Halaman 11 (Bab 2), Halaman 14 (Bab 3), Halaman 18 (Bab 4), dan Halaman 22 (Bab 5).
+   * Ulangi langkah yang sama untuk Halaman 13 (Bab 2 - Dialog), Halaman 17 (Bab 3 - Perjanjian), Halaman 22 (Bab 4 - Gemuruh Laut), dan Halaman 27 (Bab 5 - Penutup).
 
 4. **Menyematkan Video / Animasi**:
-   * Buka Halaman 10 (Bab 2).
+   * Buka Halaman 12 (Bab 2).
    * Klik ikon **Video** di menu *Interactions*.
    * Tarik kotak persegi video menutupi bingkai pemutar video yang sudah disediakan.
-   * Masukkan URL video (YouTube / Vimeo / tautan langsung file MP4).
+   * Masukkan URL video (YouTube / Vimeo / tautan langsung file MP4 `VID_Animasi_Serangan_Todak.mp4`).
    * Atur opsi: *Autoplay on page turn: No* (atau *Yes, Muted*), *Controls: Show controls*.
+   * Ulangi untuk Halaman 22 (Bab 4 - Video Timbulnya Daratan `VID_Veo_Bangkitnya_Pulau.mp4`).
 
-5. **Menyematkan Game Interaktif Iframe (Wordwall / Quizizz)**:
-   * Buat game aktivitas di [wordwall.net](https://wordwall.net) sesuai dengan butir soal Misi 1, 2, 3, 4, dan 5.
+5. **Menyematkan Pertanyaan Pemantik Interaktif Duolingo-Style (HTML Widget)**:
+   * Gunakan fitur **Web / Iframe** pada editor Heyzine.
+   * Sematkan widget pemantik lokal/cloud pada pembuka setiap bab:
+     - Halaman 7: `widgets/pemantik-interaktif/pemantik_bab1.html`
+     - Halaman 12: `widgets/pemantik-interaktif/pemantik_bab2.html`
+     - Halaman 17: `widgets/pemantik-interaktif/pemantik_bab3.html`
+     - Halaman 22: `widgets/pemantik-interaktif/pemantik_bab4.html`
+     - Halaman 27: `widgets/pemantik-interaktif/pemantik_bab5.html`
+   * Atur ukuran iframe: `width="100%" height="280"` dengan sudut membulat (*border-radius: 12px*).
+
+6. **Menyematkan Game Interaktif Iframe (Wordwall Formatif)**:
+   * Buat game aktivitas di [wordwall.net](https://wordwall.net) sesuai dengan butir soal Misi 1, 2 & 3, 4, dan 5.
    * Pada menu Wordwall, klik **Share $\rightarrow$ Set Assignment / Embed $\rightarrow$ Salin URL Embed** (contoh format: `https://wordwall.net/embed/xxxxxx`).
    * Di editor Heyzine, klik ikon **Web / Iframe**.
-   * Tarik kotak iframe menutupi area sematan di Halaman 5 (Pre-Test), Halaman 9 (Misi 1), Halaman 13 (Misi 2&3), Halaman 17 (Misi 4), Halaman 21 (Misi 5), dan Halaman 26 (Post-Test).
+   * Tarik kotak iframe menutupi area sematan di Halaman 10 (Misi 1), Halaman 15 (Misi 2&3), Halaman 20 (Misi 4), dan Halaman 25 (Misi 5).
    * Tempelkan URL embed ke dalam kolom *Web address*.
    * Pastikan opsi *Allow fullscreen* diaktifkan agar siswa dapat memperbesar tampilan game jika menggunakan layar gawai yang kecil.
 
-6. **Membuat Navigasi Loncat Halaman (Internal Links)**:
-   * Buka Halaman 3 (Daftar Isi).
+7. **Membuat Navigasi Loncat Halaman (Internal Links)**:
+   * Buka Halaman 4 (Daftar Isi).
    * Klik menu **Link**, tarik kotak hotspot di atas teks judul bab.
-   * Pilih tipe aksi: **Go to page**, lalu tentukan nomor halaman target (misal: Bab 1 ke Halaman 6, Bab 2 ke Halaman 10, Bab 3 ke Halaman 14, dst.).
+   * Pilih tipe aksi: **Go to page**, lalu tentukan nomor halaman target:
+     - Bab 1 ke Halaman 6 (Cover Bab 1: Pengertian & Karakteristik Teks Hikayat)
+     - Bab 2 ke Halaman 11 (Cover Bab 2: Struktur Narasi & Kemustahilan Cerita)
+     - Bab 3 ke Halaman 16 (Cover Bab 3: Unsur Intrinsik & Karakter Tokoh)
+     - Bab 4 ke Halaman 21 (Cover Bab 4: Kaidah Kebahasaan & Kosakata Arkais)
+     - Bab 5 ke Halaman 26 (Cover Bab 5: Nilai-Nilai Kehidupan dalam Hikayat)
+     - Bab 6 ke Halaman 30 (Cover Bab 6: Analisis, Evaluasi & Relevansi Sastra Masa Kini)
+     - Refleksi ke Halaman 31
+     - Glosarium ke Halaman 33
+     - Profil & Cover Belakang ke Halaman 34.
 
-7. **Publikasi & Uji Coba**:
+8. **Publikasi & Uji Coba**:
    * Klik tombol **Save** dan **Share**.
    * Salin tautan flipbook untuk diujicobakan pada validator materi, validator media, guru, dan peserta didik.
 
@@ -1364,7 +1806,7 @@ Didukung oleh Platform Flipbook Heyzine
 
 ## 6. SELF-REVIEW & KESESUAIAN STANDAR R&D
 
-1. **Placeholder Scan**: Tidak ada teks penunda (*no TBD, no TODO*). Seluruh 30 halaman, 20 butir soal evaluasi, 5 misi interaktif, kunci jawaban, glosarium, dan prompt aset telah didefinisikan secara lengkap.
-2. **Internal Consistency**: Alur cerita konsisten dengan 2 dokumen acuan (`Konsep alur.pdf` dan `Materi Teks Hikayat.pdf`), mulai dari pertapaan Datu Mabrur di antara Selat Laut & Selat Makassar, serangan todak, perjanjian Sa-Ijaan, pengangkatan daratan, hingga asal-usul toponimi Pulau Halimun / Pulau Laut dan simbol Kabupaten Kotabaru.
-3. **Kesesuaian Format Heyzine**: Pembagian ruang pada kanvas A4 Portrait telah disesuaikan agar teks naskah dan kotak sematan iframe (Wordwall/Quizizz) tidak bertabrakan, lengkap dengan tombol cadangan dan QR Code jika sematan mengalami kendala jaringan.
-4. **Validitas Akademik**: Struktur modul memenuhi standar bahan ajar kurikulum merdeka (Capaian Pembelajaran Fase E, Tujuan Pembelajaran, Asesmen Diagnostik/Formatif/Sumatif, Glosarium, dan Daftar Pustaka).
+1. **Placeholder Scan**: Tidak ada teks penunda (*no TBD, no TODO*). Seluruh 34 halaman naskah modul siswa (termasuk 5 cover bab eksklusif berorientasi sastra klasik), 5 pertanyaan pemantik interaktif (HTML widget standalone Duolingo-style), 5 misi gamifikasi Wordwall, rubrik refleksi diri, glosarium arkais Banjar-Melayu, dan prompt aset telah didefinisikan secara lengkap. Instrumen formal sumatif skripsi (Pre-Test & Post-Test) tetap diarsipkan secara tertib pada [LAMPIRAN_INSTRUMEN_EVALUASI_PRE_POST_TEST.md](file:///d:/DYTA%20JOKI/docs/skripsi/LAMPIRAN_INSTRUMEN_EVALUASI_PRE_POST_TEST.md).
+2. **Internal Consistency**: Alur cerita konsisten dengan dokumen acuan (`Konsep alur.pdf` dan `Materi Teks Hikayat.pdf`), mulai dari pertapaan Datu Mabrur di antara Selat Laut & Selat Makassar, serangan todak, perjanjian Sa-Ijaan, pengangkatan daratan, hingga asal-usul toponimi Pulau Halimun / Pulau Laut dan simbol Kabupaten Kotabaru.
+3. **Kesesuaian Format Heyzine**: Pembagian ruang pada kanvas A4 Portrait telah disesuaikan agar teks naskah, video animasi, sematan HTML pertanyaan pemantik, dan kotak sematan iframe (Wordwall) tidak bertabrakan, lengkap dengan tombol cadangan dan QR Code jika sematan mengalami kendala jaringan.
+4. **Validitas Akademik**: Struktur modul memenuhi standar bahan ajar kurikulum merdeka (Capaian Pembelajaran Fase E, Tujuan Pembelajaran ABCD, Asesmen Pemantik Diagnostik-Reflektif, Formatif Gamifikasi, Afektif Refleksi Diri, Glosarium, dan Daftar Pustaka).

@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pertanyaan Pemantik Bab 1 - Duolingo Style</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #F8F4EB;
+      color: #2A2421;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 10px;
+      overflow: hidden;
+    }
+
+    .duo-container {
+      background: #FFFFFF;
+      border: 2px solid #E5DFD5;
+      border-bottom: 5px solid #D0C8B8;
+      border-radius: 20px;
+      padding: 14px 16px;
+      max-width: 520px;
+      width: 100%;
+      position: relative;
+      box-shadow: 0 8px 24px rgba(15, 44, 76, 0.06);
+      overflow: hidden;
+    }
+
+    /* Top Progress Track */
+    .top-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .progress-track {
+      flex: 1;
+      height: 9px;
+      background: #EFE9DE;
+      border-radius: 999px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .progress-fill {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, #F5B041, #C89B3C);
+      border-radius: 999px;
+      position: relative;
+    }
+
+    .progress-fill::after {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: 6px;
+      right: 6px;
+      height: 3px;
+      background: rgba(255, 255, 255, 0.5);
+      border-radius: 999px;
+    }
+
+    .gem-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: #FFF5DC;
+      color: #8C6212;
+      border: 1.5px solid #F0D495;
+      border-radius: 12px;
+      padding: 2px 8px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.4px;
+    }
+
+    /* Question & Character Speech Bubble */
+    .chat-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .avatar-wrapper {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: #0F2C4C;
+      border: 2.5px solid #C89B3C;
+      border-bottom: 4px solid #8E681D;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      box-shadow: 0 4px 8px rgba(15, 44, 76, 0.15);
+    }
+
+    .avatar-svg {
+      width: 32px;
+      height: 32px;
+    }
+
+    .speech-bubble {
+      background: #FFFFFF;
+      border: 2px solid #E5DFD5;
+      border-bottom: 4px solid #D0C8B8;
+      border-radius: 14px;
+      padding: 9px 13px;
+      position: relative;
+      flex: 1;
+    }
+
+    .speech-bubble::before {
+      content: "";
+      position: absolute;
+      left: -8px;
+      top: 13px;
+      width: 0;
+      height: 0;
+      border-top: 6px solid transparent;
+      border-bottom: 6px solid transparent;
+      border-right: 8px solid #E5DFD5;
+    }
+
+    .speech-bubble::after {
+      content: "";
+      position: absolute;
+      left: -5.5px;
+      top: 14px;
+      width: 0;
+      height: 0;
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-right: 6px solid #FFFFFF;
+    }
+
+    .speech-tag {
+      font-size: 10px;
+      font-weight: 800;
+      color: #C89B3C;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      margin-bottom: 2px;
+      display: block;
+    }
+
+    .speech-text {
+      font-size: 12.5px;
+      font-weight: 700;
+      color: #2A2421;
+      line-height: 1.4;
+    }
+
+    /* Options 2-Column Grid */
+    .options-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .duo-card {
+      background: #FFFFFF;
+      border: 2px solid #E5DFD5;
+      border-bottom: 4px solid #D0C8B8;
+      border-radius: 14px;
+      padding: 10px 11px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      cursor: pointer;
+      transition: all 0.12s ease;
+      user-select: none;
+      text-align: left;
+    }
+
+    .duo-card:hover {
+      background: #FFFDF9;
+      border-color: #C89B3C;
+      transform: translateY(-1px);
+    }
+
+    .duo-card:active {
+      transform: translateY(2px);
+      border-bottom-width: 2px;
+    }
+
+    .duo-card.selected {
+      background: #FFF9EB;
+      border-color: #C89B3C;
+      border-bottom: 4px solid #9E7422;
+      box-shadow: 0 0 0 1.5px rgba(200, 155, 60, 0.4);
+    }
+
+    .card-top {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .opt-badge {
+      width: 22px;
+      height: 22px;
+      border-radius: 7px;
+      background: #EFE9DE;
+      border-bottom: 2px solid #D0C8B8;
+      color: #6E6355;
+      font-size: 11px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.12s ease;
+    }
+
+    .duo-card.selected .opt-badge {
+      background: #C89B3C;
+      border-bottom-color: #8E681D;
+      color: #FFFFFF;
+    }
+
+    .card-title {
+      font-size: 11px;
+      font-weight: 800;
+      color: #8C6212;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .card-desc {
+      font-size: 11.5px;
+      font-weight: 600;
+      color: #38302B;
+      line-height: 1.35;
+    }
+
+    /* Bottom Action Button */
+    .action-bar {
+      display: flex;
+      justify-content: center;
+    }
+
+    .btn-duo-check {
+      width: 100%;
+      padding: 10px 16px;
+      border-radius: 12px;
+      font-size: 12.5px;
+      font-weight: 800;
+      font-family: inherit;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      border: none;
+      transition: all 0.12s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      background: #E5DFD5;
+      border-bottom: 4px solid #C8C2B6;
+      color: #9A9284;
+      cursor: not-allowed;
+    }
+
+    .btn-duo-check.active {
+      background: #C89B3C;
+      border-bottom: 4px solid #8E681D;
+      color: #FFFFFF;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(200, 155, 60, 0.28);
+    }
+
+    .btn-duo-check.active:hover {
+      background: #D4A747;
+      transform: translateY(-1px);
+    }
+
+    .btn-duo-check.active:active {
+      transform: translateY(2px);
+      border-bottom-width: 2px;
+    }
+
+    /* Sliding Bottom Sheet Feedback */
+    .bottom-sheet {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #2D7A4C;
+      border-top: 2px solid #3E9661;
+      padding: 12px 16px;
+      border-radius: 0 0 18px 18px;
+      display: none;
+      box-shadow: 0 -8px 24px rgba(45, 122, 76, 0.25);
+      animation: sheetBounce 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      z-index: 20;
+    }
+
+    @keyframes sheetBounce {
+      from {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .sheet-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #FFFFFF;
+      font-size: 13px;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+
+    .sheet-body {
+      font-size: 11.5px;
+      color: rgba(255, 255, 255, 0.95);
+      line-height: 1.4;
+      margin-bottom: 10px;
+    }
+
+    .sheet-actions {
+      display: flex;
+      gap: 8px;
+    }
+
+    .btn-continue {
+      flex: 1;
+      background: #FFFFFF;
+      border: none;
+      border-bottom: 3.5px solid #C4D2C9;
+      color: #1E5C37;
+      border-radius: 10px;
+      padding: 8px 14px;
+      font-size: 12px;
+      font-weight: 800;
+      font-family: inherit;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      transition: all 0.1s ease;
+    }
+
+    .btn-continue:active {
+      transform: translateY(2px);
+      border-bottom-width: 1.5px;
+    }
+
+    .btn-retry {
+      background: rgba(255, 255, 255, 0.2);
+      border: none;
+      border-radius: 10px;
+      color: #FFFFFF;
+      padding: 8px 12px;
+      font-size: 11px;
+      font-weight: 700;
+      font-family: inherit;
+      cursor: pointer;
+      transition: background 0.15s ease;
+    }
+
+    .btn-retry:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="duo-container">
+    <!-- Top Progress & XP Badge -->
+    <div class="top-bar">
+      <div class="progress-track">
+        <div class="progress-fill"></div>
+      </div>
+      <div class="gem-pill">
+        <span>💎 10 XP</span>
+      </div>
+    </div>
+
+    <!-- Character Avatar & Speech Bubble -->
+    <div class="chat-row">
+      <div class="avatar-wrapper" title="Datu Mabrur">
+        <!-- SVG Datu Mabrur (Banjar Laung Headdress & Sage Beard) -->
+        <svg class="avatar-svg" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Face -->
+          <circle cx="18" cy="18" r="10" fill="#FAD09E" />
+          <!-- Laung Banjar Headdress (Gold & Red Ribbon) -->
+          <path d="M7 15C7 11 11 8 18 8C25 8 29 11 29 15C29 17 26 18 18 18C10 18 7 17 7 15Z" fill="#C89B3C" />
+          <path d="M15 6L18 9L21 6L18 4L15 6Z" fill="#A63428" />
+          <!-- Eyes & Smile -->
+          <circle cx="14" cy="17" r="1.2" fill="#2A2421" />
+          <circle cx="22" cy="17" r="1.2" fill="#2A2421" />
+          <path d="M16 20C17 21 19 21 20 20" stroke="#2A2421" stroke-width="1.2" stroke-linecap="round" />
+          <!-- White Sage Beard -->
+          <path d="M12 21C14 26 22 26 24 21C22 24 14 24 12 21Z" fill="#FFFFFF" />
+        </svg>
+      </div>
+      <div class="speech-bubble">
+        <span class="speech-tag">🧭 Bab 1 • Dilema Moral Pertapaan</span>
+        <p class="speech-text">
+          Jika kamu berkesempatan meminta satu hal sakti: kamu memilih kemewahan istana emas saat ini, atau berkorban
+          bertahun-tahun demi daratan anak-cucumu kelak?
+        </p>
+      </div>
+    </div>
+
+    <!-- 2-Column Options Grid -->
+    <div class="options-grid">
+      <div class="duo-card" id="cardA" onclick="chooseOption(1)">
+        <div class="card-top">
+          <div class="opt-badge">A</div>
+          <div class="card-title">Kenyamanan Sekarang</div>
+        </div>
+        <div class="card-desc">Memilih kemewahan duniawi saat ini karena masa depan masih misteri.</div>
+      </div>
+      <div class="duo-card" id="cardB" onclick="chooseOption(2)">
+        <div class="card-top">
+          <div class="opt-badge">B</div>
+          <div class="card-title">Kemaslahatan Masa Depan</div>
+        </div>
+        <div class="card-desc">Memilih berkorban dan bersabar demi tempat bernaung generasi anak-cucu.</div>
+      </div>
+    </div>
+
+    <!-- 3D Check Button -->
+    <div class="action-bar">
+      <button id="btnCheck" class="btn-duo-check" onclick="checkAnswer()">
+        <span>Periksa Jawaban</span>
+        <span style="font-size: 14px;">✔</span>
+      </button>
+    </div>
+
+    <!-- Celebratory Bottom Sheet -->
+    <div id="bottomSheet" class="bottom-sheet">
+      <div class="sheet-header">
+        <span style="font-size: 18px;">✨</span>
+        <span id="sheetTitle">Pilihan yang Menginspirasi!</span>
+      </div>
+      <div id="sheetBody" class="sheet-body"></div>
+      <div class="sheet-actions">
+        <button class="btn-continue" onclick="continueToModule()">Lanjutkan Baca Cerita →</button>
+        <button class="btn-retry" onclick="resetDuo()">Coba Opsi Lain ↺</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let selectedChoice = 0;
+    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+    function playTap() {
+      try {
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(460, audioCtx.currentTime);
+        osc.frequency.exponentialRampToValueAtTime(240, audioCtx.currentTime + 0.05);
+        gain.gain.setValueAtTime(0.12, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.05);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start();
+        osc.stop(audioCtx.currentTime + 0.05);
+      } catch (e) { }
+    }
+
+    function playChime() {
+      try {
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+        const now = audioCtx.currentTime;
+        // Tone 1: C5 (523 Hz)
+        const o1 = audioCtx.createOscillator();
+        const g1 = audioCtx.createGain();
+        o1.type = 'triangle';
+        o1.frequency.setValueAtTime(523.25, now);
+        g1.gain.setValueAtTime(0.2, now);
+        g1.gain.exponentialRampToValueAtTime(0.001, now + 0.22);
+        o1.connect(g1);
+        g1.connect(audioCtx.destination);
+        o1.start(now);
+        o1.stop(now + 0.22);
+
+        // Tone 2: G5 (784 Hz)
+        const o2 = audioCtx.createOscillator();
+        const g2 = audioCtx.createGain();
+        o2.type = 'triangle';
+        o2.frequency.setValueAtTime(783.99, now + 0.08);
+        g2.gain.setValueAtTime(0.22, now + 0.08);
+        g2.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
+        o2.connect(g2);
+        g2.connect(audioCtx.destination);
+        o2.start(now + 0.08);
+        o2.stop(now + 0.4);
+      } catch (e) { }
+    }
+
+    function chooseOption(choice) {
+      selectedChoice = choice;
+      playTap();
+      document.getElementById('cardA').classList.toggle('selected', choice === 1);
+      document.getElementById('cardB').classList.toggle('selected', choice === 2);
+
+      const btn = document.getElementById('btnCheck');
+      btn.classList.add('active');
+    }
+
+    function checkAnswer() {
+      if (!selectedChoice) return;
+      playChime();
+
+      const sheet = document.getElementById('bottomSheet');
+      const title = document.getElementById('sheetTitle');
+      const body = document.getElementById('sheetBody');
+
+      if (selectedChoice === 1) {
+        title.innerText = "Sudut Pandang yang Manusiawi!";
+        body.innerHTML = "Wajar bila manusia mendambakan kemewahan saat ini. Namun, di <strong>Halaman 7</strong> kamu akan melihat Datu Mabrur memilih jalan sebaliknya: menepis segala pamrih demi masa depan anak-cucunya!";
+      } else {
+        title.innerText = "Luar Biasa! Selaras Jiwa Luhur Datu Mabrur";
+        body.innerHTML = "Inilah inti kebijaksanaan sastra hikayat! Pertapaan Datu Mabrur di antara dua selat semata-mata demi permohonan pulau bagi keturunannya. Mari buka <strong>Halaman 7</strong> untuk menyelami kisahnya!";
+      }
+
+      sheet.style.display = 'block';
+    }
+
+    function resetDuo() {
+      selectedChoice = 0;
+      document.getElementById('cardA').classList.remove('selected');
+      document.getElementById('cardB').classList.remove('selected');
+      document.getElementById('btnCheck').classList.remove('active');
+      document.getElementById('bottomSheet').style.display = 'none';
+    }
+
+    function continueToModule() {
+      // Memberi getaran respons visual saat lanjut
+      const btn = event.target;
+      btn.innerText = "Buka Cerita Halaman 7...";
+      btn.style.opacity = "0.8";
+      setTimeout(() => {
+        resetDuo();
+        btn.innerText = "Lanjutkan Baca Cerita →";
+        btn.style.opacity = "1";
+      }, 1500);
+    }
+  </script>
+
+</body>
+
+</html>
