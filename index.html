@@ -263,6 +263,46 @@
     }
 
     /* Grid of Widgets */
+    
+    /* Size Selector Bar */
+    .size-selector-bar {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 12px;
+      padding: 6px 10px;
+      background: var(--bg-subtle);
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      flex-wrap: wrap;
+    }
+    .size-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--ink-dark);
+      margin-right: 2px;
+    }
+    .size-pill {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 3px 8px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--ink-body);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .size-pill:hover {
+      border-color: var(--gold-royal);
+      color: var(--gold-dark);
+    }
+    .size-pill.active {
+      background: var(--gold-royal);
+      color: var(--ocean-navy);
+      border-color: var(--gold-royal);
+    }
+
     .widgets-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
@@ -485,7 +525,47 @@
 
     @media (max-width: 768px) {
       .hero-title { font-size: 1.6rem; }
-      .widgets-grid { grid-template-columns: 1fr; }
+      
+    /* Size Selector Bar */
+    .size-selector-bar {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 12px;
+      padding: 6px 10px;
+      background: var(--bg-subtle);
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      flex-wrap: wrap;
+    }
+    .size-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--ink-dark);
+      margin-right: 2px;
+    }
+    .size-pill {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 3px 8px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--ink-body);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .size-pill:hover {
+      border-color: var(--gold-royal);
+      color: var(--gold-dark);
+    }
+    .size-pill.active {
+      background: var(--gold-royal);
+      color: var(--ocean-navy);
+      border-color: var(--gold-royal);
+    }
+
+    .widgets-grid { grid-template-columns: 1fr; }
       .header-inner { flex-direction: column; text-align: center; }
     }
   </style>
@@ -561,14 +641,20 @@
           <div class="card-body">
             <h3 class="widget-title">Awal Pertapaan Datu Mabrur</h3>
             <p class="widget-sub">Refleksi motivasi hidup: Harta kekayaan materi vs kemaslahatan anak-cucu antargenerasi.</p>
-            <div class="preview-frame-wrap">
-              <iframe src="widgets/pemantik-interaktif/pemantik_bab1.html" loading="lazy" title="Widget Pemantik Bab 1"></iframe>
+            <div class="size-selector-bar" data-widget="widgets/pemantik-interaktif/pemantik_bab1.html">
+              <span class="size-label">📐 Ukuran:</span>
+              <button type="button" class="size-pill active" data-size="compact" data-height="250" onclick="switchWidgetSize(this)">Compact (85%)</button>
+              <button type="button" class="size-pill" data-size="normal" data-height="295" onclick="switchWidgetSize(this)">Normal (100%)</button>
+              <button type="button" class="size-pill" data-size="large" data-height="345" onclick="switchWidgetSize(this)">Besar (115%)</button>
+            </div>
+            <div class="preview-frame-wrap" style="height: 250px;">
+              <iframe src="widgets/pemantik-interaktif/pemantik_bab1.html?size=compact" loading="lazy" title="Widget Pemantik Bab 1"></iframe>
             </div>
             <div class="card-actions">
-              <a href="widgets/pemantik-interaktif/pemantik_bab1.html" target="_blank" class="btn-card-action btn-view-direct">
+              <a href="widgets/pemantik-interaktif/pemantik_bab1.html?size=compact" target="_blank" class="btn-card-action btn-view-direct">
                 <span>↗</span> Buka Layar Penuh
               </a>
-              <button class="btn-card-action btn-copy-embed" onclick="copyEmbed('widgets/pemantik-interaktif/pemantik_bab1.html', this)">
+              <button type="button" class="btn-card-action btn-copy-embed" data-default-url="widgets/pemantik-interaktif/pemantik_bab1.html?size=compact" data-target-url="widgets/pemantik-interaktif/pemantik_bab1.html?size=compact" data-target-height="250" onclick="copyEmbed(this)">
                 <span>📋</span> Salin Iframe Heyzine
               </button>
             </div>
@@ -584,14 +670,20 @@
           <div class="card-body">
             <h3 class="widget-title">Serangan Ikan Todak & Konflik</h3>
             <p class="widget-sub">Manajemen emosi saat diserang mendadak: Amarah membalas vs ketenangan batin menepis serangan.</p>
-            <div class="preview-frame-wrap">
-              <iframe src="widgets/pemantik-interaktif/pemantik_bab2.html" loading="lazy" title="Widget Pemantik Bab 2"></iframe>
+            <div class="size-selector-bar" data-widget="widgets/pemantik-interaktif/pemantik_bab2.html">
+              <span class="size-label">📐 Ukuran:</span>
+              <button type="button" class="size-pill active" data-size="compact" data-height="250" onclick="switchWidgetSize(this)">Compact (85%)</button>
+              <button type="button" class="size-pill" data-size="normal" data-height="295" onclick="switchWidgetSize(this)">Normal (100%)</button>
+              <button type="button" class="size-pill" data-size="large" data-height="345" onclick="switchWidgetSize(this)">Besar (115%)</button>
+            </div>
+            <div class="preview-frame-wrap" style="height: 250px;">
+              <iframe src="widgets/pemantik-interaktif/pemantik_bab2.html?size=compact" loading="lazy" title="Widget Pemantik Bab 2"></iframe>
             </div>
             <div class="card-actions">
-              <a href="widgets/pemantik-interaktif/pemantik_bab2.html" target="_blank" class="btn-card-action btn-view-direct">
+              <a href="widgets/pemantik-interaktif/pemantik_bab2.html?size=compact" target="_blank" class="btn-card-action btn-view-direct">
                 <span>↗</span> Buka Layar Penuh
               </a>
-              <button class="btn-card-action btn-copy-embed" onclick="copyEmbed('widgets/pemantik-interaktif/pemantik_bab2.html', this)">
+              <button type="button" class="btn-card-action btn-copy-embed" data-default-url="widgets/pemantik-interaktif/pemantik_bab2.html?size=compact" data-target-url="widgets/pemantik-interaktif/pemantik_bab2.html?size=compact" data-target-height="250" onclick="copyEmbed(this)">
                 <span>📋</span> Salin Iframe Heyzine
               </button>
             </div>
@@ -607,14 +699,20 @@
           <div class="card-body">
             <h3 class="widget-title">Perjanjian Suci Sa-Ijaan</h3>
             <p class="widget-sub">Resolusi konflik bermartabat: Balas dendam membinasakan musuh vs memaafkan & ikrar damai.</p>
-            <div class="preview-frame-wrap">
-              <iframe src="widgets/pemantik-interaktif/pemantik_bab3.html" loading="lazy" title="Widget Pemantik Bab 3"></iframe>
+            <div class="size-selector-bar" data-widget="widgets/pemantik-interaktif/pemantik_bab3.html">
+              <span class="size-label">📐 Ukuran:</span>
+              <button type="button" class="size-pill active" data-size="compact" data-height="250" onclick="switchWidgetSize(this)">Compact (85%)</button>
+              <button type="button" class="size-pill" data-size="normal" data-height="295" onclick="switchWidgetSize(this)">Normal (100%)</button>
+              <button type="button" class="size-pill" data-size="large" data-height="345" onclick="switchWidgetSize(this)">Besar (115%)</button>
+            </div>
+            <div class="preview-frame-wrap" style="height: 250px;">
+              <iframe src="widgets/pemantik-interaktif/pemantik_bab3.html?size=compact" loading="lazy" title="Widget Pemantik Bab 3"></iframe>
             </div>
             <div class="card-actions">
-              <a href="widgets/pemantik-interaktif/pemantik_bab3.html" target="_blank" class="btn-card-action btn-view-direct">
+              <a href="widgets/pemantik-interaktif/pemantik_bab3.html?size=compact" target="_blank" class="btn-card-action btn-view-direct">
                 <span>↗</span> Buka Layar Penuh
               </a>
-              <button class="btn-card-action btn-copy-embed" onclick="copyEmbed('widgets/pemantik-interaktif/pemantik_bab3.html', this)">
+              <button type="button" class="btn-card-action btn-copy-embed" data-default-url="widgets/pemantik-interaktif/pemantik_bab3.html?size=compact" data-target-url="widgets/pemantik-interaktif/pemantik_bab3.html?size=compact" data-target-height="250" onclick="copyEmbed(this)">
                 <span>📋</span> Salin Iframe Heyzine
               </button>
             </div>
@@ -630,14 +728,20 @@
           <div class="card-body">
             <h3 class="widget-title">Terangkatnya Daratan Pulau Laut</h3>
             <p class="widget-sub">Kekuatan persatuan & gotong royong: Berjuang sendirian vs sinergi jutaan makhluk mewujudkan janji.</p>
-            <div class="preview-frame-wrap">
-              <iframe src="widgets/pemantik-interaktif/pemantik_bab4.html" loading="lazy" title="Widget Pemantik Bab 4"></iframe>
+            <div class="size-selector-bar" data-widget="widgets/pemantik-interaktif/pemantik_bab4.html">
+              <span class="size-label">📐 Ukuran:</span>
+              <button type="button" class="size-pill active" data-size="compact" data-height="250" onclick="switchWidgetSize(this)">Compact (85%)</button>
+              <button type="button" class="size-pill" data-size="normal" data-height="295" onclick="switchWidgetSize(this)">Normal (100%)</button>
+              <button type="button" class="size-pill" data-size="large" data-height="345" onclick="switchWidgetSize(this)">Besar (115%)</button>
+            </div>
+            <div class="preview-frame-wrap" style="height: 250px;">
+              <iframe src="widgets/pemantik-interaktif/pemantik_bab4.html?size=compact" loading="lazy" title="Widget Pemantik Bab 4"></iframe>
             </div>
             <div class="card-actions">
-              <a href="widgets/pemantik-interaktif/pemantik_bab4.html" target="_blank" class="btn-card-action btn-view-direct">
+              <a href="widgets/pemantik-interaktif/pemantik_bab4.html?size=compact" target="_blank" class="btn-card-action btn-view-direct">
                 <span>↗</span> Buka Layar Penuh
               </a>
-              <button class="btn-card-action btn-copy-embed" onclick="copyEmbed('widgets/pemantik-interaktif/pemantik_bab4.html', this)">
+              <button type="button" class="btn-card-action btn-copy-embed" data-default-url="widgets/pemantik-interaktif/pemantik_bab4.html?size=compact" data-target-url="widgets/pemantik-interaktif/pemantik_bab4.html?size=compact" data-target-height="250" onclick="copyEmbed(this)">
                 <span>📋</span> Salin Iframe Heyzine
               </button>
             </div>
@@ -653,14 +757,20 @@
           <div class="card-body">
             <h3 class="widget-title">Warisan Kearifan & Pulau Halimun</h3>
             <p class="widget-sub">Relevansi legenda bagi Generasi Z: Sekadar dongeng fiksi pengantar tidur vs kompas moral penjaga bangsa.</p>
-            <div class="preview-frame-wrap">
-              <iframe src="widgets/pemantik-interaktif/pemantik_bab5.html" loading="lazy" title="Widget Pemantik Bab 5"></iframe>
+            <div class="size-selector-bar" data-widget="widgets/pemantik-interaktif/pemantik_bab5.html">
+              <span class="size-label">📐 Ukuran:</span>
+              <button type="button" class="size-pill active" data-size="compact" data-height="250" onclick="switchWidgetSize(this)">Compact (85%)</button>
+              <button type="button" class="size-pill" data-size="normal" data-height="295" onclick="switchWidgetSize(this)">Normal (100%)</button>
+              <button type="button" class="size-pill" data-size="large" data-height="345" onclick="switchWidgetSize(this)">Besar (115%)</button>
+            </div>
+            <div class="preview-frame-wrap" style="height: 250px;">
+              <iframe src="widgets/pemantik-interaktif/pemantik_bab5.html?size=compact" loading="lazy" title="Widget Pemantik Bab 5"></iframe>
             </div>
             <div class="card-actions">
-              <a href="widgets/pemantik-interaktif/pemantik_bab5.html" target="_blank" class="btn-card-action btn-view-direct">
+              <a href="widgets/pemantik-interaktif/pemantik_bab5.html?size=compact" target="_blank" class="btn-card-action btn-view-direct">
                 <span>↗</span> Buka Layar Penuh
               </a>
-              <button class="btn-card-action btn-copy-embed" onclick="copyEmbed('widgets/pemantik-interaktif/pemantik_bab5.html', this)">
+              <button type="button" class="btn-card-action btn-copy-embed" data-default-url="widgets/pemantik-interaktif/pemantik_bab5.html?size=compact" data-target-url="widgets/pemantik-interaktif/pemantik_bab5.html?size=compact" data-target-height="250" onclick="copyEmbed(this)">
                 <span>📋</span> Salin Iframe Heyzine
               </button>
             </div>
@@ -728,12 +838,40 @@
   </footer>
 
   <script>
-    function copyEmbed(relPath, btnElem) {
+    function switchWidgetSize(btnElem) {
+      const bar = btnElem.closest('.size-selector-bar');
+      const card = btnElem.closest('.widget-card');
+      const relPath = bar.getAttribute('data-widget');
+      const size = btnElem.getAttribute('data-size');
+      const height = btnElem.getAttribute('data-height');
+
+      bar.querySelectorAll('.size-pill').forEach(b => b.classList.remove('active'));
+      btnElem.classList.add('active');
+
+      const iframe = card.querySelector('iframe');
+      const previewWrap = card.querySelector('.preview-frame-wrap');
+      const copyBtn = card.querySelector('.btn-copy-embed');
+      const viewBtn = card.querySelector('.btn-view-direct');
+
+      const queryUrl = `${relPath}?size=${size}`;
+      iframe.src = queryUrl;
+      previewWrap.style.height = `${height}px`;
+
+      viewBtn.href = queryUrl;
+      copyBtn.setAttribute('data-target-url', queryUrl);
+      copyBtn.setAttribute('data-target-height', height);
+
+      showToast(`📐 Ukuran diubah ke: ${size.toUpperCase()} (${height}px)`);
+    }
+
+    function copyEmbed(btnElem) {
+      const relPath = btnElem.getAttribute('data-target-url') || btnElem.getAttribute('data-default-url') || 'widgets/pemantik-interaktif/pemantik_bab1.html';
+      const height = btnElem.getAttribute('data-target-height') || '250';
       const fullUrl = window.location.origin + '/' + relPath;
-      const iframeCode = `<iframe src="${fullUrl}" width="100%" height="320" frameborder="0" style="border-radius:14px; border:1.5px solid #C89B3C;"></iframe>`;
+      const iframeCode = `<iframe src="${fullUrl}" width="100%" height="${height}" frameborder="0" style="border-radius:14px; border:none; background:transparent;"></iframe>`;
       
       navigator.clipboard.writeText(fullUrl).then(() => {
-        showToast(`✔ URL Widget Tersalin: ${fullUrl}`);
+        showToast(`✔ URL Widget Tersalin (${height}px): ${fullUrl}`);
         if (btnElem) {
           const origText = btnElem.innerHTML;
           btnElem.innerHTML = '<span>✔</span> Tersalin!';

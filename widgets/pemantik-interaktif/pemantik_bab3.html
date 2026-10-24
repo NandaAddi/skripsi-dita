@@ -33,51 +33,7 @@
       overflow: hidden;
     }
 
-    /* Top Progress Track */
-    .top-bar {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 10px;
-    }
-    .progress-track {
-      flex: 1;
-      height: 9px;
-      background: rgba(0, 0, 0, 0.08);
-      border-radius: 999px;
-      overflow: hidden;
-      position: relative;
-    }
-    .progress-fill {
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(90deg, #F5B041, #C89B3C);
-      border-radius: 999px;
-      position: relative;
-    }
-    .progress-fill::after {
-      content: "";
-      position: absolute;
-      top: 2px;
-      left: 6px;
-      right: 6px;
-      height: 3px;
-      background: rgba(255, 255, 255, 0.5);
-      border-radius: 999px;
-    }
-    .gem-pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      background: #FFF5DC;
-      color: #8C6212;
-      border: 1.5px solid #F0D495;
-      border-radius: 12px;
-      padding: 2px 8px;
-      font-size: 11px;
-      font-weight: 800;
-      letter-spacing: 0.4px;
-    }
+    /* Top Progress Track removed for compact design */
 
     /* Question & Character Speech Bubble */
     .chat-row {
@@ -343,18 +299,8 @@
 <body>
 
 <div class="duo-container">
-  <!-- Top Progress & XP Badge -->
-  <div class="top-bar">
-    <div class="progress-track">
-      <div class="progress-fill"></div>
-    </div>
-    <div class="gem-pill">
-      <span>🤝 10 XP</span>
-    </div>
-  </div>
-
-  <!-- Character Avatar & Speech Bubble -->
-  <div class="chat-row">
+    <!-- Question & Character Speech Bubble -->
+    <div class="chat-row">
     <div class="avatar-wrapper" title="Datu Mabrur">
       <svg class="avatar-svg" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="18" cy="18" r="10" fill="#FAD09E"/>
@@ -510,6 +456,39 @@
       btn.style.opacity = "1";
     }, 1500);
   }
+
+  // --- Scale / Size Query Parameter Handler ---
+  (function() {
+    try {
+      const urlParams = new URLSearchParams(window.location.search);
+      const size = urlParams.get('size');
+      const scaleParam = parseFloat(urlParams.get('scale'));
+      let scale = 1.0;
+
+      if (!isNaN(scaleParam) && scaleParam >= 0.5 && scaleParam <= 1.5) {
+        scale = scaleParam;
+      } else if (size === 'compact' || size === 'small') {
+        scale = 0.85;
+      } else if (size === 'mini') {
+        scale = 0.75;
+      } else if (size === 'large') {
+        scale = 1.15;
+      }
+
+      if (scale !== 1.0) {
+        const container = document.querySelector('.duo-container');
+        if (container) {
+          container.style.transform = `scale(${scale})`;
+          container.style.transformOrigin = 'top center';
+          container.style.width = `${(100 / scale).toFixed(2)}%`;
+          container.style.maxWidth = `${(520 / scale).toFixed(2)}px`;
+        }
+      }
+    } catch (e) {
+      console.warn('Scaling init error:', e);
+    }
+  })();
+
 </script>
 
 </body>
