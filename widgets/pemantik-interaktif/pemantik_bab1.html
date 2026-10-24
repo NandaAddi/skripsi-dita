@@ -18,26 +18,25 @@
 
     body {
       font-family: 'Plus Jakarta Sans', sans-serif;
-      background: #F8F4EB;
+      background: transparent !important;
       color: #2A2421;
       display: flex;
       justify-content: center;
       align-items: center;
       min-height: 100vh;
-      padding: 10px;
+      padding: 4px;
       overflow: hidden;
     }
 
     .duo-container {
-      background: #FFFFFF;
-      border: 2px solid #E5DFD5;
-      border-bottom: 5px solid #D0C8B8;
-      border-radius: 20px;
-      padding: 14px 16px;
+      background: transparent !important;
+      border: none !important;
+      box-shadow: none !important;
+      border-radius: 16px;
+      padding: 4px 6px;
       max-width: 520px;
       width: 100%;
       position: relative;
-      box-shadow: 0 8px 24px rgba(15, 44, 76, 0.06);
       overflow: hidden;
     }
 
@@ -52,7 +51,7 @@
     .progress-track {
       flex: 1;
       height: 9px;
-      background: #EFE9DE;
+      background: rgba(0, 0, 0, 0.08);
       border-radius: 999px;
       overflow: hidden;
       position: relative;
@@ -306,7 +305,7 @@
       background: #2D7A4C;
       border-top: 2px solid #3E9661;
       padding: 12px 16px;
-      border-radius: 0 0 18px 18px;
+      border-radius: 14px;
       display: none;
       box-shadow: 0 -8px 24px rgba(45, 122, 76, 0.25);
       animation: sheetBounce 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
