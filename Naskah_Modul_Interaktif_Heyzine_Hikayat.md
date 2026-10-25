@@ -17,28 +17,46 @@
 ### 1.2 Tujuan Pembelajaran (TP) Berbasis Formula ABCD
 > **Panduan Formula ABCD**:
 > * **A (Audience)**: Peserta didik Fase E (Kelas X SMA).
-> * **B (Behavior)**: Perilaku/kompetensi terukur menggunakan KKO Taksonomi Bloom (mengidentifikasi, menganalisis, membedah, mengevaluasi).
+> * **B (Behavior)**: Perilaku/kompetensi terukur menggunakan KKO Taksonomi Bloom (mengidentifikasi, menganalisis, menguraikan, mengevaluasi).
 > * **C (Condition)**: Kondisi dan media pembelajaran interaktif (e-modul Heyzine, audio narasi, video animasi, glosarium, asesmen gamifikasi).
 > * **D (Degree)**: Tingkat keberhasilan dan kualitas penguasaan (dengan tepat dan kritis, secara runtut dan sistematis, secara cermat dan mendalam, secara mandiri, secara komprehensif dan bertanggung jawab).
 
 1. **TP 1 (Karakteristik Teks Hikayat)**:  
-   Melalui kegiatan membaca teks dan menyimak narasi audio pada e-modul interaktif Heyzine **[C]**, peserta didik Fase E **[A]** mampu mengidentifikasi karakteristik khas teks hikayat (kemustahilan, kesaktian tokoh, anonim, istana-sentris, dan bahasa Melayu klasik) **[B]** dengan tepat dan kritis **[D]**.
+   Melalui kegiatan membaca teks dan menyimak narasi audio pada e-modul interaktif Heyzine **[C]**, peserta didik Fase E **[A]** mampu mengidentifikasi karakteristik khas teks hikayat (kemustahilan, kesaktian tokoh, anonim, tradisi lisan kolektif, dan bahasa Melayu klasik arkais) serta membandingkan konvensi istana-sentris dengan keunikan hikayat maritim pesisir **[B]** dengan tepat dan kritis **[D]**.
 2. **TP 2 (Struktur Narasi & Konflik)**:  
    Melalui eksplorasi alur cerita dan pengamatan video animasi pada e-modul **[C]**, peserta didik Fase E **[A]** mampu menganalisis struktur alur narasi teks hikayat (orientasi, komplikasi, resolusi, dan koda) **[B]** secara runtut dan sistematis **[D]**.
 3. **TP 3 (Unsur Intrinsik Cerita)**:  
-   Setelah menuntaskan petualangan membaca dan misi interaktif dalam e-modul **[C]**, peserta didik Fase E **[A]** mampu membedah unsur intrinsik (tema, penokohan, latar, sudut pandang, dan amanat) dalam teks *Hikayat Sa-Ijaan dan Ikan Todak* **[B]** secara mendalam dan cermat **[D]**.
+   Setelah menuntaskan petualangan membaca dan misi interaktif dalam e-modul **[C]**, peserta didik Fase E **[A]** mampu menganalisis unsur intrinsik (tema, penokohan, latar, sudut pandang, dan amanat) dalam teks *Hikayat Sa-Ijaan dan Ikan Todak* **[B]** secara mendalam dan cermat **[D]**.
 4. **TP 4 (Kaidah Kebahasaan & Kosakata Arkais)**:  
    Dengan memanfaatkan fitur glosarium interaktif dan sorotan teks (*highlight*) pada e-modul **[C]**, peserta didik Fase E **[A]** mampu menganalisis kaidah kebahasaan teks hikayat (kosakata arkais Melayu klasik, konjungsi urutan waktu, dan kata kerja material) **[B]** secara tepat dan mandiri **[D]**.
 5. **TP 5 (Evaluasi & Kontekstualisasi Nilai Kehidupan)**:  
    Melalui aktivitas refleksi diri dan pengerjaan asesmen gamifikasi pada e-modul **[C]**, peserta didik Fase E **[A]** mampu mengevaluasi 5 nilai kehidupan luhur (religi, moral, sosial, budaya, dan edukasi) serta mengaitkannya dengan fenomena kehidupan masa kini **[B]** secara kritis, komprehensif, dan bertanggung jawab **[D]**.
 
 ### 1.3 Alur Kronik Kontekstual Berbasis Materi Teks Hikayat (5 Bab Pembelajaran & Evaluasi Akhir)
-* **Bab 1: Pengertian & Karakteristik Teks Hikayat** $ightarrow$ *Fokus Cerita:* Mengenal Hakikat Sastra Klasik & Pertapaan Datu Mabrur $ightarrow$ *Materi:* Pengertian Hikayat, Ciri Sastra Melayu (Kemustahilan, Kesaktian, Anonim, Istana-sentris, Melayu Klasik) $ightarrow$ *Aktivitas:* **Misi 1 (Kenali Tokoh & Latar)** + Widget Pemantik Bab 1.
-* **Bab 2: Struktur Narasi & Kemustahilan Cerita** $ightarrow$ *Fokus Cerita:* Membedah Orientasi-Komplikasi & Serangan Ikan Todak $ightarrow$ *Materi:* Struktur Konflik (Orientasi & Komplikasi), Unsur Kemustahilan & Kesaktian Tokoh $ightarrow$ *Aktivitas:* **Misi 2 (Analisis Konflik)** & **Misi 3 (Bedah Kemustahilan)** + Video Animasi.
-* **Bab 3: Unsur Intrinsik & Karakter Tokoh** $ightarrow$ *Fokus Cerita:* Menelaah Perwatakan, Latar, & Perjanjian Sa-Ijaan $ightarrow$ *Materi:* Karakter Tokoh & Resolusi Damai, Nilai Moral & Sosial, Kosakata Adat/Arkais $ightarrow$ *Aktivitas:* **Misi 4 (Makna Filosofis Sa-Ijaan)**.
-* **Bab 4: Kaidah Kebahasaan & Kosakata Arkais** $ightarrow$ *Fokus Cerita:* Menganalisis Konjungsi Waktu, Kata Arkais, & Terbitnya Pulau Halimun $ightarrow$ *Materi:* Alur/Plot Kronologis Sebab-Akibat, Kaidah Konjungsi Waktu (Hatta, Maka, Sebermula), Verba Material $ightarrow$ *Aktivitas:* **Misi 5 (Drag-and-Drop Bongkar Urutan Peristiwa)**.
-* **Bab 5: Nilai-Nilai Kehidupan dalam Hikayat** $ightarrow$ *Fokus Cerita:* Menggali 5 Nilai Luhur Nusantara & Asal-Usul Pulau Laut $ightarrow$ *Materi:* Struktur Resolusi & Koda, Eksplorasi 5 Nilai Hikayat (Religi, Moral, Sosial, Budaya, Edukasi), Asal-Usul Toponimi & Makna Sa-Ijaan $ightarrow$ *Aktivitas:* **Aktivitas Detektif Hikayat & Kearifan Nusantara**.
-* **Bagian Evaluasi & Penutup: Refleksi Diri, Glosarium & Evaluasi** $ightarrow$ *Fokus Evaluasi:* Asesmen Metakognitif & Suplemen Kebahasaan $ightarrow$ *Materi:* Sintesis Pemahaman Siswa & Relevansi Moral Generasi Z $ightarrow$ *Kelengkapan:* **Lembar Refleksi Diri (H.31), Kunci Jawaban Misi 1–5 (H.32), Glosarium Arkais (H.33), Daftar Pustaka (H.34)**.
+* **Bab 1: Pengertian & Karakteristik Teks Hikayat** $
+ightarrow$ *Fokus Cerita:* Mengenal Hakikat Sastra Klasik & Pertapaan Datu Mabrur $
+ightarrow$ *Materi:* Pengertian Hikayat, Ciri Sastra Melayu (Kemustahilan, Kesaktian, Anonim, Istana-sentris, Melayu Klasik) $
+ightarrow$ *Aktivitas:* **Misi 1 (Kenali Tokoh & Latar)** + Widget Pemantik Bab 1.
+* **Bab 2: Struktur Narasi & Kemustahilan Cerita** $
+ightarrow$ *Fokus Cerita:* Membedah Orientasi-Komplikasi & Serangan Ikan Todak $
+ightarrow$ *Materi:* Struktur Konflik (Orientasi & Komplikasi), Unsur Kemustahilan & Kesaktian Tokoh $
+ightarrow$ *Aktivitas:* **Misi 2 (Analisis Konflik)** & **Misi 3 (Bedah Kemustahilan)** + Video Animasi.
+* **Bab 3: Unsur Intrinsik & Karakter Tokoh** $
+ightarrow$ *Fokus Cerita:* Menelaah Perwatakan, Latar, & Perjanjian Sa-Ijaan $
+ightarrow$ *Materi:* Karakter Tokoh & Resolusi Damai, Nilai Moral & Sosial, Kosakata Adat/Arkais $
+ightarrow$ *Aktivitas:* **Misi 4 (Makna Filosofis Sa-Ijaan)**.
+* **Bab 4: Kaidah Kebahasaan & Kosakata Arkais** $
+ightarrow$ *Fokus Cerita:* Menganalisis Konjungsi Waktu, Kata Arkais, & Terbitnya Pulau Halimun $
+ightarrow$ *Materi:* Alur/Plot Kronologis Sebab-Akibat, Kaidah Konjungsi Waktu (Hatta, Maka, Sebermula), Verba Material $
+ightarrow$ *Aktivitas:* **Misi 5 (Drag-and-Drop Bongkar Urutan Peristiwa)**.
+* **Bab 5: Nilai-Nilai Kehidupan dalam Hikayat** $
+ightarrow$ *Fokus Cerita:* Menggali 5 Nilai Luhur Nusantara & Asal-Usul Pulau Laut $
+ightarrow$ *Materi:* Struktur Resolusi & Koda, Eksplorasi 5 Nilai Hikayat (Religi, Moral, Sosial, Budaya, Edukasi), Asal-Usul Toponimi & Makna Sa-Ijaan $
+ightarrow$ *Aktivitas:* **Aktivitas Detektif Hikayat & Kearifan Nusantara**.
+* **Bagian Evaluasi & Penutup: Refleksi Diri, Glosarium & Evaluasi** $
+ightarrow$ *Fokus Evaluasi:* Asesmen Metakognitif & Suplemen Kebahasaan $
+ightarrow$ *Materi:* Sintesis Pemahaman Siswa & Relevansi Moral Generasi Z $
+ightarrow$ *Kelengkapan:* **Lembar Refleksi Diri (H.31), Kunci Jawaban Misi 1–5 (H.32), Glosarium Arkais (H.33), Daftar Pustaka (H.34)**.
 ---
 
 ## 2. DESIGN SYSTEM & PANDUAN VISUAL CANVA / FIGMA
@@ -315,7 +333,7 @@ Format Layout  : Infografis Terpadu A4 Portrait:
 (Tujuan Pembelajaran - Rumusan Baku ABCD):
 1. Melalui e-modul interaktif Heyzine [C], peserta didik Fase E [A] mampu mengidentifikasi karakteristik khas teks hikayat [B] dengan tepat dan kritis [D].
 2. Melalui eksplorasi alur & video animasi [C], peserta didik Fase E [A] mampu menganalisis struktur alur narasi teks hikayat [B] secara runtut dan sistematis [D].
-3. Melalui misi membaca & gamifikasi [C], peserta didik Fase E [A] mampu membedah unsur intrinsik cerita rakyat Kotabaru [B] secara mendalam dan cermat [D].
+3. Melalui misi membaca & gamifikasi [C], peserta didik Fase E [A] mampu menganalisis unsur intrinsik Hikayat Sa-Ijaan dan Ikan Todak [B] secara mendalam dan cermat [D].
 4. Melalui glosarium & penanda teks [C], peserta didik Fase E [A] mampu menganalisis kosakata arkais & kaidah kebahasaan [B] secara tepat dan mandiri [D].
 5. Melalui refleksi & asesmen interaktif [C], peserta didik Fase E [A] mampu mengevaluasi nilai-nilai Sa-Ijaan & relevansinya [B] secara komprehensif [D].
 
@@ -525,13 +543,14 @@ Format Layout  : Tatanan 2 Kolom Berisi Kartu Konsep Berwarna Deep Ocean Blue & 
 Kata *hikayat* berasal dari bahasa Arab *haka* yang berarti menceritakan, mewartakan, menirukan, atau melukiskan. Hikayat merupakan karya sastra lama Melayu berbentuk prosa yang berisi kisah rekaan, keagamaan, sejarah, kepahlawanan, hingga silsilah. Sastra ini dibaca sebagai pelipur lara, pembangkit semangat juang, dan sarana pewarisan nilai kebajikan antar-generasi.
 
 (Kartu 2: Karakteristik Khas yang Ditemukan di Bab 1):
-1. **Anonim**: Nama pengarang aslinya tidak diketahui karena cerita dituturkan secara lisan turun-temurun.
+1. **Anonim**: Nama pengarang aslinya tidak diketahui karena cerita dituturkan secara lisan turun-temurun sebagai milik kolektif masyarakat.
 2. **Kesaktian Tokoh**: Datu Mabrur digambarkan memiliki kesaktian luar biasa (*mandraguna*) yang mampu bertapa siang-malam di atas batu karang tanpa tergeming oleh ombak dan badai.
 3. **Penggunaan Ungkapan Arkais**: Pembukaan kisah menggunakan formula bahasa Melayu klasik seperti *“Menurut sahibul hikayat...”* dan *“sebermula...”*.
-4. **Latar Cerita Nyata Berpadu Mitologi**: Menyebutkan Selat Laut dan Selat Makassar (Kalimantan Selatan) yang dikaitkan dengan peristiwa mitos terciptanya daratan.
+4. **Latar Historis-Geografis Berpadu Mitologis**: Perpaduan elemen toponimi geografis nyata (Selat Laut dan Selat Makassar, Kalimantan Selatan) dengan peristiwa mitos terciptanya daratan pulau.
+5. **Keunikan Non-Istana-Sentris**: Berbeda dari tradisi hikayat Melayu klasik umum yang berpusat di lingkungan kerajaan (*istana-sentris*, seperti *Hikayat Hang Tuah*), kisah ini berlatar alam maritim terbuka dengan tokoh petapa rakyat—menampilkan kearifan ekologis pesisir nusantara yang khas.
 
 (Kartu 3: Sudut Pandang Narator Hikayat):
-Hikayat Sa-Ijaan dan Ikan Todak dituturkan menggunakan **sudut pandang orang ketiga serba tahu** (*omniscient third-person narrator*). Artinya, narator mengetahui seluruh peristiwa, pikiran, dan perasaan batin setiap tokoh tanpa batasan ruang dan waktu. Narator bebas berpindah dari satu tokoh ke tokoh lainnya.
+Hikayat Sa-Ijaan dan Ikan Todak dituturkan menggunakan **sudut pandang orang ketiga serba tahu** (istilah naratologi sastra: *omniscient third-person narrator*). Artinya, narator berperan sebagai pencerita serbatahu yang menyelami seluruh peristiwa, gerak-gerik, hingga isi pikiran dan perasaan batin terdalam setiap tokoh tanpa batasan ruang dan waktu. Narator bebas berpindah dari satu tokoh ke tokoh lainnya.
 
 Bukti dalam teks:
 • *"Tiada sebersit pun niat di dalam hatinya untuk meminta kemewahan duniawi..."* → Kalimat ini menunjukkan narator mampu **membaca isi hati** Datu Mabrur yang tidak tampak dari luar.
@@ -784,7 +803,9 @@ Jadilah detektif sastra yang jeli! Uji pemahamanmu mengenai konflik dan bukti ke
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
-- **Iframe Embed Heyzine**: Game Wordwall kuis interaktif 3 soal Bab 2.
+- **Iframe Embed Heyzine**: Game Kuis Interaktif Misi 2 & 3: Detektif Konflik & Kemustahilan.
+  * File Sematan: `widgets/misi-interaktif/misi_bab2.html`
+  * Format Embed: `<iframe src="widgets/misi-interaktif/misi_bab2.html" width="100%" height="350" frameborder="0" style="border-radius:14px; border:1.5px solid #C89B3C;"></iframe>`
 - Tombol Fallback Link & QR Code.
 ================================================================================
 ```
@@ -850,7 +871,7 @@ Format Layout  : Ilustrasi Sentral Datu Mabrur Mengusap Ikan Todak di Atas, Prol
 [KONTEN TEKS & COPYWRITING]
 --------------------------------------------------------------------------------
 (Prolog Bab):
-Kekuatan sejati bukanlah tentang menindas yang kalah, melainkan kemampuan untuk memaafkan dan mengulurkan tangan pertolongan. Di atas karang berdarah, sebuah perjanjian luhur terukir antara manusia dan penguasa laut—sebuah ikrar yang kelak melahirkan semboyan abadi: *Sa-Ijaan, Seiring Sejalan, Seia Sekata!*
+Kekuatan sejati bukanlah tentang menindas yang kalah, melainkan kemampuan untuk memaafkan dan mengulurkan tangan pertolongan. Di atas karang basah yang diterpa gelombang, sebuah perjanjian luhur terukir antara manusia dan penguasa laut—sebuah ikrar yang kelak melahirkan semboyan abadi: *Sa-Ijaan, Seiring Sejalan, Seia Sekata!*
 
 (Petunjuk Aktivitas Pembuka Bab 3):
 1. Dengarkan percakapan mengharukan saat Datu Mabrur menyembuhkan luka Raja Ikan Todak dengan menekan tombol Audio!
@@ -1425,7 +1446,7 @@ Format Layout  : Tabel Rapi Bergaris Emas dengan Penjelasan Pedagogis Ringkas
 • **Misi 2 (Konflik Utama)**: Serangan ribuan ikan todak yang dipimpin Raja Todak karena merasa pertapaan Datu Mabrur mengusik ketenangan lautan.
 • **Misi 3 (Bukti Kemustahilan)**: Ikan todak dapat terbang melayang menyerang di atas daratan karang dan dapat berbicara menggunakan bahasa manusia.
 • **Misi 4 (Makna Sa-Ijaan)**: Bermakna seiring sejalan, seia sekata, saling membantu, rakat mufakat, dan bahu-membahu (Nilai Sosial & Moral).
-• **Misi 5 (Urutan Alur)**: Urutan kronologis benar: (2) Raja Todak mengerahkan penghuni laut $\rightarrow$ (3) Jutaan ikan mendorong daratan sambil berseru Sa-Ijaan $\rightarrow$ (1) Daratan muncul perlahan ke permukaan $\rightarrow$ (4) Terbentuk Pulau Halimun nan subur makmur.
+• **Misi 5 (Urutan Alur)**: Urutan kronologis benar: **Kartu A** (Raja Todak mengerahkan penghuni laut) $\rightarrow$ **Kartu B** (Jutaan ikan mendorong daratan sambil berseru Sa-Ijaan) $\rightarrow$ **Kartu C** (Daratan muncul perlahan ke permukaan) $\rightarrow$ **Kartu D** (Terbentuk Pulau Halimun nan subur makmur).
 
 *(Catatan Akademik & Riset R&D: Kunci Jawaban Lengkap & Pembahasan 20 Butir Soal Post-Test serta Instrumen Evaluasi Sumatif Skripsi diarsipkan secara khusus pada dokumen lampiran tersendiri: `docs/skripsi/LAMPIRAN_INSTRUMEN_EVALUASI_PRE_POST_TEST.md`)*
 
@@ -1539,10 +1560,10 @@ Didukung oleh Platform Flipbook Heyzine
    Ketika Raja Ikan Todak menawarkan istana emas di dasar samudra dan pelayan putri duyung, Datu Mabrur menjawab:  
    *“Tidak. Aku tak punya keinginan pribadi, tapi untuk masa depan anak-cucuku nanti...”*  
    Nilai moral utama yang tercermin dari sikap Datu Mabrur tersebut adalah...  
-   * A. Bersikap pasrah dan tidak memiliki cita-cita yang tinggi  
-   * B. Ketakutan akan bahaya godaan harta kekayaan bawah laut  
-   * C. Menolak kemewahan materi demi memperjuangkan kemaslahatan generasi penerus [KUNCI]  
-   * D. Menghindari tanggung jawab sebagai pemimpin masyarakat  
+   * A. Memilih bersikap pasrah dan enggan mengejar pencapaian cita-cita duniawi yang tinggi  
+   * B. Menunjukkan rasa takut yang mendalam terhadap godaan harta kekayaan bawah samudra  
+   * C. Menolak kemewahan materi demi memperjuangkan kemaslahatan hidup generasi penerus [KUNCI]  
+   * D. Berusaha menghindar dari amanah serta tanggung jawab sosial sebagai pemimpin masyarakat  
    * *Pembahasan:* Nilai moral Datu Mabrur tampak nyata pada ketiadaan motif keserakahan pribadi (*altruisme*), di mana ia mengorbankan kenyamanan diri demi masa depan keturunannya.
 
 4. **[C4 - Identifikasi Ciri Kemustahilan Teks]**  
@@ -1621,7 +1642,7 @@ Didukung oleh Platform Flipbook Heyzine
     Sebagian besar teks hikayat di Nusantara, termasuk kisah lisan Datu Mabrur, tidak mencantumkan nama individu pengarang aslinya. Hal ini membuktikan bahwa karya sastra klasik tersebut...  
     * A. Diciptakan secara tergesa-gesa tanpa memperhatikan dokumentasi  
     * B. Sengaja disembunyikan identitas penulisnya agar terhindar dari hukuman raja  
-    * C. Merupakan cerita saduran dari naskah asing yang diterjemahkan tanpa izin  
+    * C. Merupakan karya sastra terjemahan yang diadaptasi dari tradisi sastra India kuno  
     * D. Merupakan warisan tradisi lisan kolektif milik bersama masyarakat penuturnya [KUNCI]  
     * *Pembahasan:* Sifat anonim timbul karena sastra lama dianggap milik komunal masyarakat yang dituturkan dari mulut ke mulut sebagai pembawa amanat moral bersama.
 

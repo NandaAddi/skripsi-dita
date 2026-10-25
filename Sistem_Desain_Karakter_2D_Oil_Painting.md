@@ -204,6 +204,13 @@ Karakter wajah, mata kartun, dan warna akan terkunci konsisten 100%!
 | `[MINI_TODAK_SQUAD_2D]` | `pack of cute chubby small seafoam-teal sawfish minions with big round funny cartoon eyes, swimming playfully` |
 | `[FRIENDLY_SEA_GIANTS_2D]` | `giant chubby smiling blue whale and wise cheerful ancient sea turtle working together joyfully` |
 
+### 6.2 Protokol Konsistensi Video Google Veo (Standalone Scene-by-Scene Workflow)
+Untuk mencegah inkonsistensi karakter dan kebocoran gaya saat men-generate video klip per klip secara terpisah:
+1. **Kapsul DNA Karakter Lengkap di Setiap Prompt**: Karena AI tidak memiliki memori antar-generate, deskripsi fisik Datu Mabrur (Laung Banjar, baju kurung indigo, sarung Sasirangan, janggut putih) dan Raja Todak (sisik toska-kobalt, moncong giok tumpul, mata kartun emas) wajib disalin utuh di setiap scene tanpa disingkat.
+2. **Kapsul Gaya Seni Identik**: Setiap prompt wajib menyertakan anchor gaya seni baku (*vibrant 2D storybook cartoon animation, Klaus and Cartoon Saloon style, clean stylized outlines, rich gouache textures, 24fps, zero 3D CGI*).
+3. **Motion Slider 3–4**: Jangan gunakan slider gerak di atas 4 pada gaya animasi 2D agar garis kontur kartun tidak pecah atau bergelombang aneh.
+4. **Pasang Negative Prompt Khusus Video**: Wajib memasukkan `3d cgi render, photorealistic, character morphing, distorted body, jittery camera, jump cuts, greek toga, bare chest` di kolom negative prompt.
+
 ---
 
 ## 7. HUBUNGAN DENGAN MODUL HIKAYAT DAN CHECKLIST VALIDASI

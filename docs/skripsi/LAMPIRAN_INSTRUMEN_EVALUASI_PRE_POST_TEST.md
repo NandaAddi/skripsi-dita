@@ -18,7 +18,7 @@
 | 1 | Mengidentifikasi formula pembuka dan karakteristik sastra Melayu klasik | C3 | Pilihan Ganda | 1 | 1 |
 | 2 | Menganalisis penggambaran latar dan suasana serta fungsinya terhadap karakter | C4 | Pilihan Ganda | 2 | 2 |
 | 3 | Menganalisis karakter tokoh dan nilai moral altruisme | C4 | Pilihan Ganda | 3 | 3 |
-| 4 | Membedah karakteristik kemustahilan dan kesaktian tokoh | C4 | Pilihan Ganda | 4 | 4 |
+| 4 | Menganalisis karakteristik kemustahilan dan kesaktian tokoh | C4 | Pilihan Ganda | 4 | 4 |
 | 5 | Menganalisis fungsi konjungsi urutan waktu / penanda transisi arkais (*Hatta*) | C4 | Pilihan Ganda | 5 | 5 |
 | 6 | Menganalisis struktur komplikasi (puncak konflik fisik/batin) | C4 | Pilihan Ganda | 6 | 6 |
 | 7 | Mengidentifikasi watak tokoh lawan (sportivitas dan jiwa ksatria) | C4 | Pilihan Ganda | 7 | 7 |
@@ -64,10 +64,10 @@ Pilihlah satu jawaban yang paling tepat (A, B, C, atau D) untuk mengukur pemaham
 3. **[C4]** Ketika Raja Ikan Todak menawarkan istana emas di dasar samudra dan pelayan putri duyung, Datu Mabrur menjawab:  
    *“Tidak. Aku tak punya keinginan pribadi, tapi untuk masa depan anak-cucuku nanti...”*  
    Nilai moral utama yang tercermin dari sikap Datu Mabrur tersebut adalah...  
-   * A. Bersikap pasrah dan tidak memiliki cita-cita yang tinggi  
-   * B. Ketakutan akan bahaya godaan harta kekayaan bawah laut  
-   * C. Menolak kemewahan materi demi memperjuangkan kemaslahatan generasi penerus **[KUNCI]**  
-   * D. Menghindari tanggung jawab sebagai pemimpin masyarakat  
+   * A. Memilih bersikap pasrah dan enggan mengejar pencapaian cita-cita duniawi yang tinggi  
+   * B. Menunjukkan rasa takut yang mendalam terhadap godaan harta kekayaan bawah samudra  
+   * C. Menolak kemewahan materi demi memperjuangkan kemaslahatan hidup generasi penerus **[KUNCI]**  
+   * D. Berusaha menghindar dari amanah serta tanggung jawab sosial sebagai pemimpin masyarakat  
 
 4. **[C4]** Perhatikan kutipan peristiwa berikut:  
    *“Tanpa beringsut dari tempat duduk maupun membuka mata, Datu Mabrur menepis serangan mendadak itu. Ikan itu terpelanting dan jatuh di karang...”*  
@@ -134,7 +134,7 @@ Pilihlah satu jawaban yang paling tepat (A, B, C, atau D) untuk mengukur pemaham
 12. **[C4]** Sebagian besar teks hikayat di Nusantara, termasuk kisah lisan Datu Mabrur, tidak mencantumkan nama individu pengarang aslinya. Hal ini membuktikan bahwa karya sastra klasik tersebut...  
     * A. Diciptakan secara tergesa-gesa tanpa memperhatikan dokumentasi  
     * B. Sengaja disembunyikan identitas penulisnya agar terhindar dari hukuman raja  
-    * C. Merupakan cerita saduran dari naskah asing yang diterjemahkan tanpa izin  
+    * C. Merupakan karya sastra terjemahan yang diadaptasi dari tradisi sastra India kuno  
     * D. Merupakan warisan tradisi lisan kolektif milik bersama masyarakat penuturnya **[KUNCI]**  
 
 13. **[C4]** Babak resolusi dalam teks Hikayat Sa-Ijaan dan Ikan Todak ditandai oleh peristiwa...  

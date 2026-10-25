@@ -205,29 +205,162 @@ A breathtaking aerial panoramic 2D cartoon painting of the newly emerged island 
 
 ---
 
-## 4. MASTER PROMPT 2 VIDEO VEO (GOOGLE FLOW ANIMATION)
+## 4. MASTER PANDUAN & PROMPT VIDEO GOOGLE VEO (STANDAR SCENE-BY-SCENE MANDIRI)
 
-Prompt video ini dirancang untuk mode **Text-to-Video** atau **Ingredients-to-Video** di Google Flow dengan model Veo (Format 16:9 Landscape untuk disematkan di widget Heyzine).
+> [!CRITICAL]
+> ### KUNCI KONSISTENSI TOTAL MODE SCENE-BY-SCENE (GENERATE KLIP TERPISAH)
+> **Mengapa hasil video Anda sebelumnya terlihat berbeda-beda antar-scene?**
+> * **Hilangnya Konteks Karakter Antar-Generate**: Saat Anda men-generate video per scene secara terpisah (bukan sambung *extend*), AI Google Flow **tidak mengingat scene sebelumnya**.
+> * Jika di Scene 2 dan 3 deskripsi wajah kakek Banjar atau sisik toska ikan diringkas, AI akan **mengacak ulang (*re-hallucinate*)** karakter dari awal. Akibatnya, Scene 1 berwujud A, Scene 2 berwujud B, dan Scene 3 berwujud C!
+> 
+> **FORMULA EMAS SCENE-BY-SCENE (KLIP MANDIRI 100% KONSISTEN)**:
+> 1. **Prompt 100% Mandiri (*Self-Contained*)**: Tidak ada kata sambung relatif seperti *"continuing from previous frame"*. Setiap adegan memiliki titik awal dan akhir gerak kamera yang jelas.
+> 2. **Kapsul DNA Karakter Wajib Diulang Lengkap di Setiap Prompt**: Baik di Klip 1, Klip 2, maupun Klip 3, deskripsi fisik `@DatuMabrurCartoon2D` (Laung Banjar, baju kurung indigo, sarung Sasirangan, janggut putih) dan `@RajaTodakCartoon2D` (sisik toska-kobalt, moncong giok tumpul bercahaya, mata kartun emas) **wajib ditulis utuh tanpa disingkat**!
+> 3. **Kapsul Gaya Seni & Latar Wajib Identik**: Semuanya ditutup dengan formula gaya 2D (*Klaus & Cartoon Saloon, 24fps, zero 3D CGI*) dan palet laut toska-senja yang persis sama.
+> 4. **Hasil Akhir**: Anda mendapatkan 3 file video MP4 mandiri (masing-masing 5 detik) yang memiliki karakter dan gaya visual **100% kembar identik**, siap digabungkan di Canva, CapCut, atau disematkan di Heyzine!
 
 ---
 
-### ASET 09: VIDEO VEO 01 – ANIMASI AKROBATIK SERANGAN IKAN TODAK
-* **Penempatan**: Halaman 12 (Widget Video Heyzine Bab 2)
-* **Durasi Target**: 5 – 8 detik (Looping mulus)
-* **Prompt Video Veo**:
-```text
-Delightful 2D animated cartoon sequence in Klaus and Disney style. A charismatic turquoise sawfish leaps playfully and acrobatically out of a curling wave in a fluid corkscrew motion toward a smiling, lovable elderly Indonesian sage wearing a traditional Banjar headdress (Laung) and indigo tunic sitting cross-legged on a rounded sea stone. The sage gently raises a hand and an elastic glowing golden bubble shield pulses outward, softly bouncing the sawfish back into the sea with a comical splash of sparkling crystal water droplets in slow motion. Friendly Indonesian maritime folklore aesthetic, vibrant turquoise and golden colors, bouncy fluid 2D animation, zero greek toga, zero bare chest --ar 16:9
-```
+### PARAMETER KUNCI GOOGLE VEO (VIDEO SETTINGS DI SETIAP SCENE):
+* **Aspect Ratio**: `--ar 16:9` (Widescreen landscape, proporsional untuk widget video di Heyzine).
+* **Frame Rate**: 24 FPS (Khas animasi fitur 2D layar lebar).
+* **Motion Slider**: **3 – 4** (Nilai ideal: menjaga kelenturan gerak air dan karakter 2D tanpa memicu *body morphing* atau distorsi garis kontur).
+* **Universal Video Negative Prompt** (Wajib disalin ke kolom *Negative Prompt* di setiap generate scene):
+  ```text
+  photorealistic, 3d cgi render, 3d octane render, glossy plastic skin, realistic live action, character morphing, face morphing, distorted anatomy, extra limbs, extra hands, extra fins, missing fingers, jittery camera, erratic camera shake, sudden jump cuts, flickering frames, blurry textures, dark gloom, horror, blood, open wounds, gore, weapons, greek god, zeus, poseidon, greek toga, bare chest, caucasian western face
+  ```
 
 ---
 
-### ASET 10: VIDEO VEO 02 – TIMBULNYA DARATAN PULAU DARI SAMUDRA
-* **Penempatan**: Halaman 22 (Widget Video Heyzine Bab 4)
-* **Durasi Target**: 5 – 8 detik (Looping mulus)
-* **Prompt Video Veo**:
+### ASET 09: VIDEO BAB 2 – AKROBATIK SERANGAN IKAN TODAK & PERISAI KELUHURAN DATU MABRUR
+* **Penempatan di Modul**: Halaman 12 (Widget Video Heyzine Bab 2 – Orientasi & Komplikasi Konflik)
+* **Format & Resolusi**: 3 File Video MP4 1080p Mandiri, Rasio 16:9 Landscape (Total 15 Detik saat digabung)
+* **Karakter Terkunci**: `@DatuMabrurCartoon2D` (Petapa Banjar) & `@RajaTodakCartoon2D` (Raja Ikan Todak Toska)
+
+#### KLIP 1: SCENE 1 – AKROBATIK LOMPATAN RAJA TODAK (Durasi 5 Detik)
+* **Subjek & Aksi**: Di tengah samudra toska, Raja Todak melesat keluar dari gulungan ombak dalam lompatan akrobatik melengkung ke udara menuju batu karang tempat Datu Mabrur bersila tenang.
+* **Prompt Google Flow (Veo)**:
 ```text
-Enchanting 2D storybook cartoon animation panning smoothly over a sunlit sparkling turquoise ocean at dawn. Joyful streams of sea bubbles rise as a magnificent, lush green tropical island emerges gracefully from beneath the ocean surface, with waterfalls playfully cascading into the sea. Friendly colorful fish jump along the shore in joyous celebration, soft fluffy white morning mist rolls over the new paradise island under glowing sunrise rays, heartwarming magical cartoon fantasy --ar 16:9
+A thrilling, vibrant 2D storybook cartoon animation in Klaus and Cartoon Saloon fairy tale style, 24fps. Medium wide tracking shot in a sunlit turquoise ocean: @DatuMabrurCartoon2D, an adorable wise elderly Indonesian sage with warm golden-tan skin, rosy cheeks, neat silver-white beard, wearing a traditional South Kalimantan Banjar Laung headdress and modest indigo tunic with amber Sasirangan sarung, sits peacefully in zen meditation on a rounded dark coral rock. In the foreground waves, @RajaTodakCartoon2D, a charismatic mythical sawfish king with sleek electric turquoise and cobalt scales, soft cream underbelly, and a glowing rounded jade snout, leaps acrobatically high into the golden sunset air in a dynamic corkscrew curve toward the rock, water droplets glistening in warm golden light, clean stylized line art, rich gouache textures, zero 3D CGI, zero photorealism --ar 16:9
 ```
+
+#### KLIP 2: SCENE 2 – PERISAI GELEMBUNG EMAS MENAHAN BENTURAN (Durasi 5 Detik)
+* **Subjek & Aksi**: Datu Mabrur mengangkat telapak tangan dengan senyum teduh menciptakan perisai gelembung emas elastis. Moncong Raja Todak membentur gelembung membal lembut dengan taburan bintang keemasan tanpa luka.
+* **Prompt Google Flow (Veo)**:
+```text
+A heartwarming dynamic 2D storybook cartoon animation in Klaus and Cartoon Saloon fairy tale style, 24fps. Steady medium eye-level shot on the rounded dark coral rock: @DatuMabrurCartoon2D, the wise elderly Indonesian sage with warm golden-tan skin, neat white beard, traditional Banjar Laung headdress, and indigo tunic with amber Sasirangan sarung, calmly raises one open palm with a reassuring gentle smile, creating an elastic glowing golden spherical bubble shield. The leaping @RajaTodakCartoon2D, the charismatic turquoise sawfish king with a glowing rounded jade snout and expressive golden cartoon eyes, gently taps its snout against the rubbery golden barrier, bouncing softly with a playful cartoon squash-and-stretch and radiating golden starburst sparkles, completely harmless and safe, calm turquoise sea in background, zero 3D CGI, zero photorealism --ar 16:9
+```
+
+#### KLIP 3: SCENE 3 – PENDARATAN AIR JENAKA & SALAM DAMAI (Durasi 5 Detik)
+* **Subjek & Aksi**: Raja Todak tercebur kembali ke laut toska dengan kecipak air kristal, menyembul dengan mata bulat berkedip lucu, sementara Datu Mabrur tersenyum hangat melambaikan tangan dari batu karang.
+* **Prompt Google Flow (Veo)**:
+```text
+A delightful humorous 2D storybook cartoon animation in Klaus and Cartoon Saloon fairy tale style, 24fps. Medium wide eye-level shot: @RajaTodakCartoon2D, the charismatic turquoise sawfish king with sleek emerald scales and glowing jade snout, plunges playfully back into the calm turquoise sea with a comical splash of sparkling cartoon droplets, popping its head above water blinking its large golden cartoon eyes in funny cute bewilderment. On the dark coral rock, @DatuMabrurCartoon2D, the wise Indonesian sage in traditional Banjar Laung and indigo tunic, chuckles warmly and waves a friendly hand under a glowing golden-amber sunset sky, peaceful and joyful, clean 2D outlines, rich painterly textures, zero 3D CGI, zero violence --ar 16:9
+```
+
+* **Sinkronisasi Tata Suara (Audio Cues di Canva / Heyzine)**:
+  * *Klip 1 (00–05s)*: Gemuruh debur ombak laut terbelah (*whoosh-splash*) diikuti desing udara berputar cepat.
+  * *Klip 2 (05–10s)*: Denting magis lonceng angin kristal (*ethereal chime*) berpadu efek kenyal membal lembut (*harmonic boing-spring*).
+  * *Klip 3 (10–15s)*: Kecipak air renyah (*plop-splash*), desau angin laut lembut, dan tawa bersahabat diiringi petikan panting Banjar.
+
+---
+
+### ASET 10: VIDEO BAB 4 – TIMBULNYA DARATAN PULAU HALIMUN & SOLIDARITAS BIOTA LAUT
+* **Penempatan di Modul**: Halaman 22 (Widget Video Heyzine Bab 4 – Keajaiban Janji Terwujud & Nilai Gotong Royong)
+* **Format & Resolusi**: 3 File Video MP4 1080p Mandiri, Rasio 16:9 Landscape (Total 15 Detik saat digabung)
+* **Karakter Terkunci**: `@RajaTodakCartoon2D`, Kawanan Todak Cilik, Paus Biru Gemuk, & Penyu Bijak
+
+#### KLIP 1: SCENE 1 – GOTONG ROYONG KEDALAMAN SAMUDRA (Durasi 5 Detik)
+* **Subjek & Aksi**: Di kedalaman laut toska, paus biru gemuk tersenyum riang, penyu bijak, dan ribuan todak cilik dipimpin Raja Todak berenang ke atas memikul daratan pulau hijau dari dasar laut, pilar cahaya mentari menembus air.
+* **Prompt Google Flow (Veo)**:
+```text
+An awe-inspiring underwater 2D storybook cartoon animation in Klaus and Disney 2D style, 24fps. Slow upward tracking shot deep in crystal turquoise waters: @RajaTodakCartoon2D, the charismatic turquoise sawfish king with sleek emerald scales and glowing jade snout, joyfully leads a school of cute small sawfishes, a gigantic smiling chubby blue whale with happy squinting eyes, and wise ancient mossy sea turtles, all swimming upward together supporting a massive lush emerald green island plateau on their backs, surrounded by swirling glowing bubbles and glorious golden sunbeams piercing the ocean depths, inspiring teamwork, rich gouache watercolor textures, zero 3D CGI, zero photorealism --ar 16:9
+```
+
+#### KLIP 2: SCENE 2 – DARATAN TERANGKAT MENEMBUS PERMUKAAN AIR (Durasi 5 Detik)
+* **Subjek & Aksi**: Daratan pulau hijau megah terangkat menembus permukaan laut didukung paus dan biota laut, air terjun jernih berhamburan dari lereng tebing hijau, busa ombak putih memercik ceria.
+* **Prompt Google Flow (Veo)**:
+```text
+A majestic, wondrous 2D storybook cartoon animation in Klaus and Ghibli fairy tale style, 24fps. Dynamic water-break upward shot: the colossal lush green tropical island plateau ascends triumphantly above the turquoise ocean surface, hoisted by the smiling giant blue whale and thousands of cheerful sea creatures led by @RajaTodakCartoon2D, sparkling clear waterfalls cascading down rocky verdant mossy cliffs, frothy white cartoon foam splashing joyfully into the sea, radiant morning sunbeams illuminating the newly born land, uplifting mythical wonder, clean stylized line art, zero 3D CGI, zero photorealism --ar 16:9
+```
+
+#### KLIP 3: SCENE 3 – PANORAMA MEGAH FAJAR PULAU HALIMUN (Durasi 5 Detik)
+* **Subjek & Aksi**: Kamera melayang memperlihatkan seluruh Pulau Halimun berselimut kabut putih lembut (*halimun mist*), disinari matahari fajar keemasan, kawanan todak melompat ceria di tepi pantai.
+* **Prompt Google Flow (Veo)**:
+```text
+A breathtaking high-angle aerial cinematic sweep in 2D storybook cartoon style, Klaus style, 24fps. Glorious golden dawn sunlight floods across the fertile paradise island of Pulau Halimun (Pulau Laut), revealing vibrant rounded emerald hills, lush valleys, and delicate fluffy white morning mist (halimun) dancing gracefully, while @RajaTodakCartoon2D and cheerful sea creatures leap and splash along the sparkling golden shoreline in joyful celebration, idyllic enchanted wonderland, rich painterly gouache textures, vibrant colors, zero 3D CGI gloss, zero photorealism --ar 16:9
+```
+
+* **Sinkronisasi Tata Suara (Audio Cues di Canva / Heyzine)**:
+  * *Klip 1 (00–05s)*: Gemuruh getaran palung laut (*deep harmonic bass rumble*) berpadu riak gelembung air dan gumam koor kompak bernada optimis.
+  * *Klip 2 (05–10s)*: Dentuman megah air laut terbelah (*water swell crash*), suara deras curahan air terjun (*cascading waterfall roar*), dan gema seruan *"Sa-ijaan!"*.
+  * *Klip 3 (10–15s)*: Alunan gending Banjar nan syahdu dan megah diiringi suara kicau burung camar laut dan desau angin fajar yang menyejukkan.
+
+---
+
+### BONUS ASET 09B: VIDEO BAB 1 – PERTAPAAN KHUSYUK DI ANTARA DUA SELAT
+* **Penempatan di Modul**: Halaman 7 (Widget Video Pembuka Bab 1 – Eksplorasi Karakteristik & Latar Pertapaan)
+* **Format & Resolusi**: 3 File Video MP4 1080p Mandiri, Rasio 16:9 Landscape (Total 15 Detik saat digabung)
+* **Karakter Terkunci**: `@DatuMabrurCartoon2D` (Petapa Banjar ber-Laung biru)
+
+#### KLIP 1: SCENE 1 – MEDITASI SENJA DI BATU KARANG (Durasi 5 Detik)
+* **Subjek & Aksi**: Datu Mabrur bersila khusyuk di atas batu karang bundar di laut toska saat senja keemasan, angin laut mengibaskan ujung kain Sasirangan dan janggut putihnya.
+* **Prompt Google Flow (Veo)**:
+```text
+A serene, soul-soothing 2D animated storybook scene in Klaus and Cartoon Saloon fairy tale style, 24fps. Slow cinematic eye-level medium tracking shot: @DatuMabrurCartoon2D, an adorable wise Indonesian sage with warm golden-tan skin, rosy cheeks, neat silver-white beard, wearing a traditional Banjar Laung headdress and modest indigo tunic with amber Sasirangan sarung, sits peacefully cross-legged in zen meditation upon a smooth dark coral stone in calm turquoise waters between Strait of Laut and Strait of Makassar at golden sunset, gentle coastal breeze softly fluttering his clothes and white beard, peaceful spiritual atmosphere, clean 2D line art, zero 3D CGI, zero western features --ar 16:9
+```
+
+#### KLIP 2: SCENE 2 – TARIAN IKAN TROPIS DI SEKITAR KARANG (Durasi 5 Detik)
+* **Subjek & Aksi**: Datu Mabrur tersenyum teduh, kawanan ikan tropis warna-warni berenang menari melingkar mengitari batu karangnya di air toska jernih berkilau.
+* **Prompt Google Flow (Veo)**:
+```text
+A peaceful, enchanting 2D storybook cartoon animation in Klaus style, 24fps. Smooth orbiting medium shot around the dark coral stone: @DatuMabrurCartoon2D, the kind elderly Indonesian sage with warm golden-tan skin, neat white beard, traditional Banjar Laung headdress, and indigo tunic, meditates with a gentle joyful smile, while schools of tiny colorful tropical fishes swim playfully in circular dancing ripples around his rock in crystal clear turquoise water reflecting honey-amber twilight light, absolute harmony between human and nature, cozy heartwarming mood, rich gouache textures, zero 3D CGI --ar 16:9
+```
+
+#### KLIP 3: SCENE 3 – PILAR CAHAYA ILAHI & PULAU IMPIAN (Durasi 5 Detik)
+* **Subjek & Aksi**: Seberkas cahaya fajar/senja keemasan menembus awan pastel menyinari Datu Mabrur dengan aura damai, di kejauhan tampak siluet pulau impian di cakrawala.
+* **Prompt Google Flow (Veo)**:
+```text
+A majestic, mystical 2D storybook cartoon animation in Klaus style, 24fps. Slow cinematic camera pull-back into a wide horizon view: on the dark coral reef, @DatuMabrurCartoon2D, the wise Indonesian sage in traditional Banjar Laung and indigo tunic, is softly illuminated by a divine golden ray of sunlight breaking through dreamy soft-edged twilight clouds, a warm spiritual halo glowing around him, while the distant horizon reveals the lush green silhouette of the promised dream island across calm turquoise waters, peaceful resolution, rich painterly art, zero 3D CGI --ar 16:9
+```
+
+* **Sinkronisasi Tata Suara (Audio Cues di Canva / Heyzine)**:
+  * *Klip 1 (00–05s)*: Desau angin laut sore yang sejuk dan debur ombak tenang.
+  * *Klip 2 (05–10s)*: Gemericik air jernih dan kecipak halus tarian ikan-ikan kecil.
+  * *Klip 3 (10–15s)*: Petikan gambus/panting Banjar yang lambat, syahdu, dan menenangkan batin.
+
+---
+
+### BONUS ASET 10B: VIDEO BAB 3 – IKRAR SA-IJAAN & SENTUHAN PENYEMBUHAN KASIH SAYANG
+* **Penempatan di Modul**: Halaman 17 (Widget Video Pembuka Bab 3 – Menjelaskan Resolusi Damai & Nilai Moral)
+* **Format & Resolusi**: 3 File Video MP4 1080p Mandiri, Rasio 16:9 Landscape (Total 15 Detik saat digabung)
+* **Karakter Terkunci**: `@DatuMabrurCartoon2D` & `@RajaTodakCartoon2D`
+
+#### KLIP 1: SCENE 1 – PENDEKATAN PENUH KASIH DI KARANG SENJA (Durasi 5 Detik)
+* **Subjek & Aksi**: Di atas karang berlumut basah saat senja, Raja Todak terbaring lelah dengan mata memelas bulat. Datu Mabrur mendekat dengan senyum hangat kebapaan dan berlutut di sampingnya.
+* **Prompt Google Flow (Veo)**:
+```text
+A touching, emotional 2D storybook cartoon animation in Klaus and Cartoon Saloon style, 24fps. Tender eye-level medium shot on a moist mossy coral ledge at warm peach sunset: @RajaTodakCartoon2D, the charismatic turquoise sawfish king with sleek emerald scales and glowing rounded jade rostrum, rests tiredly looking up with large expressive pleading golden cartoon eyes. @DatuMabrurCartoon2D, the kind elderly Indonesian sage in traditional Banjar Laung headdress and modest indigo tunic with amber Sasirangan sarung, approaches with deep grandfatherly warmth and kneels compassionately beside the fish, warm cozy lighting, zero gore, zero violence, zero 3D CGI --ar 16:9
+```
+
+#### KLIP 2: SCENE 2 – SENTUHAN KESEMBUHAN BINTANG EMAS (Durasi 5 Detik)
+* **Subjek & Aksi**: Datu Mabrur mengusap lembut kepala Raja Todak, memancarkan aliran bintang-bintang emas kesembuhan yang memulihkan sisik toska berkilau kembali tanpa rasa sakit.
+* **Prompt Google Flow (Veo)**:
+```text
+A magical heartwarming 2D storybook cartoon animation in Klaus style, 24fps. Close-to-medium gentle tracking shot: @DatuMabrurCartoon2D, the benevolent Indonesian sage with neat white beard and traditional Banjar attire, gently caresses the head of @RajaTodakCartoon2D with an open palm. Radiant golden starburst healing light flows warmly from his fingertips across the fish's iridescent scales, soothing away fatigue and instantly restoring their brilliant vibrant turquoise and cobalt shimmer, the fish closes its eyes in profound peaceful relief, glowing magical particles, pure fairy tale warmth, zero 3D CGI, zero medicine, zero gore --ar 16:9
+```
+
+#### KLIP 3: SCENE 3 – IKRAR SA-IJAAN & SELEBRASI DAMAI SAMUDRA (Durasi 5 Detik)
+* **Subjek & Aksi**: Raja Todak mengangguk takzim dalam ikrar persaudaraan Sa-Ijaan dengan mata berbinar haru, kawanan todak cilik melompat bersorak di air laut, Datu Mabrur tersenyum bahagia.
+* **Prompt Google Flow (Veo)**:
+```text
+A joyful celebratory 2D storybook cartoon animation in Klaus style, 24fps. Medium wide eye-level shot at sunset: @RajaTodakCartoon2D, the revitalized turquoise sawfish king with brilliant shimmering scales and glowing jade snout, nods respectfully with joyful tears of gratitude in sacred brotherhood (Ikrar Sa-Ijaan), surrounded by cute tiny baby sawfishes surfacing and splashing happily in calm turquoise waters. On the coral rock, @DatuMabrurCartoon2D smiles with grandfatherly joy and waves both hands in blessing, heartwarming friendship finale, clean stylized outlines, rich gouache textures, zero 3D CGI --ar 16:9
+```
+
+* **Sinkronisasi Tata Suara (Audio Cues di Canva / Heyzine)**:
+  * *Klip 1 (00–05s)*: Nada hening senja berpadu desah napas letih yang berangsur tenang.
+  * *Klip 2 (05–10s)*: Gemerincing lonceng kristal bertabur melodi lembut penanda mukjizat kesembuhan.
+  * *Klip 3 (10–15s)*: Seruan hangat *"Sa-ijaan!"* diiringi kecipak riang ikan-ikan dan petikan panting Banjar penuh optimisme.
 
 ---
 
@@ -293,14 +426,16 @@ A set of 5 charming adventure map waypoint checkpoint pins in whimsical 2D story
 | **IMG-02** | `IMG_Bab1_Pertapaan_Selat.png` | PNG | 3:4 | Halaman 7 (Pembuka Bab 1 & Pemantik) | Senja damai nan santai di antara dua selat |
 | **CVR-02** | `CVR_Bab2_Serangan_Todak.png` | PNG | 3:4 | **Halaman 11 (Cover Bab 2)** | Poster pembatas Bab 2: Kemunculan dramatis Raja Todak |
 | **IMG-03** | `IMG_Bab2_Serangan_Todak.png` | PNG | 3:4 | Halaman 12 (Pembuka Bab 2 & Pemantik) | Akrobatik seru, perisai gelembung emas membal |
-| **VID-01** | `VID_Veo_Serangan_Todak.mp4` | MP4 | 16:9 | Halaman 12 (Widget Video Heyzine) | Animasi 2D lentur & akrobatik yang menghibur |
+| **VID-01** | `VID_Veo_Serangan_Todak.mp4` | MP4 | 16:9 | Halaman 12 (Widget Video Heyzine) | Animasi 2D akrobatik 15 detik: lompatan & perisai membal |
 | **IMG-04** | `IMG_Bab2_Todak_Takluk.png` | PNG | 4:3 | Halaman 13 (Teks Cerita Bab 2) | Mengharukan, ekspresif, tanpa darah (cemberut lucu) |
 | **CVR-03** | `CVR_Bab3_Ikrar_Sahabat.png` | PNG | 3:4 | **Halaman 16 (Cover Bab 3)** | Poster pembatas Bab 3: Sentuhan suci & cahaya kesembuhan |
 | **IMG-05** | `IMG_Bab3_Penyembuhan_Luka.png` | PNG | 3:4 | Halaman 17 (Pembuka Bab 3 & Pemantik) | Cahaya penyembuhan bertabur bintang magis |
+| **VID-04 (Opt)** | `VID_Veo_Ikrar_Penyembuhan.mp4` | MP4 | 16:9 | Halaman 17 (Widget Video Heyzine) | Animasi 2D 15 detik: sentuhan suci & bintang emas kesembuhan |
 | **IMG-06** | `IMG_Bab3_Ikrar_SaIjaan.png` | PNG | 4:3 | Halaman 18 (Teks Cerita Bab 3) | Ceria, perayaan persahabatan laut yang meriah |
 | **CVR-04** | `CVR_Bab4_Terbit_Halimun.png` | PNG | 3:4 | **Halaman 21 (Cover Bab 4)** | Poster pembatas Bab 4: Pulau hijau terangkat dari laut |
 | **IMG-07** | `IMG_Bab4_Angkat_Pulau.png` | PNG | 3:4 | Halaman 22 (Pembuka Bab 4 & Pemantik) | Gotong royong jutaan hewan laut lucu & paus gembira |
-| **VID-02** | `VID_Veo_Bangkitnya_Pulau.mp4` | MP4 | 16:9 | Halaman 22 (Widget Video Heyzine) | Timbulnya pulau surga dengan kabut halimun ceria |
+| **VID-02** | `VID_Veo_Bangkitnya_Pulau.mp4` | MP4 | 16:9 | Halaman 22 (Widget Video Heyzine) | Animasi 2D 15 detik: timbulnya daratan & kabut fajar halimun |
+| **VID-03 (Opt)** | `VID_Veo_Pertapaan_Datu.mp4` | MP4 | 16:9 | Halaman 7 (Widget Video Heyzine) | Animasi 2D 15 detik: meditasi senja damai & ikan menari |
 | **IMG-08** | `IMG_Bab5_Pulau_Halimun.png` | PNG | 3:4 | Halaman 27 (Pembuka Bab 5 & Pemantik) | Panorama pulau surga hijau berselimut kabut halimun |
 | **CVR-05** | `CVR_Bab5_Warisan_Kotabaru.png` | PNG | 3:4 | **Halaman 26 (Cover Bab 5)** | Poster pembatas Bab 5: Pemandangan Kotabaru masa depan |
 | **ORN-01** | `ORN_Border_Sudut_Banjar.png` | PNG | 1:1 | Sudut Halaman Canva A4 (1-34) | Ornamen ukiran Banjar emas bergaya kartun hangat |

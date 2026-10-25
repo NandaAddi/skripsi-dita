@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misi 2 & 3: Detektif Konflik & Kemustahilan - E-Modul Hikayat Sa-Ijaan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: transparent !important;
+      color: #2A2421;
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      box-sizing: border-box;
+      user-select: none;
+    }
+
+    /* Outer Wrapper with Auto-Fit Engine */
+    .widget-container {
+      background: #FFFFFF;
+      border: 2px solid #E2D9CC;
+      border-bottom: 5px solid #C8BBA8;
+      border-radius: 18px;
+      padding: 14px 16px;
+      width: 420px;
+      max-width: 96%;
+      position: relative;
+      overflow: hidden;
+      box-sizing: border-box;
+      transform-origin: center center;
+      will-change: transform;
+      margin: auto;
+      box-shadow: 0 10px 25px rgba(15, 44, 76, 0.12);
+    }
+
+    /* Top Progress & Header Bar */
+    .top-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .badge-icon {
+      width: 38px;
+      height: 38px;
+      border-radius: 12px;
+      background: #0F2C4C;
+      border: 2px solid #C89B3C;
+      border-bottom: 3.5px solid #8E681E;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: #F5D77F;
+      font-size: 18px;
+      box-shadow: 0 3px 8px rgba(15, 44, 76, 0.2);
+    }
+
+    .progress-wrap {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .progress-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: #0277BD;
+    }
+
+    .progress-track {
+      height: 9px;
+      background: #EFE9DE;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #D6CEBE;
+      position: relative;
+    }
+
+    .progress-fill {
+      height: 100%;
+      width: 33.33%;
+      background: linear-gradient(90deg, #1CB0F6, #06D6A0);
+      border-radius: 10px;
+      transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* Question & Instructions Box */
+    .mission-header {
+      background: #F7F4EE;
+      border: 1.5px solid #E5DFD5;
+      border-radius: 12px;
+      padding: 8px 12px;
+      margin-bottom: 10px;
+      position: relative;
+    }
+
+    .mission-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 9.5px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #9C6F19;
+      background: #FFF4D9;
+      padding: 2px 7px;
+      border-radius: 6px;
+      border: 1px solid #E8D39E;
+      margin-bottom: 4px;
+    }
+
+    .question-title {
+      font-size: 12.5px;
+      font-weight: 800;
+      color: #0F2C4C;
+      line-height: 1.4;
+    }
+
+    /* Options Grid */
+    .options-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6.5px;
+      margin-bottom: 12px;
+    }
+
+    .option-card {
+      background: #FFFFFF;
+      border: 2px solid #E5DFD5;
+      border-bottom: 3.5px solid #D0C8B8;
+      border-radius: 12px;
+      padding: 7px 11px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      transition: all 0.12s ease;
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    .option-card:hover:not(.locked) {
+      background: #FFFDF9;
+      border-color: #1CB0F6;
+      transform: translateY(-1px);
+    }
+
+    .option-card:active:not(.locked) {
+      transform: translateY(2px);
+      border-bottom-width: 2px;
+    }
+
+    .option-card.selected {
+      background: #F0F9FF;
+      border-color: #0288D1;
+      border-bottom: 3.5px solid #01579B;
+      box-shadow: 0 0 0 1.5px rgba(2, 136, 209, 0.35);
+    }
+
+    .option-card.correct {
+      background: #E8F5E9 !important;
+      border-color: #2D7A4C !important;
+      border-bottom: 3.5px solid #1B5E20 !important;
+      box-shadow: 0 0 0 1.5px rgba(45, 122, 76, 0.4) !important;
+    }
+
+    .option-card.wrong {
+      background: #FFEBEE !important;
+      border-color: #C62828 !important;
+      border-bottom: 3.5px solid #8E0000 !important;
+      animation: shake 0.35s ease;
+    }
+
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      20%, 60% { transform: translateX(-4px); }
+      40%, 80% { transform: translateX(4px); }
+    }
+
+    .opt-letter {
+      width: 24px;
+      height: 24px;
+      border-radius: 7px;
+      background: #EFE9DE;
+      border-bottom: 2px solid #D0C8B8;
+      color: #6E6355;
+      font-size: 11.5px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: all 0.12s ease;
+    }
+
+    .option-card.selected .opt-letter {
+      background: #0288D1;
+      border-bottom-color: #01579B;
+      color: #FFFFFF;
+    }
+
+    .option-card.correct .opt-letter {
+      background: #2D7A4C;
+      border-bottom-color: #1B5E20;
+      color: #FFFFFF;
+    }
+
+    .option-card.wrong .opt-letter {
+      background: #C62828;
+      border-bottom-color: #8E0000;
+      color: #FFFFFF;
+    }
+
+    .opt-text {
+      font-size: 12px;
+      font-weight: 700;
+      color: #2A2421;
+      line-height: 1.35;
+      flex: 1;
+    }
+
+    /* Bottom Action Button */
+    .action-bar {
+      display: flex;
+      justify-content: center;
+    }
+
+    .btn-action {
+      width: 100%;
+      padding: 9px 14px;
+      border-radius: 12px;
+      font-size: 12.5px;
+      font-weight: 800;
+      font-family: inherit;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      border: none;
+      transition: all 0.12s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: #E5DFD5;
+      border-bottom: 4px solid #C8C2B6;
+      color: #9A9284;
+      cursor: not-allowed;
+    }
+
+    .btn-action.active {
+      background: #0F2C4C;
+      border-bottom: 4px solid #071729;
+      color: #FFFFFF;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(15, 44, 76, 0.28);
+    }
+
+    .btn-action.active:hover {
+      background: #18426E;
+      transform: translateY(-1px);
+    }
+
+    .btn-action.active:active {
+      transform: translateY(2px);
+      border-bottom-width: 2px;
+    }
+
+    /* Sliding Bottom Sheet Feedback */
+    .bottom-sheet {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #2D7A4C;
+      border-top: 2px solid #3E9661;
+      padding: 12px 16px;
+      border-radius: 18px 18px 0 0;
+      display: none;
+      box-shadow: 0 -8px 24px rgba(45, 122, 76, 0.3);
+      animation: sheetBounce 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      z-index: 30;
+      color: #FFFFFF;
+    }
+
+    .bottom-sheet.wrong-sheet {
+      background: #C62828;
+      border-top-color: #E53935;
+      box-shadow: 0 -8px 24px rgba(198, 40, 40, 0.3);
+    }
+
+    @keyframes sheetBounce {
+      from { transform: translateY(100%); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .sheet-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+
+    .sheet-body {
+      font-size: 11.5px;
+      color: rgba(255, 255, 255, 0.95);
+      line-height: 1.4;
+      margin-bottom: 9px;
+    }
+
+    .sheet-actions {
+      display: flex;
+      gap: 8px;
+    }
+
+    .btn-continue {
+      flex: 1;
+      background: #FFFFFF;
+      border: none;
+      border-bottom: 3.5px solid #C4D2C9;
+      color: #1E5C37;
+      border-radius: 10px;
+      padding: 8px 14px;
+      font-size: 12px;
+      font-weight: 800;
+      font-family: inherit;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      transition: all 0.1s ease;
+    }
+
+    .bottom-sheet.wrong-sheet .btn-continue {
+      color: #8E0000;
+      border-bottom-color: #E2B5B5;
+    }
+
+    .btn-continue:active {
+      transform: translateY(2px);
+      border-bottom-width: 1.5px;
+    }
+
+    /* Final Victory / Completion Screen */
+    .victory-screen {
+      display: none;
+      text-align: center;
+      padding: 8px 4px;
+      animation: fadeIn 0.35s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.96); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    .trophy-badge {
+      width: 58px;
+      height: 58px;
+      margin: 0 auto 8px auto;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #FFF0C2, #F5D77F);
+      border: 3px solid #C89B3C;
+      border-bottom: 5px solid #8E681E;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      box-shadow: 0 6px 16px rgba(200, 155, 60, 0.35);
+      animation: trophyFloat 2s ease-in-out infinite;
+    }
+
+    @keyframes trophyFloat {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-4px); }
+    }
+
+    .victory-title {
+      font-family: 'Cinzel', serif;
+      font-size: 15px;
+      font-weight: 900;
+      color: #0F2C4C;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+
+    .victory-score-pill {
+      display: inline-block;
+      background: #E8F5E9;
+      border: 1.5px solid #2D7A4C;
+      color: #1B5E20;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+    }
+
+    .quote-box {
+      background: #FFFDF9;
+      border: 1.5px solid #E8D39E;
+      border-left: 4px solid #C89B3C;
+      border-radius: 10px;
+      padding: 9px 12px;
+      font-size: 11.5px;
+      color: #38302B;
+      line-height: 1.45;
+      font-style: italic;
+      margin-bottom: 12px;
+      text-align: left;
+    }
+
+    .victory-actions {
+      display: flex;
+      gap: 8px;
+    }
+
+    .btn-victory-replay {
+      background: #EFE9DE;
+      border: none;
+      border-bottom: 3.5px solid #D0C8B8;
+      border-radius: 11px;
+      color: #6E6355;
+      font-weight: 800;
+      font-size: 11.5px;
+      padding: 8px 12px;
+      cursor: pointer;
+      flex: 1;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-family: inherit;
+    }
+
+    .btn-victory-replay:active {
+      transform: translateY(2px);
+      border-bottom-width: 1.5px;
+    }
+
+    .btn-victory-next {
+      background: #0F2C4C;
+      border: none;
+      border-bottom: 4px solid #071729;
+      border-radius: 11px;
+      color: #FFFFFF;
+      font-weight: 800;
+      font-size: 11.5px;
+      padding: 8px 14px;
+      cursor: pointer;
+      flex: 1.6;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      font-family: inherit;
+      box-shadow: 0 4px 12px rgba(15, 44, 76, 0.25);
+    }
+
+    .btn-victory-next:active {
+      transform: translateY(2px);
+      border-bottom-width: 2px;
+    }
+
+    /* Confetti Canvas */
+    #confettiCanvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 50;
+    }
+  </style>
+</head>
+<body>
+
+<div class="widget-container">
+  <canvas id="confettiCanvas"></canvas>
+
+  <!-- Interactive Quiz Screen -->
+  <div id="quizScreen">
+    <!-- Top Progress Bar -->
+    <div class="top-bar">
+      <div class="badge-icon" title="Detektif Sastra">🔍</div>
+      <div class="progress-wrap">
+        <div class="progress-meta">
+          <span id="stepLabel">Misi 1 dari 3</span>
+          <span id="scoreTracker">Skor: 0</span>
+        </div>
+        <div class="progress-track">
+          <div id="progressFill" class="progress-fill"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Question Box -->
+    <div class="mission-header">
+      <div id="missionTag" class="mission-tag">⚔️ Misi 2 • Konflik Utama</div>
+      <div id="questionText" class="question-title">
+        Peristiwa apa yang menandai mulainya komplikasi dalam cerita?
+      </div>
+    </div>
+
+    <!-- Options List -->
+    <div id="optionsList" class="options-list">
+      <!-- Options injected by JS -->
+    </div>
+
+    <!-- Action Check Button -->
+    <div class="action-bar">
+      <button id="btnCheck" class="btn-action" onclick="checkAnswer()">
+        <span>Periksa Bukti</span>
+        <span style="font-size: 14px;">✔</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Sliding Bottom Sheet Feedback -->
+  <div id="bottomSheet" class="bottom-sheet">
+    <div class="sheet-header">
+      <span id="sheetIcon" style="font-size: 18px;">✨</span>
+      <span id="sheetTitle">Analisis Tepat Sekali!</span>
+    </div>
+    <div id="sheetBody" class="sheet-body"></div>
+    <div class="sheet-actions">
+      <button id="btnSheetContinue" class="btn-continue" onclick="nextQuestion()">
+        Lanjut Misi Berikutnya →
+      </button>
+    </div>
+  </div>
+
+  <!-- Victory Screen -->
+  <div id="victoryScreen" class="victory-screen">
+    <div class="trophy-badge">🏆</div>
+    <h3 class="victory-title">MISI DETEKTIF SELESAI!</h3>
+    <div id="victoryScorePill" class="victory-score-pill">
+      Hasil Akhir: 3 / 3 Bukti Terpecahkan
+    </div>
+
+    <div class="quote-box">
+      <strong>Catatan Teori Sastra:</strong><br>
+      "Tepat sekali! Kemampuan binatang berbicara dan terbang menyerang adalah karakteristik kemustahilan murni dalam tradisi sastra Melayu klasik."
+    </div>
+
+    <div class="victory-actions">
+      <button class="btn-victory-replay" onclick="restartQuiz()">
+        Ulangi ↺
+      </button>
+      <button class="btn-victory-next" onclick="finishModule()">
+        Lanjut ke Bab 3 →
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  // --- Database Soal Detektif Bab 2 (Halaman 15) ---
+  const questions = [
+    {
+      missionTag: "⚔️ Misi 2 • Konflik Utama",
+      question: "Peristiwa apa yang menandai mulainya komplikasi dalam cerita?",
+      options: [
+        { letter: "A", text: "Datu Mabrur pergi berlayar" },
+        { letter: "B", text: "Ikan todak menyerang pertapaan Datu Mabrur" },
+        { letter: "C", text: "Terjadinya hujan badai di lautan" },
+        { letter: "D", text: "Raja Todak membagikan emas" }
+      ],
+      correctIndex: 1, // B
+      feedbackCorrect: "Tepat sekali! Serangan mendadak dari ribuan ikan todak menandai awal komplikasi cerita (benturan fisik dan kepentingan antarpenguasa).",
+      feedbackWrong: "Kurang tepat. Komplikasi bermula ketika kawanan ikan todak menyerang pertapaan Datu Mabrur karena merasa terganggu oleh gelora samudra."
+    },
+    {
+      missionTag: "✨ Misi 3 • Ciri Kemustahilan",
+      question: "Bukti kemustahilan paling menonjol pada adegan pertarungan adalah...",
+      options: [
+        { letter: "A", text: "Datu Mabrur duduk di atas karang" },
+        { letter: "B", text: "Ikan dapat terbang dan berbicara seperti manusia" },
+        { letter: "C", text: "Karang laut yang sangat tajam" },
+        { letter: "D", text: "Lautan yang berombak besar" }
+      ],
+      correctIndex: 1, // B
+      feedbackCorrect: "Hebat! Kemampuan binatang berbicara dan terbang menyerang adalah karakteristik kemustahilan murni dalam tradisi sastra Melayu klasik.",
+      feedbackWrong: "Coba cermati lagi. Ikan yang dapat terbang dan berbicara dengan bahasa manusia melampaui logika fakta ilmiah dunia nyata!"
+    },
+    {
+      missionTag: "🌊 Analisis • Akar Konflik",
+      question: "Mengapa Raja Todak memimpin penyerangan kepada Datu Mabrur?",
+      options: [
+        { letter: "A", text: "Karena pertapaan Datu Mabrur membuat lautan bergelora dan mengusik rakyatnya" },
+        { letter: "B", text: "Karena ingin merebut pulau Datu Mabrur" }
+      ],
+      correctIndex: 0, // A
+      feedbackCorrect: "Analisis tajam! Pertapaan khusyuk sang Datu memancarkan daya spiritual besar yang menimbulkan riak gelombang hingga mengusik habitat ikan todak.",
+      feedbackWrong: "Belum tepat. Pada saat itu pulau belum terbentuk. Raja Todak marah karena gelombang samudra akibat semadi sang pertapa mengusik ketenteraman rakyatnya."
+    }
+  ];
+
+  let currentIndex = 0;
+  let selectedOption = null;
+  let score = 0;
+  let isAnswerChecked = false;
+
+  // Web Audio API Synthesizers
+  const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+  function playTap() {
+    try {
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(440, audioCtx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(220, audioCtx.currentTime + 0.05);
+      gain.gain.setValueAtTime(0.12, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.05);
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      osc.start();
+      osc.stop(audioCtx.currentTime + 0.05);
+    } catch(e){}
+  }
+
+  function playCorrect() {
+    try {
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+      const now = audioCtx.currentTime;
+      [523.25, 659.25, 783.99, 1046.50].forEach((freq, idx) => {
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(freq, now + idx * 0.06);
+        gain.gain.setValueAtTime(0.16, now + idx * 0.06);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + idx * 0.06 + 0.22);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start(now + idx * 0.06);
+        osc.stop(now + idx * 0.06 + 0.22);
+      });
+    } catch(e){}
+  }
+
+  function playWrong() {
+    try {
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+      const now = audioCtx.currentTime;
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.type = 'sawtooth';
+      osc.frequency.setValueAtTime(240, now);
+      osc.frequency.exponentialRampToValueAtTime(140, now + 0.18);
+      gain.gain.setValueAtTime(0.14, now);
+      gain.gain.exponentialRampToValueAtTime(0.01, now + 0.18);
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      osc.start(now);
+      osc.stop(now + 0.18);
+    } catch(e){}
+  }
+
+  function playVictory() {
+    try {
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+      const now = audioCtx.currentTime;
+      const notes = [
+        { f: 523.25, d: 0.12, t: 0 },
+        { f: 659.25, d: 0.12, t: 0.12 },
+        { f: 783.99, d: 0.15, t: 0.24 },
+        { f: 1046.50, d: 0.45, t: 0.39 }
+      ];
+      notes.forEach(n => {
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(n.f, now + n.t);
+        gain.gain.setValueAtTime(0.22, now + n.t);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + n.t + n.d);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start(now + n.t);
+        osc.stop(now + n.t + n.d);
+      });
+    } catch(e){}
+  }
+
+  // Render Question
+  function renderQuestion() {
+    isAnswerChecked = false;
+    selectedOption = null;
+
+    const q = questions[currentIndex];
+    document.getElementById('stepLabel').innerText = `Misi ${currentIndex + 1} dari ${questions.length}`;
+    document.getElementById('scoreTracker').innerText = `Skor: ${score}`;
+    document.getElementById('progressFill').style.width = `${((currentIndex + 1) / questions.length) * 100}%`;
+
+    document.getElementById('missionTag').innerText = q.missionTag;
+    document.getElementById('questionText').innerText = q.question;
+
+    const optList = document.getElementById('optionsList');
+    optList.innerHTML = '';
+
+    q.options.forEach((opt, idx) => {
+      const card = document.createElement('div');
+      card.className = 'option-card';
+      card.id = `opt_${idx}`;
+      card.onclick = () => selectOption(idx);
+
+      card.innerHTML = `
+        <div class="opt-letter">${opt.letter}</div>
+        <div class="opt-text">${opt.text}</div>
+      `;
+      optList.appendChild(card);
+    });
+
+    const btn = document.getElementById('btnCheck');
+    btn.classList.remove('active');
+    btn.disabled = true;
+
+    document.getElementById('bottomSheet').style.display = 'none';
+  }
+
+  function selectOption(idx) {
+    if (isAnswerChecked) return;
+    playTap();
+    selectedOption = idx;
+
+    const cards = document.querySelectorAll('.option-card');
+    cards.forEach((c, i) => {
+      c.classList.toggle('selected', i === idx);
+    });
+
+    const btn = document.getElementById('btnCheck');
+    btn.classList.add('active');
+    btn.disabled = false;
+  }
+
+  function checkAnswer() {
+    if (selectedOption === null || isAnswerChecked) return;
+    isAnswerChecked = true;
+
+    const q = questions[currentIndex];
+    const isCorrect = (selectedOption === q.correctIndex);
+    const selectedCard = document.getElementById(`opt_${selectedOption}`);
+    const correctCard = document.getElementById(`opt_${q.correctIndex}`);
+
+    const sheet = document.getElementById('bottomSheet');
+    const sheetIcon = document.getElementById('sheetIcon');
+    const sheetTitle = document.getElementById('sheetTitle');
+    const sheetBody = document.getElementById('sheetBody');
+    const btnContinue = document.getElementById('btnSheetContinue');
+
+    if (isCorrect) {
+      score++;
+      playCorrect();
+      selectedCard.classList.add('correct');
+      sheet.classList.remove('wrong-sheet');
+      sheetIcon.innerText = "✨";
+      sheetTitle.innerText = "Analisis Tepat Sekali!";
+      sheetBody.innerText = q.feedbackCorrect;
+      btnContinue.innerText = (currentIndex === questions.length - 1) ? "Lihat Rapor Detektif 🏆" : "Lanjut Misi Berikutnya →";
+    } else {
+      playWrong();
+      selectedCard.classList.add('wrong');
+      correctCard.classList.add('correct');
+      sheet.classList.add('wrong-sheet');
+      sheetIcon.innerText = "💡";
+      sheetTitle.innerText = "Temuan Kurang Tepat!";
+      sheetBody.innerText = q.feedbackWrong;
+      btnContinue.innerText = (currentIndex === questions.length - 1) ? "Lihat Rapor Detektif 🏆" : "Lanjut Misi Berikutnya →";
+    }
+
+    document.getElementById('scoreTracker').innerText = `Skor: ${score}`;
+    sheet.style.display = 'block';
+
+    // Lock option cards
+    document.querySelectorAll('.option-card').forEach(c => c.classList.add('locked'));
+    document.getElementById('btnCheck').classList.remove('active');
+  }
+
+  function nextQuestion() {
+    if (currentIndex < questions.length - 1) {
+      currentIndex++;
+      renderQuestion();
+    } else {
+      showVictory();
+    }
+  }
+
+  function showVictory() {
+    playVictory();
+    document.getElementById('quizScreen').style.display = 'none';
+    document.getElementById('bottomSheet').style.display = 'none';
+
+    const vScreen = document.getElementById('victoryScreen');
+    vScreen.style.display = 'block';
+
+    const pill = document.getElementById('victoryScorePill');
+    pill.innerText = `Hasil Akhir: ${score} dari ${questions.length} Bukti Terpecahkan`;
+
+    triggerConfetti();
+  }
+
+  function restartQuiz() {
+    currentIndex = 0;
+    score = 0;
+    document.getElementById('quizScreen').style.display = 'block';
+    document.getElementById('victoryScreen').style.display = 'none';
+    renderQuestion();
+  }
+
+  function finishModule() {
+    const btn = event.target;
+    btn.innerText = "Membuka Bab 3...";
+    btn.style.opacity = "0.8";
+    setTimeout(() => {
+      btn.innerText = "Lanjut ke Bab 3 →";
+      btn.style.opacity = "1";
+      alert("Misi Selesai! Silakan lanjutkan membaca Bab 3 pada Halaman 16 E-Modul Heyzine.");
+    }, 600);
+  }
+
+  // --- Particle Confetti Canvas ---
+  function triggerConfetti() {
+    const canvas = document.getElementById('confettiCanvas');
+    const ctx = canvas.getContext('2d');
+    canvas.width = canvas.parentElement.offsetWidth;
+    canvas.height = canvas.parentElement.offsetHeight;
+
+    const particles = [];
+    const colors = ['#C89B3C', '#1CB0F6', '#06D6A0', '#FFD166', '#EF5350', '#2D7A4C'];
+
+    for (let i = 0; i < 45; i++) {
+      particles.push({
+        x: canvas.width / 2,
+        y: canvas.height / 2,
+        w: Math.random() * 6 + 4,
+        h: Math.random() * 6 + 4,
+        color: colors[Math.floor(Math.random() * colors.length)],
+        vx: (Math.random() - 0.5) * 10,
+        vy: (Math.random() - 0.8) * 10,
+        gravity: 0.18,
+        rotation: Math.random() * 360,
+        rotSpeed: (Math.random() - 0.5) * 8,
+        alpha: 1
+      });
+    }
+
+    let frame = 0;
+    function render() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      particles.forEach(p => {
+        p.x += p.vx;
+        p.y += p.vy;
+        p.vy += p.gravity;
+        p.rotation += p.rotSpeed;
+        p.alpha -= 0.015;
+
+        if (p.alpha > 0) {
+          ctx.save();
+          ctx.translate(p.x, p.y);
+          ctx.rotate((p.rotation * Math.PI) / 180);
+          ctx.fillStyle = p.color;
+          ctx.globalAlpha = Math.max(0, p.alpha);
+          ctx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h);
+          ctx.restore();
+        }
+      });
+
+      frame++;
+      if (frame < 75) {
+        requestAnimationFrame(render);
+      } else {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+      }
+    }
+    requestAnimationFrame(render);
+  }
+
+  // --- Intelligent Auto-Fit Engine for Heyzine Embeds ---
+  function applyAutoFit() {
+    try {
+      const container = document.querySelector('.widget-container');
+      if (!container) return;
+
+      const urlParams = new URLSearchParams(window.location.search);
+      const manualScale = parseFloat(urlParams.get('scale'));
+      const size = urlParams.get('size');
+
+      if (!isNaN(manualScale) && manualScale >= 0.35 && manualScale <= 1.6) {
+        container.style.transform = `scale(${manualScale})`;
+        container.style.transformOrigin = 'center center';
+        return;
+      }
+      if (size === 'compact' || size === 'small') {
+        container.style.transform = 'scale(0.85)';
+        container.style.transformOrigin = 'center center';
+        return;
+      } else if (size === 'mini') {
+        container.style.transform = 'scale(0.72)';
+        container.style.transformOrigin = 'center center';
+        return;
+      } else if (size === 'large') {
+        container.style.transform = 'scale(1.15)';
+        container.style.transformOrigin = 'center center';
+        return;
+      }
+
+      // Default Auto-Fit calculation
+      const availW = window.innerWidth || document.documentElement.clientWidth;
+      const availH = window.innerHeight || document.documentElement.clientHeight;
+
+      const designW = 420;
+      const designH = 340;
+
+      const scaleW = (availW - 8) / designW;
+      const scaleH = (availH - 8) / designH;
+      const fitScale = Math.min(scaleW, scaleH);
+
+      const finalScale = Math.max(0.42, Math.min(fitScale, 1.05));
+      container.style.transform = `scale(${finalScale.toFixed(3)})`;
+      container.style.transformOrigin = 'center center';
+    } catch (err) {
+      console.warn('Auto-fit calculation error:', err);
+    }
+  }
+
+  window.addEventListener('load', () => {
+    renderQuestion();
+    applyAutoFit();
+  });
+  window.addEventListener('resize', applyAutoFit);
+</script>
+
+</body>
+</html>
