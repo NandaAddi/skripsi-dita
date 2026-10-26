@@ -171,22 +171,21 @@ HAK CIPTA DILINDUNGI UNDANG-UNDANG
 Dilarang memperbanyak atau memindahkan sebagian atau seluruh isi modul ini dalam bentuk apa pun, baik secara elektronik maupun mekanik, termasuk fotokopi, merekam, atau dengan sistem penyimpanan lainnya, tanpa izin tertulis dari Penulis/Pengembang. Modul ini dikembangkan sebagai produk penelitian pengembangan (Research and Development) untuk menunjang ketercapaian Capaian Pembelajaran Sastra Indonesia Fase E di SMA/SMK.
 
 UNDANG-UNDANG REPUBLIK INDONESIA
-NOMOR 19 TAHUN 2002
+NOMOR 28 TAHUN 2014
 TENTANG HAK CIPTA
 
-PASAL 72
-KETENTUAN PIDANA
-SANKSI PELANGGARAN
-
-1. Barang siapa dengan sengaja melanggar dan tanpa hak mengumumkan atau memperbanyak suatu ciptaan atau memberikan izin untuk itu, dipidana dengan penjara paling singkat 1 (satu) bulan dan/atau denda paling sedikit Rp1.000.000,00 (satu juta rupiah). Atau pidana penjara paling lama 7 (tujuh) tahun dan/atau denda paling banyak Rp5.000.000.000,00 (lima miliar rupiah).
-2. Barang siapa dengan sengaja menyerahkan, menyiarkan, memamerkan, mengedarkan atau menjual kepada umum suatu ciptaan atau barang hasil pelanggaran Hak Cipta atau Hak Terkait sebagaimana dimaksud pada ayat (1), dipidana penjara paling lama 7 (tujuh) tahun dan/atau denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).
+PASAL 113
+KETENTUAN PIDANA SANKSI PELANGGARAN:
+1. Setiap Orang yang dengan tanpa hak melakukan pelanggaran hak ekonomi sebagaimana dimaksud dalam Pasal 9 ayat (1) huruf i untuk Penggunaan Secara Komersial dipidana dengan pidana penjara paling lama 1 (satu) tahun dan/atau pidana denda paling banyak Rp100.000.000 (seratus juta rupiah).
+2. Setiap Orang yang dengan tanpa hak dan/atau tanpa izin Pencipta atau pemegang Hak Cipta melakukan pelanggaran hak ekonomi Pencipta sebagaimana dimaksud dalam Pasal 9 ayat (1) huruf c, huruf d, huruf f, dan/atau huruf h untuk Penggunaan Secara Komersial dipidana dengan pidana penjara paling lama 3 (tiga) tahun dan/atau pidana denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).
+3. Setiap Orang yang dengan tanpa hak dan/atau tanpa izin Pencipta atau pemegang Hak Cipta melakukan pelanggaran hak ekonomi Pencipta sebagaimana dimaksud dalam Pasal 9 ayat (1) huruf a, huruf b, huruf e, dan/atau huruf g untuk Penggunaan Secara Komersial dipidana dengan pidana penjara paling lama 4 (empat) tahun dan/atau pidana denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
-- Latar halaman hijau tua elegan (#006B3E / emerald green) dengan kartu klausul sanksi berbingkai garis tepi kuning keemasan (#D4AF37).
-- Bagian atas kartu memuat judul: "UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 19 TAHUN 2002 TENTANG HAK CIPTA, PASAL 72 KETENTUAN PIDANA SANKSI PELANGGARAN" (rata tengah, huruf kapital tebal berwarna putih).
-- Kotak isi ketentuan pidana bergaris batas kuning/oranye keemasan dengan tipografi isi pasal 1 dan 2 berwarna putih, jelas dan terbaca rapi.
-- Aksen ilustrasi karakter/maskot di sudut kiri bawah kartu (sesuai tata letak visual referensi).
+- Latar halaman Deep Ocean Navy elegan (#0F2C4C) berpadu tekstur serat perkamen halus dengan kartu klausul sanksi berbingkai garis tepi ganda emas kencana (#C89B3C).
+- Bagian atas kartu memuat judul: "UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 28 TAHUN 2014 TENTANG HAK CIPTA, PASAL 113 KETENTUAN PIDANA SANKSI PELANGGARAN" (rata tengah, font serif tebal berwarna emas/putih gading).
+- Kotak isi ketentuan pidana bergaris batas emas dengan tipografi isi ayat 1, 2, dan 3 berwarna putih gading (#F8F4EB), jelas dan terbaca nyaman.
+- Aksen ornamen sulur Banjar (*Tali Bapintal*) di sudut bingkai kartu.
 - Kartu profil persegi bersudut melengkung untuk foto pengembang, ikon kontak/email, dan barcode ISBN/Verifikasi R&D.
 
 [FITUR INTERAKTIF HEYZINE]
@@ -338,66 +337,49 @@ Format Layout  : Infografis Terpadu A4 Portrait:
 5. Melalui refleksi & asesmen interaktif [C], peserta didik Fase E [A] mampu mengevaluasi nilai-nilai Sa-Ijaan & relevansinya [B] secara komprehensif [D].
 
 --------------------------------------------------------------------------------
-(Kartu Kiri: 🧭 Petunjuk Penggunaan Bagi Siswa / Peserta Didik):
-1. Persiapan Perangkat & Audio:
-   - Akses e-modul melalui gawai (smartphone), tablet, atau laptop yang terhubung ke jaringan internet stabil.
-   - Sangat disarankan mengenakan earphone/headphone agar narasi penutur, efek debur ombak samudra, dan petikan gambus Melayu terdengar jernih dan imersif.
-
-2. Navigasi Membaca Flipbook:
-   - Geser/usap layar di ponsel atau klik panah navigasi kanan/kiri di laptop untuk membalik lembar halaman.
-   - Manfaatkan menu "Daftar Isi Interaktif" pada Halaman 4 untuk melompat langsung ke bab atau misi yang kamu tuju.
-   - Gunakan fitur Zoom (cubit layar di ponsel atau klik ikon kaca pembesar) untuk memperbesar teks naskah dan ilustrasi manuskrip.
-
-3. Alur Petualangan Belajar Mandiri:
-   - Langkah 1 (Apersepsi & Poster Bab): Buka Cover Bab untuk meresapi suasana dan kutipan hikmah, lalu buka Halaman Pembuka Bab untuk berinteraksi dengan Widget Pertanyaan Pemantik Interaktif bergaya Duolingo sebelum membaca naskah.
-   - Langkah 2 (Menyelami Kisah): Baca teks cerita bab demi bab (Babak 1 s.d. 5). Klik ikon Audio untuk mendengarkan ekspresi dialog sakti Datu Mabrur dan desah parau Raja Ikan Todak.
-   - Langkah 3 (Membedah Kaidah Sastra): Cermati Kotak Bedah Materi Sastra di setiap bab untuk memahami teori sastra, struktur plot, dan makna kosakata arkais bergaris bawah.
-   - Langkah 4 (Menuntaskan Misi Interaktif): Mainkan game interaktif (Wordwall/teka-teki) di akhir bab. Jika menggunakan layar HP yang kecil, klik tombol "📲 Buka Game Layar Penuh" atau pindai QR Code yang tersedia.
-   - Langkah 5 (Refleksi Diri & Metakognisi): Isi Lembar Refleksi Diri di Halaman 31 untuk mengendapkan nilai-nilai kearifan lokal yang kamu dapatkan.
+(Kartu Kiri: 🧭 Panduan Belajar Peserta Didik):
+1. **Kesiapan Perangkat & Audio**: Gunakan gawai/laptop dengan koneksi stabil. Pasang earphone/headphone agar narasi penutur, debur ombak, dan musik panting Banjar terdengar imersif.
+2. **Navigasi Membaca Flipbook**: Usap layar ponsel atau klik panah untuk membalik halaman. Gunakan menu *Daftar Isi* (H.4) untuk melompat ke bab tujuan dan manfaatkan fitur *Zoom* untuk memperbesar teks.
+3. **Alur 5 Babak Petualangan**:
+   - Amati *Cover Bab* dan jawab *Pertanyaan Pemantik Interaktif* di setiap awal bab.
+   - Baca naskah cerita dan klik ikon Audio untuk mendengarkan ekspresi dialog tokoh.
+   - Pahami teori sastra pada *Kotak Bedah Materi* di setiap bab.
+   - Selesaikan kuis gamifikasi *Misi 1–5* (klik layar penuh/QR jika memakai ponsel).
+   - Tuntaskan lembar *Refleksi Diri* di Halaman 31 untuk mengendapkan nilai kebajikan.
 
 --------------------------------------------------------------------------------
-(Kartu Kanan: 🎓 Petunjuk Penggunaan Bagi Guru / Pendidik):
-1. Peran Sebagai Fasilitator Belajar:
-   - E-modul ini mengusung pendekatan *Student-Centered Learning* (Kurikulum Merdeka). Guru berperan sebagai fasilitator, pemantik nalar kritis, dan pemandu diskusi nilai kearifan lokal Banjar.
-
-2. Pemanfaatan Pertanyaan Pemantik Interaktif:
-   - Arahkan peserta didik merespons pertanyaan pemantik interaktif (HTML embed) di setiap awal bab (Halaman 7, 12, 17, 22, 27) setelah mengamati Cover Bab masing-masing untuk memantik rasa ingin tahu (*curiosity-driven learning*) sebelum memasuki teks cerita.
-
-3. Skenario & Integrasi Pembelajaran di Kelas:
-   - Model *Flipped Classroom*: Peserta didik menyimak audio narasi dan membaca teks mandiri di rumah, kemudian jam kelas difokuskan untuk mendiskusikan nilai kehidupan dan membedah kearifan lokal Sa-Ijaan.
-   - Model *Blended Learning / Kolaboratif*: Pembelajaran dilakukan di laboratorium komputer atau kelas berbasis gawai (BYOD) secara berpasangan/kelompok saat menyelesaikan misi interaktif Wordwall.
-
-4. Bimbingan Aktivitas Interaktif & Diferensiasi:
-   - Dampingi siswa saat membedah unsur kemustahilan dan nilai budaya lokal pada Kotak Bedah Materi.
-   - Bagi peserta didik yang mengalami kesulitan memahami kosakata Melayu klasik, arahkan untuk memanfaatkan fitur Glosarium Terpadu pada Halaman 33.
-   - Pastikan peserta didik yang menggunakan smartphone mengakses tautan layar penuh (*fullscreen*) agar aktivitas game interaktif berjalan maksimal.
-
-5. Evaluasi & Tindak Lanjut:
-   - Pantau ketuntasan misi gamifikasi bab 1 s.d. 5 dan isian Lembar Refleksi Diri (Halaman 31).
-   - Instrumen evaluasi sumatif komprehensif (Pre-Test dan Post-Test 20 Soal HOTS) tersedia pada Lampiran Instrumen Penelitian Skripsi terpisah.
+(Kartu Kanan: 🎓 Panduan Fasilitator / Guru):
+1. **Peran Fasilitator**: Mendorong pembelajaran berpusat pada siswa (*Student-Centered*) dan pemantik nalar kritis terhadap nilai kearifan lokal Banjar (*Sa-Ijaan*).
+2. **Pemanfaatan Pemantik Nalar**: Arahkan siswa merespons widget interaktif di setiap awal bab untuk memantik rasa ingin tahu (*curiosity-driven learning*) sebelum membaca teks.
+3. **Strategi Pembelajaran di Kelas**:
+   - *Flipped Classroom*: Siswa menyimak audio narasi dan membaca mandiri di rumah, jam kelas difokuskan pada diskusi nilai kehidupan.
+   - *Blended Learning*: Pembelajaran berbasis gawai/lab komputer saat pengerjaan misi gamifikasi Wordwall secara berpasangan.
+4. **Diferensiasi & Evaluasi**:
+   - Bimbing siswa yang kesulitan kosakata arkais memanfaatkan *Glosarium* (H.33).
+   - Pantau ketuntasan Misi 1–5 dan refleksi diri. Instrumen evaluasi sumatif formal (Pre/Post-Test 20 Soal HOTS) tersedia pada lampiran terpisah.
 
 --------------------------------------------------------------------------------
 (Bagian Bawah: 🔍 Kamus Simbol & Tombol Heyzine):
-- [🔊 Ikon Speaker / Audio Waveform] : Klik untuk mendengarkan lantunan suara narator dan dialog sakti para tokoh.
-- [🎬 Ikon Pemutar Video / Play]     : Klik untuk menyaksikan animasi cuplikan adegan pertempuran laut.
-- [🎮 Ikon Stik Game / Misi]         : Klik untuk memainkan misi interaktif dan kuis gamifikasi di dalam lembar flipbook.
-- [📲 Ikon Layar Penuh / QR Code]    : Akses cepat membuka game Wordwall di tab peramban penuh (optimal untuk gawai seluler).
-- [📖 Ikon Naskah Glosarium]         : Klik untuk langsung melompat ke daftar arti kosakata arkais Melayu klasik.
-- [💡 Ikon Pemantik Nalar]          : Berinteraksi dengan kartu dilema moral dan pemantik kritis di setiap awal bab.
+- [🔊 Audio Waveform] : Mendengarkan narasi dan dialog sakti tokoh.
+- [🎬 Pemutar Video]  : Menyaksikan video animasi cuplikan adegan cerita.
+- [🎮 Stik Game/Misi]  : Memainkan kuis gamifikasi interaktif Wordwall.
+- [📲 Layar Penuh/QR] : Membuka game di tab peramban penuh (optimal gawai seluler).
+- [📖 Buku Glosarium] : Melompat langsung ke daftar arti kosakata arkais Melayu.
+- [💡 Pemantik Nalar] : Menjawab kartu dilema moral dan pemantik kritis tiap bab.
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
 - Format Kanvas: A4 Portrait (2480 x 3508 piksel).
 - Latar Belakang: Tekstur perkamen gading bahari klasik (#F8F4EB) dengan ornamen garis batas ganda keemasan (*antique gold border*) di sekeliling halaman.
-- Komposisi 4 Zona Infografis:
-  1. Header/Banner Atas (Tinggi 18%): Kotak berlatar Deep Ocean Teal transparan dengan tipografi judul serif megah dan sasaran pembelajaran.
-  2. Kartu Petunjuk Siswa (Kiri, Lebar 48%, Tinggi 52%): Berbingkai pita emas bahari dengan ikon kompas penjelajah di pojok kiri atas kartu. Teks butir tersusun rapi dengan hierarki tipografi sans-serif modern yang mudah dibaca.
-  3. Kartu Petunjuk Guru (Kanan, Lebar 48%, Tinggi 52%): Berbingkai ornamen khas naskah nakhoda dengan ikon topi wisuda/buku panduan di pojok kanan atas kartu.
-  4. Footer Kamus Simbol (Bawah, Lebar 100%, Tinggi 20%): Grid 2 kolom berisi 6 tombol ikon interaktif Heyzine dengan kontras warna tegas dan label deskripsi ringkas.
+- Komposisi 4 Zona Infografis Bersih & Ergonomis:
+  1. Header/Banner Atas (Tinggi 18%): Kotak Deep Ocean Teal transparan dengan tipografi serif megah, memuat CP & TP ABCD.
+  2. Kartu Petunjuk Siswa (Kiri, Lebar 48%, Tinggi 52%): Berbingkai pita emas bahari dengan ikon kompas penjelajah, tipografi sans-serif (Inter/Plus Jakarta Sans 10 pt) berjarak baris longgar.
+  3. Kartu Petunjuk Guru (Kanan, Lebar 48%, Tinggi 52%): Berbingkai ornamen nakhoda dengan ikon buku panduan/wisuda, teks ringkas modular.
+  4. Footer Kamus Simbol (Bawah, Lebar 100%, Tinggi 20%): Grid 2 baris × 3 kolom berisi 6 ikon interaktif Heyzine berkontras tegas dan label deskripsi ringkas.
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
-- Tombol Audio Sambutan Panduan (Pojok Kanan Atas Header): Tombol interaktif dengan ikon pemandu bersuara (durasi 20 detik): "Selamat datang di lembar panduan E-Modul Hikayat Sa-ijaan dan Ikan Todak. Silakan cermati langkah belajar dan kenali fungsi tombol interaktif sebelum memulai petualangan..."
+- Tombol Audio Sambutan Panduan (Pojok Kanan Atas Header): Tombol interaktif audio pemandu bersuara (durasi 20 detik): "Selamat datang di lembar panduan E-Modul Hikayat Sa-ijaan dan Ikan Todak. Silakan cermati langkah belajar dan kenali fungsi tombol interaktif sebelum memulai petualangan..."
 - Hyperlink Pintas di Bawah Halaman: Tombol beranimasi lembut "Mulai Bab 1: Pengertian & Karakteristik Teks Hikayat →" yang langsung melompat ke Halaman 6 (*Go to Page 6*).
 ================================================================================
 ```
@@ -623,7 +605,7 @@ BAB 2
 STRUKTUR NARASI & KEMUSTAHILAN CERITA
 
 (Sub-Judul Tematik / Fokus Cerita):
-"Membedah Orientasi-Komplikasi & Menepis Serangan Ikan Todak dengan Ketenangan Batin"
+"Kisah: Amukan Prajurit Samudra — Membedah Orientasi-Komplikasi & Menepis Serangan Ikan Todak dengan Ketenangan Batin"
 
 (Kutipan Mutiara Hikayat / Prolog Puitis):
 > "Ombak garang tak dibalas dengan gelombang tandingan. Keteguhan hati laksana karang tegak, menepis amukan tanpa niat melukai, menundukkan amarah dengan welas asih."
@@ -637,7 +619,7 @@ STRUKTUR NARASI & KEMUSTAHILAN CERITA
 --------------------------------------------------------------------------------
 - Kanvas: A4 Portrait (2480 x 3508 piksel).
 - Background: Latar poster penuh `CVR_Bab2_Serangan_Todak.png` (Rasio 3:4) dengan perpaduan warna royal indigo, toska elektrik, dan percikan busa ombak putih.
-- Area Atas (Negative Space): Nomor bab "BAB 2" beraksen font serif megah (*Cinzel Decorative* / *Cinzel* Bold) berwarna emas kencana (#C89B3C). Judul bab "AMUKAN PRAJURIT SAMUDRA" kapital tegas berjarak huruf proporsional.
+- Area Atas (Negative Space): Nomor bab "BAB 2" beraksen font serif megah (*Cinzel Decorative* / *Cinzel* Bold) berwarna emas kencana (#C89B3C). Judul bab kurikuler utama: "STRUKTUR NARASI & KEMUSTAHILAN CERITA" kapital tegas berjarak huruf proporsional, dihiasi pita ornamen sub-tema: *"Kisah: Amukan Prajurit Samudra"*.
 - Area Tengah: Ilustrasi visual aksi akrobatik megah Raja Ikan Todak melesat dari ombak toska, moncong gergaji permata menyala keemasan beradu lembut dengan busur perisai pelindung Datu Mabrur yang tenang tersenyum.
 - Area Bawah: Kotak plakat kutipan mutiara berlatar krem semi-transparan dengan garis batas ornamen sulur Banjar emas. Di pojok kanan bawah terdapat tombol CTA elegan: "Buka Babak 2: Pemantik & Kisah →".
 
@@ -674,10 +656,11 @@ Laut yang tadinya tenang tiba-tiba bergolak dahsyat! Dari kegelapan samudra, mel
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
-- Area pemutar video horizontal diapit ornamen tiang kuno kerajaan di bagian atas.
-- Teks prolog di bagian tengah dengan bingkai pita kertas tua.
-- Di bawah: Kotak bingkai kosong bergaris emas elegan berlabel "[AREA SEMATAN WIDGET HTML PEMANTIK INTERAKTIF BAB 2]".
-- Di sudut kanan bawah: Tombol navigasi (CTA): "Mulai Membaca Kisah Bab 2 → (Halaman 13)".
+- Komposisi Vertikal Ergonomis Kanvas A4:
+  1. Area Atas (Tinggi 25% Kanvas): Frame video pemutar horizontal rasio 16:9 diapit ornamen tiang kuno kerajaan berlabel `[AREA SEMATAN VIDEO ANIMASI BAB 2]`.
+  2. Area Tengah (Tinggi 12% Kanvas): Kotak teks prolog berbingkai pita kertas tua dengan tipografi elegan 11 pt.
+  3. Area Bawah (Tinggi 45% Kanvas): Kotak bingkai kosong bergaris emas elegan (1.5px #C89B3C) berlabel `[AREA SEMATAN WIDGET HTML PEMANTIK INTERAKTIF BAB 2]` dengan sudut melengkung 12px.
+  4. Sudut Kanan Bawah (Tinggi 8% Kanvas): Tombol navigasi pintas (CTA): "Mulai Membaca Kisah Bab 2 → (Halaman 13)".
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
@@ -735,14 +718,24 @@ Ikan itu terpelanting dan jatuh di karang. Setelah jatuh ke air, ikan itu menyer
 HALAMAN 14: KOTAK BEDAH MATERI SASTRA BAB 2
 ================================================================================
 Bagian         : Bab 2 - Materi Inti Kurikulum
-Judul Layar    : Ruang Sastra: Membedah Struktur Konflik & Kemustahilan Hikayat
-Format Layout  : Infografis Diagram Alur Cerita & Tabel Identifikasi Karakteristik
+Judul Layar    : Ruang Sastra: Membedah Struktur Narasi & Kemustahilan Hikayat
+Format Layout  : Infografis Diagram Alur 4 Tahap (Status Tracker) & Tabel Identifikasi Karakteristik
 
 [KONTEN TEKS & COPYWRITING]
 --------------------------------------------------------------------------------
-(1. Struktur Cerita: Dari Orientasi Menuju Komplikasi):
-• **Orientasi** (Bab 1): Mengenalkan siapa Datu Mabrur, tempat pertapaannya, dan tujuannya memohon pulau.
-• **Komplikasi** (Bab 2): Puncak ketegangan ketika muncul rintangan/masalah berupa serangan ribuan ikan todak yang merasa terusik oleh pertapaan Datu Mabrur. Terjadilah pertarungan fisik dan mental.
+(1. Struktur Alur Teks Hikayat: Peta Narasi & Posisi Babak Cerita):
+Secara utuh, alur narasi teks hikayat tersusun atas 4 tahapan berkesinambungan:
+[Orientasi] ➔ [Komplikasi] ➔ [Resolusi] ➔ [Koda]
+
+Pada petualangan membaca Bab 2 ini, kamu telah menuntaskan dua tahapan pertama:
+• **Orientasi** (Sudah Dituntaskan di Bab 1):
+  Tahap pengenalan tokoh utama (Datu Mabrur), latar pertapaan di samudra mistis, dan tujuan luhur memohon pulau permukiman bagi anak-cucunya kelak.
+• **Komplikasi** (Sedang Berlangsung di Bab 2):
+  Tahap munculnya rintangan dan eskalasi konflik ketika ribuan prajurit ikan todak menyerang karang pertapaan. Terjadilah benturan fisik dan ujian kesaktian antara Datu Mabrur melawan penguasa laut.
+
+📌 *Catatan Detektif Alur*:
+Bagaimana akhir pertempuran ini dan apakah impian pulau tersebut akan terwujud?
+Tahap **Resolusi** (penyelesaian damai & pengangkatan pulau) dan **Koda** (pesan moral abadi & toponimi) akan kita bedah secara tuntas di Ruang Sastra Bab 5 (Halaman 29)!
 
 (2. Karakteristik Sastra Hikayat di Bab 2):
 • **Kemustahilan**: Peristiwa yang di luar nalar manusia nyata:
@@ -756,8 +749,11 @@ Format Layout  : Infografis Diagram Alur Cerita & Tabel Identifikasi Karakterist
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
-- Diagram garis panah evolusi struktur alur hikayat: Orientasi $\rightarrow$ Komplikasi $\rightarrow$ Resolusi $\rightarrow$ Koda.
+- Diagram 4 Kotak Alur Narasi Hikayat (Status Tracker):
+  * Kotak 1 [Orientasi] & Kotak 2 [Komplikasi]: Warna Solid Navy & Emas Terang dengan lencana centang hijau `[SELESAI DIBEDAH]`.
+  * Kotak 3 [Resolusi] & Kotak 4 [Koda]: Warna Garis Putus-putus Soft Parchment dengan ikon gembok `[DIBEDAH DI BAB 5 - H.29]`.
 - Kotak perbandingan: "Fakta Dunia Nyata vs Kemustahilan Hikayat".
+- Kotak khusus di bawah bagan: "Catatan Detektif Alur" dengan aksen bingkai emas lembut.
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
@@ -1070,7 +1066,7 @@ HALAMAN 22: PEMBUKA BAB 4 (JANJI YANG MENJADI KENYATAAN) & WIDGET PEMANTIK
 Bagian         : Bab 4 - Halaman Pembuka & Pemantik Nalar
 Judul Layar    : CHAPTER 4: JANJI YANG MENJADI KENYATAAN
 Fokus Cerita   : Pengerahan Jutaan Penghuni Samudra, Pengangkatan Daratan, & Keajaiban Pulau
-Format Layout  : Ilustrasi Epik Jutaan Ikan Mendorong Daratan di Atas, Prolog Cerita di Tengah, Frame Sematan Pertanyaan Pemantik Duolingo-Style di Bawah, Audio Gemuruh
+Format Layout  : Frame Video Animasi Interaktif di Atas (Tinggi 25%), Prolog Cerita di Tengah, Frame Sematan Pertanyaan Pemantik Duolingo-Style di Bawah, Tombol Audio Gemuruh
 
 [KONTEN TEKS & COPYWRITING]
 --------------------------------------------------------------------------------
@@ -1078,17 +1074,21 @@ Format Layout  : Ilustrasi Epik Jutaan Ikan Mendorong Daratan di Atas, Prolog Ce
 Janji ksatria bukanlah sekadar kata-kata manis di bibir. Menjelang tengah malam, dasar samudra bergetar hebat. Jutaan makhluk laut dari yang terkecil hingga raksasa bersatu padu, mengorbankan keringat dan tenaga demi menepati sumpah kepada sang petapa. Saksikanlah peristiwa ajaib terangkatnya daratan dari dasar samudra!
 
 (Petunjuk Aktivitas Pembuka Bab 4):
-1. Putar audio gemuruh samudra untuk mendengar getaran dasar laut dan seruan serempak jutaan ikan laut!
-2. Jawablah Pertanyaan Pemantik Interaktif Bab 4 di bawah ini sebelum menyaksikan peristiwa ajaib terangkatnya daratan!
+1. Klik tombol Play pada jendela video di bawah ini untuk menyaksikan visualisasi detik-detik terbitnya daratan dari dasar laut!
+2. Putar audio gemuruh samudra untuk mendengar getaran dasar laut dan seruan serempak jutaan ikan laut!
+3. Jawablah Pertanyaan Pemantik Interaktif Bab 4 di bawah ini sebelum menyaksikan peristiwa ajaib terangkatnya daratan!
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
-- Ilustrasi pemandangan bawah laut megah: Ribuan paus, lumba-lumba, pari, penyu, dan ikan todak bersama-sama menyangga dan mendorong bongkahan daratan raksasa ke atas permukaan air laut.
-- Di bawah: Kotak bingkai kosong bergaris emas elegan berlabel "[AREA SEMATAN WIDGET HTML PEMANTIK INTERAKTIF BAB 4]".
-- Di sudut kanan bawah: Tombol navigasi (CTA): "Mulai Membaca Kisah Bab 4 → (Halaman 23)".
+- Komposisi Vertikal Ergonomis Kanvas A4:
+  1. Area Atas (Tinggi 25% Kanvas): Frame video pemutar horizontal rasio 16:9 berlabel `[AREA SEMATAN VIDEO ANIMASI BAB 4: BANGKITNYA PULAU HALIMUN]` berdampingan dengan tombol play audio gemuruh laut.
+  2. Area Tengah (Tinggi 12% Kanvas): Kotak teks prolog berbingkai pita naskah kuno dengan tipografi elegan 11 pt.
+  3. Area Bawah (Tinggi 45% Kanvas): Kotak bingkai kosong bergaris emas elegan (1.5px #C89B3C) berlabel `[AREA SEMATAN WIDGET HTML PEMANTIK INTERAKTIF BAB 4]` dengan sudut melengkung 12px.
+  4. Sudut Kanan Bawah (Tinggi 8% Kanvas): Tombol navigasi (CTA): "Mulai Membaca Kisah Bab 4 → (Halaman 23)".
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
+- **Fitur Video Embed Heyzine**: Sematkan video loop / MP4 animasi kebangkitan daratan (`VID_Veo_Bangkitnya_Pulau.mp4`, durasi 20 detik, menampilkan jutaan biota laut mendorong daratan pulau dari dasar samudra).
 - **Fitur Audio Player Heyzine**: Sematkan file `AUD_Gemuruh_Laut_Bab4.mp3` (Efek suara gemuruh getaran gempa bawah laut (*low bass rumble*) diiringi koor lantang seruan jutaan ikan: *"Sa-ijaan! Sa-ijaan! Saijaaan...!"*).
 - **Fitur Iframe Embed Heyzine (Pertanyaan Pemantik Interaktif Bab 4)**:
   * File Sematan: `widgets/pemantik-interaktif/pemantik_bab4.html`
@@ -1098,8 +1098,9 @@ Janji ksatria bukanlah sekadar kata-kata manis di bibir. Menjelang tengah malam,
 
 [KEBUTUHAN ASET & PROMPT GENERATOR]
 --------------------------------------------------------------------------------
-* Nama Aset   : IMG_Bab4_Jutaan_Ikan_Mengangkat_Pulau.png
-* Prompt AI   : "An awe-inspiring epic underwater fantasy illustration, millions of bioluminescent fishes, giant whales, sawfishes, manta rays working together pushing an entire ancient landmass island upward from the dark sea bottom to the ocean surface, underwater majestic rays of divine light, grand collective effort, mythical Nusantara legend, cinematic dynamic composition --ar 4:3"
+* Nama Aset   : VID_Veo_Bangkitnya_Pulau.mp4 / IMG_Bab4_Jutaan_Ikan_Mengangkat_Pulau.png
+* Prompt AI Video / Visual : "An awe-inspiring epic underwater fantasy animation, millions of bioluminescent fishes, giant whales, sawfishes, manta rays working together pushing an entire ancient landmass island upward from the dark sea bottom to the ocean surface, underwater majestic rays of divine light, grand collective effort, mythical Nusantara legend, cinematic dynamic composition --ar 16:9"
+* Aset Audio  : AUD_Gemuruh_Laut_Bab4.mp3
 * Aset Widget : `widgets/pemantik-interaktif/pemantik_bab4.html`
 ================================================================================
 ```
@@ -1383,15 +1384,19 @@ Hikayat bukan sekadar dongeng masa lalu yang usang, melainkan akar kebudayaan lu
 1. Mengapa masyarakat Kotabaru memilih mengabadikan sosok Ikan Todak dalam lambang daerahnya, padahal di awal cerita ikan tersebut menyerang tokoh utama?
 2. Bagaimana makna semboyan *Sa-Ijaan* dapat kamu terapkan dalam menyelesaikan konflik antarteman di kelas atau lingkungan sekitarmu?
 
+*(Petunjuk Respon Siswa): Tuliskan analisismu langsung pada lembar kerja bergaris di bawah ini, atau klik tombol interaktif untuk mengirimkan respon ke formulir digital guru!*
+
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
 - Infografis komparasi berdampingan: Foto asli tugu todak di Kotabaru vs Lukisan legenda di modul.
-- Tombol "Tulis Analisis Cepat" di bawah pertanyaan.
+- Dua kotak area catatan refleksi bergaris tipis (*ruled lines*) di bawah pertanyaan nomor 1 dan 2 untuk respon tulis tangan siswa.
+- Tombol aksi interaktif: "📲 Kirim Respon Digital (Google Form / Padlet)" diapit ornamen emas halus.
 - Tombol CTA di sudut kanan bawah: "Buka Lembar Refleksi Diri → (Halaman 31)".
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
 - **Link Eksternal / Video Dokumenter**: Hotspot tautan ke video singkat YouTube tentang pesona keindahan Pulau Laut Kotabaru Kalimantan Selatan.
+- **Formulir Interaktif**: Hotspot tombol "Kirim Respon Digital" yang terhubung ke Google Form / Padlet kelas.
 - **Navigasi Pintas**: Tombol "Buka Lembar Refleksi Diri →" langsung membuka Halaman 31 (*Go to Page 31*).
 ================================================================================
 ```
@@ -1755,6 +1760,7 @@ Didukung oleh Platform Flipbook Heyzine
 | 12 | Audio | `AUD_Gemuruh_Laut_Bab4.mp3` | Suara gempa dasar laut & seruan jutaan ikan: "Sa-ijaan!" | *Sound FX Prompt:* Deep earthquake ocean sub-bass rumble, roaring water torrents, reverberating choral crowd shouting in rhythmic unison: "Sa-ijaan! Sa-ijaan! Saijaaan...!" |
 | 13 | Audio | `AUD_Penutup_Bab5.mp3` | Narasi penutup asal-usul Pulau Laut & slogan Kotabaru. | *Voiceover Script:* "Daratan itu dinamakan Pulau Halimun, yang kelak dikenal sebagai Pulau Laut. Kata Sa-ijaan dan ikan todak pun diabadikan menjadi lambang persatuan Kabupaten Kotabaru..." |
 | 14 | Video | `VID_Animasi_Serangan_Todak.mp4` | Video pendek loop 15-20 detik serangan ikan todak. | *Runway Gen-2 / Pika Prompt:* "Cinematic camera orbiting an ascetic Indonesian monk on a rock, suddenly a giant sawfish launches out of churning sea waves, deflected by a shimmering aura, ocean splashes in slow motion, hyper-realistic fantasy." |
+| 15 | Video | `VID_Veo_Bangkitnya_Pulau.mp4` | Video pendek loop 15-20 detik bangkitnya Pulau Halimun dari dasar laut didorong kawanan paus dan ikan. | *Google Veo / Pika Prompt:* "Epic wide cinematic underwater shot, millions of glowing sea creatures and giant whales pushing a lush green ancient island upward breaking through turquoise ocean surface under morning sunrise, sparkling sunbeams, mythical Nusantara legend, 4k resolution." |
 
 ---
 

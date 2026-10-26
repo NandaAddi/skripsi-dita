@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misi 5: Tata Urutan Logika Peristiwa - Reorder Game Interaktif</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: transparent !important;
+      color: #2A2421;
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    /* Outer Wrapper with Auto-Fit Engine */
+    .widget-container {
+      background: #FFFFFF;
+      border: 2px solid #E2D9CC;
+      border-bottom: 5px solid #C8BBA8;
+      border-radius: 20px;
+      padding: 14px 18px;
+      width: 480px;
+      max-width: 96%;
+      position: relative;
+      overflow: hidden;
+      box-sizing: border-box;
+      transform-origin: center center;
+      will-change: transform;
+      margin: auto;
+      box-shadow: 0 12px 30px rgba(15, 44, 76, 0.14);
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Top Bar */
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 8px;
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+    }
+
+    .badge-icon {
+      width: 38px;
+      height: 38px;
+      border-radius: 12px;
+      background: #0F2C4C;
+      border: 2px solid #C89B3C;
+      border-bottom: 3.5px solid #8E681E;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #F5D77F;
+      font-size: 19px;
+      box-shadow: 0 3px 8px rgba(15, 44, 76, 0.2);
+      flex-shrink: 0;
+    }
+
+    .brand-meta {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .mission-tag {
+      font-size: 9px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #9E731F;
+      background: #FFF4D9;
+      padding: 2px 7px;
+      border-radius: 5px;
+      border: 1px solid #E8D39E;
+      width: fit-content;
+      margin-bottom: 2px;
+    }
+
+    .mission-title {
+      font-family: 'Cinzel', serif;
+      font-size: 13.5px;
+      font-weight: 800;
+      color: #0F2C4C;
+      letter-spacing: 0.3px;
+      line-height: 1.2;
+    }
+
+    .btn-audio-toggle {
+      background: #F4EFE6;
+      border: 1.5px solid #D6CEBE;
+      border-bottom: 3px solid #BDB3A1;
+      border-radius: 10px;
+      width: 34px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      color: #0F2C4C;
+    }
+
+    .btn-audio-toggle:active {
+      transform: translateY(2px);
+      border-bottom-width: 1.5px;
+    }
+
+    /* Instruction Bar */
+    .instruction-bar {
+      background: #F7F4EE;
+      border: 1.5px dashed #D6CEBE;
+      border-radius: 10px;
+      padding: 6px 11px;
+      font-size: 11px;
+      font-weight: 700;
+      color: #5C5248;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      margin-bottom: 10px;
+      line-height: 1.35;
+    }
+
+    .instruction-bar span.icon {
+      font-size: 14px;
+      color: #C89B3C;
+    }
+
+    /* Hint / Guidance Box saat ada kesalahan */
+    .guidance-box {
+      background: #FFF8E7;
+      border: 1.5px solid #F3DA96;
+      border-left: 4px solid #F59E0B;
+      border-radius: 9px;
+      padding: 6px 10px;
+      font-size: 10.5px;
+      font-weight: 600;
+      color: #8C5800;
+      margin-bottom: 10px;
+      display: none;
+      align-items: center;
+      gap: 7px;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .guidance-box.active {
+      display: flex;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Reorder List Container */
+    .reorder-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 12px;
+      position: relative;
+    }
+
+    /* Draggable Item Card */
+    .reorder-card {
+      background: #FFFFFF;
+      border: 2px solid #E2D9CC;
+      border-bottom: 4px solid #C8BBA8;
+      border-radius: 13px;
+      padding: 8px 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: grab;
+      transition: transform 0.18s cubic-bezier(0.2, 0.8, 0.4, 1), box-shadow 0.18s ease, border-color 0.18s ease;
+      position: relative;
+      touch-action: none;
+      box-sizing: border-box;
+    }
+
+    .reorder-card:active {
+      cursor: grabbing;
+    }
+
+    .reorder-card.dragging {
+      opacity: 0.65;
+      transform: scale(1.02);
+      box-shadow: 0 8px 20px rgba(15, 44, 76, 0.2);
+      border-color: #0288D1;
+      border-bottom-color: #01579B;
+      z-index: 50;
+    }
+
+    .reorder-card.drag-over {
+      border-color: #C89B3C;
+      background: #FFFDF7;
+      transform: translateY(2px);
+    }
+
+    /* Card Status Styles */
+    .reorder-card.correct {
+      background: #E8F5E9 !important;
+      border-color: #2D7A4C !important;
+      border-bottom: 4px solid #1B5E20 !important;
+      box-shadow: 0 0 0 2px rgba(45, 122, 76, 0.3) !important;
+    }
+
+    .reorder-card.wrong {
+      background: #FFEBEE !important;
+      border-color: #C62828 !important;
+      border-bottom: 4px solid #8E0000 !important;
+      animation: shakeCard 0.4s ease;
+    }
+
+    @keyframes shakeCard {
+      0%, 100% { transform: translateX(0); }
+      20%, 60% { transform: translateX(-4px); }
+      40%, 80% { transform: translateX(4px); }
+    }
+
+    /* Order Number Pill */
+    .order-number {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      background: #0F2C4C;
+      border: 1.5px solid #C89B3C;
+      color: #F5D77F;
+      font-size: 13px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: all 0.15s ease;
+    }
+
+    .reorder-card.correct .order-number {
+      background: #2D7A4C;
+      border-color: #1B5E20;
+      color: #FFFFFF;
+    }
+
+    .reorder-card.wrong .order-number {
+      background: #C62828;
+      border-color: #8E0000;
+      color: #FFFFFF;
+    }
+
+    /* Drag Handle Gripper */
+    .drag-handle {
+      color: #A39B92;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: grab;
+      padding: 2px;
+      flex-shrink: 0;
+    }
+
+    .card-content-wrap {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .card-meta-label {
+      font-size: 9px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #9C6F19;
+    }
+
+    .card-text {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #2A2421;
+      line-height: 1.35;
+    }
+
+    /* Directional Buttons (Accessibility for Mobile / Touch) */
+    .card-controls {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      flex-shrink: 0;
+    }
+
+    .btn-step {
+      width: 22px;
+      height: 18px;
+      border-radius: 5px;
+      background: #F4EFE6;
+      border: 1px solid #D6CEBE;
+      border-bottom: 2px solid #BDB3A1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 9px;
+      font-weight: 800;
+      color: #0F2C4C;
+      cursor: pointer;
+      transition: all 0.1s ease;
+    }
+
+    .btn-step:hover:not(:disabled) {
+      background: #ECE5D8;
+    }
+
+    .btn-step:active:not(:disabled) {
+      transform: translateY(1px);
+      border-bottom-width: 1px;
+    }
+
+    .btn-step:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+      border-bottom-width: 1px;
+    }
+
+    /* Verification Status Marker */
+    .status-badge {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+
+    .reorder-card.correct .status-badge {
+      display: flex;
+      background: #2D7A4C;
+      color: #FFFFFF;
+    }
+
+    .reorder-card.wrong .status-badge {
+      display: flex;
+      background: #C62828;
+      color: #FFFFFF;
+    }
+
+    /* Bottom Action Controls */
+    .controls-bar {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-top: 4px;
+    }
+
+    .btn-action {
+      flex: 1;
+      padding: 10px 14px;
+      border-radius: 13px;
+      font-family: inherit;
+      font-size: 12.5px;
+      font-weight: 800;
+      letter-spacing: 0.4px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      transition: all 0.14s ease;
+      text-transform: uppercase;
+      border: none;
+    }
+
+    .btn-verify {
+      background: #06D6A0;
+      color: #003628;
+      border-bottom: 4px solid #049A73;
+    }
+
+    .btn-verify:hover {
+      background: #0bf1b6;
+      transform: translateY(-1px);
+    }
+
+    .btn-verify:active {
+      transform: translateY(2px);
+      border-bottom-width: 2px;
+    }
+
+    .btn-shuffle {
+      background: #F4EFE6;
+      color: #5C5248;
+      border: 1.5px solid #D6CEBE;
+      border-bottom: 3.5px solid #BDB3A1;
+      width: 44px;
+      flex: none;
+      padding: 9px;
+      font-size: 15px;
+    }
+
+    .btn-shuffle:hover {
+      background: #ECE5D8;
+    }
+
+    .btn-shuffle:active {
+      transform: translateY(2px);
+      border-bottom-width: 1.5px;
+    }
+
+    /* Victory Modal Backdrop */
+    .modal-backdrop {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(15, 44, 76, 0.72);
+      backdrop-filter: blur(4px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+      padding: 16px;
+      box-sizing: border-box;
+    }
+
+    .modal-backdrop.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .modal-card {
+      background: #FFFFFF;
+      border: 3px solid #C89B3C;
+      border-bottom: 6px solid #8E681E;
+      border-radius: 20px;
+      padding: 18px 20px;
+      width: 100%;
+      max-width: 390px;
+      text-align: center;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.28);
+      transform: scale(0.85);
+      transition: transform 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .modal-backdrop.active .modal-card {
+      transform: scale(1);
+    }
+
+    .star-rating-wrap {
+      display: flex;
+      justify-content: center;
+      gap: 7px;
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+
+    .star-item {
+      color: #E0DDD8;
+      transform: scale(0.5);
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .star-item.active {
+      color: #FFB703;
+      transform: scale(1);
+      filter: drop-shadow(0 2px 8px rgba(255, 183, 3, 0.6));
+    }
+
+    .modal-badge {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #003628;
+      background: #D8F8EE;
+      border: 1px solid #06D6A0;
+      padding: 3px 10px;
+      border-radius: 999px;
+      margin-bottom: 6px;
+    }
+
+    .modal-headline {
+      font-family: 'Cinzel', serif;
+      font-size: 17px;
+      font-weight: 900;
+      color: #0F2C4C;
+      margin-bottom: 8px;
+    }
+
+    .modal-feedback {
+      background: #FFFDF7;
+      border: 1.5px solid #F1E2C1;
+      border-radius: 12px;
+      padding: 9px 12px;
+      font-size: 11.5px;
+      font-weight: 600;
+      color: #4A3E31;
+      line-height: 1.45;
+      margin-bottom: 14px;
+    }
+
+    .btn-replay {
+      width: 100%;
+      padding: 11px 16px;
+      background: linear-gradient(180deg, #FFB703, #F79800);
+      color: #432200;
+      border: none;
+      border-bottom: 4px solid #B86B00;
+      border-radius: 14px;
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      box-shadow: 0 4px 12px rgba(247, 152, 0, 0.25);
+    }
+
+    .btn-replay:hover {
+      background: linear-gradient(180deg, #FFC125, #FFA114);
+      transform: translateY(-1px);
+    }
+
+    .btn-replay:active {
+      transform: translateY(2px);
+      border-bottom-width: 2px;
+    }
+
+    .btn-next-page {
+      padding: 11px 14px;
+      background: linear-gradient(180deg, #06D6A0, #049A73);
+      color: #003628;
+      border: none;
+      border-bottom: 4px solid #037A5B;
+      border-radius: 14px;
+      font-family: inherit;
+      font-size: 12.5px;
+      font-weight: 800;
+      letter-spacing: 0.4px;
+      cursor: pointer;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      box-shadow: 0 4px 12px rgba(6, 214, 160, 0.28);
+      transition: all 0.14s ease;
+      animation: pulseBtn 1.5s infinite ease-in-out;
+    }
+
+    .btn-next-page:hover {
+      background: linear-gradient(180deg, #0bf1b6, #06D6A0);
+      transform: translateY(-1px);
+    }
+
+    .btn-next-page:active {
+      transform: translateY(2px);
+      border-bottom-width: 2px;
+    }
+
+    @keyframes pulseBtn {
+      0%, 100% { box-shadow: 0 4px 12px rgba(6, 214, 160, 0.3); }
+      50% { box-shadow: 0 4px 20px rgba(6, 214, 160, 0.65); }
+    }
+
+    /* Confetti Canvas */
+    #confetti-canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 150;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="widget-container" id="widgetContainer">
+    <!-- Top Bar -->
+    <header class="top-bar">
+      <div class="brand-group">
+        <div class="badge-icon">🧩</div>
+        <div class="brand-meta">
+          <span class="mission-tag">Misi 5 • Evaluasi Bab 4</span>
+          <h2 class="mission-title">Bongkar Urutan Peristiwa</h2>
+        </div>
+      </div>
+      <button class="btn-audio-toggle" id="btnAudioToggle" title="Matikan/Nyalakan Suara">🔊</button>
+    </header>
+
+    <!-- Instruction Bar -->
+    <div class="instruction-bar">
+      <span class="icon">💡</span>
+      <span><strong>Instruksi:</strong> Susunlah 4 kartu di bawah ini ke dalam urutan sebab-akibat yang benar sesuai kronologi teks Bab 4! Tarik kartu atau tekan tombol panah (▲/▼).</span>
+    </div>
+
+    <!-- Guidance Hint Box (Muncul bila jawaban belum tepat) -->
+    <div class="guidance-box" id="guidanceBox">
+      <span>⚠️</span>
+      <span id="guidanceText">"Perhatikan kembali penanda waktu pada Halaman 23, cari peristiwa mana yang menjadi penyebab awal pengerahan penghuni laut."</span>
+    </div>
+
+    <!-- Draggable Reorder List -->
+    <main class="reorder-list" id="reorderList">
+      <!-- 4 Kartu akan dirender dan diacak oleh JavaScript -->
+    </main>
+
+    <!-- Bottom Controls Bar -->
+    <footer class="controls-bar">
+      <button class="btn-action btn-shuffle" id="btnShuffle" title="Acak Ulang Kartu">↺</button>
+      <button class="btn-action btn-verify" id="btnVerify">
+        <span>🔍</span> Periksa Urutan
+      </button>
+    </footer>
+
+    <!-- Victory Modal Backdrop -->
+    <div class="modal-backdrop" id="victoryModal">
+      <div class="modal-card">
+        <div class="star-rating-wrap">
+          <span class="star-item" id="star1">★</span>
+          <span class="star-item" id="star2">★</span>
+          <span class="star-item" id="star3">★</span>
+        </div>
+        <span class="modal-badge">✨ Sempurna &bull; Alur Kronologis Tepat</span>
+        <h3 class="modal-headline">Hebat Luar Biasa!</h3>
+        <p class="modal-feedback">
+          "Sempurna! Kamu memahami alur kronologis pembentukan pulau berdasarkan hubungan sebab-akibat yang runtut!"
+        </p>
+        <div style="display: flex; gap: 8px; margin-top: 4px;">
+          <button class="btn-replay" id="btnReplay" style="flex: 1;">
+            <span>↺</span> Ulangi
+          </button>
+          <button class="btn-next-page" id="btnNextPage" style="flex: 2;">
+            <span id="btnNextIcon">🚀</span> <span id="btnNextText">Lanjut ke Halaman 26 →</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Canvas for Confetti -->
+    <canvas id="confetti-canvas"></canvas>
+  </div>
+
+  <script>
+    /* ==========================================================================
+       KONFIGURASI NAVIGASI HALAMAN (BISA DIATUR BEBAS OLEH GURU / PENGEMBANG)
+       ========================================================================== */
+    const NAV_CONFIG = {
+      // 1. URL Halaman Heyzine / Web Bebas (Contoh: "https://heyzine.com/flip-book/xxx#page/26" atau "#page/26")
+      targetUrl: "#page/26",
+      
+      // 2. Nomor Halaman Target
+      targetPage: 26,
+      
+      // 3. Teks Tombol Lanjut
+      buttonText: "Lanjut ke Halaman 26 →",
+      
+      // 4. Target Pembukaan: '_top' (dalam flipbook Heyzine) atau '_blank' (tab baru)
+      openTarget: "_top"
+    };
+
+    // Override otomatis via parameter URL iframe jika diisi di Heyzine:
+    // Contoh: misi_bab4.html?targetPage=26&btnText=Buka Bab 5
+    (function initNavParams() {
+      try {
+        const p = new URLSearchParams(window.location.search);
+        if (p.get('targetUrl')) NAV_CONFIG.targetUrl = p.get('targetUrl');
+        if (p.get('targetPage')) {
+          NAV_CONFIG.targetPage = parseInt(p.get('targetPage'));
+          NAV_CONFIG.targetUrl = `#page/${p.get('targetPage')}`;
+        }
+        if (p.get('btnText')) NAV_CONFIG.buttonText = p.get('btnText');
+        if (p.get('openTarget')) NAV_CONFIG.openTarget = p.get('openTarget');
+      } catch (e) {}
+    })();
+
+    function updateNavButtonUI() {
+      const btn = document.getElementById('btnNextPage');
+      const txt = document.getElementById('btnNextText');
+      if (btn && txt) {
+        txt.textContent = NAV_CONFIG.buttonText;
+        btn.onclick = executeNavigation;
+      }
+    }
+
+    function executeNavigation() {
+      sound.init();
+      sound.playSwap();
+
+      let dest = NAV_CONFIG.targetUrl;
+
+      // Cek apakah target berbentuk #page/X atau sekadar nomor halaman
+      if (/^#page\/\d+$/i.test(dest) || /^\d+$/.test(dest)) {
+        const pageNum = dest.replace(/\D/g, '');
+        try {
+          if (window.parent && window.parent !== window) {
+            window.parent.postMessage({ action: 'page', value: parseInt(pageNum) }, '*');
+            window.parent.location.hash = `#page/${pageNum}`;
+            return;
+          }
+        } catch (e) {}
+        dest = `#page/${pageNum}`;
+      }
+
+      if (NAV_CONFIG.openTarget === '_blank') {
+        window.open(dest, '_blank');
+      } else {
+        try {
+          window.top.location.href = dest;
+        } catch (e) {
+          window.open(dest, '_top');
+        }
+      }
+    }
+
+    /* ==========================================================================
+       DATA KARTU PERISTIWA (KUNCI BENAR: A -> B -> C -> D)
+       ========================================================================== */
+    const originalEvents = [
+      {
+        id: "A",
+        label: "Peristiwa A",
+        category: "Penyebab Awal",
+        text: "Raja Ikan Todak mengerahkan seluruh penghuni lautan dan samudra."
+      },
+      {
+        id: "B",
+        label: "Peristiwa B",
+        category: "Aksi Kolektif",
+        text: "Jutaan ikan dari berbagai jenis bergotong-royong mendorong daratan dari dasar laut sambil berseru \"Sa-Ijaan!\"."
+      },
+      {
+        id: "C",
+        label: "Peristiwa C",
+        category: "Gejala Alam",
+        text: "Terdengar suara gemuruh dan permukaan daratan mulai timbul perlahan ke permukaan air."
+      },
+      {
+        id: "D",
+        label: "Peristiwa D",
+        category: "Hasil Akhir / Akibat",
+        text: "Bersamaan dengan terbitnya fajar, muncul pulau indah dan subur yang dinamai Pulau Halimun."
+      }
+    ];
+
+    /* ==========================================================================
+       WEB AUDIO SYNTHESIZER (Bebas Lag & Mandiri)
+       ========================================================================== */
+    class SoundEngine {
+      constructor() {
+        this.ctx = null;
+        this.muted = false;
+      }
+
+      init() {
+        if (!this.ctx) {
+          const AudioContext = window.AudioContext || window.webkitAudioContext;
+          if (AudioContext) this.ctx = new AudioContext();
+        }
+        if (this.ctx && this.ctx.state === 'suspended') {
+          this.ctx.resume();
+        }
+      }
+
+      playTone(freq, type = 'sine', duration = 0.15, gainVal = 0.12) {
+        if (this.muted) return;
+        this.init();
+        if (!this.ctx) return;
+
+        try {
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = type;
+          osc.frequency.setValueAtTime(freq, this.ctx.currentTime);
+
+          gain.gain.setValueAtTime(gainVal, this.ctx.currentTime);
+          gain.gain.exponentialRampToValueAtTime(0.001, this.ctx.currentTime + duration);
+
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+
+          osc.start();
+          osc.stop(this.ctx.currentTime + duration);
+        } catch(e) {}
+      }
+
+      playSwap() {
+        this.playTone(440, 'triangle', 0.08, 0.1);
+        setTimeout(() => this.playTone(554.37, 'triangle', 0.1, 0.1), 50);
+      }
+
+      playCorrect() {
+        if (this.muted) return;
+        this.init();
+        if (!this.ctx) return;
+        // Triad Major Success Chime (C6, E6, G6)
+        this.playTone(1046.50, 'sine', 0.15, 0.15);
+        setTimeout(() => this.playTone(1318.51, 'sine', 0.18, 0.15), 90);
+        setTimeout(() => this.playTone(1567.98, 'sine', 0.28, 0.18), 180);
+      }
+
+      playWrong() {
+        if (this.muted) return;
+        this.init();
+        if (!this.ctx) return;
+        this.playTone(220, 'sawtooth', 0.18, 0.14);
+        setTimeout(() => this.playTone(196, 'sawtooth', 0.25, 0.14), 100);
+      }
+
+      playVictory() {
+        if (this.muted) return;
+        this.init();
+        if (!this.ctx) return;
+        const notes = [523.25, 659.25, 783.99, 1046.50];
+        notes.forEach((f, idx) => {
+          setTimeout(() => this.playTone(f, 'triangle', 0.25, 0.18), idx * 110);
+        });
+      }
+    }
+
+    const sound = new SoundEngine();
+
+    /* ==========================================================================
+       GAME STATE & RENDERING ENGINE
+       ========================================================================== */
+    let currentCards = [];
+    let isVerified = false;
+
+    // Fungsi Pengacakan (Memastikan tidak sama persis dengan urutan A-B-C-D pada awal)
+    function getShuffledCards() {
+      let shuffled = [];
+      do {
+        shuffled = [...originalEvents].sort(() => Math.random() - 0.5);
+      } while (shuffled.map(c => c.id).join('') === "ABCD");
+      return shuffled;
+    }
+
+    function initGame() {
+      currentCards = getShuffledCards();
+      isVerified = false;
+      document.getElementById('guidanceBox').classList.remove('active');
+      const btn = document.getElementById('btnVerify');
+      btn.innerHTML = '<span>🔍</span> Periksa Urutan';
+      btn.classList.remove('retry-mode');
+      renderCards();
+    }
+
+    function renderCards() {
+      const container = document.getElementById('reorderList');
+      container.innerHTML = '';
+
+      currentCards.forEach((item, index) => {
+        const card = document.createElement('div');
+        card.className = 'reorder-card';
+        card.dataset.id = item.id;
+        card.dataset.index = index;
+        card.draggable = true;
+
+        const isFirst = index === 0;
+        const isLast = index === currentCards.length - 1;
+
+        card.innerHTML = `
+          <div class="drag-handle" title="Tarik untuk memindahkan">⠿</div>
+          <div class="order-number">${index + 1}</div>
+          <div class="card-content-wrap">
+            <span class="card-meta-label">${item.category}</span>
+            <div class="card-text">${item.text}</div>
+          </div>
+          <div class="card-controls">
+            <button class="btn-step btn-up" title="Pindah ke Atas" ${isFirst ? 'disabled' : ''}>▲</button>
+            <button class="btn-step btn-down" title="Pindah ke Bawah" ${isLast ? 'disabled' : ''}>▼</button>
+          </div>
+          <div class="status-badge" id="badge-${item.id}">✔</div>
+        `;
+
+        // Event Tombol Panah Naik & Turun
+        const btnUp = card.querySelector('.btn-up');
+        const btnDown = card.querySelector('.btn-down');
+
+        btnUp.onclick = (e) => {
+          e.stopPropagation();
+          moveCard(index, index - 1);
+        };
+
+        btnDown.onclick = (e) => {
+          e.stopPropagation();
+          moveCard(index, index + 1);
+        };
+
+        // Event Drag and Drop HTML5
+        addDragEvents(card);
+
+        container.appendChild(card);
+      });
+    }
+
+    function moveCard(fromIndex, toIndex) {
+      if (toIndex < 0 || toIndex >= currentCards.length) return;
+      sound.init();
+      sound.playSwap();
+
+      // Reset state verified jika siswa menggeser kembali
+      if (isVerified) {
+        isVerified = false;
+        document.getElementById('guidanceBox').classList.remove('active');
+        document.getElementById('btnVerify').innerHTML = '<span>🔍</span> Periksa Urutan';
+      }
+
+      const moved = currentCards.splice(fromIndex, 1)[0];
+      currentCards.splice(toIndex, 0, moved);
+      renderCards();
+    }
+
+    /* ==========================================================================
+       DRAG AND DROP & TOUCH REORDER SYSTEM
+       ========================================================================== */
+    let draggedCard = null;
+
+    function addDragEvents(card) {
+      card.addEventListener('dragstart', (e) => {
+        draggedCard = card;
+        card.classList.add('dragging');
+        e.dataTransfer.effectAllowed = 'move';
+        sound.init();
+      });
+
+      card.addEventListener('dragend', () => {
+        if (draggedCard) draggedCard.classList.remove('dragging');
+        document.querySelectorAll('.reorder-card').forEach(c => c.classList.remove('drag-over'));
+        draggedCard = null;
+      });
+
+      card.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        e.dataTransfer.dropEffect = 'move';
+        if (card !== draggedCard) {
+          card.classList.add('drag-over');
+        }
+      });
+
+      card.addEventListener('dragleave', () => {
+        card.classList.remove('drag-over');
+      });
+
+      card.addEventListener('drop', (e) => {
+        e.preventDefault();
+        card.classList.remove('drag-over');
+        if (draggedCard && card !== draggedCard) {
+          const fromIdx = parseInt(draggedCard.dataset.index);
+          const toIdx = parseInt(card.dataset.index);
+          moveCard(fromIdx, toIdx);
+        }
+      });
+    }
+
+    /* ==========================================================================
+       VERIFIKASI URUTAN & PENILAIAN PARSIAL
+       ========================================================================== */
+    document.getElementById('btnVerify').onclick = function() {
+      sound.init();
+      const targetOrder = ["A", "B", "C", "D"];
+      let allCorrect = true;
+      let correctCount = 0;
+
+      const cardElements = document.querySelectorAll('.reorder-card');
+
+      cardElements.forEach((card, idx) => {
+        const id = card.dataset.id;
+        const expectedId = targetOrder[idx];
+        const badge = card.querySelector('.status-badge');
+
+        card.classList.remove('correct', 'wrong');
+
+        if (id === expectedId) {
+          // Kartu berada di posisi yang benar
+          card.classList.add('correct');
+          badge.textContent = '✔';
+          correctCount++;
+        } else {
+          // Kartu berada di posisi yang salah
+          card.classList.add('wrong');
+          badge.textContent = '✖';
+          allCorrect = false;
+        }
+      });
+
+      isVerified = true;
+
+      if (allCorrect) {
+        // Semua Benar (A -> B -> C -> D)
+        sound.playCorrect();
+        this.innerHTML = '<span>🏆</span> Sempurna! (4/4 Benar)';
+        document.getElementById('guidanceBox').classList.remove('active');
+        setTimeout(() => {
+          showVictoryModal();
+        }, 650);
+      } else {
+        // Ada yang keliru
+        sound.playWrong();
+        this.innerHTML = `<span>↺</span> Urutan Belum Tepat (${correctCount}/4 Benar)`;
+        document.getElementById('guidanceBox').classList.add('active');
+      }
+    };
+
+    /* Tombol Acak / Reset */
+    document.getElementById('btnShuffle').onclick = () => {
+      sound.init();
+      sound.playSwap();
+      initGame();
+    };
+
+    /* Tampilkan Modal Kemenangan & Bintang */
+    function showVictoryModal() {
+      sound.playVictory();
+      updateNavButtonUI();
+      const modal = document.getElementById('victoryModal');
+      modal.classList.add('active');
+
+      // Animasi bintang bertahap
+      setTimeout(() => document.getElementById('star1').classList.add('active'), 250);
+      setTimeout(() => document.getElementById('star2').classList.add('active'), 500);
+      setTimeout(() => document.getElementById('star3').classList.add('active'), 750);
+
+      // Jalankan konfeti
+      launchConfetti();
+    }
+
+    /* Tutup Modal & Main Ulang */
+    document.getElementById('btnReplay').onclick = () => {
+      document.getElementById('victoryModal').classList.remove('active');
+      document.querySelectorAll('.star-item').forEach(s => s.classList.remove('active'));
+      stopConfetti();
+      initGame();
+    };
+
+    /* Toggle Mute Audio */
+    document.getElementById('btnAudioToggle').onclick = function() {
+      sound.muted = !sound.muted;
+      this.textContent = sound.muted ? '🔇' : '🔊';
+      this.title = sound.muted ? 'Nyalakan Suara' : 'Matikan Suara';
+    };
+
+    /* ==========================================================================
+       CONFETTI CANNON ANIMATION
+       ========================================================================== */
+    let confettiTimer = null;
+    function launchConfetti() {
+      const canvas = document.getElementById('confetti-canvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      canvas.width = canvas.offsetWidth;
+      canvas.height = canvas.offsetHeight;
+
+      const particles = [];
+      const colors = ['#FFB703', '#06D6A0', '#0288D1', '#E76F51', '#C89B3C'];
+
+      for (let i = 0; i < 65; i++) {
+        particles.push({
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height - canvas.height,
+          size: Math.random() * 7 + 4,
+          color: colors[Math.floor(Math.random() * colors.length)],
+          vx: (Math.random() - 0.5) * 3,
+          vy: Math.random() * 3 + 2,
+          rot: Math.random() * 360,
+          rotSpeed: (Math.random() - 0.5) * 7
+        });
+      }
+
+      function render() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        particles.forEach(p => {
+          p.x += p.vx;
+          p.y += p.vy;
+          p.rot += p.rotSpeed;
+
+          ctx.save();
+          ctx.translate(p.x, p.y);
+          ctx.rotate((p.rot * Math.PI) / 180);
+          ctx.fillStyle = p.color;
+          ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size * 0.6);
+          ctx.restore();
+
+          if (p.y > canvas.height) {
+            p.y = -10;
+            p.x = Math.random() * canvas.width;
+          }
+        });
+        confettiTimer = requestAnimationFrame(render);
+      }
+      render();
+    }
+
+    function stopConfetti() {
+      if (confettiTimer) cancelAnimationFrame(confettiTimer);
+      const canvas = document.getElementById('confetti-canvas');
+      if (canvas) {
+        const ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+      }
+    }
+
+    /* ==========================================================================
+       AUTO-FIT SCALE ENGINE FOR HEYZINE IFRAME
+       ========================================================================== */
+    function resizeWidget() {
+      const container = document.getElementById('widgetContainer');
+      if (!container) return;
+      const w = window.innerWidth;
+      const h = window.innerHeight;
+      const baseW = 480;
+      const baseH = 430;
+
+      const scaleX = w / baseW;
+      const scaleY = h / baseH;
+      let scale = Math.min(scaleX, scaleY);
+      if (scale > 1.05) scale = 1.05;
+      if (scale < 0.68) scale = 0.68;
+
+      container.style.transform = `scale(${scale})`;
+    }
+
+    window.addEventListener('resize', resizeWidget);
+    window.addEventListener('load', () => {
+      initGame();
+      updateNavButtonUI();
+      resizeWidget();
+    });
+  </script>
+</body>
+</html>

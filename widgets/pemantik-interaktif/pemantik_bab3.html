@@ -364,13 +364,78 @@
     </div>
     <div id="sheetBody" class="sheet-body"></div>
     <div class="sheet-actions">
-      <button class="btn-continue" onclick="continueToModule()">Lanjutkan Baca Cerita →</button>
+      <button id="btnContinueNav" class="btn-continue" onclick="continueToModule()">Buka Cerita Bab 3 (Halaman 15) →</button>
       <button class="btn-retry" onclick="resetDuo()">Coba Opsi Lain ↺</button>
     </div>
   </div>
 </div>
 
 <script>
+  /* ==========================================================================
+     KONFIGURASI NAVIGASI HALAMAN (BISA DIATUR BEBAS OLEH GURU / PENGEMBANG)
+     ========================================================================== */
+  const NAV_CONFIG = {
+    // 1. URL Halaman Heyzine / Web Bebas (Contoh: "#page/15" atau "https://heyzine.com/flip-book/xxx#page/15")
+    targetUrl: "#page/15",
+    
+    // 2. Nomor Halaman Target
+    targetPage: 15,
+    
+    // 3. Teks Tombol Lanjut
+    buttonText: "Buka Cerita Bab 3 (Halaman 15) →",
+    
+    // 4. Target Pembukaan: '_top' (dalam flipbook Heyzine) atau '_blank' (tab baru)
+    openTarget: "_top"
+  };
+
+  // Override otomatis via parameter URL iframe jika diisi di Heyzine:
+  // Contoh: pemantik_bab3.html?targetPage=15&btnText=Lanjutkan Baca Cerita
+  (function initNavParams() {
+    try {
+      const p = new URLSearchParams(window.location.search);
+      if (p.get('targetUrl')) NAV_CONFIG.targetUrl = p.get('targetUrl');
+      if (p.get('targetPage')) {
+        NAV_CONFIG.targetPage = parseInt(p.get('targetPage'));
+        NAV_CONFIG.targetUrl = `#page/${p.get('targetPage')}`;
+      }
+      if (p.get('btnText')) NAV_CONFIG.buttonText = p.get('btnText');
+      if (p.get('openTarget')) NAV_CONFIG.openTarget = p.get('openTarget');
+    } catch (e) {}
+  })();
+
+  function updateNavButtonUI() {
+    const btn = document.getElementById('btnContinueNav');
+    if (btn) {
+      btn.innerText = NAV_CONFIG.buttonText;
+    }
+  }
+
+  function executeNavigation() {
+    let dest = NAV_CONFIG.targetUrl;
+
+    if (/^#page\/\d+$/i.test(dest) || /^\d+$/.test(dest)) {
+      const pageNum = dest.replace(/\D/g, '');
+      try {
+        if (window.parent && window.parent !== window) {
+          window.parent.postMessage({ action: 'page', value: parseInt(pageNum) }, '*');
+          window.parent.location.hash = `#page/${pageNum}`;
+          return;
+        }
+      } catch (e) {}
+      dest = `#page/${pageNum}`;
+    }
+
+    if (NAV_CONFIG.openTarget === '_blank') {
+      window.open(dest, '_blank');
+    } else {
+      try {
+        window.top.location.href = dest;
+      } catch (e) {
+        window.open(dest, '_top');
+      }
+    }
+  }
+
   let selectedChoice = 0;
   const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 
@@ -445,6 +510,7 @@
       body.innerHTML = "Memaafkan musuh yang tak berdaya bukan kelemahan, melainkan awal mukjizat persaudaraan sejati. Buka <strong>Halaman 15</strong> untuk menyimak keajaiban penyembuhan dan sumpah seia sekata!";
     }
 
+    updateNavButtonUI();
     sheet.style.display = 'block';
   }
 
@@ -457,14 +523,14 @@
   }
 
   function continueToModule() {
-    const btn = event.target;
-    btn.innerText = "Buka Cerita Halaman 15...";
+    const btn = document.getElementById('btnContinueNav') || event.target;
+    btn.innerText = "Membuka Halaman...";
     btn.style.opacity = "0.8";
     setTimeout(() => {
-      resetDuo();
-      btn.innerText = "Lanjutkan Baca Cerita →";
+      executeNavigation();
+      btn.innerText = NAV_CONFIG.buttonText;
       btn.style.opacity = "1";
-    }, 1500);
+    }, 300);
   }
 
       // --- Intelligent Auto-Fit Engine for Mobile & Desktop Heyzine Embed ---

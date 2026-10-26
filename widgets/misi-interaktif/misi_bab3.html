@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misi 4: Telaah Makna Sa-Ijaan &amp; Nilai Hidup - Match-Up Interaktif</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: transparent !important;
+      color: #2A2421;
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    /* Outer Wrapper with Auto-Fit Engine */
+    .widget-container {
+      background: #FFFFFF;
+      border: 2px solid #E2D9CC;
+      border-bottom: 5px solid #C8BBA8;
+      border-radius: 20px;
+      padding: 14px 18px;
+      width: 480px;
+      max-width: 96%;
+      position: relative;
+      overflow: hidden;
+      box-sizing: border-box;
+      transform-origin: center center;
+      will-change: transform;
+      margin: auto;
+      box-shadow: 0 12px 30px rgba(15, 44, 76, 0.14);
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Top Bar */
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 8px;
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+    }
+
+    .badge-icon {
+      width: 38px;
+      height: 38px;
+      border-radius: 12px;
+      background: #0F2C4C;
+      border: 2px solid #C89B3C;
+      border-bottom: 3.5px solid #8E681E;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #F5D77F;
+      font-size: 19px;
+      box-shadow: 0 3px 8px rgba(15, 44, 76, 0.2);
+      flex-shrink: 0;
+    }
+
+    .brand-meta {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .mission-tag {
+      font-size: 9px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #9E731F;
+      background: #FFF4D9;
+      padding: 2px 7px;
+      border-radius: 5px;
+      border: 1px solid #E8D39E;
+      width: fit-content;
+      margin-bottom: 2px;
+    }
+
+    .mission-title {
+      font-family: 'Cinzel', serif;
+      font-size: 13.5px;
+      font-weight: 800;
+      color: #0F2C4C;
+      letter-spacing: 0.3px;
+      line-height: 1.2;
+    }
+
+    .btn-audio-toggle {
+      background: #F4EFE6;
+      border: 1.5px solid #D6CEBE;
+      border-bottom: 3px solid #BDB3A1;
+      border-radius: 10px;
+      width: 34px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      color: #0F2C4C;
+    }
+
+    .btn-audio-toggle:active {
+      transform: translateY(2px);
+      border-bottom-width: 1.5px;
+    }
+
+    /* Instruction Box */
+    .instruction-bar {
+      background: #F7F4EE;
+      border: 1.5px dashed #D6CEBE;
+      border-radius: 10px;
+      padding: 6px 11px;
+      font-size: 11px;
+      font-weight: 700;
+      color: #5C5248;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      margin-bottom: 10px;
+      line-height: 1.35;
+    }
+
+    .instruction-bar span.icon {
+      font-size: 14px;
+      color: #C89B3C;
+    }
+
+    /* Match-Up Board Arena */
+    .match-arena {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 38px;
+      margin-bottom: 12px;
+      padding: 4px 2px;
+    }
+
+    /* SVG Canvas Overlay for Drawing Connected Lines */
+    #lines-canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 10;
+    }
+
+    .match-col {
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+      position: relative;
+      z-index: 20;
+    }
+
+    .col-header {
+      font-size: 10.5px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      color: #0F2C4C;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding-bottom: 2px;
+      border-bottom: 1.5px solid #EFE8DC;
+    }
+
+    /* Match Cards */
+    .match-card {
+      background: #FFFFFF;
+      border: 2px solid #E2D9CC;
+      border-bottom: 4px solid #C8BBA8;
+      border-radius: 13px;
+      padding: 9px 11px;
+      min-height: 64px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      transition: all 0.16s cubic-bezier(0.2, 0.8, 0.4, 1);
+      position: relative;
+      box-sizing: border-box;
+    }
+
+    .match-card:hover:not(.locked):not(.verified) {
+      border-color: #1CB0F6;
+      background: #FDFEFF;
+      transform: translateY(-1.5px);
+      box-shadow: 0 4px 10px rgba(28, 176, 246, 0.15);
+    }
+
+    .match-card:active:not(.locked):not(.verified) {
+      transform: translateY(2px);
+      border-bottom-width: 2px;
+    }
+
+    /* Card Selected State */
+    .match-card.selected {
+      border-color: #0288D1;
+      border-bottom: 4px solid #01579B;
+      background: #F0F9FF;
+      box-shadow: 0 0 0 2px rgba(2, 136, 209, 0.35);
+      animation: pulseSelection 1.2s infinite ease-in-out;
+    }
+
+    @keyframes pulseSelection {
+      0%, 100% { box-shadow: 0 0 0 2px rgba(2, 136, 209, 0.35); }
+      50% { box-shadow: 0 0 0 4px rgba(2, 136, 209, 0.55); }
+    }
+
+    /* Card Paired State (Sebelum diperiksa) */
+    .match-card.paired {
+      border-color: #C89B3C;
+      border-bottom: 4px solid #9E731F;
+      background: #FFFDF7;
+    }
+
+    /* Card Correct & Wrong State */
+    .match-card.correct {
+      background: #E8F5E9 !important;
+      border-color: #2D7A4C !important;
+      border-bottom: 4px solid #1B5E20 !important;
+      box-shadow: 0 0 0 2px rgba(45, 122, 76, 0.35) !important;
+    }
+
+    .match-card.wrong {
+      background: #FFEBEE !important;
+      border-color: #C62828 !important;
+      border-bottom: 4px solid #8E0000 !important;
+      animation: shakeCard 0.4s ease;
+    }
+
+    @keyframes shakeCard {
+      0%, 100% { transform: translateX(0); }
+      20%, 60% { transform: translateX(-4px); }
+      40%, 80% { transform: translateX(4px); }
+    }
+
+    /* Card Connector Node Pin */
+    .connector-node {
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: #FFFFFF;
+      border: 3px solid #C8BBA8;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: all 0.16s ease;
+      z-index: 25;
+    }
+
+    .match-col.left .connector-node {
+      right: -8px;
+    }
+
+    .match-col.right .connector-node {
+      left: -8px;
+    }
+
+    .match-card.selected .connector-node {
+      border-color: #0288D1;
+      background: #0288D1;
+      box-shadow: 0 0 8px rgba(2, 136, 209, 0.8);
+    }
+
+    .match-card.paired .connector-node {
+      border-color: #C89B3C;
+      background: #C89B3C;
+    }
+
+    .match-card.correct .connector-node {
+      border-color: #2D7A4C;
+      background: #2D7A4C;
+    }
+
+    .match-card.wrong .connector-node {
+      border-color: #C62828;
+      background: #C62828;
+    }
+
+    /* Card Inner Content */
+    .card-badge {
+      width: 22px;
+      height: 22px;
+      border-radius: 7px;
+      background: #F4EFE6;
+      border-bottom: 2px solid #D6CEBE;
+      color: #6E6355;
+      font-size: 11px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .match-card.selected .card-badge {
+      background: #0288D1;
+      border-bottom-color: #01579B;
+      color: #FFFFFF;
+    }
+
+    .match-card.correct .card-badge {
+      background: #2D7A4C;
+      border-bottom-color: #1B5E20;
+      color: #FFFFFF;
+    }
+
+    .match-card.wrong .card-badge {
+      background: #C62828;
+      border-bottom-color: #8E0000;
+      color: #FFFFFF;
+    }
+
+    .card-text-wrap {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .card-category-label {
+      font-size: 9px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #9C6F19;
+    }
+
+    .card-title {
+      font-size: 11px;
+      font-weight: 700;
+      color: #2A2421;
+      line-height: 1.35;
+    }
+
+    .card-status-icon {
+      font-size: 14px;
+      margin-left: auto;
+      display: none;
+    }
+
+    .match-card.correct .card-status-icon {
+      display: block;
+      color: #2D7A4C;
+    }
+
+    .match-card.wrong .card-status-icon {
+      display: block;
+      color: #C62828;
+    }
+
+    /* Bottom Action Controls */
+    .controls-bar {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-top: 4px;
+    }
+
+    .btn-action {
+      flex: 1;
+      padding: 10px 14px;
+      border-radius: 13px;
+      font-family: inherit;
+      font-size: 12.5px;
+      font-weight: 800;
+      letter-spacing: 0.4px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      transition: all 0.14s ease;
+      text-transform: uppercase;
+      border: none;
+    }
+
+    .btn-verify {
+      background: #06D6A0;
+      color: #003628;
+      border-bottom: 4px solid #049A73;
+    }
+
+    .btn-verify:not(:disabled):hover {
+      background: #0bf1b6;
+      transform: translateY(-1px);
+    }
+
+    .btn-verify:not(:disabled):active {
+      transform: translateY(2px);
+      border-bottom-width: 2px;
+    }
+
+    .btn-verify:disabled {
+      background: #E0DDD8;
+      color: #9E9890;
+      border-bottom: 4px solid #CCC7BF;
+      cursor: not-allowed;
+      opacity: 0.8;
+    }
+
+    .btn-reset {
+      background: #F4EFE6;
+      color: #5C5248;
+      border: 1.5px solid #D6CEBE;
+      border-bottom: 3.5px solid #BDB3A1;
+      width: 44px;
+      flex: none;
+      padding: 9px;
+      font-size: 15px;
+    }
+
+    .btn-reset:hover {
+      background: #ECE5D8;
+    }
+
+    .btn-reset:active {
+      transform: translateY(2px);
+      border-bottom-width: 1.5px;
+    }
+
+    /* Victory & Feedback Modal */
+    .modal-backdrop {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(15, 44, 76, 0.72);
+      backdrop-filter: blur(4px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+      padding: 16px;
+      box-sizing: border-box;
+    }
+
+    .modal-backdrop.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .modal-card {
+      background: #FFFFFF;
+      border: 3px solid #C89B3C;
+      border-bottom: 6px solid #8E681E;
+      border-radius: 20px;
+      padding: 18px 20px;
+      width: 100%;
+      max-width: 380px;
+      text-align: center;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.28);
+      transform: scale(0.85);
+      transition: transform 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .modal-backdrop.active .modal-card {
+      transform: scale(1);
+    }
+
+    .star-rating-wrap {
+      display: flex;
+      justify-content: center;
+      gap: 7px;
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+
+    .star-item {
+      color: #E0DDD8;
+      transform: scale(0.5);
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .star-item.active {
+      color: #FFB703;
+      transform: scale(1);
+      filter: drop-shadow(0 2px 8px rgba(255, 183, 3, 0.6));
+    }
+
+    .modal-badge {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #003628;
+      background: #D8F8EE;
+      border: 1px solid #06D6A0;
+      padding: 3px 10px;
+      border-radius: 999px;
+      margin-bottom: 6px;
+    }
+
+    .modal-headline {
+      font-family: 'Cinzel', serif;
+      font-size: 17px;
+      font-weight: 900;
+      color: #0F2C4C;
+      margin-bottom: 8px;
+    }
+
+    .modal-feedback {
+      background: #FFFDF7;
+      border: 1.5px solid #F1E2C1;
+      border-radius: 12px;
+      padding: 9px 12px;
+      font-size: 11.5px;
+      font-weight: 600;
+      color: #4A3E31;
+      line-height: 1.45;
+      margin-bottom: 14px;
+    }
+
+    .btn-replay {
+      width: 100%;
+      padding: 11px 16px;
+      background: linear-gradient(180deg, #FFB703, #F79800);
+      color: #432200;
+      border: none;
+      border-bottom: 4px solid #B86B00;
+      border-radius: 14px;
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      box-shadow: 0 4px 12px rgba(247, 152, 0, 0.25);
+    }
+
+    .btn-replay:hover {
+      background: linear-gradient(180deg, #FFC125, #FFA114);
+      transform: translateY(-1px);
+    }
+
+    .btn-replay:active {
+      transform: translateY(2px);
+      border-bottom-width: 2px;
+    }
+
+    .btn-next-page {
+      padding: 11px 14px;
+      background: linear-gradient(180deg, #06D6A0, #049A73);
+      color: #003628;
+      border: none;
+      border-bottom: 4px solid #037A5B;
+      border-radius: 14px;
+      font-family: inherit;
+      font-size: 12.5px;
+      font-weight: 800;
+      letter-spacing: 0.4px;
+      cursor: pointer;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      box-shadow: 0 4px 12px rgba(6, 214, 160, 0.28);
+      transition: all 0.14s ease;
+      animation: pulseBtn 1.5s infinite ease-in-out;
+    }
+
+    .btn-next-page:hover {
+      background: linear-gradient(180deg, #0bf1b6, #06D6A0);
+      transform: translateY(-1px);
+    }
+
+    .btn-next-page:active {
+      transform: translateY(2px);
+      border-bottom-width: 2px;
+    }
+
+    @keyframes pulseBtn {
+      0%, 100% { box-shadow: 0 4px 12px rgba(6, 214, 160, 0.3); }
+      50% { box-shadow: 0 4px 20px rgba(6, 214, 160, 0.65); }
+    }
+
+    /* Confetti Canvas */
+    #confetti-canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 150;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="widget-container" id="widgetContainer">
+    <!-- Top Bar -->
+    <header class="top-bar">
+      <div class="brand-group">
+        <div class="badge-icon">⚓</div>
+        <div class="brand-meta">
+          <span class="mission-tag">Misi 4 • Evaluasi Bab 3</span>
+          <h2 class="mission-title">Telaah Makna Sa-Ijaan &amp; Nilai Hidup</h2>
+        </div>
+      </div>
+      <button class="btn-audio-toggle" id="btnAudioToggle" title="Matikan/Nyalakan Suara">🔊</button>
+    </header>
+
+    <!-- Instruction Bar -->
+    <div class="instruction-bar">
+      <span class="icon">💡</span>
+      <span><strong>Instruksi:</strong> Ketuk/tarik kartu di kolom kiri, lalu pasangkan dengan nilai hidup yang tepat di kolom kanan!</span>
+    </div>
+
+    <!-- Match Arena with SVG Canvas -->
+    <main class="match-arena" id="matchArena">
+      <svg id="lines-canvas"></svg>
+
+      <!-- Left Column (Premis / Tindakan Tokoh) -->
+      <section class="match-col left" id="colLeft">
+        <div class="col-header">
+          <span>📜</span> Tindakan &amp; Konsep Hikayat
+        </div>
+
+        <div class="match-card" data-id="A" id="card-left-A">
+          <span class="connector-node"></span>
+          <div class="card-badge">1</div>
+          <div class="card-text-wrap">
+            <span class="card-category-label">Arti Filosofi</span>
+            <div class="card-title">Makna ungkapan adat “sa-ijaan, seiring sejalan, seia sekata”</div>
+          </div>
+          <span class="card-status-icon" id="status-left-A">✔</span>
+        </div>
+
+        <div class="match-card" data-id="B" id="card-left-B">
+          <span class="connector-node"></span>
+          <div class="card-badge">2</div>
+          <div class="card-text-wrap">
+            <span class="card-category-label">Karakter Tokoh</span>
+            <div class="card-title">Datu Mabrur menolak istana emas demi memohon daratan bagi anak-cucunya</div>
+          </div>
+          <span class="card-status-icon" id="status-left-B">✔</span>
+        </div>
+
+        <div class="match-card" data-id="C" id="card-left-C">
+          <span class="connector-node"></span>
+          <div class="card-badge">3</div>
+          <div class="card-text-wrap">
+            <span class="card-category-label">Nilai Perjanjian</span>
+            <div class="card-title">Kesepakatan damai Datu Mabrur dan Raja Todak untuk saling menolong</div>
+          </div>
+          <span class="card-status-icon" id="status-left-C">✔</span>
+        </div>
+      </section>
+
+      <!-- Right Column (Makna / Nilai Sastra - Diacak) -->
+      <section class="match-col right" id="colRight">
+        <div class="col-header">
+          <span>🎯</span> Nilai Kehidupan / Karakter
+        </div>
+        <!-- Kartu kolom kanan akan diisi dan diacak secara dinamis oleh JavaScript -->
+      </section>
+    </main>
+
+    <!-- Bottom Controls Bar -->
+    <footer class="controls-bar">
+      <button class="btn-action btn-reset" id="btnResetPairs" title="Atur Ulang Pasangan">↺</button>
+      <button class="btn-action btn-verify" id="btnVerify" disabled>
+        <span>🔍</span> Periksa Jawaban
+      </button>
+    </footer>
+
+    <!-- Victory & Feedback Modal -->
+    <div class="modal-backdrop" id="victoryModal">
+      <div class="modal-card">
+        <div class="star-rating-wrap">
+          <span class="star-item" id="star1">★</span>
+          <span class="star-item" id="star2">★</span>
+          <span class="star-item" id="star3">★</span>
+        </div>
+        <span class="modal-badge">✨ Sempurna &bull; 3/3 Pasangan Cocok</span>
+        <h3 class="modal-headline">Misi Selesai Gemilang!</h3>
+        <p class="modal-feedback">
+          "Hebat! Kamu berhasil menangkap intisari filosofi Sa-Ijaan: persatuan hati melahirkan kedamaian dan kekuatan besar!"
+        </p>
+        <div style="display: flex; gap: 8px; margin-top: 4px;">
+          <button class="btn-replay" id="btnReplay" style="flex: 1;">
+            <span>↺</span> Ulangi
+          </button>
+          <button class="btn-next-page" id="btnNextPage" style="flex: 2;">
+            <span id="btnNextIcon">🚀</span> <span id="btnNextText">Lanjut ke Halaman 21 →</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Canvas for Confetti -->
+    <canvas id="confetti-canvas"></canvas>
+  </div>
+
+  <script>
+    /* ==========================================================================
+       KONFIGURASI NAVIGASI HALAMAN (BISA DIATUR BEBAS OLEH GURU / PENGEMBANG)
+       ========================================================================== */
+    const NAV_CONFIG = {
+      // 1. URL Halaman Heyzine / Web Bebas (Contoh: "https://heyzine.com/flip-book/xxx#page/21" atau "#page/21")
+      targetUrl: "#page/21",
+      
+      // 2. Nomor Halaman Target
+      targetPage: 21,
+      
+      // 3. Teks Tombol Lanjut
+      buttonText: "Lanjut ke Halaman 21 →",
+      
+      // 4. Target Pembukaan: '_top' (dalam flipbook Heyzine) atau '_blank' (tab baru)
+      openTarget: "_top"
+    };
+
+    // Override otomatis via parameter URL iframe jika diisi di Heyzine:
+    // Contoh: misi_bab3.html?targetPage=21&btnText=Lanjut ke Bab 4
+    (function initNavParams() {
+      try {
+        const p = new URLSearchParams(window.location.search);
+        if (p.get('targetUrl')) NAV_CONFIG.targetUrl = p.get('targetUrl');
+        if (p.get('targetPage')) {
+          NAV_CONFIG.targetPage = parseInt(p.get('targetPage'));
+          NAV_CONFIG.targetUrl = `#page/${p.get('targetPage')}`;
+        }
+        if (p.get('btnText')) NAV_CONFIG.buttonText = p.get('btnText');
+        if (p.get('openTarget')) NAV_CONFIG.openTarget = p.get('openTarget');
+      } catch (e) {}
+    })();
+
+    function updateNavButtonUI() {
+      const btn = document.getElementById('btnNextPage');
+      const txt = document.getElementById('btnNextText');
+      if (btn && txt) {
+        txt.textContent = NAV_CONFIG.buttonText;
+        btn.onclick = executeNavigation;
+      }
+    }
+
+    function executeNavigation() {
+      sound.init();
+      sound.playSelect();
+
+      let dest = NAV_CONFIG.targetUrl;
+
+      // Cek apakah target berbentuk #page/X atau sekadar nomor halaman
+      if (/^#page\/\d+$/i.test(dest) || /^\d+$/.test(dest)) {
+        const pageNum = dest.replace(/\D/g, '');
+        try {
+          if (window.parent && window.parent !== window) {
+            window.parent.postMessage({ action: 'page', value: parseInt(pageNum) }, '*');
+            window.parent.location.hash = `#page/${pageNum}`;
+            return;
+          }
+        } catch (e) {}
+        dest = `#page/${pageNum}`;
+      }
+
+      if (NAV_CONFIG.openTarget === '_blank') {
+        window.open(dest, '_blank');
+      } else {
+        try {
+          window.top.location.href = dest;
+        } catch (e) {
+          window.open(dest, '_top');
+        }
+      }
+    }
+
+    /* ==========================================================================
+       DATA MATCHING PAIRS MISI 4
+       ========================================================================== */
+    const rightCardsData = [
+      {
+        id: "A", // Cocok dengan Left A
+        category: "Nilai Persatuan",
+        text: "Saling membantu, bersepakat, dan bahu-membahu dalam kebersamaan"
+      },
+      {
+        id: "B", // Cocok dengan Left B
+        category: "Budi Pekerti",
+        text: "Tidak mementingkan diri sendiri dan berpandangan visioner"
+      },
+      {
+        id: "C", // Cocok dengan Left C
+        category: "Nilai Sastra",
+        text: "Nilai Sosial dalam Hikayat (Gotong Royong & Damai)"
+      }
+    ];
+
+    /* ==========================================================================
+       WEB AUDIO SYNTHESIZER (Tanpa File Eksternal / 100% Bebas Lag)
+       ========================================================================== */
+    class SoundEngine {
+      constructor() {
+        this.ctx = null;
+        this.muted = false;
+      }
+
+      init() {
+        if (!this.ctx) {
+          const AudioContext = window.AudioContext || window.webkitAudioContext;
+          if (AudioContext) this.ctx = new AudioContext();
+        }
+        if (this.ctx && this.ctx.state === 'suspended') {
+          this.ctx.resume();
+        }
+      }
+
+      playTone(freq, type = 'sine', duration = 0.15, gainVal = 0.12) {
+        if (this.muted) return;
+        this.init();
+        if (!this.ctx) return;
+
+        try {
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = type;
+          osc.frequency.setValueAtTime(freq, this.ctx.currentTime);
+
+          gain.gain.setValueAtTime(gainVal, this.ctx.currentTime);
+          gain.gain.exponentialRampToValueAtTime(0.001, this.ctx.currentTime + duration);
+
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+
+          osc.start();
+          osc.stop(this.ctx.currentTime + duration);
+        } catch(e) {}
+      }
+
+      playSelect() {
+        this.playTone(523.25, 'triangle', 0.1, 0.1); // C5
+      }
+
+      playConnect() {
+        if (this.muted) return;
+        this.init();
+        if (!this.ctx) return;
+        // Two-tone connection chime
+        this.playTone(659.25, 'sine', 0.12, 0.12); // E5
+        setTimeout(() => this.playTone(783.99, 'sine', 0.18, 0.14), 60); // G5
+      }
+
+      playCorrect() {
+        if (this.muted) return;
+        this.init();
+        if (!this.ctx) return;
+        // Triad Major Success Chime (C6, E6, G6)
+        this.playTone(1046.50, 'sine', 0.15, 0.15);
+        setTimeout(() => this.playTone(1318.51, 'sine', 0.18, 0.15), 90);
+        setTimeout(() => this.playTone(1567.98, 'sine', 0.28, 0.18), 180);
+      }
+
+      playWrong() {
+        if (this.muted) return;
+        this.init();
+        if (!this.ctx) return;
+        // Buzz tone
+        this.playTone(220, 'sawtooth', 0.18, 0.14);
+        setTimeout(() => this.playTone(196, 'sawtooth', 0.25, 0.14), 100);
+      }
+
+      playVictory() {
+        if (this.muted) return;
+        this.init();
+        if (!this.ctx) return;
+        const notes = [523.25, 659.25, 783.99, 1046.50];
+        notes.forEach((f, idx) => {
+          setTimeout(() => this.playTone(f, 'triangle', 0.25, 0.18), idx * 110);
+        });
+      }
+    }
+
+    const sound = new SoundEngine();
+
+    /* ==========================================================================
+       GAME STATE & SELECTION ENGINE
+       ========================================================================== */
+    let selectedLeft = null;
+    let selectedRight = null;
+    let connections = {}; // format: { 'A': 'B', 'B': 'A', ... } (leftId -> rightId)
+    let isVerified = false;
+
+    // Palette warna unik untuk tiap koneksi garis
+    const lineColors = {
+      'A': '#0288D1', // Biru samudra
+      'B': '#C89B3C', // Emas Banjar
+      'C': '#06D6A0'  // Hijau toska
+    };
+
+    /* Inisialisasi & Pengacakan Kolom Kanan */
+    function initBoard() {
+      connections = {};
+      selectedLeft = null;
+      selectedRight = null;
+      isVerified = false;
+
+      const colRight = document.getElementById('colRight');
+      // Kosongkan kartu kolom kanan kecuali header
+      const headerRight = colRight.querySelector('.col-header');
+      colRight.innerHTML = '';
+      colRight.appendChild(headerRight);
+
+      // Acak data kartu kanan
+      const shuffledRight = [...rightCardsData].sort(() => Math.random() - 0.5);
+
+      shuffledRight.forEach((item, index) => {
+        const card = document.createElement('div');
+        card.className = 'match-card';
+        card.dataset.id = item.id;
+        card.id = `card-right-${item.id}`;
+
+        const letter = String.fromCharCode(65 + index); // A, B, C
+
+        card.innerHTML = `
+          <span class="connector-node"></span>
+          <div class="card-badge">${letter}</div>
+          <div class="card-text-wrap">
+            <span class="card-category-label">${item.category}</span>
+            <div class="card-title">${item.text}</div>
+          </div>
+          <span class="card-status-icon" id="status-right-${item.id}">✔</span>
+        `;
+
+        colRight.appendChild(card);
+      });
+
+      // Reset semua status kelas kartu kiri
+      document.querySelectorAll('#colLeft .match-card').forEach(card => {
+        card.className = 'match-card';
+        const icon = card.querySelector('.card-status-icon');
+        if (icon) icon.style.display = 'none';
+      });
+
+      // Bersihkan garis
+      drawAllLines();
+      updateVerifyButton();
+      bindEvents();
+    }
+
+    /* Bind Event Klik pada Kartu Kiri & Kanan */
+    function bindEvents() {
+      // Kartu Kiri
+      document.querySelectorAll('#colLeft .match-card').forEach(card => {
+        card.onclick = () => {
+          if (isVerified) return;
+          sound.init();
+          sound.playSelect();
+
+          const id = card.dataset.id;
+          if (selectedLeft === id) {
+            // Deselect jika diklik ulang
+            selectedLeft = null;
+            card.classList.remove('selected');
+          } else {
+            // Pilih kartu kiri baru
+            document.querySelectorAll('#colLeft .match-card').forEach(c => c.classList.remove('selected'));
+            selectedLeft = id;
+            card.classList.add('selected');
+
+            // Jika kartu kanan sudah terpilih sebelumnya, sambungkan!
+            if (selectedRight) {
+              makeConnection(selectedLeft, selectedRight);
+            }
+          }
+        };
+      });
+
+      // Kartu Kanan
+      document.querySelectorAll('#colRight .match-card').forEach(card => {
+        card.onclick = () => {
+          if (isVerified) return;
+          sound.init();
+          sound.playSelect();
+
+          const id = card.dataset.id;
+          if (selectedRight === id) {
+            // Deselect jika diklik ulang
+            selectedRight = null;
+            card.classList.remove('selected');
+          } else {
+            // Pilih kartu kanan baru
+            document.querySelectorAll('#colRight .match-card').forEach(c => c.classList.remove('selected'));
+            selectedRight = id;
+            card.classList.add('selected');
+
+            // Jika kartu kiri sudah terpilih sebelumnya, sambungkan!
+            if (selectedLeft) {
+              makeConnection(selectedLeft, selectedRight);
+            }
+          }
+        };
+      });
+    }
+
+    /* Hubungkan Kartu Kiri dan Kanan */
+    function makeConnection(leftId, rightId) {
+      // Hapus koneksi lama jika salah satu kartu sudah terpasang
+      for (const key in connections) {
+        if (connections[key] === rightId) {
+          delete connections[key];
+        }
+      }
+      connections[leftId] = rightId;
+
+      sound.playConnect();
+
+      // Reset seleksi
+      selectedLeft = null;
+      selectedRight = null;
+      document.querySelectorAll('.match-card').forEach(c => c.classList.remove('selected'));
+
+      updateCardsAppearance();
+      drawAllLines();
+      updateVerifyButton();
+    }
+
+    /* Perbarui Tampilan Status Paired */
+    function updateCardsAppearance() {
+      // Reset kelas paired
+      document.querySelectorAll('.match-card').forEach(c => {
+        c.classList.remove('paired');
+      });
+
+      // Beri kelas paired pada kartu yang tersambung
+      for (const lId in connections) {
+        const rId = connections[lId];
+        const cardL = document.getElementById(`card-left-${lId}`);
+        const cardR = document.getElementById(`card-right-${rId}`);
+        if (cardL) cardL.classList.add('paired');
+        if (cardR) cardR.classList.add('paired');
+      }
+    }
+
+    /* Update Status Tombol Periksa */
+    function updateVerifyButton() {
+      const btn = document.getElementById('btnVerify');
+      const pairedCount = Object.keys(connections).length;
+      if (pairedCount === 3 && !isVerified) {
+        btn.disabled = false;
+        btn.innerHTML = '<span>🔍</span> Periksa Jawaban (3/3 Terhubung)';
+      } else {
+        btn.disabled = true;
+        btn.innerHTML = `<span>🔍</span> Periksa Jawaban (${pairedCount}/3 Terhubung)`;
+      }
+    }
+
+    /* ==========================================================================
+       SVG CONNECTOR LINE DRAWING ENGINE
+       ========================================================================== */
+    function drawAllLines() {
+      const svg = document.getElementById('lines-canvas');
+      const arena = document.getElementById('matchArena');
+      if (!svg || !arena) return;
+
+      const arenaRect = arena.getBoundingClientRect();
+      svg.setAttribute('viewBox', `0 0 ${arenaRect.width} ${arenaRect.height}`);
+      svg.innerHTML = '';
+
+      for (const leftId in connections) {
+        const rightId = connections[leftId];
+        const cardL = document.getElementById(`card-left-${leftId}`);
+        const cardR = document.getElementById(`card-right-${rightId}`);
+        if (!cardL || !cardR) continue;
+
+        const nodeL = cardL.querySelector('.connector-node');
+        const nodeR = cardR.querySelector('.connector-node');
+        if (!nodeL || !nodeR) continue;
+
+        const rectL = nodeL.getBoundingClientRect();
+        const rectR = nodeR.getBoundingClientRect();
+
+        const x1 = rectL.left + rectL.width / 2 - arenaRect.left;
+        const y1 = rectL.top + rectL.height / 2 - arenaRect.top;
+        const x2 = rectR.left + rectR.width / 2 - arenaRect.left;
+        const y2 = rectR.top + rectR.height / 2 - arenaRect.top;
+
+        // Path Bezier melengkung mulus
+        const dx = Math.abs(x2 - x1) * 0.55;
+        const d = `M ${x1} ${y1} C ${x1 + dx} ${y1}, ${x2 - dx} ${y2}, ${x2} ${y2}`;
+
+        // Tentukan warna garis
+        let strokeColor = lineColors[leftId] || '#C89B3C';
+        let strokeWidth = 3.5;
+
+        if (isVerified) {
+          if (leftId === rightId) {
+            strokeColor = '#2D7A4C'; // Benar (Hijau)
+            strokeWidth = 4;
+          } else {
+            strokeColor = '#C62828'; // Salah (Merah)
+            strokeWidth = 3;
+          }
+        }
+
+        const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        path.setAttribute('d', d);
+        path.setAttribute('fill', 'none');
+        path.setAttribute('stroke', strokeColor);
+        path.setAttribute('stroke-width', strokeWidth);
+        path.setAttribute('stroke-linecap', 'round');
+        path.setAttribute('stroke-dasharray', isVerified && leftId !== rightId ? '6,5' : 'none');
+        path.style.filter = 'drop-shadow(0 2px 5px rgba(0,0,0,0.15))';
+
+        svg.appendChild(path);
+      }
+    }
+
+    // Gambar ulang garis saat window resize
+    window.addEventListener('resize', () => {
+      requestAnimationFrame(drawAllLines);
+    });
+
+    /* ==========================================================================
+       VERIFIKASI JAWABAN & MODAL SKOR
+       ========================================================================== */
+    document.getElementById('btnVerify').onclick = () => {
+      if (isVerified) return;
+      isVerified = true;
+      sound.init();
+
+      let correctCount = 0;
+
+      for (const leftId in connections) {
+        const rightId = connections[leftId];
+        const cardL = document.getElementById(`card-left-${leftId}`);
+        const cardR = document.getElementById(`card-right-${rightId}`);
+        const statusL = document.getElementById(`status-left-${leftId}`);
+        const statusR = document.getElementById(`status-right-${rightId}`);
+
+        cardL.classList.remove('paired');
+        cardR.classList.remove('paired');
+
+        if (leftId === rightId) {
+          // Benar
+          correctCount++;
+          cardL.classList.add('correct');
+          cardR.classList.add('correct');
+          if (statusL) { statusL.textContent = '✔'; statusL.style.display = 'block'; }
+          if (statusR) { statusR.textContent = '✔'; statusR.style.display = 'block'; }
+        } else {
+          // Salah
+          cardL.classList.add('wrong');
+          cardR.classList.add('wrong');
+          if (statusL) { statusL.textContent = '✖'; statusL.style.display = 'block'; }
+          if (statusR) { statusR.textContent = '✖'; statusR.style.display = 'block'; }
+        }
+      }
+
+      drawAllLines();
+
+      const btn = document.getElementById('btnVerify');
+
+      if (correctCount === 3) {
+        // Semua Benar!
+        sound.playCorrect();
+        btn.disabled = true;
+        btn.innerHTML = '<span>🏆</span> Sempurna! (3/3 Benar)';
+        setTimeout(() => {
+          showVictoryModal();
+        }, 650);
+      } else {
+        // Ada yang salah
+        sound.playWrong();
+        btn.disabled = false;
+        btn.innerHTML = `<span>↺</span> Ulangi Pasangan Salah (${correctCount}/3 Benar)`;
+        btn.onclick = () => {
+          // Lepaskan koneksi yang salah saja
+          for (const lId in connections) {
+            if (lId !== connections[lId]) {
+              const rId = connections[lId];
+              document.getElementById(`card-left-${lId}`)?.classList.remove('wrong');
+              document.getElementById(`card-right-${rId}`)?.classList.remove('wrong');
+              document.getElementById(`status-left-${lId}`).style.display = 'none';
+              document.getElementById(`status-right-${rId}`).style.display = 'none';
+              delete connections[lId];
+            }
+          }
+          isVerified = false;
+          btn.onclick = null;
+          updateCardsAppearance();
+          drawAllLines();
+          updateVerifyButton();
+          bindEvents();
+        };
+      }
+    };
+
+    /* Reset Seluruh Pasangan */
+    document.getElementById('btnResetPairs').onclick = () => {
+      sound.init();
+      sound.playSelect();
+      initBoard();
+    };
+
+    /* Tampilkan Modal Kemenangan & Bintang */
+    function showVictoryModal() {
+      sound.playVictory();
+      updateNavButtonUI();
+      const modal = document.getElementById('victoryModal');
+      modal.classList.add('active');
+
+      // Animasi bintang bertahap
+      setTimeout(() => document.getElementById('star1').classList.add('active'), 250);
+      setTimeout(() => document.getElementById('star2').classList.add('active'), 500);
+      setTimeout(() => document.getElementById('star3').classList.add('active'), 750);
+
+      // Jalankan konfeti
+      launchConfetti();
+    }
+
+    /* Tutup Modal & Main Ulang */
+    document.getElementById('btnReplay').onclick = () => {
+      document.getElementById('victoryModal').classList.remove('active');
+      document.querySelectorAll('.star-item').forEach(s => s.classList.remove('active'));
+      stopConfetti();
+      initBoard();
+    };
+
+    /* Toggle Mute Audio */
+    document.getElementById('btnAudioToggle').onclick = function() {
+      sound.muted = !sound.muted;
+      this.textContent = sound.muted ? '🔇' : '🔊';
+      this.title = sound.muted ? 'Nyalakan Suara' : 'Matikan Suara';
+    };
+
+    /* ==========================================================================
+       CONFETTI CANNON ANIMATION
+       ========================================================================== */
+    let confettiTimer = null;
+    function launchConfetti() {
+      const canvas = document.getElementById('confetti-canvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      canvas.width = canvas.offsetWidth;
+      canvas.height = canvas.offsetHeight;
+
+      const particles = [];
+      const colors = ['#FFB703', '#06D6A0', '#0288D1', '#E76F51', '#C89B3C'];
+
+      for (let i = 0; i < 65; i++) {
+        particles.push({
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height - canvas.height,
+          size: Math.random() * 7 + 4,
+          color: colors[Math.floor(Math.random() * colors.length)],
+          vx: (Math.random() - 0.5) * 3,
+          vy: Math.random() * 3 + 2,
+          rot: Math.random() * 360,
+          rotSpeed: (Math.random() - 0.5) * 7
+        });
+      }
+
+      function render() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        particles.forEach(p => {
+          p.x += p.vx;
+          p.y += p.vy;
+          p.rot += p.rotSpeed;
+
+          ctx.save();
+          ctx.translate(p.x, p.y);
+          ctx.rotate((p.rot * Math.PI) / 180);
+          ctx.fillStyle = p.color;
+          ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size * 0.6);
+          ctx.restore();
+
+          if (p.y > canvas.height) {
+            p.y = -10;
+            p.x = Math.random() * canvas.width;
+          }
+        });
+        confettiTimer = requestAnimationFrame(render);
+      }
+      render();
+    }
+
+    function stopConfetti() {
+      if (confettiTimer) cancelAnimationFrame(confettiTimer);
+      const canvas = document.getElementById('confetti-canvas');
+      if (canvas) {
+        const ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+      }
+    }
+
+    /* ==========================================================================
+       AUTO-FIT SCALE ENGINE FOR HEYZINE IFRAME
+       ========================================================================== */
+    function resizeWidget() {
+      const container = document.getElementById('widgetContainer');
+      if (!container) return;
+      const w = window.innerWidth;
+      const h = window.innerHeight;
+      const baseW = 480;
+      const baseH = 430;
+
+      const scaleX = w / baseW;
+      const scaleY = h / baseH;
+      let scale = Math.min(scaleX, scaleY);
+      if (scale > 1.05) scale = 1.05;
+      if (scale < 0.68) scale = 0.68;
+
+      container.style.transform = `scale(${scale})`;
+      drawAllLines();
+    }
+
+    window.addEventListener('resize', resizeWidget);
+    window.addEventListener('load', () => {
+      initBoard();
+      updateNavButtonUI();
+      resizeWidget();
+      setTimeout(drawAllLines, 200);
+    });
+  </script>
+</body>
+</html>

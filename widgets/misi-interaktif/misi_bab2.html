@@ -477,6 +477,15 @@
       border-bottom-width: 2px;
     }
 
+    .btn-victory-next:disabled, .btn-victory-next.locked {
+      background: #B0BEC5 !important;
+      border-bottom: 4px solid #78909C !important;
+      color: #ECEFF1 !important;
+      cursor: not-allowed !important;
+      box-shadow: none !important;
+      transform: none !important;
+    }
+
     /* Confetti Canvas */
     #confettiCanvas {
       position: absolute;
@@ -563,14 +572,72 @@
       <button class="btn-victory-replay" onclick="restartQuiz()">
         Ulangi ↺
       </button>
-      <button class="btn-victory-next" onclick="finishModule()">
-        Lanjut ke Bab 3 →
+      <button class="btn-victory-next" id="btnVictoryNext" onclick="finishModule()">
+        <span id="btnVictoryNextText">Lanjut ke Bab 3 (Halaman 16) →</span>
       </button>
     </div>
   </div>
 </div>
 
 <script>
+  /* ==========================================================================
+     KONFIGURASI NAVIGASI HALAMAN (BISA DIATUR BEBAS OLEH GURU / PENGEMBANG)
+     ========================================================================== */
+  const NAV_CONFIG = {
+    // 1. URL Halaman Heyzine / Web Bebas (Contoh: "https://heyzine.com/flip-book/xxx#page/16" atau "#page/16")
+    targetUrl: "#page/16",
+    
+    // 2. Nomor Halaman Target
+    targetPage: 16,
+    
+    // 3. Teks Tombol Lanjut
+    buttonText: "Lanjut ke Bab 3 (Halaman 16) →",
+    
+    // 4. Target Pembukaan: '_top' (dalam flipbook Heyzine) atau '_blank' (tab baru)
+    openTarget: "_top"
+  };
+
+  // Override otomatis via parameter URL iframe jika diisi di Heyzine:
+  // Contoh: misi_bab2.html?targetPage=16&btnText=Buka Bab 3
+  (function initNavParams() {
+    try {
+      const p = new URLSearchParams(window.location.search);
+      if (p.get('targetUrl')) NAV_CONFIG.targetUrl = p.get('targetUrl');
+      if (p.get('targetPage')) {
+        NAV_CONFIG.targetPage = parseInt(p.get('targetPage'));
+        NAV_CONFIG.targetUrl = `#page/${p.get('targetPage')}`;
+      }
+      if (p.get('btnText')) NAV_CONFIG.buttonText = p.get('btnText');
+      if (p.get('openTarget')) NAV_CONFIG.openTarget = p.get('openTarget');
+    } catch (e) {}
+  })();
+
+  function executeNavigation() {
+    let dest = NAV_CONFIG.targetUrl;
+
+    if (/^#page\/\d+$/i.test(dest) || /^\d+$/.test(dest)) {
+      const pageNum = dest.replace(/\D/g, '');
+      try {
+        if (window.parent && window.parent !== window) {
+          window.parent.postMessage({ action: 'page', value: parseInt(pageNum) }, '*');
+          window.parent.location.hash = `#page/${pageNum}`;
+          return;
+        }
+      } catch (e) {}
+      dest = `#page/${pageNum}`;
+    }
+
+    if (NAV_CONFIG.openTarget === '_blank') {
+      window.open(dest, '_blank');
+    } else {
+      try {
+        window.top.location.href = dest;
+      } catch (e) {
+        window.open(dest, '_top');
+      }
+    }
+  }
+
   // --- Database Soal Detektif Bab 2 (Halaman 15) ---
   const questions = [
     {
@@ -813,7 +880,21 @@
     const pill = document.getElementById('victoryScorePill');
     pill.innerText = `Hasil Akhir: ${score} dari ${questions.length} Bukti Terpecahkan`;
 
-    triggerConfetti();
+    const nextBtn = document.getElementById('btnVictoryNext');
+    const nextBtnText = document.getElementById('btnVictoryNextText');
+
+    if (score === questions.length) {
+      // 100% Benar - Pintu Terbuka!
+      nextBtn.disabled = false;
+      nextBtn.classList.remove('locked');
+      if (nextBtnText) nextBtnText.innerText = NAV_CONFIG.buttonText;
+      triggerConfetti();
+    } else {
+      // Masih Ada Salah - PINTU TERKUNCI (Mastery Gate)
+      nextBtn.disabled = true;
+      nextBtn.classList.add('locked');
+      if (nextBtnText) nextBtnText.innerText = `🔒 Raih ${questions.length}/${questions.length} Benar untuk Lanjut (${score}/${questions.length})`;
+    }
   }
 
   function restartQuiz() {
@@ -825,14 +906,12 @@
   }
 
   function finishModule() {
-    const btn = event.target;
-    btn.innerText = "Membuka Bab 3...";
-    btn.style.opacity = "0.8";
-    setTimeout(() => {
-      btn.innerText = "Lanjut ke Bab 3 →";
-      btn.style.opacity = "1";
-      alert("Misi Selesai! Silakan lanjutkan membaca Bab 3 pada Halaman 16 E-Modul Heyzine.");
-    }, 600);
+    const nextBtn = document.getElementById('btnVictoryNext');
+    if (nextBtn && (nextBtn.disabled || nextBtn.classList.contains('locked'))) {
+      alert("Kamu belum memecahkan semua bukti dengan benar! Tekan tombol 'Ulangi' untuk mencoba kembali.");
+      return;
+    }
+    executeNavigation();
   }
 
   // --- Particle Confetti Canvas ---
