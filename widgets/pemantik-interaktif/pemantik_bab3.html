@@ -283,6 +283,11 @@
       cursor: pointer;
       text-transform: uppercase;
       letter-spacing: 0.5px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      line-height: 1.35;
       transition: all 0.1s ease;
     }
     .btn-continue:active {
@@ -391,18 +396,40 @@
     openTarget: "_top"
   };
 
+  // Helper aman untuk mendecode teks URL berulang kali (mencegah %28, %29, %E2%86%92 tampil mentah)
+  function decodeCleanText(str) {
+    if (!str) return '';
+    let result = str;
+    for (let i = 0; i < 3; i++) {
+      try {
+        if (!result.includes('%')) break;
+        const decoded = decodeURIComponent(result);
+        if (decoded === result) break;
+        result = decoded;
+      } catch (e) {
+        break;
+      }
+    }
+    return result;
+  }
+
   // Override otomatis via parameter URL iframe jika diisi di Heyzine:
   // Contoh: pemantik_bab3.html?targetPage=15&btnText=Lanjutkan Baca Cerita
   (function initNavParams() {
     try {
       const p = new URLSearchParams(window.location.search);
-      if (p.get('heyzineUrl')) NAV_CONFIG.heyzineBaseUrl = p.get('heyzineUrl');
-      if (p.get('targetUrl')) NAV_CONFIG.targetUrl = p.get('targetUrl');
+      if (p.get('heyzineUrl')) NAV_CONFIG.heyzineBaseUrl = decodeCleanText(p.get('heyzineUrl'));
+      if (p.get('targetUrl')) NAV_CONFIG.targetUrl = decodeCleanText(p.get('targetUrl'));
       if (p.get('targetPage')) {
-        NAV_CONFIG.targetPage = parseInt(p.get('targetPage'));
+        NAV_CONFIG.targetPage = parseInt(p.get('targetPage'), 10);
+        if (!p.get('btnText') && NAV_CONFIG.buttonText) {
+          NAV_CONFIG.buttonText = NAV_CONFIG.buttonText.replace(/Halaman \d+/i, `Halaman ${NAV_CONFIG.targetPage}`);
+        }
       }
-      if (p.get('btnText')) NAV_CONFIG.buttonText = p.get('btnText');
+      if (p.get('btnText')) NAV_CONFIG.buttonText = decodeCleanText(p.get('btnText'));
       if (p.get('openTarget')) NAV_CONFIG.openTarget = p.get('openTarget');
+
+      updateNavButtonUI();
     } catch (e) {}
   })();
 
@@ -509,10 +536,10 @@
 
     if (selectedChoice === 1) {
       title.innerText = "Reaksi Keadilan yang Umum!";
-      body.innerHTML = "Menghukum lawan mungkin memuaskan amarah sesaat. Namun di Bab 3, Datu Mabrur mengajarkan keluhuran budi: <em>'Sebagai sesama makhluk ciptaan-Nya, aku akan menolongmu.'</em> Mari kita selami kisahnya di <strong>Halaman 15</strong>!";
+      body.innerHTML = `Menghukum lawan mungkin memuaskan amarah sesaat. Namun di Bab 3, Datu Mabrur mengajarkan keluhuran budi: <em>'Sebagai sesama makhluk ciptaan-Nya, aku akan menolongmu.'</em> Mari kita selami kisahnya di <strong>Halaman ${NAV_CONFIG.targetPage || 15}</strong>!`;
     } else {
       title.innerText = "Sangat Selaras dengan Nilai Luhur Sa-Ijaan!";
-      body.innerHTML = "Memaafkan musuh yang tak berdaya bukan kelemahan, melainkan awal mukjizat persaudaraan sejati. Buka <strong>Halaman 15</strong> untuk menyimak keajaiban penyembuhan dan sumpah seia sekata!";
+      body.innerHTML = `Memaafkan musuh yang tak berdaya bukan kelemahan, melainkan awal mukjizat persaudaraan sejati. Buka <strong>Halaman ${NAV_CONFIG.targetPage || 15}</strong> untuk menyimak keajaiban penyembuhan dan sumpah seia sekata!`;
     }
 
     updateNavButtonUI();

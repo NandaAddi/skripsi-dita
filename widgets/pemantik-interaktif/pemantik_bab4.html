@@ -283,6 +283,11 @@
       cursor: pointer;
       text-transform: uppercase;
       letter-spacing: 0.5px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      line-height: 1.35;
       transition: all 0.1s ease;
     }
     .btn-continue:active {
@@ -391,18 +396,40 @@
     openTarget: "_top"
   };
 
+  // Helper aman untuk mendecode teks URL berulang kali (mencegah %28, %29, %E2%86%92 tampil mentah)
+  function decodeCleanText(str) {
+    if (!str) return '';
+    let result = str;
+    for (let i = 0; i < 3; i++) {
+      try {
+        if (!result.includes('%')) break;
+        const decoded = decodeURIComponent(result);
+        if (decoded === result) break;
+        result = decoded;
+      } catch (e) {
+        break;
+      }
+    }
+    return result;
+  }
+
   // Override otomatis via parameter URL iframe jika diisi di Heyzine:
   // Contoh: pemantik_bab4.html?targetPage=19&btnText=Lanjutkan Baca Cerita
   (function initNavParams() {
     try {
       const p = new URLSearchParams(window.location.search);
-      if (p.get('heyzineUrl')) NAV_CONFIG.heyzineBaseUrl = p.get('heyzineUrl');
-      if (p.get('targetUrl')) NAV_CONFIG.targetUrl = p.get('targetUrl');
+      if (p.get('heyzineUrl')) NAV_CONFIG.heyzineBaseUrl = decodeCleanText(p.get('heyzineUrl'));
+      if (p.get('targetUrl')) NAV_CONFIG.targetUrl = decodeCleanText(p.get('targetUrl'));
       if (p.get('targetPage')) {
-        NAV_CONFIG.targetPage = parseInt(p.get('targetPage'));
+        NAV_CONFIG.targetPage = parseInt(p.get('targetPage'), 10);
+        if (!p.get('btnText') && NAV_CONFIG.buttonText) {
+          NAV_CONFIG.buttonText = NAV_CONFIG.buttonText.replace(/Halaman \d+/i, `Halaman ${NAV_CONFIG.targetPage}`);
+        }
       }
-      if (p.get('btnText')) NAV_CONFIG.buttonText = p.get('btnText');
+      if (p.get('btnText')) NAV_CONFIG.buttonText = decodeCleanText(p.get('btnText'));
       if (p.get('openTarget')) NAV_CONFIG.openTarget = p.get('openTarget');
+
+      updateNavButtonUI();
     } catch (e) {}
   })();
 
@@ -509,10 +536,10 @@
 
     if (selectedChoice === 1) {
       title.innerText = "Kritis Terhadap Realitas Sains!";
-      body.innerHTML = "Akal modern memang menolaknya. Namun dalam sastra hikayat, <em>kemustahilan</em> adalah ciri khas utama yang sengaja dihadirkan sebagai lambang keagungan doa dan kekuatan persatuan! Buka <strong>Halaman 19</strong> untuk menyimak kisahnya!";
+      body.innerHTML = `Akal modern memang menolaknya. Namun dalam sastra hikayat, <em>kemustahilan</em> adalah ciri khas utama yang sengaja dihadirkan sebagai lambang keagungan doa dan kekuatan persatuan! Buka <strong>Halaman ${NAV_CONFIG.targetPage || 19}</strong> untuk menyimak kisahnya!`;
     } else {
       title.innerText = "Sangat Tajam & Memahami Simbolisme Sastra!";
-      body.innerHTML = "Tepat sekali! Hewan-hewan laut yang berenang serempak mengangkat pulau adalah simbol konsep <em>rakat mufakat</em>. Saat jutaan individu menyatukan tenaga, beban seberat gunung pun sanggup terangkat. Buka <strong>Halaman 19</strong> untuk mendengarkan gemuruh laut!";
+      body.innerHTML = `Tepat sekali! Hewan-hewan laut yang berenang serempak mengangkat pulau adalah simbol konsep <em>rakat mufakat</em>. Saat jutaan individu menyatukan tenaga, beban seberat gunung pun sanggup terangkat. Buka <strong>Halaman ${NAV_CONFIG.targetPage || 19}</strong> untuk mendengarkan gemuruh laut!`;
     }
 
     updateNavButtonUI();

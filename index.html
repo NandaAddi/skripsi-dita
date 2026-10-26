@@ -1480,6 +1480,9 @@
       const activeSizeBtn = cardElem.querySelector('.size-pill.active');
       const heyzineInput = document.getElementById('globalHeyzineUrl');
       
+      const defaultPage = cardElem.getAttribute('data-default-page') || '';
+      const defaultText = cardElem.getAttribute('data-default-text') || '';
+
       const page = pageInput ? pageInput.value.trim() : '';
       const text = textInput ? textInput.value.trim() : '';
       const size = activeSizeBtn ? activeSizeBtn.getAttribute('data-size') : 'compact';
@@ -1490,7 +1493,17 @@
 
       if (size && size !== 'normal') params.set('size', size);
       if (page) params.set('targetPage', page);
-      if (text) params.set('btnText', text);
+
+      // Cek apakah teks tombol merupakan teks default bawaan widget
+      const isDefaultPattern = (text === defaultText) || 
+        (page && defaultText && text === defaultText.replace(/Halaman \d+/i, 'Halaman ' + page));
+
+      // HANYA sertakan btnText jika teks tombol benar-benar dikustomisasi sendiri oleh pengguna.
+      // Jika teks masih sesuai template bawaan widget, biarkan widget menggunakan default bersihnya.
+      if (text && !isDefaultPattern) {
+        params.set('btnText', text);
+      }
+
       if (heyzineUrl && heyzineUrl !== "https://heyzine.com/flip-book/c9ba3a059a.html") {
         params.set('heyzineUrl', heyzineUrl);
       }
@@ -1503,6 +1516,17 @@
       const card = targetElem.closest('.widget-card');
       if (!card) return;
 
+      const pageInput = card.querySelector('.input-page');
+      const textInput = card.querySelector('.input-text');
+
+      // Sinkronkan angka halaman pada input teks tombol secara otomatis jika pengguna mengubah nomor halaman
+      if (targetElem && targetElem.classList && targetElem.classList.contains('input-page') && textInput) {
+        const curPage = pageInput ? pageInput.value.trim() : '';
+        if (curPage && /Halaman \d+/i.test(textInput.value)) {
+          textInput.value = textInput.value.replace(/Halaman \d+/i, `Halaman ${curPage}`);
+        }
+      }
+
       const fullUrl = buildWidgetUrl(card);
       const urlTextElem = card.querySelector('.generated-url-text');
       const iframe = card.querySelector('.preview-frame-wrap iframe');
@@ -1512,8 +1536,7 @@
       if (testLink) testLink.href = fullUrl;
 
       // Update iframe preview source jika ada perubahan konfigurasi
-      if (iframe && targetElem.classList.contains('input-page')) {
-        // Relatif path untuk preview internal lokal jika host sama
+      if (iframe && targetElem.classList && (targetElem.classList.contains('input-page') || targetElem.classList.contains('input-text'))) {
         const path = card.getAttribute('data-path');
         const page = card.querySelector('.input-page')?.value.trim() || '';
         const text = card.querySelector('.input-text')?.value.trim() || '';

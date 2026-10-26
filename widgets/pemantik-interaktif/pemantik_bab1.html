@@ -322,6 +322,11 @@
       cursor: pointer;
       text-transform: uppercase;
       letter-spacing: 0.5px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      line-height: 1.35;
       transition: all 0.1s ease;
     }
 
@@ -440,18 +445,40 @@
       openTarget: "_top"
     };
 
+    // Helper aman untuk mendecode teks URL berulang kali (mencegah %28, %29, %E2%86%92 tampil mentah)
+    function decodeCleanText(str) {
+      if (!str) return '';
+      let result = str;
+      for (let i = 0; i < 3; i++) {
+        try {
+          if (!result.includes('%')) break;
+          const decoded = decodeURIComponent(result);
+          if (decoded === result) break;
+          result = decoded;
+        } catch (e) {
+          break;
+        }
+      }
+      return result;
+    }
+
     // Override otomatis via parameter URL iframe jika diisi di Heyzine:
     // Contoh: pemantik_bab1.html?targetPage=7&btnText=Lanjutkan Baca Cerita
     (function initNavParams() {
       try {
         const p = new URLSearchParams(window.location.search);
-        if (p.get('heyzineUrl')) NAV_CONFIG.heyzineBaseUrl = p.get('heyzineUrl');
-        if (p.get('targetUrl')) NAV_CONFIG.targetUrl = p.get('targetUrl');
+        if (p.get('heyzineUrl')) NAV_CONFIG.heyzineBaseUrl = decodeCleanText(p.get('heyzineUrl'));
+        if (p.get('targetUrl')) NAV_CONFIG.targetUrl = decodeCleanText(p.get('targetUrl'));
         if (p.get('targetPage')) {
-          NAV_CONFIG.targetPage = parseInt(p.get('targetPage'));
+          NAV_CONFIG.targetPage = parseInt(p.get('targetPage'), 10);
+          if (!p.get('btnText') && NAV_CONFIG.buttonText) {
+            NAV_CONFIG.buttonText = NAV_CONFIG.buttonText.replace(/Halaman \d+/i, `Halaman ${NAV_CONFIG.targetPage}`);
+          }
         }
-        if (p.get('btnText')) NAV_CONFIG.buttonText = p.get('btnText');
+        if (p.get('btnText')) NAV_CONFIG.buttonText = decodeCleanText(p.get('btnText'));
         if (p.get('openTarget')) NAV_CONFIG.openTarget = p.get('openTarget');
+
+        updateNavButtonUI();
       } catch (e) {}
     })();
 
@@ -560,10 +587,10 @@
 
       if (selectedChoice === 1) {
         title.innerText = "Sudut Pandang yang Manusiawi!";
-        body.innerHTML = "Wajar bila manusia mendambakan kemewahan saat ini. Namun, di <strong>Halaman 7</strong> kamu akan melihat Datu Mabrur memilih jalan sebaliknya: menepis segala pamrih demi masa depan anak-cucunya!";
+        body.innerHTML = `Wajar bila manusia mendambakan kemewahan saat ini. Namun, di <strong>Halaman ${NAV_CONFIG.targetPage || 7}</strong> kamu akan melihat Datu Mabrur memilih jalan sebaliknya: menepis segala pamrih demi masa depan anak-cucunya!`;
       } else {
         title.innerText = "Luar Biasa! Selaras Jiwa Luhur Datu Mabrur";
-        body.innerHTML = "Inilah inti kebijaksanaan sastra hikayat! Pertapaan Datu Mabrur di antara dua selat semata-mata demi permohonan pulau bagi keturunannya. Mari buka <strong>Halaman 7</strong> untuk menyelami kisahnya!";
+        body.innerHTML = `Inilah inti kebijaksanaan sastra hikayat! Pertapaan Datu Mabrur di antara dua selat semata-mata demi permohonan pulau bagi keturunannya. Mari buka <strong>Halaman ${NAV_CONFIG.targetPage || 7}</strong> untuk menyelami kisahnya!`;
       }
 
       updateNavButtonUI();
