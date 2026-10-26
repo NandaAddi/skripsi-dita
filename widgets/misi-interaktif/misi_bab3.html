@@ -731,19 +731,22 @@
 
   <script>
     /* ==========================================================================
-       KONFIGURASI NAVIGASI HALAMAN (BISA DIATUR BEBAS OLEH GURU / PENGEMBANG)
+       KONFIGURASI NAVIGASI HALAMAN HEYZINE
        ========================================================================== */
     const NAV_CONFIG = {
-      // 1. URL Halaman Heyzine / Web Bebas (Contoh: "https://heyzine.com/flip-book/xxx#page/21" atau "#page/21")
-      targetUrl: "#page/21",
+      // 1. URL Flipbook Heyzine Utama Anda
+      heyzineBaseUrl: "https://heyzine.com/flip-book/c9ba3a059a.html",
       
       // 2. Nomor Halaman Target
       targetPage: 21,
       
-      // 3. Teks Tombol Lanjut
+      // 3. URL Khusus (opsional, jika ingin mengarahkan ke link eksternal)
+      targetUrl: "",
+      
+      // 4. Teks Tombol Lanjut
       buttonText: "Lanjut ke Halaman 21 →",
       
-      // 4. Target Pembukaan: '_top' (dalam flipbook Heyzine) atau '_blank' (tab baru)
+      // 5. Target Pembukaan: '_top' (dalam flipbook Heyzine) atau '_blank' (tab baru)
       openTarget: "_top"
     };
 
@@ -752,10 +755,10 @@
     (function initNavParams() {
       try {
         const p = new URLSearchParams(window.location.search);
+        if (p.get('heyzineUrl')) NAV_CONFIG.heyzineBaseUrl = p.get('heyzineUrl');
         if (p.get('targetUrl')) NAV_CONFIG.targetUrl = p.get('targetUrl');
         if (p.get('targetPage')) {
           NAV_CONFIG.targetPage = parseInt(p.get('targetPage'));
-          NAV_CONFIG.targetUrl = `#page/${p.get('targetPage')}`;
         }
         if (p.get('btnText')) NAV_CONFIG.buttonText = p.get('btnText');
         if (p.get('openTarget')) NAV_CONFIG.openTarget = p.get('openTarget');
@@ -775,19 +778,20 @@
       sound.init();
       sound.playSelect();
 
-      let dest = NAV_CONFIG.targetUrl;
+      let dest = "";
+      const pageNum = NAV_CONFIG.targetPage || 21;
 
-      // Cek apakah target berbentuk #page/X atau sekadar nomor halaman
-      if (/^#page\/\d+$/i.test(dest) || /^\d+$/.test(dest)) {
-        const pageNum = dest.replace(/\D/g, '');
+      if (NAV_CONFIG.targetUrl && !NAV_CONFIG.targetUrl.startsWith('#page/')) {
+        dest = NAV_CONFIG.targetUrl;
+      } else {
+        const cleanBase = NAV_CONFIG.heyzineBaseUrl.replace(/#page\/\d+.*$/i, '').replace(/#.*$/, '');
+        dest = `${cleanBase}#page/${pageNum}`;
+
         try {
           if (window.parent && window.parent !== window) {
             window.parent.postMessage({ action: 'page', value: parseInt(pageNum) }, '*');
-            window.parent.location.hash = `#page/${pageNum}`;
-            return;
           }
         } catch (e) {}
-        dest = `#page/${pageNum}`;
       }
 
       if (NAV_CONFIG.openTarget === '_blank') {

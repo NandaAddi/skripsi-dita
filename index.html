@@ -797,21 +797,37 @@
   <main class="container">
 
     <!-- Global Base URL Hosting Configurator -->
-    <div class="domain-bar">
+    <div class="domain-bar" style="margin-bottom: 16px;">
       <div class="domain-info">
         <div class="domain-icon">🌐</div>
         <div>
           <strong style="color: var(--ocean-navy); font-size: 0.9rem;">Domain / Base URL Hosting Website:</strong>
           <span style="font-size: 0.76rem; color: var(--ink-muted); display: block;">
-            Tautan dasar saat menyalin link embed. Ubah bila ingin menggunakan domain GitHub Pages atau Cloudflare Pages Anda.
+            Lokasi hosting tempat berkas widget diunggah (misal Cloudflare Pages atau GitHub Pages).
           </span>
         </div>
       </div>
       <div class="domain-input-wrap">
         <input type="text" id="globalBaseUrl" class="domain-input" placeholder="https://..." oninput="updateAllWidgetUrls()">
         <button type="button" class="btn-primary" style="padding: 10px 16px; font-size: 0.8rem; white-space: nowrap;" onclick="resetBaseUrl()">
-          ↺ Reset Default
+          ↺ Reset
         </button>
+      </div>
+    </div>
+
+    <!-- Global Heyzine Flipbook URL Configurator -->
+    <div class="domain-bar" style="border-color: #2D7A4C; background: #F4FAF6; margin-bottom: 40px;">
+      <div class="domain-info">
+        <div class="domain-icon" style="background: #E8F5E9; border-color: #2D7A4C; color: #1B5E20;">📖</div>
+        <div>
+          <strong style="color: #1B5E20; font-size: 0.9rem;">Tautan Flipbook Heyzine Utama Anda:</strong>
+          <span style="font-size: 0.76rem; color: var(--ink-muted); display: block;">
+            Alamat buku Heyzine yang akan dibuka otomatis saat siswa menekan tombol lanjut di widget.
+          </span>
+        </div>
+      </div>
+      <div class="domain-input-wrap">
+        <input type="text" id="globalHeyzineUrl" class="domain-input" value="https://heyzine.com/flip-book/c9ba3a059a.html" style="color: #1B5E20; border-color: #A5D6A7;" oninput="updateAllWidgetUrls()">
       </div>
     </div>
 
@@ -1434,8 +1450,8 @@
         }
         return window.location.origin + path;
       }
-      // Fallback default untuk repositori GitHub Pages
-      return "https://nandaaddi.github.io/skripsi-dita";
+      // Fallback default untuk Cloudflare Pages aktif
+      return "https://skripsi-dita.pages.dev";
     }
 
     function getEffectiveBaseUrl() {
@@ -1462,10 +1478,12 @@
       const pageInput = cardElem.querySelector('.input-page');
       const textInput = cardElem.querySelector('.input-text');
       const activeSizeBtn = cardElem.querySelector('.size-pill.active');
+      const heyzineInput = document.getElementById('globalHeyzineUrl');
       
       const page = pageInput ? pageInput.value.trim() : '';
       const text = textInput ? textInput.value.trim() : '';
       const size = activeSizeBtn ? activeSizeBtn.getAttribute('data-size') : 'compact';
+      const heyzineUrl = heyzineInput ? heyzineInput.value.trim() : '';
 
       const baseUrl = getEffectiveBaseUrl();
       const params = new URLSearchParams();
@@ -1473,6 +1491,9 @@
       if (size && size !== 'normal') params.set('size', size);
       if (page) params.set('targetPage', page);
       if (text) params.set('btnText', text);
+      if (heyzineUrl && heyzineUrl !== "https://heyzine.com/flip-book/c9ba3a059a.html") {
+        params.set('heyzineUrl', heyzineUrl);
+      }
 
       const qs = params.toString();
       return `${baseUrl}/${path}${qs ? '?' + qs : ''}`;
