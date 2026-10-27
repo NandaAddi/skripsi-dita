@@ -586,46 +586,33 @@
       const container = document.querySelector('.duo-container');
       if (!container) return;
 
+      container.style.transform = 'none';
+      const naturalW = container.offsetWidth || 380;
+      const naturalH = container.offsetHeight || 265;
+
+      const availW = window.innerWidth || document.documentElement.clientWidth;
+      const availH = window.innerHeight || document.documentElement.clientHeight;
+
       const urlParams = new URLSearchParams(window.location.search);
       const manualScale = parseFloat(urlParams.get('scale'));
       const size = urlParams.get('size');
 
-      // Manual URL Parameter Overrides
-      if (!isNaN(manualScale) && manualScale >= 0.35 && manualScale <= 1.6) {
-        container.style.transform = `scale(${manualScale})`;
-        container.style.transformOrigin = 'center center';
-        return;
-      }
-      if (size === 'compact' || size === 'small') {
-        container.style.transform = 'scale(0.85)';
-        container.style.transformOrigin = 'center center';
-        return;
-      } else if (size === 'mini') {
-        container.style.transform = 'scale(0.72)';
-        container.style.transformOrigin = 'center center';
-        return;
-      } else if (size === 'large') {
-        container.style.transform = 'scale(1.15)';
-        container.style.transformOrigin = 'center center';
-        return;
-      }
-
-      // DEFAULT BEHAVIOR: Automatic Fit-to-Viewport & Dead-Center
-      const availW = window.innerWidth || document.documentElement.clientWidth;
-      const availH = window.innerHeight || document.documentElement.clientHeight;
-
-      // Base design dimensions for vertical stacked layout
-      const designW = 380;
-      const designH = 265;
-
-      // Calculate scale to guarantee ZERO overflow horizontally and vertically
-      const scaleW = (availW - 8) / designW;
-      const scaleH = (availH - 8) / designH;
+      const scaleW = (availW - 10) / naturalW;
+      const scaleH = (availH - 10) / naturalH;
       const fitScale = Math.min(scaleW, scaleH);
 
-      // Clamp scale between 0.42 and 1.05
-      const finalScale = Math.max(0.42, Math.min(fitScale, 1.05));
+      let maxCap = 1.0;
+      if (!isNaN(manualScale) && manualScale >= 0.25 && manualScale <= 1.6) {
+        maxCap = manualScale;
+      } else if (size === 'compact' || size === 'small') {
+        maxCap = 0.88;
+      } else if (size === 'mini') {
+        maxCap = 0.72;
+      } else if (size === 'large') {
+        maxCap = 1.15;
+      }
 
+      const finalScale = Math.max(0.35, Math.min(maxCap, fitScale));
       container.style.transform = `scale(${finalScale.toFixed(3)})`;
       container.style.transformOrigin = 'center center';
     } catch (err) {
