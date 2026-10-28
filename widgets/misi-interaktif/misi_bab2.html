@@ -20,7 +20,7 @@
       height: 100vh;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       overflow: hidden;
       box-sizing: border-box;
       user-select: none;
@@ -34,13 +34,14 @@
       border-radius: 18px;
       padding: 14px 16px;
       width: 420px;
-      max-width: 96%;
+      min-width: 420px;
+      max-width: none !important;
       position: relative;
       overflow: hidden;
       box-sizing: border-box;
-      transform-origin: center center;
+      transform-origin: center top;
       will-change: transform;
-      margin: auto;
+      margin: 0 auto;
       box-shadow: 0 10px 25px rgba(15, 44, 76, 0.12);
     }
 
@@ -1003,7 +1004,8 @@
       if (!container) return;
 
       container.style.transform = 'none';
-      const naturalW = container.offsetWidth || 440;
+      container.style.marginTop = '0px';
+      const naturalW = 420;
       const naturalH = container.offsetHeight || 380;
 
       const availW = window.innerWidth || document.documentElement.clientWidth;
@@ -1028,9 +1030,16 @@
         maxCap = 1.15;
       }
 
-      const finalScale = Math.max(0.35, Math.min(maxCap, fitScale));
+      const finalScale = Math.min(maxCap, fitScale);
       container.style.transform = `scale(${finalScale.toFixed(3)})`;
-      container.style.transformOrigin = 'center center';
+      container.style.transformOrigin = 'center top';
+
+      const scaledH = naturalH * finalScale;
+      if (availH > scaledH + 16) {
+        container.style.marginTop = `${Math.floor((availH - scaledH) / 2)}px`;
+      } else {
+        container.style.marginTop = '4px';
+      }
     } catch (err) {
       console.warn('Auto-fit calculation error:', err);
     }

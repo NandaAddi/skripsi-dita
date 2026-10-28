@@ -20,7 +20,7 @@
       height: 100vh;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       overflow: hidden;
       user-select: none;
       -webkit-user-select: none;
@@ -34,13 +34,14 @@
       border-radius: 18px;
       padding: 10px 14px;
       width: 460px;
-      max-width: 96%;
+      min-width: 460px;
+      max-width: none !important;
       position: relative;
       overflow: hidden;
       box-sizing: border-box;
-      transform-origin: center center;
+      transform-origin: center top;
       will-change: transform;
-      margin: auto;
+      margin: 0 auto;
       box-shadow: 0 10px 26px rgba(15, 44, 76, 0.12);
       display: flex;
       flex-direction: column;
@@ -1353,9 +1354,10 @@
         const container = document.getElementById('widgetContainer') || document.querySelector('.widget-container');
         if (!container) return;
 
-        // Reset transform to measure true unscaled natural dimensions
+        // Reset transform and margin to measure natural dimensions
         container.style.transform = 'none';
-        const naturalW = container.offsetWidth || 460;
+        container.style.marginTop = '0px';
+        const naturalW = 460;
         const naturalH = container.offsetHeight || 440;
 
         const availW = window.innerWidth || document.documentElement.clientWidth;
@@ -1366,7 +1368,7 @@
         const manualScale = parseFloat(urlParams.get('scale'));
         const size = urlParams.get('size');
 
-        // Calculate max scale to fit completely within viewport with safe 10px margin
+        // Calculate scale to fit completely within viewport with safe margin
         const scaleW = (availW - 10) / naturalW;
         const scaleH = (availH - 10) / naturalH;
         const fitScale = Math.min(scaleW, scaleH);
@@ -1382,11 +1384,17 @@
           maxCap = 1.15;
         }
 
-        // Final scale is capped by user size preference BUT NEVER exceeds fitScale
-        const finalScale = Math.max(0.35, Math.min(maxCap, fitScale));
-
+        const finalScale = Math.min(maxCap, fitScale);
         container.style.transform = `scale(${finalScale.toFixed(3)})`;
-        container.style.transformOrigin = 'center center';
+        container.style.transformOrigin = 'center top';
+
+        const scaledH = naturalH * finalScale;
+        if (availH > scaledH + 16) {
+          container.style.marginTop = `${Math.floor((availH - scaledH) / 2)}px`;
+        } else {
+          container.style.marginTop = '4px';
+        }
+
         if (typeof drawAllLines === 'function') {
           drawAllLines();
         }

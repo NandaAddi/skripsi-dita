@@ -19,7 +19,7 @@
       height: 100vh;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       overflow: hidden;
       box-sizing: border-box;
     }
@@ -31,13 +31,14 @@
       border-radius: 14px;
       padding: 4px;
       width: 380px;
-      max-width: 96%;
+      min-width: 380px;
+      max-width: none !important;
       position: relative;
       overflow: hidden;
       box-sizing: border-box;
-      transform-origin: center center;
+      transform-origin: center top;
       will-change: transform;
-      margin: auto;
+      margin: 0 auto;
     }
 
     /* Top Progress Track removed for compact design */
@@ -572,7 +573,9 @@
       if (!container) return;
 
       container.style.transform = 'none';
-      const naturalW = container.offsetWidth || 380;
+      container.style.marginTop = '0px';
+
+      const naturalW = 380;
       const naturalH = container.offsetHeight || 265;
 
       const availW = window.innerWidth || document.documentElement.clientWidth;
@@ -582,8 +585,8 @@
       const manualScale = parseFloat(urlParams.get('scale'));
       const size = urlParams.get('size');
 
-      const scaleW = (availW - 10) / naturalW;
-      const scaleH = (availH - 10) / naturalH;
+      const scaleW = (availW - 8) / naturalW;
+      const scaleH = (availH - 8) / naturalH;
       const fitScale = Math.min(scaleW, scaleH);
 
       let maxCap = 1.0;
@@ -597,9 +600,16 @@
         maxCap = 1.15;
       }
 
-      const finalScale = Math.max(0.35, Math.min(maxCap, fitScale));
+      const finalScale = Math.min(maxCap, fitScale);
       container.style.transform = `scale(${finalScale.toFixed(3)})`;
-      container.style.transformOrigin = 'center center';
+      container.style.transformOrigin = 'center top';
+
+      const scaledH = naturalH * finalScale;
+      if (availH > scaledH + 16) {
+        container.style.marginTop = `${Math.floor((availH - scaledH) / 2)}px`;
+      } else {
+        container.style.marginTop = '4px';
+      }
     } catch (err) {
       console.warn('Auto-fit calculation error:', err);
     }
