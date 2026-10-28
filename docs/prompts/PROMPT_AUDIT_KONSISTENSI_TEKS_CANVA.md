@@ -9,7 +9,7 @@ Dokumen ini berisi rancangan **Master Prompt AI** untuk memposisikan sistem kece
 
 1. **Salin Seluruh Isi Blok Kode** `MASTER PROMPT` di bawah ini.
 2. **Tempelkan ke AI** (ChatGPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, atau Antigravity AI).
-3. **Sematkan Naskah**: Tempelkan naskah modul (bisa per bab, beberapa halaman spesifik, atau seluruh 34 halaman sekaligus) pada bagian placeholder:
+3. **Sematkan Naskah**: Tempelkan naskah modul (bisa per bab, beberapa halaman spesifik, atau seluruh 35 halaman sekaligus) pada bagian placeholder:
    ```text
    [INPUT NASKAH MODUL / STORYBOARD DI SINI]
    ```

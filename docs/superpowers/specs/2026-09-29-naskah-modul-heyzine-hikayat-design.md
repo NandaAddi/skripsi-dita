@@ -56,7 +56,7 @@ ightarrow$ *Aktivitas:* **Aktivitas Detektif Hikayat & Kearifan Nusantara**.
 * **Bagian Evaluasi & Penutup: Refleksi Diri, Glosarium & Evaluasi** $
 ightarrow$ *Fokus Evaluasi:* Asesmen Metakognitif & Suplemen Kebahasaan $
 ightarrow$ *Materi:* Sintesis Pemahaman Siswa & Relevansi Moral Generasi Z $
-ightarrow$ *Kelengkapan:* **Lembar Refleksi Diri (H.31), Kunci Jawaban Misi 1–5 (H.32), Glosarium Arkais (H.33), Daftar Pustaka (H.34)**.
+ightarrow$ *Kelengkapan:* **Simpulan & Rangkuman E-Modul (H.31), Lembar Refleksi Diri (H.32), Kunci Jawaban Misi 1–5 (H.33), Glosarium Arkais (H.34), Daftar Pustaka & Cover Belakang (H.35)**.
 ---
 
 ## 2. DESIGN SYSTEM & PANDUAN VISUAL CANVA / FIGMA
@@ -248,7 +248,7 @@ Format Layout  : Interactive Roadmap Layout (Peta Petualangan Bahari Visual), Da
 
 [KONTEN TEKS & COPYWRITING]
 --------------------------------------------------------------------------------
-DAFTAR ISI: PETA PENJELAJAHAN MODUL (34 HALAMAN)
+DAFTAR ISI: PETA PENJELAJAHAN MODUL (35 HALAMAN)
 
 • BAGIAN PEMBUKA: ORIENTASI BELAJAR
   - Sampul Depan (Cover Utama) ......................................... Halaman 1
@@ -293,10 +293,11 @@ DAFTAR ISI: PETA PENJELAJAHAN MODUL (34 HALAMAN)
   - Aktivitas Literasi: Detektif Hikayat & Kearifan Nusantara .......................... Halaman 30
 
 • EVALUASI, REFLEKSI & PENUTUP MODUL
-  - Lembar Refleksi Diri Siswa & Rubrik Penilaian Diri ................................. Halaman 31
-  - Kunci Jawaban Misi Gamifikasi 1 – 5 & Pembahasan Pedagogis ......................... Halaman 32
-  - Glosarium Kosakata Arkais Melayu Klasik & Banjar ................................... Halaman 33
-  - Daftar Pustaka, Profil Tim Pengembang & Sampul Belakang ............................ Halaman 34
+  - Simpulan & Rangkuman E-Modul: 4 Pilar Materi & Nilai Sa-Ijaan ..................... Halaman 31
+  - Lembar Refleksi Diri Siswa & Rubrik Penilaian Diri ................................. Halaman 32
+  - Kunci Jawaban Misi Gamifikasi 1 – 5 & Pembahasan Pedagogis ......................... Halaman 33
+  - Glosarium Kosakata Arkais Melayu Klasik & Banjar ................................... Halaman 34
+  - Daftar Pustaka, Profil Tim Pengembang & Sampul Belakang ............................ Halaman 35
 
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
@@ -345,7 +346,7 @@ Format Layout  : Infografis Terpadu A4 Portrait:
    - Baca naskah cerita dan klik ikon Audio untuk mendengarkan ekspresi dialog tokoh.
    - Pahami teori sastra pada *Kotak Bedah Materi* di setiap bab.
    - Selesaikan kuis gamifikasi *Misi 1–5* (klik layar penuh/QR jika memakai ponsel).
-   - Tuntaskan lembar *Refleksi Diri* di Halaman 31 untuk mengendapkan nilai kebajikan.
+   - Baca intisari pemahaman pada *Simpulan & Rangkuman* di Halaman 31, lalu tuntaskan lembar *Refleksi Diri* di Halaman 32 untuk mengendapkan nilai kebajikan.
 
 --------------------------------------------------------------------------------
 (Kartu Kanan: 🎓 Panduan Fasilitator / Guru):
@@ -355,7 +356,7 @@ Format Layout  : Infografis Terpadu A4 Portrait:
    - *Flipped Classroom*: Siswa menyimak audio narasi dan membaca mandiri di rumah, jam kelas difokuskan pada diskusi nilai kehidupan.
    - *Blended Learning*: Pembelajaran berbasis gawai/lab komputer saat pengerjaan misi gamifikasi Wordwall secara berpasangan.
 4. **Diferensiasi & Evaluasi**:
-   - Bimbing siswa yang kesulitan kosakata arkais memanfaatkan *Glosarium* (H.33).
+   - Bimbing siswa yang kesulitan kosakata arkais memanfaatkan *Glosarium* (H.34).
    - Pantau ketuntasan Misi 1–5 dan refleksi diri. Instrumen evaluasi sumatif formal (Pre/Post-Test 20 Soal HOTS) tersedia pada lampiran terpisah.
 
 --------------------------------------------------------------------------------
@@ -1391,20 +1392,74 @@ Hikayat bukan sekadar dongeng masa lalu yang usang, melainkan akar kebudayaan lu
 - Infografis komparasi berdampingan: Foto asli tugu todak di Kotabaru vs Lukisan legenda di modul.
 - Dua kotak area catatan refleksi bergaris tipis (*ruled lines*) di bawah pertanyaan nomor 1 dan 2 untuk respon tulis tangan siswa.
 - Tombol aksi interaktif: "📲 Kirim Respon Digital (Google Form / Padlet)" diapit ornamen emas halus.
-- Tombol CTA di sudut kanan bawah: "Buka Lembar Refleksi Diri → (Halaman 31)".
+- Tombol CTA di sudut kanan bawah: "Buka Simpulan & Rangkuman Modul → (Halaman 31)".
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
 - **Link Eksternal / Video Dokumenter**: Hotspot tautan ke video singkat YouTube tentang pesona keindahan Pulau Laut Kotabaru Kalimantan Selatan.
 - **Formulir Interaktif**: Hotspot tombol "Kirim Respon Digital" yang terhubung ke Google Form / Padlet kelas.
-- **Navigasi Pintas**: Tombol "Buka Lembar Refleksi Diri →" langsung membuka Halaman 31 (*Go to Page 31*).
+- **Navigasi Pintas**: Tombol "Buka Simpulan & Rangkuman Modul →" langsung membuka Halaman 31 (*Go to Page 31*).
 ================================================================================
 ```
 
 ```
 ================================================================================
 ================================================================================
-HALAMAN 31: LEMBAR REFLEKSI DIRI SISWA & RUBRIK PENILAIAN DIRI
+HALAMAN 31: SIMPULAN & RANGKUMAN E-MODUL (INTISARI HIKAYAT & 4 PILAR PEMBELAJARAN)
+================================================================================
+Bagian         : Evaluasi, Simpulan & Rangkuman Akhir Modul
+Judul Layar    : Rangkuman & Simpulan Modul: Dari Sastra Klasik Menuju Cermin Karakter
+Format Layout  : Grid 4 Kartu Infografis Berbingkai Emas (Pilar 1 s.d. 4), Banner Pita Emas Mutiara Hikmah Sa-Ijaan di Bawah, Tombol CTA Navigasi Refleksi
+
+[KONTEN TEKS & COPYWRITING]
+--------------------------------------------------------------------------------
+(Prolog Simpulan):
+Selamat! Kamu telah mengarungi samudra cerita *Hikayat Sa-Ijaan dan Ikan Todak* dari babak pertapaan hingga terbitnya daratan megah Pulau Halimun. Sebelum melangkah ke lembar refleksi diri, mari kita endapkan intisari pemahaman sastra dan pesan kehidupan yang telah kamu pelajari melalui 4 Pilar Utama berikut:
+
+[KARTU 1: HAKIKAT & KARAKTERISTIK HIKAYAT]
+• Bersifat Tradisi Lisan Kolektif (Anonim): Hikayat adalah warisan lisan milik bersama masyarakat penuturnya yang diwariskan turun-temurun tanpa memusatkan diri pada kemegahan pengarang individu.
+• Memuat Unsur Kemustahilan & Kesaktian: Ciri pembeda utama hikayat adalah perpaduan harmonis antara fakta dan fantasi magis (tokoh sakti mandraguna, ikan todak yang dapat terbang melayang dan berdialog menggunakan bahasa manusia).
+• Bersifat Didaktis (Mendidik): Disusun bukan sekadar pelipur lara, melainkan sarana penanaman nilai budi pekerti luhur dan keteladanan moral bagi peradaban.
+
+[KARTU 2: ANATOMI STRUKTUR ALUR CERITA]
+• Orientasi (Pengenalan): Pertapaan hening Datu Mabrur di atas batu karang di Selat Laut memanjatkan doa tulus memohon sebuah pulau demi masa depan anak-cucunya.
+• Komplikasi (Puncak Konflik): Amukan ribuan ikan todak yang terusik, benturan kekuatan batin, hingga pertarungan berakhir saat Raja Todak tertusuk karang dan menyerah takluk.
+• Resolusi (Penyelesaian Damai): Pengobatan luka Raja Todak oleh Datu Mabrur berlandaskan kasih sesama ciptaan, disusul keajaiban gotong royong jutaan ikan mengangkat daratan dari dasar samudra.
+• Koda (Amanat & Toponimi): Lahirnya Pulau Halimun (Pulau Laut) dan pengabadian nama *Sa-Ijaan* serta simbol ikan todak sebagai lambang persatuan abadi Kabupaten Kotabaru.
+
+[KARTU 3: KAIDAH KEBAHASAAN & KOSAKATA ARKAIS]
+• Penanda Transisi Melayu Klasik: Kelincahan perpindahan adegan ditandai konjungsi temporal purba khas sastra klasik (*sebermula, hatta, alkisah, syahdan*).
+• Kosakata Kultural Banjar-Melayu: Pemaknaan kata arkais bernilai historis tinggi seperti *Datu* (tetua sakti berilmu), *bersemadi* (memusatkan doa suci), *mandraguna*, hingga *halimun* (kabut lembut samudra).
+• Verba Material & Gaya Penceritaan: Dominasi kata kerja tindakan konkret yang menggambarkan kedinamisan aksi kepahlawanan dan kegigihan fisik secara dramatis.
+
+[KARTU 4: FILOSOFI SA-IJAAN & PROFIL PELAJAR PANCASILA]
+• Makna Hakiki Sumpah Sa-Ijaan: *"Seiring sejalan, seia sekata, rakat mufakat, bantu-membantu, bahu-membahu"*—fondasi persaudaraan sejati yang melampaui perbedaan bangsa dan wujud.
+• Pengamalan 5 Nilai Kehidupan: Menghayati nilai Religi (tawakal & rasa syukur), Moral (altruisme & menepati janji), Sosial (gotong royong tanpa pamrih), Budaya (penjaga identitas bangsa), dan Pendidikan (ketabahan pantang menyerah).
+• Cermin Generasi Z: Menjadi kompas moral untuk meruntuhkan sekat individualisme era digital menuju semangat kolaborasi dan kepedulian tulus terhadap sesama.
+
+[MUTIARA HIKMAH / GOLDEN BANNER QUOTE]
+--------------------------------------------------------------------------------
+"Kekuatan sejati bukanlah menundukkan pihak lain dengan kesaktian, melainkan ketulusan hati untuk memaafkan, menjaga persaudaraan, dan bergotong-royong membangun masa depan bersama."
+
+[TATA LETAK VISUAL CANVA/FIGMA]
+--------------------------------------------------------------------------------
+- Latar perkamen emas gading (*Parchment Ivory* #F8F4EB) dengan ornamen sudut khas Banjar (*Tali Bapintal & Pucuk Rebung*).
+- Bagian Atas: Header megah berornamen pita keemasan berhuruf serif (*Cinzel* / *Playfair Display*).
+- Bagian Tengah: Tatanan 4 Kotak Kartu Infografis (Grid 2x2) dengan latar putih susu berlis tepi emas 1.5px (*Antique Gold* #C89B3C), dilengkapi ikon tematik di setiap sudut kartu.
+- Bagian Bawah: Banner Pita Emas memanjang horizontal memuat Mutiara Hikmah Sa-Ijaan dengan kaligrafi estetik.
+- Sudut Kanan Bawah: Tombol CTA Interaktif keemasan: "Lanjut ke Lembar Refleksi Diri → (Halaman 32)".
+
+[FITITUR INTERAKTIF HEYZINE]
+--------------------------------------------------------------------------------
+- **Fitur Audio Player Mini**: Hotspot audio opsional untuk mendengarkan rangkuman vokal narator berdurasi 35 detik diiringi petikan gambus penutup.
+- **Navigasi Loncat Halaman (Internal Links)**: Tombol interaktif "Lanjut ke Lembar Refleksi Diri →" yang langsung membuka Halaman 32 (*Go to Page 32*).
+- **Link Cepat ke Glosarium**: Tombol tautan mini di sudut kiri: "📖 Butuh Cek Kosakata? Buka Glosarium (Halaman 34)".
+================================================================================
+```
+
+```
+================================================================================
+HALAMAN 32: LEMBAR REFLEKSI DIRI SISWA & RUBRIK PENILAIAN DIRI
 ================================================================================
 Bagian         : Evaluasi Afektif & Reflektif Siswa
 Judul Layar    : Cermin Jiwa: Refleksi Pengalaman Belajar Sastra
@@ -1429,16 +1484,18 @@ Jawablah pertanyaan-pertanyaan berikut dengan jujur berdasarkan pengalaman batin
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
 - Desain bergaya jurnal pribadi siswa kuno (*learner's diary*) dengan garis-garis tempat menulis jawaban dan kotak centang (*checkbox*).
+- Tombol CTA di sudut kanan bawah: "Buka Kunci Jawaban Misi → (Halaman 33)".
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
 - Fitur Tombol Unduh / Formulir Refleksi Digital: Siswa dapat mengklik tombol "Kirim Refleksi ke Guru" yang terhubung ke Google Form / Padlet guru.
+- Navigasi Pintas: Tombol "Buka Kunci Jawaban Misi →" langsung membuka Halaman 33 (*Go to Page 33*).
 ================================================================================
 ```
 
 ```
 ================================================================================
-HALAMAN 32: KUNCI JAWABAN MISI GAMIFIKASI 1 – 5
+HALAMAN 33: KUNCI JAWABAN MISI GAMIFIKASI 1 – 5
 ================================================================================
 Bagian         : Kunci & Umpan Balik Belajar
 Judul Layar    : Kunci Jawaban Misi Gamifikasi 1 – 5
@@ -1458,16 +1515,18 @@ Format Layout  : Tabel Rapi Bergaris Emas dengan Penjelasan Pedagogis Ringkas
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
 - Tabel bergaris emas elegan dengan warna selang-seling krem dan putih agar nyaman dibaca. Dilengkapi kotak catatan pengingat: "Gunakan kunci ini hanya untuk mengecek hasil belajarmu setelah kamu berusaha menjawab mandiri!".
+- Tombol CTA di sudut kanan bawah: "Buka Glosarium Kosakata Arkais → (Halaman 34)".
 
 [FITUR INTERAKTIF HEYZINE]
 --------------------------------------------------------------------------------
 - Tombol sembunyikan/buka kunci jawaban (*toggle spoiler*) atau navigasi loncat ke halaman materi terkait jika siswa ingin membaca ulang pembahasannya.
+- Tombol CTA: "Buka Glosarium Kosakata Arkais →" langsung membuka Halaman 34 (*Go to Page 34*).
 ================================================================================
 ```
 
 ```
 ================================================================================
-HALAMAN 33: GLOSARIUM KOSAKATA ARKAIS MELAYU KLASIK & BANJAR
+HALAMAN 34: GLOSARIUM KOSAKATA ARKAIS MELAYU KLASIK & BANJAR
 ================================================================================
 Bagian         : Suplemen Kosakata & Kaidah Bahasa
 Judul Layar    : Glosarium Bahasa Arkais Melayu Klasik & Banjar
@@ -1493,12 +1552,17 @@ Format Layout  : Tatanan Alfabetis 2 Kolom, Dilengkapi Contoh Pemakaian dalam Ka
 [TATA LETAK VISUAL CANVA/FIGMA]
 --------------------------------------------------------------------------------
 - Desain menyerupai kamus manuskrip kuno (*ancient lexical folio*) berhuruf serif rapi dengan garis pemisah emas vertikal di tengah.
+- Tombol CTA di sudut kanan bawah: "Buka Sumber Rujukan & Sampul Belakang → (Halaman 35)".
+
+[FITUR INTERAKTIF HEYZINE]
+--------------------------------------------------------------------------------
+- Tombol CTA: "Buka Sumber Rujukan & Sampul Belakang →" langsung membuka Halaman 35 (*Go to Page 35*).
 ================================================================================
 ```
 
 ```
 ================================================================================
-HALAMAN 34: DAFTAR PUSTAKA & COVER BELAKANG (SAMPUL BELAKANG)
+HALAMAN 35: DAFTAR PUSTAKA & COVER BELAKANG (SAMPUL BELAKANG)
 ================================================================================
 Bagian         : Penutup & Sampul Belakang
 Judul Layar    : Sumber Rujukan & Sampul Belakang Modul
@@ -1768,13 +1832,13 @@ Didukung oleh Platform Flipbook Heyzine
 
 1. **Pembuatan Desain di Canva/Figma**:
    * Buat dokumen dengan ukuran kustom **2480 x 3508 piksel** (A4 Portrait).
-   * Desain ke-34 halaman sesuai naskah dan layout pada Bagian 3 dokumen ini (termasuk 5 halaman Cover Bab eksklusif pada Halaman 6, 11, 16, 21, dan 26).
+   * Desain ke-35 halaman sesuai naskah dan layout pada Bagian 3 dokumen ini (termasuk 5 halaman Cover Bab eksklusif pada Halaman 6, 11, 16, 21, dan 26, serta 1 halaman Simpulan & Rangkuman pada Halaman 31).
    * Pastikan pada Halaman 7, 10, 12, 15, 17, 20, 22, 25, dan 27 disisakan kotak bingkai kosong untuk area widget Heyzine (5 Pertanyaan Pemantik Interaktif Duolingo-style, 2 Video Animasi, dan 4 Halaman Misi Wordwall).
    * Unduh desain dalam format **PDF Cetak Kualitas Tinggi (Standard/Print PDF)**.
 
 2. **Unggah ke Heyzine Flipbook**:
    * Buka [heyzine.com](https://heyzine.com) dan login ke akun pengembang.
-   * Klik tombol **"New Flipbook"** dan unggah file PDF yang telah diekspor dari Canva (total 34 halaman).
+   * Klik tombol **"New Flipbook"** dan unggah file PDF yang telah diekspor dari Canva (total 35 halaman).
    * Pada menu *Page Style*, pilih efek flip: **Magazine** atau **Book** (dengan efek bayangan halaman 3D dan suara lembaran kertas yang realistis).
 
 3. **Menyematkan Audio Narasi (Audio Player)**:
@@ -1820,10 +1884,12 @@ Didukung oleh Platform Flipbook Heyzine
      - Bab 3 ke Halaman 16 (Cover Bab 3: Unsur Intrinsik & Karakter Tokoh)
      - Bab 4 ke Halaman 21 (Cover Bab 4: Kaidah Kebahasaan & Kosakata Arkais)
      - Bab 5 ke Halaman 26 (Cover Bab 5: Nilai-Nilai Kehidupan dalam Hikayat)
-     - Bab 6 ke Halaman 30 (Cover Bab 6: Analisis, Evaluasi & Relevansi Sastra Masa Kini)
-     - Refleksi ke Halaman 31
-     - Glosarium ke Halaman 33
-     - Profil & Cover Belakang ke Halaman 34.
+     - Aktivitas Bab 5 ke Halaman 30
+     - Simpulan & Rangkuman ke Halaman 31
+     - Refleksi ke Halaman 32
+     - Kunci Jawaban ke Halaman 33
+     - Glosarium ke Halaman 34
+     - Profil & Cover Belakang ke Halaman 35.
 
 8. **Publikasi & Uji Coba**:
    * Klik tombol **Save** dan **Share**.
@@ -1833,7 +1899,7 @@ Didukung oleh Platform Flipbook Heyzine
 
 ## 6. SELF-REVIEW & KESESUAIAN STANDAR R&D
 
-1. **Placeholder Scan**: Tidak ada teks penunda (*no TBD, no TODO*). Seluruh 34 halaman naskah modul siswa (termasuk 5 cover bab eksklusif berorientasi sastra klasik), 5 pertanyaan pemantik interaktif (HTML widget standalone Duolingo-style), 5 misi gamifikasi Wordwall, rubrik refleksi diri, glosarium arkais Banjar-Melayu, dan prompt aset telah didefinisikan secara lengkap. Instrumen formal sumatif skripsi (Pre-Test & Post-Test) tetap diarsipkan secara tertib pada [LAMPIRAN_INSTRUMEN_EVALUASI_PRE_POST_TEST.md](file:///d:/DYTA%20JOKI/docs/skripsi/LAMPIRAN_INSTRUMEN_EVALUASI_PRE_POST_TEST.md).
+1. **Placeholder Scan**: Tidak ada teks penunda (*no TBD, no TODO*). Seluruh 35 halaman naskah modul siswa (termasuk 5 cover bab eksklusif berorientasi sastra klasik), 5 pertanyaan pemantik interaktif (HTML widget standalone Duolingo-style), 5 misi gamifikasi Wordwall, halaman rangkuman & simpulan 4 pilar materi, rubrik refleksi diri, glosarium arkais Banjar-Melayu, dan prompt aset telah didefinisikan secara lengkap. Instrumen formal sumatif skripsi (Pre-Test & Post-Test) tetap diarsipkan secara tertib pada [LAMPIRAN_INSTRUMEN_EVALUASI_PRE_POST_TEST.md](file:///d:/DYTA%20JOKI/docs/skripsi/LAMPIRAN_INSTRUMEN_EVALUASI_PRE_POST_TEST.md).
 2. **Internal Consistency**: Alur cerita konsisten dengan dokumen acuan (`Konsep alur.pdf` dan `Materi Teks Hikayat.pdf`), mulai dari pertapaan Datu Mabrur di antara Selat Laut & Selat Makassar, serangan todak, perjanjian Sa-Ijaan, pengangkatan daratan, hingga asal-usul toponimi Pulau Halimun / Pulau Laut dan simbol Kabupaten Kotabaru.
 3. **Kesesuaian Format Heyzine**: Pembagian ruang pada kanvas A4 Portrait telah disesuaikan agar teks naskah, video animasi, sematan HTML pertanyaan pemantik, dan kotak sematan iframe (Wordwall) tidak bertabrakan, lengkap dengan tombol cadangan dan QR Code jika sematan mengalami kendala jaringan.
 4. **Validitas Akademik**: Struktur modul memenuhi standar bahan ajar kurikulum merdeka (Capaian Pembelajaran Fase E, Tujuan Pembelajaran ABCD, Asesmen Pemantik Diagnostik-Reflektif, Formatif Gamifikasi, Afektif Refleksi Diri, Glosarium, dan Daftar Pustaka).

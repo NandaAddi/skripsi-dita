@@ -42,8 +42,21 @@
 
 ## 2. NASKAH INSTRUMEN PRE-TEST (10 BUTIR SOAL DIAGNOSTIK)
 
-*Petunjuk Pengerjaan:*  
-Pilihlah satu jawaban yang paling tepat (A, B, C, atau D) untuk mengukur pemahaman awalmu mengenai teks sastra hikayat klasik!
+*Petunjuk Aktivitas Pengerjaan Pre-Test:*
+
+**A. Petunjuk Umum:**
+1. Berdoalah terlebih dahulu sebelum memulai tes menurut agama dan keyakinan masing-masing.
+2. Isilah identitas diri (Nama Lengkap, Kelas/Fase, dan Nomor Absen/NIS) secara jelas pada lembar jawaban atau formulir digital.
+3. Alokasi waktu pengerjaan Pre-Test adalah **20 menit**.
+4. Instrumen ini terdiri atas **10 butir soal pilihan ganda (HOTS C3–C5)** dengan 4 pilihan jawaban (A, B, C, dan D).
+5. Tes diagnostik ini bertujuan untuk memetakan pemahaman awalmu mengenai teks hikayat sebelum menggunakan E-Modul Interaktif *Hikayat Sa-Ijaan dan Ikan Todak*.
+6. Kerjakanlah secara mandiri, jujur, dan tanpa membuka internet atau bahan rujukan lain. Hasil tes ini tidak akan memengaruhi nilai rapor sekolah.
+
+**B. Petunjuk Teknis Pengerjaan:**
+1. Bacalah dengan cermat setiap stimulus kutipan adegan cerita dan penggalan dialog sebelum menentukan jawaban.
+2. Pilihlah **satu jawaban yang paling tepat** dengan memberi tanda silang (X) pada lembar jawaban fisik atau memilih tombol opsi pada formulir digital.
+3. Jika ingin meralat jawaban pada lembar fisik, coret dua garis mendatar (=) pada pilihan yang salah, lalu beri tanda silang (X) pada pilihan baru.
+4. Periksa kembali seluruh jawaban sebelum diserahkan kepada guru/peneliti.
 
 1. **[C3]** Bacalah kutipan pembuka hikayat berikut:  
    *“Menurut sahibul hikayat, sebermula ada seorang Datu yang sakti mandraguna sedang bertapa di tengah laut. Namanya Datu Mabrur...”*  
@@ -120,6 +133,23 @@ Pilihlah satu jawaban yang paling tepat (A, B, C, atau D) untuk mengukur pemaham
 ---
 
 ## 3. NASKAH INSTRUMEN POST-TEST LENGKAP (20 BUTIR SOAL PILIHAN GANDA HOTS)
+
+*Petunjuk Aktivitas Pengerjaan Post-Test:*
+
+**A. Petunjuk Umum:**
+1. Awali kegiatan evaluasi dengan berdoa agar diberikan kemudahan, ketelitian, dan kejernihan berpikir.
+2. Lengkapi data identitas diri (Nama Lengkap, Kelas, Nomor Presensi, dan Sekolah) secara benar.
+3. Alokasi waktu pengerjaan Post-Test adalah **60 menit**.
+4. Instrumen evaluasi akhir ini terdiri atas 2 bagian:
+   - **Bagian I (Pilihan Ganda)**: 20 butir soal analitis HOTS (Butir 1 s.d. 10 setara Pre-Test untuk mengukur *gain score*, dilanjutkan Butir 11 s.d. 20).
+   - **Bagian II (Esai Pendek)**: 2 butir soal konstruksi respon argumentatif dan komparatif (Butir 21 dan 22).
+5. Tes ini bertujuan untuk mengukur capaian kompetensi dan kedalaman pemahamanmu setelah mempelajari seluruh chapter pada E-Modul Interaktif *Hikayat Sa-Ijaan dan Ikan Todak*.
+6. Tunjukkan pemahaman terbaikmu dengan mengerahkan daya nalar kritis, interpretasi makna tersirat, dan penghayatan nilai-nilai kearifan lokal.
+
+**B. Petunjuk Teknis Pengerjaan:**
+1. **Bagian Pilihan Ganda (No. 1–20)**: Analisis kutipan teks pada setiap nomor, lalu tentukan **satu pilihan jawaban terbaik** (A, B, C, atau D) yang memiliki dasar bukti tekstual kuat.
+2. **Bagian Esai Pendek (No. 21–22)**: Susunlah jawaban dalam bentuk paragraf argumentatif yang padat, logis, dan santun (sesuai panjang kalimat yang dianjurkan), kaitkan dengan fenomena kehidupan nyata generasi Z serta nilai luhur budi pekerti.
+3. Kerjakan secara mandiri dan teliti. Periksa kembali seluruh nomor sebelum lembar tes dikumpulkan.
 
 *(Butir Soal 1 s.d. 10 sama dengan kisi-kisi Pre-Test di atas, dilanjutkan butir 11 s.d. 20 berikut):*
 
